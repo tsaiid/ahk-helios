@@ -5,10 +5,8 @@
 SetBatchLines -1  ; better performance: http://scsnake.blogspot.tw/2016/03/hotstring.html
 SendMode, Input
 
-; Group Control For SmartWonder
-GroupAdd, SmartWonder, VGHKS-
-GroupAdd, SmartWonder, vghks-
-GroupAdd, SmartWonder, tedpc-
+; Group Control For Helios
+GroupAdd, Helios, Helios
 
 ; External Libraries
 #Include <WBGet>
@@ -44,7 +42,7 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\lib\smartwonder-common.ahk
 ;#Include MyScripts\lib\smart-card.ahk
 
-#IfWinActive ahk_group SmartWonder
+#IfWinActive ahk_group Helios
   ;;; HotStrings
   #Include MyScripts\neuro.ahk
 
@@ -123,7 +121,7 @@ SetTitleMatchMode, 2
 ;;#Include MyScripts\active-current-image-before-submit.ahk
 
 ; Define hotkeys
-#IfWinActive ahk_group SmartWonder
+#IfWinActive ahk_group Helios
 
 ; 複製最近相關報告並開啟影像
 ^0::
@@ -206,10 +204,10 @@ Return
   ClickPreviousReports()
 Return
 
-; 皆可確認報告
+; Confirm and Next
 ^s::
-Capslock & s::
-  ClickConfirm()
+  SendEvent !c
+  SendEvent !x
 Return
 
 ; Set predefined exam flow
@@ -258,14 +256,6 @@ Return
 ; Status of US RCT Without Image
 ^!+u::
   StatusOfUsRctWithoutImage()
-Return
-
-#IfWinActive
-
-#IfWinActive, 高雄榮總-攝影室播放系統WEB管理介面
-
-^p::
-  QueryPrevImagesForSonographer()
 Return
 
 #IfWinActive

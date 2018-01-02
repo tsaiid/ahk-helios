@@ -1,7 +1,7 @@
 ﻿; HotKey
 ;; for SmartWonder
 
-#IfWinActive ahk_group SmartWonder
+#IfWinActive ahk_group Helios
 ^h::
   SendEvent {BS}
 Return

@@ -2,13 +2,16 @@
 ::bok::No joint space narrowing, dislocation, or fracture.{Enter}
 ::bok1::No obvious dislocation or fracture.
 ::bok2::No obvious bony lesion.
-::kok::No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.
+::lk::Routine AP and Lat views of Left knee:{Enter 2}
+::rk::Routine AP and Lat views of Right knee:{Enter 2}
+::kok::- No joint space narrowing, dislocation, or fracture.{Enter}- No obvious suprapatellar effusion.{Tab}No remarkable findings.
 ::mdjdl::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::mdjdl0::Mild DJD change of L-spine with spur formation.
 ::djdl::DJD change of L-spine.
 ::djdt::DJD change of T-spine.
 ::djdtl::DJD change of T- and L-spine.
-::oak::OA change of the knee.
+::lkoa::OA change of the left knee.
+::rkoa::OA change of the right knee.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
 ::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, consistent with osteoarthrosis.
 ::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
@@ -154,8 +157,8 @@
 ::rwoa::OA change of right wrist.
 ::lwoa::OA change of left wrist.
 ::bwoa::OA change of bilateral wrists.
-::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis. 
-::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis. 
+::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis.
+::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis.
 
 ; Multiline
 ::flat::
@@ -208,15 +211,18 @@ Return
 ::djdc::
   MyForm =
 (
-DJD of Cervical spine:
-  - Osteophyte formation:
-  - Disk space narrowing:
-  - Prominant unco-vertebral joint:
-  - Encroachment of neuroforamen:
-  - Anterolisthesis: nil
-  - Retrolisthesis: nil
+Plain Film of Cervical Spine:
+
+- Osteophyte formation:
+- Disk space narrowing:
+- Prominant unco-vertebral joint:
+- Encroachment of neuroforamen:
+- Anterolisthesis: nil
+- Retrolisthesis: nil
 )
   Paste(MyForm)
+  SendEvent {Tab}
+  SendEvent DJD of C-spine.
 Return
 
 ::sco::
