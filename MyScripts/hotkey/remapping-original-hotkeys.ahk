@@ -41,7 +41,21 @@ Return
 #z::
   SendEvent ^z
 Return
+
+^w::
+  SendEvent {AppsKey}
+Return
+
 #IfWinActive
+
+; Need to handle the global hotkey ^t from Helios
+^t::
+If WinActive("ahk_class Chrome_WidgetWin_1") {
+  ControlSend, ,^t, ahk_class Chrome_WidgetWin_1
+} else {
+  SendInput ^t
+}
+Return
 
 ;; for SmartIris
 #IfWinActive ahk_class TImgViewPort
