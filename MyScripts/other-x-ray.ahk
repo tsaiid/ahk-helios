@@ -4,12 +4,13 @@
 ::nic1::no obvious interval change.
 ::woic::without interval change
 ::nip0::no obvious improvement.
+::mip0::mild improvement.
 ::pc0::progressive change.
 ::rc0::regressive change.
 ::pc1::progressive change than previous.
 ::rc1::regressive change than previous.
 ::nbd::Nature to be determined.
-::msok::Bilateral maxillary sinuses are well pneumatized.
+::msok::Bilateral maxillary sinuses are well-aerated.
 ::rmcs::Ground glass opacity in right maxillary sinus, suspicious mucoperiosteal thickening or chronic sinusitis.
 ::rmcs1::Ground glass opacity in right maxillary sinus, suspicious mucoperiosteal thickening or chronic sinusitis. DDx: occult facial bone fracture.
 ::lmcs::Ground glass opacity in left maxillary sinus, suspicious mucoperiosteal thickening or chronic sinusitis.

@@ -2,8 +2,6 @@
 ::bok::No joint space narrowing, dislocation, or fracture.{Enter}
 ::bok1::No obvious dislocation or fracture.
 ::bok2::No obvious bony lesion.
-::lk::Routine AP and Lat views of Left knee:{Enter 2}
-::rk::Routine AP and Lat views of Right knee:{Enter 2}
 ::kok::- No joint space narrowing, dislocation, or fracture.{Enter}- No obvious suprapatellar effusion.{Tab}No remarkable findings.
 ::mdjdl::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::mdjdl0::Mild DJD change of L-spine with spur formation.
@@ -38,6 +36,7 @@
 ::mpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
 ::acrd::Lateral downsloping of the acromion, narrowing the acromiohumeral distance, which may be associated with impingement of the supraspinatus tendon.
 ::acrok::No lateral downsloping or hooking of the acromion.
+::acrsp0::Subacromial spur.
 ::acrsp::Presence of subacromial spur.
 ::acrsp1::Presence of subacromial spur, which may be associated with impingement of the supraspinatus tendon.
 ::shok::No joint space narrowing, dislocation, or fracture.{Enter}No limitation in internal/external rotation of the shoulder.
@@ -273,6 +272,46 @@ Lumbosacral Transitional Vertebrae, type IV.
 )
   Paste(MyForm)
 Return
+
 ::rlstv::Lumbosacral transitional vertebrae, right side, type IIa.
 ::llstv::Lumbosacral transitional vertebrae, left side, type IIa.
 ::blstv::Lumbosacral transitional vertebrae, type IIb.
+
+::cook::No neuroforaminal stenosis over the C-spine.
+
+::wvok::
+  MyForm =
+(
+Waters' view shows:
+- The paranasal sinuses are clear.
+- The bony structures are unremarkable.
+- The mastoid air cells are well-aerated.
+)
+  Paste(MyForm)
+  Sleep, 300
+  SendEvent {Tab}
+  MyForm =
+(
+No specific findings.
+)
+  Paste(MyForm)
+Return
+
+; Protocols
+::/lco::Left Oblique view of Cervical spine:{Enter 2}
+::/rco::Right Oblique view of Cervical spine:{Enter 2}
+::/lsh::AP view of Left shoulder:{Enter 2}
+::/rsh::AP view of Right shoulder:{Enter 2}
+::/lk::AP and Lat views of Left knee:{Enter 2}
+::/rk::AP and Lat views of Right knee:{Enter 2}
+::/lpat::Merchant view of Left patella:{Enter 2}
+::/rpat::Merchant view of Right patella:{Enter 2}
+::/lsp::AP and Lat views of Lumbar spine:{Enter 2}
+::/klsp::KUB and Lat view of Lumbar spine:{Enter 2}
+::/lfm::AP and Lat views of Left femur:{Enter 2}
+::/rfm::AP and Lat views of Right femur:{Enter 2}
+::/lft::AP and Oblique views of Left foot:{Enter 2}
+::/rft::AP and Oblique views of Right foot:{Enter 2}
+::/la::AP and Lat views of Left ankle:{Enter 2}
+::/ra::AP and Lat views of Right ankle:{Enter 2}
+::/nl::Lat view of Neck:{Enter 2}

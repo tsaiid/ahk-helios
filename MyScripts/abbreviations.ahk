@@ -61,6 +61,7 @@
 ::a::artery
 ::aa::arteries
 ::v::vein
+::impr::improvement
 
 ;; Bone
 ::pf::patellofemoral `

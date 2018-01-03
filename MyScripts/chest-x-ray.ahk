@@ -1,4 +1,9 @@
 ﻿; For CXR
+;; Protocol
+::/c::PA view of the Chest:{Enter 2}
+::/cl::PA and Lat views of the Chest:{Enter 2}
+::/ca::AP view of the Chest:{Enter 2}
+
 ::nall::No active lung lesion.
 ::ncm::No cardiomegaly.
 ::bcm::Borderline cardiomegaly.
@@ -7,10 +12,9 @@
 ::cm1::enlarged cardiac shadow.
 ::np::No abnormal patch opacity in lung fields.
 ::nn::No nodular opacities (> 1cm) noted over bilateral lung fields.
-::cxr::PA View of the Chest:{Enter 2}
-::0::- No previous film for comparison.
-::1::PA View of the Chest:{Enter 2}- No abnormal patch opacity in lung fields. {Enter}- No cardiomegaly.{Tab}Normal.
-::2::- No abnormal patch opacity in lung fields. {Enter}- No cardiomegaly.{Enter}- The bowel gas pattern is normal.{Tab}Normal.
+::0::No previous film for comparison.
+::1::PA View of the Chest:{Enter 2}No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Tab}No active lung lesion.
+::2::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
 ::clnic::The condition of lung shows no obvious change as compared with previous study.
 ::clat::Suggest correlation with lateral view.
 ::ett::On endotracheal tube with tip at proper location.
@@ -52,6 +56,7 @@
 ::lidl::On double lumen catheter via left internal jegular vein.
 ::rsdl::On double lumen catheter via right subclavian vein.
 ::lsdl::On double lumen catheter via left subclavian vein.
+::sppok::s/p Port-A implantation, without immediate complication.
 ::rport::On Port-A catheter via right subclavian vein.
 ::rport1::On Port-A catheter via right subclavian vein.{ENTER}No pneumothorax is noted.
 ::lport::On Port-A catheter via left subclavian vein.
@@ -68,6 +73,7 @@
 ::pe::Increased vascular markings and ill-defined vascular contours indicating pulmonary edema.
 ::mpe::Mildly increased vascular markings and ill-defined vascular contours indicating mild pulmonary edema.
 ::pe0::pulmonary edema
+::mpe0::mild pulmonary edema
 ::clc::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change.
 ::lla::Linear atelectasis of left lower lung.
 ::rla::Linear atelectasis of right lower lung.
@@ -150,6 +156,8 @@
 ::rotb::Fibrilinear and nodular opacities over right apical region, in favor of old TB.
 ::lotb::Fibrilinear and nodular opacities over left apical region, in favor of old TB.
 ::botb::Fibrilinear and nodular opacities over bilateral apical regions, in favor of old TB.
+::splm::s/p left mastectomy.
+::sprm::s/p right mastectomy.
 
 ; Neck
 ::croup::Presence of steeple sign and hypopharyngeal distention, c/w croup.

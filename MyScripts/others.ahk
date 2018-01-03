@@ -143,6 +143,8 @@ Return
 ::fa::free air
 ::fs::fatty stranding
 ::hop::hollow organ perforation
+::nrf::No remarkable findings.
+::nsf::Non-specific findings.
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

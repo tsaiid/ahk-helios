@@ -1,5 +1,9 @@
 ﻿; For KUB
-::kub::Routine supine abdomen:{Enter 2}
+;; Protocol
+::/k::Routine supine abdomen:{Enter 2}
+::/sk::Standing abdomen radiograph:{Enter 2}
+::/kd::Decubitus view of the abdomen:{Enter 2}
+
 ::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.{Tab}No remarkable findings.
 ::k2::The bilateral kidney shadows and psoas muscle contours are normal.
 ::kb::the bowel gas pattern is normal.
@@ -87,3 +91,5 @@ Obvious small bowel gas, c/w stool impaction.
 )
   Paste(MyForm)
 Return
+
+::nafl::No obvious air-fluid level in the bowel.
