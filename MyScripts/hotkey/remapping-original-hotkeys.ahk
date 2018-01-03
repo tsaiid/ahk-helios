@@ -57,6 +57,14 @@ If WinActive("ahk_class Chrome_WidgetWin_1") {
 }
 Return
 
+^r::
+If WinActive("ahk_class Chrome_WidgetWin_1") {
+  ControlSend, ,^r, ahk_class Chrome_WidgetWin_1
+} else {
+  SendInput ^r
+}
+Return
+
 ;; for SmartIris
 #IfWinActive ahk_class TImgViewPort
 
