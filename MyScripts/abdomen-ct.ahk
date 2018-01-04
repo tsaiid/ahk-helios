@@ -68,8 +68,7 @@ No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are normal.
 )
   Paste(MyForm)
-  Sleep, 300
-  SendEvent, {Tab}
+  SleepThenTab()
   MyForm =
 (
 C/W acute appendicitis.

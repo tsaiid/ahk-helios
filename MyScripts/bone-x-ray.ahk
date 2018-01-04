@@ -288,8 +288,7 @@ Waters' view shows:
 - The mastoid air cells are well-aerated.
 )
   Paste(MyForm)
-  Sleep, 300
-  SendEvent {Tab}
+  SleepThenTab()
   MyForm =
 (
 No specific findings.
