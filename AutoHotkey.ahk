@@ -31,6 +31,8 @@ PRESERVE_CLIPBOARD := 0
 ;; Bug: need to be included first ???
 #Include MyScripts\regex-hotstrings.ahk
 
+#Include MyScripts\private.ahk
+
 ;; My Own Lib
 #Include MyScripts\lib\frame-wait.ahk
 #Include MyScripts\lib\dicom-sr.ahk
