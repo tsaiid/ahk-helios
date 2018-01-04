@@ -33,6 +33,7 @@
 ::ild::interstitial lung disease
 ::sce::subcutaneous emphysema
 ::aaa::abdominal aortic aneurysm
+::pau::penetrating atherosclerotic ulcer
 
 ;; General
 ::ant::anterior `
