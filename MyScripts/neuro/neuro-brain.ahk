@@ -120,6 +120,36 @@ Follow up or further evaluation.
   Paste(MyForm)
 Return
 
+;; CTN2ok
+::ctn2ok::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+Presence of skull base artifact with superimpose of bil. frontal base, bil. temporal base, and posterior fossa.
+
+No definite area of obvious abnormal density in the brain noted.
+
+No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable intracranial findings on noncontrast CT.
+)
+  Paste(MyForm)
+Return
+
 ;; 1CTA
 ::1cta::
   MyOrder := CopyOrder()
