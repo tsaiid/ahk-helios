@@ -115,7 +115,6 @@ Return
 
 ;; CTA
 ::cctcta::
-  MyOrder := CopyOrder()
   MyForm =
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.
@@ -125,8 +124,6 @@ METHOD:
   - Scan range: target vessel
   - Contrast medium: IV route, rate: as fast as IV route allowed
 
-INDICATION: %MyOrder%
-
 COMPARISON:
 Applicable previous CT of chest: no
 
@@ -135,7 +132,7 @@ FINDINGS:
 2. PULMONARY ARTERY: Not definite filling defect
 3. OTHER VESSELS: Not unusual for age
 4. OTHER THORACIC ORGANS:
-5. ABDOMIAL ORGANS SCANNED:
+5. ABDOMINAL ORGANS SCANNED:
 
 IMPRESSION:
 

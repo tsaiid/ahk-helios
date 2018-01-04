@@ -3,11 +3,8 @@
 ;; General
 
 ::act::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -17,10 +14,6 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return
@@ -28,12 +21,13 @@ Return
 
 ;; Hotstrings
 ::lapok::No retroperitoneal or mesenteric lymphadenopathy.
-::l-b-ok::In lung and bone windows, the findings are normal.
+::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
 ::l-ok::The lungs covered in the scanning range are normal.
-::b-ok::In bone window, the findings are normal.
+::b-ok::In bone window, the findings are unremarkable.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
 ::actgbss::Presence of several gallbladder stones without obvious GB distention or wall thickening.
+::actgbsg::Presence of high-attenuation material in the gallbladder with layering, in favor of GB sludge.
 ::actok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 ::actncok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal. Due to non-contrast study, the evaluation of solid organs is limited.
 ::bpleat::Bilateral pleural effusion with atelectasis of lower lungs.
@@ -50,7 +44,35 @@ Return
 The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 The lower abdomen and pelvis are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
-In lung and bone windows, the findings are normal.
+The lungs covered in the scanning range are normal.
+)
+  Paste(MyForm)
+Return
+
+::actapp::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fatty stranding, c/w acute appendicitis.
+
+The liver, spleen, pancreas, adrenals, and kidneys are normal.
+The pelvis are normal.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are normal.
+)
+  Paste(MyForm)
+  Sleep, 300
+  SendEvent, {Tab}
+  MyForm =
+(
+C/W acute appendicitis.
 )
   Paste(MyForm)
 Return
