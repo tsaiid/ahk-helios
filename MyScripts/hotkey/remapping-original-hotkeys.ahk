@@ -52,7 +52,9 @@ Return
 ^t::
 If WinActive("ahk_class Chrome_WidgetWin_1") {
   ControlSend, ,^t, ahk_class Chrome_WidgetWin_1
-} else {
+} Else If WinActive("ahk_class MozillaWindowClass") {
+  ControlSend, ,^t, ahk_class MozillaWindowClass
+} Else {
   SendInput ^t
 }
 Return
@@ -60,7 +62,9 @@ Return
 ^r::
 If WinActive("ahk_class Chrome_WidgetWin_1") {
   ControlSend, ,^r, ahk_class Chrome_WidgetWin_1
-} else {
+} Else If WinActive("ahk_class MozillaWindowClass") {
+  ControlSend, ,^r, ahk_class MozillaWindowClass
+} Else {
   SendInput ^r
 }
 Return
