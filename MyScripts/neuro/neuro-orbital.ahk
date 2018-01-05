@@ -2,10 +2,8 @@
 
 ;; CTO1
 ::cto1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT scan of orbit performed with axial and coronal section, 2-2mm slice thickness showed:
 
 Previous CT of orbit: no
@@ -17,44 +15,33 @@ FINDINGS:
 3. Presence of high density foreign body noted over ----------
 4. No evidence/presence of bony fragment noted near optic canal region.
 5. Presence of ----------- orbital emphysema noted.
-
-IMPRESSION:
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return
 
-;; CTO1wnl
-::cto1wnl::
-  MyOrder := CopyOrder()
+;; CTO1ok
+::cto1ok::
   MyForm =
 (
-INDICATION: %MyOrder%
-
 TECHNIQUE:
-Multi-slice CT scanner 
-Non-contrast 
+Multi-slice CT scanner
+Non-contrast
 CT scan of orbit in axial plane and coronal reformatted images 2-2mm slice thickness showed:
 
-TECHNIQUE:
-Multi-slice CT scanner 
-(1) Non-contrast and (2) Contrast-enhanced 
-CT scan of orbit in axial plane and coronal reformatted images 2-2mm slice thickness showed:
-CONTRAST MEDIUM: IV route, 80 ml, 1 ml/sec.
+PREVIOUS CT of orbit: no
 
-Previous CT of orbit: no
-
-Findings:
-
+FINDINGS:
 No evident fracture of bilateral orbits.
 No evidence of acute hematoma over bilateral orbital retroocular regions.
-Symmetrical size of bilateral orbital retroocular opitc nerves.
+Symmetrical size of bilateral orbital retroocular optic nerves.
 No evidence of high density foreign body noted at the bilateral intraocular and retroocular regions.
-No evidence of bony fragment noted near optic canal region. 
+No evidence of bony fragment noted near optic canal region.
 No evidence of orbital emphysema noted.
-
-IMPRESSION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No evidence of high density foreign body noted at the bilateral intraocular and retroocular regions.
 )
   Paste(MyForm)
@@ -62,10 +49,8 @@ Return
 
 ;; CTO2
 ::cto2::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2mm slice thickness showed:
 
 Previous CT of orbit: no
@@ -75,20 +60,14 @@ FINDINGS:
 1. Presence of cystic/mass lesion, size about ---------- cm, over ----------.
 2. ----------- of enlargement of -------------- rectus muscle and expophthalmos noted, ------- of tendon insertion, thyroid related ophthalmophathy/orbital pseudotumor more in favor.
 3. No evidence of mass lesion over orbital, retro-ocular, sellar, suprasellar regions.
-
-IMPRESSION:
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return
 
 ;; CTO2wnl
 ::cto2wnl::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2mm slice thickness showed:
 
 Previous CT of orbit: no
@@ -97,7 +76,7 @@ FINDINGS:
 
 Symmetrical bil. rectus muscle without enlargement of rectus muscle noted, no CT evidence of thyroid related ophthalmopathy.
 
-Symmetrical bil. retrobulbar fat was noted. 
+Symmetrical bil. retrobulbar fat was noted.
 
 No CT evidence of space occupying lesion over orbital, retro-ocular, sella, suprasellar regions.
 

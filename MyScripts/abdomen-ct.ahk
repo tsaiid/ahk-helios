@@ -37,6 +37,7 @@ Return
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
 ::actbph::Prostate enlargement with intravesical protrusion.
 ::aphe::arterial phase hyperenhancement
+::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 
 ::actok1::
   MyForm =
@@ -77,11 +78,8 @@ C/W acute appendicitis.
 Return
 
 ::acthcc::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -110,21 +108,13 @@ Pancreas: Unremarkable
 Kidneys and ureters: Unremarkable.
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
-
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return
 
 ::acthccf::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -134,9 +124,6 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-IMPRESSION:
-
-SUGGESTION:
 
 )
   Paste(MyForm)

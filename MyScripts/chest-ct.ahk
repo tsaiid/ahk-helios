@@ -8,7 +8,6 @@
 
 ;; Lung Routine
 ::cctlr::
-  MyOrder := CopyOrder()
   MyForm =
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.
@@ -16,8 +15,6 @@ CT scan of the thorax was performed with a multi-slice CT scanner.
 METHOD:
   - (1) HRCT (2) Noncontrast survey (3) contrast enhancement were performed
   - Scan range: lower neck to adrenal gland
-
-INDICATION: %MyOrder%
 
 COMPARISON:
 Applicable previous CT of chest: no
@@ -32,18 +29,12 @@ FINDINGS:
 7. Aorta and pulmonary artery: not unusual for age
 8. Chest wall and bony structure: not unusual for age
 9. Upper abdomen and adrenals: not unusual for age
-
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return
 
 ;; NCSD
 ::cctncsd::
-  MyOrder := CopyOrder()
   MyForm =
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.
@@ -51,8 +42,6 @@ CT scan of the thorax was performed with a multi-slice CT scanner.
 METHOD:
   - (1) HRCT (2) Noncontrast survey
   - Scan range: lower neck to adrenal gland
-
-INDICATION: %MyOrder%
 
 COMPARISON:
 Applicable previous CT of chest: no
@@ -65,10 +54,6 @@ FINDINGS:
 5. Mediastinum and hila: no LNs > 1 cm.
 6. Chest Wall and low neck: within normal limits.
 7. Abdomen: within normal limits in visualized range.
-
-IMPRESSION:
-
-SUGGESTION:
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
