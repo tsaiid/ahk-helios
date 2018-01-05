@@ -73,6 +73,7 @@ PRESERVE_CLIPBOARD := 0
   #Include MyScripts\special.ahk
 
   #Include MyScripts\ms-mri.ahk
+  #Include MyScripts\ms-ct.ahk
 
   #Include MyScripts\mri.ahk
   #Include MyScripts\others.ahk
