@@ -19,6 +19,7 @@
 ::linll::lingula of left lung
 ::ppm::permanent pacemaker
 ::pmf::progressive massive fibrosis
+::aip::acute interstitial pneumonia
 ::lip::lymphocytic interstitial pneumonia
 ::nsip::non-specific interstitial pneumonia
 ::boop::bronchiolitis obliterans organizing pneumonia

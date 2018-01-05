@@ -71,6 +71,7 @@
 ::eva::evaluation
 ::eso0::esophagus
 ::fb::foreign body
+::ld::low density
 
 ::pl::possibly `
 ::pb::probably `

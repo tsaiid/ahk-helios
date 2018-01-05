@@ -86,6 +86,10 @@
 ::slr::Scoliosis of L-spine with convexity to the right.
 ::stl::Scoliosis of T-spine with convexity to the left.
 ::str::Scoliosis of T-spine with convexity to the right.
+::msll::Mild scoliosis of L-spine with convexity to the left.
+::mslr::Mild scoliosis of L-spine with convexity to the right.
+::mstl::Mild scoliosis of T-spine with convexity to the left.
+::mstr::Mild scoliosis of T-spine with convexity to the right.
 ::pi::ill-defined pulmonary infiltration over `
 ::pi0::pulmonary infiltration
 ::po::patch opacity
@@ -93,7 +97,7 @@
 ::lo::linear opacity
 ::flo::fibrolinear opacity
 ::fno::fibronodular opacity
-::rno::reticulonodular oapcity
+::rno::reticulonodular opacity
 ::ip::inflammatory process.
 ::cic::chronic inflammatory change
 ::abg::air-bronchogram
@@ -158,6 +162,7 @@
 ::botb::Fibrilinear and nodular opacities over bilateral apical regions, in favor of old TB.
 ::splm::s/p left mastectomy.
 ::sprm::s/p right mastectomy.
+::bns::Presence of bilateral nipple shadows.
 
 ; Neck
 ::croup::Presence of steeple sign and hypopharyngeal distention, c/w croup.
