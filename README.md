@@ -1,7 +1,7 @@
-﻿AutoHotKey Scripts for SmartWonder
+﻿AutoHotKey Scripts for Helios
 ===============
 
-這個 reposity 包含我常用的一些專爲敝單位 (Kaohsiung Veterans General Hospital) 的放射線部報告系統 (SmartWonder) 所設計的 AutoHotKey (AHK) scripts。
+這個 reposity 包含我常用的一些專爲敝單位 (Far Eastern Memorial Hospital) 的影像醫學科報告系統 (Helios) 所設計的 AutoHotKey (AHK) scripts，由 [tsaiid/ahk-smartwonder](https://github.com/tsaiid/ahk-smartwonder) 衍生而來。
 
 ## Install
 
