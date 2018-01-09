@@ -6,6 +6,7 @@
 
 ::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.{Tab}No remarkable findings.
 ::k2::The bilateral kidney shadows and psoas muscle contours are normal.
+::k3::The psoas muscle contours are normal.
 ::kb::the bowel gas pattern is normal.
 ::kb1::the bowel gas pattern is unremarkable.
 ::kob::The other bowel gas pattern is normal.

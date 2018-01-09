@@ -2,7 +2,8 @@
 ::bok::No joint space narrowing, dislocation, or fracture.{Enter}
 ::bok1::No obvious dislocation or fracture.
 ::bok2::No obvious bony lesion.
-::kok::- No joint space narrowing, dislocation, or fracture.{Enter}- No obvious suprapatellar effusion.{Tab}No remarkable findings.
+::kok::No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
+::bkok::Bilateral knees:{Enter}No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
 ::mdjdl::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::mdjdl0::Mild DJD change of L-spine with spur formation.
 ::djdl::DJD change of L-spine.
@@ -206,8 +207,9 @@ Return
 ::sii3::There is definite sclerosis on both sides of the sacroiliac joints, blurring and indistinct margins, and erosive changes with loss of joint space. Grade III (moderate) sacroiliitis.
 ::sii4::Complete fusion or ankylosis of the joint with or withoutsome residual sclerosis. Grade IV (ankylosis) sacroiliitis.
 
+::djdc::DJD change of C-spine.
 ::mdjdc::Mild DJD change of C-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
-::djdc::
+::csp::
   MyForm =
 (
 Plain Film of Cervical Spine:

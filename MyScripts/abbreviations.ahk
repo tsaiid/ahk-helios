@@ -52,7 +52,7 @@
 ::pri::primary `
 ::sec::secondary `
 ::ned::no evidence of disease.
-::ner::no evidence of recurrence.
+::ner::no evidence of local recurrence.
 ::hx::history `
 ::subq::subcutaneous `
 ::afl::air-fluid level
@@ -159,6 +159,7 @@
 ::sah::subarachnoid hemorrhage
 ::sdh::subdural hemorrhage
 ::pvwm::periventricular white matter
+::rcvs::reversible cerebral vasoconstriction syndrome
 
 ;; Others
 ::dvt::deep vein thrombosis

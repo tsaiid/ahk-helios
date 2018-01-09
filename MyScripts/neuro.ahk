@@ -21,6 +21,8 @@
 ::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctnsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharangeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
+::mrns::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
 ::ctps::
   MyForm =
