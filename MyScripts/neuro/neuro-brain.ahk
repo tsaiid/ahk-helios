@@ -2,10 +2,8 @@
 
 ;; CTN1
 ::ctn1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of brain was performed with a multi-slice CT scanner:
 METHOD: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
@@ -38,10 +36,8 @@ Return
 
 ;; CTN1wnl
 ::ctn1wnl::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of brain was performed with a multi-slice CT scanner:
 METHOD: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
@@ -152,37 +148,30 @@ Return
 
 ;; 1CTA
 ::1cta::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-CT angiography of brain was performed with a multi-slice CT scanner:
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
 METHOD: multi thin-slice spiral scanning of arterial and venous phases
 SCAN RANGE: axial plane from the skull base to the vertex.
-CONTRAST MEDIUM: IV bolus injection, 80ml, rate: 3 ml/sec
-IMAGE POST-PROCESSING: done in workstation with multiPlanar reconstruction, maximal intensity projection and volume rendering techinique
+CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: done in workstation with multiPlanar reconstruction, maximal intensity projection and volume rendering technique
 
 CT scan of brain was performed with a multi-slice CT scanner:
 METHOD: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
 
-Previous CT: no/2008-10-05
+Previous CT: no
 
 FINDINGS:
 
-
-IMPRESSION:
-SUGGESTION:
 )
   Paste(MyForm)
 Return
 
 ;; CT3D
 ::ct3d::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT scan of the face and skull, with thin slice 2 mm, and post reconstruction 3D display.
 
 COMPARISON:
@@ -235,14 +224,11 @@ Return
 
 ;; MRICVA
 ::mricva::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-The MR of the brain performed with Sagittal T1WI (localizer)
+The MR of the brain performed with Sagittal T1WI
 Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
-Coronal T1WI, T2WI
-Diffusion-weighted Imaging (DWI)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
 And post Gadolinium (0.1 mmol/kg) enhancement with axial and coronal T1 weighted image
 Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 [[Intracranial MRA with 3D TOF and focus on the circle of Willis, intracranial MR venography (MRV) showed:]]
@@ -260,7 +246,7 @@ Post-contrast study was not performed due to patient's family refusal.
 
 Post-contrast study was not performed due to impaired renal function of the patient.
 
-No evidence of high signal intensity on DWI and lower apparent diffusion coefficeint suggesting acute ischemia infarction in the brain and brainstem noted.
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
 No evidence of high signal intensity lesion in the brain stem on DWI.
 
@@ -316,9 +302,9 @@ Presence of mild asymmetry of bilateral vertebral arteries, and more prominence 
 
 Presence of normal variant of common origin of left vertebral artery and left common carotid artery, so called "left brachiocephalic trunk".
 
-MRA shows that no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
-MRA shows that no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
 
 MRA shows presence of segmental occlusion or high grade stenosis of the intracranial portion of basilar artery.
 MRA shows small diameter of right/left intracranial vertebral artery.
@@ -328,7 +314,7 @@ MRA did not show the information of the vertebral artery due to the limited FOV 
 
 S/P embolization of left vertebral artery aneurysm anterior to the medulla with susceptability artifact, possibly from coil embolization. However, whether embolization of the aneurysm was completed or not cannot be evaluated because of limited FOV (field of view) of this MRA study which cannot show the full information of vertebral artery. Please correlate with prior studies to check the status of the left vertebral artery aneurysm.
 
-MRV shows that no evidence of venous thrombosis involving the intracranial venous sinuses noted.
+MRV shows no evidence of venous thrombosis involving the intracranial venous sinuses noted.
 
 IMPRESSION:
 Essentially negative finding.

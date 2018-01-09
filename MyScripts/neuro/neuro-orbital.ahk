@@ -4,7 +4,7 @@
 ::cto1::
   MyForm =
 (
-Noncontrast CT scan of orbit performed with axial and coronal section, 2-2mm slice thickness showed:
+Noncontrast CT scan of orbit performed with axial and coronal section, 2-2 mm slice thickness showed:
 
 Previous CT of orbit: no
 
@@ -25,8 +25,7 @@ Return
 (
 TECHNIQUE:
 Multi-slice CT scanner
-Non-contrast
-CT scan of orbit in axial plane and coronal reformatted images 2-2mm slice thickness showed:
+Non-contrast CT scan of orbit in axial plane and coronal reformatted images 2-2 mm slice thickness showed:
 
 PREVIOUS CT of orbit: no
 

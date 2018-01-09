@@ -42,21 +42,15 @@ Return
 
 ;; CTP
 ::ctp::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT of the paranasal sinuses was performed with a multi-slice CT scanner:
-SCAN RANGE: axial plane of the paranasal sinuses with 2 mm continuous scan slice thickness and coronal reconstruction
+SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan slice thickness and coronal reconstruction
 
 PREVIOUS CT SCAN of the paranasal sinuses: no
 
 FINDINGS:
 
-
-IMPRESSION:
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

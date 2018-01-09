@@ -2,10 +2,8 @@
 
 ;; CTL
 ::ctl::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Non-contrast and post-contrast helical axial CT of lumbar spine with coronal and sagittal MPR reformations shows:
 
 PREVIOUS CT SCAN of L-spine: no
@@ -48,10 +46,8 @@ Return
 
 ;; CTCS1
 ::ctcs1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 Noncontrast CT of C-spine was performed with a multi-slice CT scanner:
 SCAN RANGE: axial plane performed from C1 to T1, and oblique axial reconstruction from C1 to C2 with 2-mm and C3 to T1 with 3-mm continuous scan slice thickness, and with sagittal and coronal reconstruction 3-mm continuous scan slice thickness
 
@@ -78,10 +74,8 @@ Return
 
 ;; MRSPC1
 ::mrspc1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the C-spine performed with
 Coronal T1WI (localizer)
 Sagittal TIWI, T2WI, gradient echo T2*WI,
@@ -225,10 +219,8 @@ Return
 
 ;; MRSPT
 ::mrspt::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the T-spine performed:
 Coronal T2WI with fat sat (localized)
 Sagittal TI, T2WI
@@ -281,10 +273,8 @@ Return
 
 ;; MRSPT1
 ::mrspt1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the T-spine performed:
 Coronal T2WI with fat sat (localized)
 Sagittal T1, T2WI
@@ -339,10 +329,8 @@ Return
 
 ;; MRSPL1
 ::mrspl1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the L-spine performed:
 Coronal T2WI with fat sat (localized)
 Sagittal T1, T2WI
@@ -523,6 +511,22 @@ No evidence of focal herniation of nucleus pulposis (HIVD) in the L-spine region
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the L-spine noted.
 
 SUGGESTION:
+)
+  Paste(MyForm)
+Return
+
+::mrwsp::
+  MyForm =
+(
+The MRI of the whole spine performed:
+Sagittal T1, T2WI, T2+FS
+Axial T1 and T2WI
+Post-contrast Sagittal and Axial T1+FS
+
+PREVIOUS MRI of whole spine: no
+
+FINDINGS:
+
 )
   Paste(MyForm)
 Return

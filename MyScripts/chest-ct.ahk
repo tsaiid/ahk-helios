@@ -13,7 +13,7 @@
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
 METHOD:
-  - (1) HRCT (2) Noncontrast survey (3) contrast enhancement were performed
+  - (1) Noncontrast survey (2) contrast enhancement (inspiration/expiration) were performed
   - Scan range: lower neck to adrenal gland
 
 COMPARISON:

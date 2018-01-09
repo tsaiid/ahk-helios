@@ -2,10 +2,8 @@
 
 ;; CTNEC
 ::ctnec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast and (2) Contrast-enhanced
@@ -18,7 +16,7 @@ Applicable previous MRI of face and neck: none
 
 FINDINGS:
 
-Due to no contrast-enhaned CT performed, the detail could not be evaluated. Film interpretation is limited.
+Due to no contrast-enhanced CT performed, the detail could not be evaluated. Film interpretation is limited.
 
 No contrast medium. Film interpretation is limited.
 
@@ -45,11 +43,11 @@ superior mediastinal space (level VII)
 
 No evidence of bulky lymph nodes (> 1cm) over bilateral carotid space and posterior cervical space noted.
 
-No evidence of bulky lymph nodes in shortest axis (> 1cm) over bilateral carotid space and posterior cervical space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral carotid space and posterior cervical space noted.
 
-No evidence of bulky lymph nodes in shortest axis (> 1cm) over bilateral supraclavicular fossas noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral supraclavicular fossae noted.
 
-No evidence of bulky lymph nodes in shortest axis (> 1.5cm) over bilateral submandibular and submental space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1.5 cm) over bilateral submandibular and submental space noted.
 
 b. Presence of several/multiple lymph nodes noted over -------- submandibular and submental space ,--------------- carotid space and --------------- posterior cervical space, the biggest size about --------  cm, R/O inflammatory or metastatic lymph nodes.
 
@@ -91,22 +89,15 @@ c. No particular findings of nasopharynx, parotid gland, submandibular gland, an
 
 d. The axilla region cannot be well evaluated due to small FOV of the head and neck CT.
 
-IMPRESSION:
-
-SUGGESTION:
-Suggest clinical correlation and follow up.
-
 PS. The evaluation is limited especially for solid organs, neck lymph nodes and vascular structure due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return
 
-;; CTNEC3HRCT
-::ctnec3hrct::
-  MyOrder := CopyOrder()
+;; CTNECHRCT
+::ctnechrct::
   MyForm =
 (
-INDICATION: %MyOrder%
 HRCT of the temporal bone with axial and coronal section 0.4 mm showed:
 
 Previous HRCT of the temporal bone: none
@@ -142,12 +133,10 @@ Suggest clinical correlation and follow up.
   Paste(MyForm)
 Return
 
-;; CTNEC3HRCTwnl
-::ctnec3hrctwnl::
-  MyOrder := CopyOrder()
+;; CTNECHRCTwnl
+::ctnechrctwnl::
   MyForm =
 (
-INDICATION: %MyOrder%
 HRCT of the temporal bone with axial and coronal section 0.4 mm showed:
 
 Previous HRCT of the temporal bone: none
@@ -171,16 +160,14 @@ Return
 
 ;; MRNEC
 ::mrnec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI, Axial T1WI and T2WI with fat suppression, Coronal T1WI and T2WI with fat suppression, Post Gd-enhanced dynamic and conventional T1WI with fat suppression
+MRI of the skull base and neck was performed:
+METHOD: Axial T1WI and T2WI with fat suppression, Coronal T2WI with fat suppression, Post Gd-enhanced T1WI with fat suppression
 SCAN RANGE: from the skull base to the low neck
-CONTRAST MEDIUM: IV route, 0.1mmol/kg, rate: 2.0 mL/sec
+CONTRAST MEDIUM: IV route, 0.1 mmol/kg, rate: 2.0 mL/sec
 
-COMPARISION:
+COMPARISON:
 PREVIOUS MRI of the skull base and neck: no
 PREVIOUS CT of the skull base and neck: no
 

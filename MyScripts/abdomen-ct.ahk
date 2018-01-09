@@ -50,6 +50,21 @@ The lungs covered in the scanning range are normal.
   Paste(MyForm)
 Return
 
+::ctcaok::
+  MyForm =
+(
+No local recurrence.
+No retroperitoneal or mesenteric lymphadenopathy.
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+No pulmonary nodule.
+No pulmonary nodule in the scanning range.
+No mediastinal lymphadenopathy.
+No osteolytic or osteoblastic bone lesion.
+No osteolytic or osteoblastic bone lesion in the scanning range.
+)
+  Paste(MyForm)
+Return
+
 ::actapp::
   MyForm =
 (
@@ -130,11 +145,8 @@ FINDINGS:
 Return
 
 ::actpan::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -144,32 +156,21 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return
 
 ::acttcc::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Scanning range: Liver to symphysis, 3-mm contiguous scan.
 Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 and 420 seconds scanning delay.
 
 Previous abdominal CT: none.
 
 FINDINGS:
-
-IMPRESSION:
-
-SUGGESTION:
 
 )
   Paste(MyForm)
