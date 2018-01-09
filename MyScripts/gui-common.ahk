@@ -27,6 +27,10 @@ Triple film of lower extremities in standing AP projection :
   Gui, Destroy
   WinActivate, ahk_id %hParentWnd%
   Paste(MyForm)
+
+  ;for Helios, fill impression
+  SleepThenTab()
+  Paste(MeningfulLLD)
 Return
 
 ;; for LLD form
