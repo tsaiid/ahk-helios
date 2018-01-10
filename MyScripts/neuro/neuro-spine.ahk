@@ -409,7 +409,7 @@ No evidence of abnormal signal intensity mass lesion over the spinal canal of th
 
 Postcontrast study shows no evidence of abnormal enhancing lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
-No evidence of focal herniation of nucleus pulposis (HIVD) in the L-spine region noted.
+No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 
 No evidence of signal intensity lesion over the spinal cord of the lower T-spine region noted.
 
@@ -506,7 +506,7 @@ Lumbar degenerative spondylosis, disc space narrowing and protrusion disk. Detai
 
 Degenerative spine disease with spinal stenosis. Details see descriptions.
 
-No evidence of focal herniation of nucleus pulposis (HIVD) in the L-spine region noted.
+No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the L-spine noted.
 
