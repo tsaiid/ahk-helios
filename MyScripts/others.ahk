@@ -122,7 +122,7 @@ Return
 ::hypere::hyperechoic
 ::hypoe::hypoechoic
 :c:fd::filling defect
-::pg::progresion
+::pg::progression
 ::rg::regression
 ::csd::considered
 ::spd::suspected

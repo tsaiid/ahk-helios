@@ -163,6 +163,7 @@
 
 ;; Others
 ::dvt::deep vein thrombosis
+::paod::peripheral arterial occlusive disease
 ::op::operation
 ::avm::arteriovenous malformation
 ::st::soft tissue

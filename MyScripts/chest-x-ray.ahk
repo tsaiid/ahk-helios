@@ -47,9 +47,9 @@
 ::spc0::S/P cholecystectomy.
 ::sptae::Lipiodol retention in the liver, probably due to previous TAE.
 ::p/tae::Lipiodol retention in liver.
-::ricvp::On central venous catheter via right internal jegular vein with tip at superior vena cava.
-::licvp::On central venous catheter via left internal jegular vein with tip at superior vena cava.
-::bicvp::On central venous catheters via right and left internal jegular veins with tips at superior vena cava.
+::ricvp::On central venous catheter via right internal jugular vein with tip at superior vena cava.
+::licvp::On central venous catheter via left internal jugular vein with tip at superior vena cava.
+::bicvp::On central venous catheters via right and left internal jugular veins with tips at superior vena cava.
 ::rscvp::On central venous catheter via right subclavian vein with tip at superior vena cava.
 ::lscvp::On central venous catheter via left subclavian vein with tip at superior vena cava.
 ::ridl::On double lumen catheter via right internal jegular vein.
@@ -121,8 +121,11 @@
 ::ii0::insufficient inspiration
 ::iir::insufficient inspiration related
 ::rrf::Old fractures of right ribs.
+::rrf1::Fractures of right ribs.
 ::lrf::Old fractures of left ribs.
+::lrf1::Fractures of left ribs.
 ::brf::Old fractures of bilateral ribs.
+::brf1::Fractures of bilateral ribs.
 ::rok::No evident rib fracture.
 ::rcf::Old fracture of right clavicle.
 ::lcf::Old fracture of left clavicle.

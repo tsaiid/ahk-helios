@@ -159,6 +159,7 @@
 ::bwoa::OA change of bilateral wrists.
 ::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis.
 ::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis.
+::llath::Atherosclerotic change of lower limb vessels.
 
 ; Multiline
 ::flat::
