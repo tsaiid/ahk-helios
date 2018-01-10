@@ -39,3 +39,16 @@ Presence of hyperintensity on T2WI over right/left/bilateral sphenoid sinus, rig
 )
   Paste(MyForm)
 Return
+
+::bctaok::
+  MyForm =
+(
+CTA shows:
+- no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+- long segment hypoplasia of left vertebral artery with right dominance, probably normal variant.
+- no evidence of right vertebral artery dissection.
+- no evidence of beaded appearance in the circle of Willis that suggestive of reversible cerebral vasoconstriction syndrome.
+- no obvious stenosis of the extracranial carotid arteries.
+)
+  Paste(MyForm)
+Return

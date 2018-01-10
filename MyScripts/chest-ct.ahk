@@ -5,6 +5,7 @@
 ::csono::Suggest correlate with sonography.
 ::tacal::Atherosclerotic change and calcification of aortic wall.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
+::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
 
 ;; Lung Routine
 ::cctlr::
@@ -119,9 +120,6 @@ FINDINGS:
 4. OTHER THORACIC ORGANS:
 5. ABDOMINAL ORGANS SCANNED:
 
-IMPRESSION:
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

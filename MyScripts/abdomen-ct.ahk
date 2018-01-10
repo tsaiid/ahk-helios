@@ -252,11 +252,8 @@ Return
 
 ; Abd CT - Non-contrast
 ::actnc::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -265,9 +262,6 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-IMPRESSION:
-
-SUGGESTION:
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
