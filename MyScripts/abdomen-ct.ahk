@@ -221,11 +221,8 @@ Return
 
 ; Abd CTA - bleeding
 ::actcta::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -235,7 +232,7 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-No definite bleeder or contrast extravasion identified in this study.
+No definite bleeder or contrast extravasation identified in this study.
 No other apparent focal lesion noted at liver, spleen, pancreas and kidneys
 The lower abdomen showed no significant unusual.
 No evident bowel dilatation or wall thickening noted.
