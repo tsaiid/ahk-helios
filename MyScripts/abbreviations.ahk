@@ -68,6 +68,7 @@
 ;; Bone
 ::pf::patellofemoral `
 ::gbs::gallbladder stone
+::gbss::gallbladder stones
 ::neo::no evidence of `
 ::plf::posterolateral fusion mass
 ::ddh::developmental dysplasia of the hip
@@ -154,10 +155,12 @@
 
 ;; Neuro
 ::ich::intracranial hemorrhage
+::ivh::intraventricular hemorrhage
+::sah::subarachnoid hemorrhage
+::sdh::subdural hematoma
+::edh::epidural hematoma
 ::cva::cerebrovascular accident
 ::dva::developmental venous anomaly
-::sah::subarachnoid hemorrhage
-::sdh::subdural hemorrhage
 ::pvwm::periventricular white matter
 ::rcvs::reversible cerebral vasoconstriction syndrome
 

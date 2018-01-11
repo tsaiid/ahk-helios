@@ -46,6 +46,8 @@
 ::krrss::Small radiopacities superimposed on right renal shadow, suspicious renal stones.
 ::klus::A small stone-like opacity at left paraspinal region at L3 level, possibly a ureter stone. Suggest correlation with sonography.
 ::krus::A small stone-like opacity at right paraspinal region at L3 level, possibly a ureter stone. Suggest correlation with sonography.
+::kllus::A small stone-like opacity superimposed on left sacral ala region, suspicious a lower ureter stone. Suggest correlation with sonography.
+::krlus::A small stone-like opacity superimposed on right sacral ala region, possibly a lower ureter stone. Suggest correlation with sonography.
 ::kluvjs::A small stone-like opacity at left side of pelvis, possibly a UVJ stone. Suggest correlation with sonography.
 ::kruvjs::A small stone-like opacity at right side of pelvis, possibly a UVJ stone. Suggest correlation with sonography.
 ::lptcd::S/P PTCD via left side approach.

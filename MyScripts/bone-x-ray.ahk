@@ -1,14 +1,17 @@
 ﻿; For Bone Plain Film
-::bok::No joint space narrowing, dislocation, or fracture.{Enter}
-::bok1::No obvious dislocation or fracture.
+::bok::No joint space narrowing, dislocation, or fracture.{Tab}No joint space narrowing, dislocation, or fracture.
+::bok1::No obvious dislocation or fracture.{Tab}No obvious dislocation or fracture.
 ::bok2::No obvious bony lesion.
-::kok::No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
+::kok::No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No joint space narrowing, dislocation, or fracture.
 ::bkok::Bilateral knees:{Enter}No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
-::mdjdl::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
-::mdjdl0::Mild DJD change of L-spine with spur formation.
+::llath::Atherosclerotic change and calcification of the lower limb vessels.
 ::djdl::DJD change of L-spine.
+::mdjdl::Mild DJD change of L-spine with spur formation.
+::mdjdl1::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::djdt::DJD change of T-spine.
+::mdjdt::DJD change of T-spine with spur formation.
 ::djdtl::DJD change of T- and L-spine.
+::mdjdtl::DJD change of T- and L-spine with spur formation.
 ::lkoa::OA change of the left knee.
 ::rkoa::OA change of the right knee.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
@@ -52,6 +55,7 @@
 ::spok::No disc space narrowing, spondylolisthesis, or fracture.
 ::lspok::L-spine: No disc space narrowing, spondylolisthesis, or fracture.
 ::oaf::Joint space narrowing and marginal osteophyte formation, involving several DIP and PIP joints. These findings are consistent with osteoarthritis.
+::oaf0::OA change of fingers.
 ::calsp::Presence of calcaneal spurs at the insertions of the Achilles tendon and the plantar fascia.
 ::calspp::Presence of calcaneal spur at the insertion of the plantar fascia.
 ::calspa::Presence of calcaneal spur at the insertion of the Achilles tendon.
@@ -160,6 +164,14 @@
 ::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis.
 ::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis.
 ::llath::Atherosclerotic change of lower limb vessels.
+::lasts::Soft tissue swelling over left ankle region.
+::rasts::Soft tissue swelling over right ankle region.
+::lammfr::Medial malleolar fracture of left ankle.
+::lalmfr::Lateral malleolar fracture of left ankle.
+::labmfr::Bimalleolar fracture of left ankle.
+::rammfr::Medial malleolar fracture of right ankle.
+::ralmfr::Lateral malleolar fracture of right ankle.
+::rabmfr::Bimalleolar fracture of right ankle.
 
 ; Multiline
 ::flat::

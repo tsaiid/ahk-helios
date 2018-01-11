@@ -131,6 +131,7 @@ Return
 ::cd::consolidation
 ::nc::臨床不打藥
 ::sc::surgical clips
+::ss::surgical staples
 ::mrt::more on right side
 ::mlt::more on left side
 ::adj::adjacent

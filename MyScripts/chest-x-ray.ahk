@@ -14,7 +14,8 @@
 ::nn::No nodular opacities (> 1cm) noted over bilateral lung fields.
 ::0::No previous film for comparison.
 ::1::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Tab}No active lung lesion.
-::2::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
+::2::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change. {Enter}No cardiomegaly.{Tab}No active lung lesion.
+::3::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
 ::clnic::The condition of lung shows no obvious change as compared with previous study.
 ::clat::Suggest correlation with lateral view.
 ::ett::On endotracheal tube with tip at proper location.
@@ -129,6 +130,8 @@
 ::rok::No evident rib fracture.
 ::rcf::Old fracture of right clavicle.
 ::lcf::Old fracture of left clavicle.
+::rcfsp::Previous fracture of right clavicle, s/p internal fixation.
+::lcfsp::Previous fracture of left clavicle, s/p internal fixation.
 ::rdia::Elevation of right hemidiaphragm. Phrenic nerve palsy, diaphragmatic eventration, or intraabdominal process is considered.
 ::rdia0::Elevation of right hemidiaphragm.
 ::ldia::Elevation of left hemidiaphragm. Phrenic nerve palsy, diaphragmatic eventration, or intraabdominal process is considered.
