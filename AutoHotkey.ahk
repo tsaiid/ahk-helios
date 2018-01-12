@@ -94,30 +94,13 @@ SetTitleMatchMode, 2
 ;#Include MyScripts\debug.ahk
 
 ; HotKeys Lib
-#Include MyScripts\hotkey\selecting-tabs.ahk
-#Include MyScripts\hotkey\get-previous-report.ahk
-#Include MyScripts\hotkey\get-previous-report-with-images.ahk
-#Include MyScripts\hotkey\get-previous-exam-date.ahk
 #Include MyScripts\hotkey\change-font.ahk
 #Include MyScripts\hotkey\copy-order.ahk
 #Include MyScripts\hotkey\get-side-str.ahk
-;#Include MyScripts\hotkey\toggle-position-sync.ahk ; use SmartIris hotkey
-#Include MyScripts\hotkey\toggle-hanging-protocol.ahk
-#Include MyScripts\hotkey\insert-patient-exam-info.ahk
 #Include MyScripts\hotkey\convert-case.ahk
-#Include MyScripts\hotkey\renumber-selected-text.ahk
+#Include MyScripts\hotkey\reorder-selected-text.ahk
 #Include MyScripts\hotkey\remapping-original-hotkeys.ahk
-#Include MyScripts\hotkey\click-none-tb-none-ot.ahk
-#Include MyScripts\hotkey\click-confirm.ahk
-#Include MyScripts\hotkey\click-emr.ahk
-#Include MyScripts\hotkey\set-predefined-exam-flow.ahk
-;#Include MyScripts\hotkey\cgst32-related-mouse-control.ahk ;no more use
-#Include MyScripts\hotkey\go-to-image.ahk
-#Include MyScripts\hotkey\detect-non-ascii-chars.ahk
 #Include MyScripts\hotkey\get-mesa-scale.ahk
-#Include MyScripts\hotkey\navigation-exam-list.ahk
-#Include MyScripts\hotkey\status-of-us-rct-without-image.ahk
-#Include MyScripts\hotkey\query-prev-images-for-sonographer.ahk
 #Include MyScripts\hotkey\open-in-osirix.ahk
 
 ; Previously enabled but now disabled functions
@@ -126,33 +109,6 @@ SetTitleMatchMode, 2
 
 ; Define hotkeys
 #IfWinActive ahk_group Helios
-
-; 複製最近相關報告並開啟影像
-^0::
-Capslock & 0::
-  ;GetPreviousReport(true, true)
-  GetPreviousReportWithImages(true, true, 1, false, false, false)
-Return
-
-; 複製最近相關報告但不開啟影像
-^!0::
-  GetPreviousReport(true, false)
-Return
-
-; 不複製最近相關報告但開啟影像
-^!#0::
-  GetPreviousReport(false, true)
-Return
-
-; 吳主任版: 複製最近相關報告, 開啟最近兩次影像, 如皆在三個月內, 開另一更久遠的影像
-^9::
-  GetPreviousReportWithImages(true, true, 2, true, false, false)
-Return
-
-; 更改報告編輯區字體
-^!+f::
-  ChangeFont()
-Return
 
 ; 將選取的文字改為字首大寫
 ^!t::
@@ -167,45 +123,23 @@ Capslock & i::
 Return
 
 ; Delete current line
-^l::
-Capslock & l::
+^y::
   DeleteCurrentLine()
 Return
 
-; Insert Previous Exam Date
-^+d::
-  InsertPrevExamDate()
-Return
-
-; Renumber Seleted Text
-^!n::
-  RenumberSeletedText()
+; Reorder Seleted Text
+^!o::
+  ReorderSeletedText()
 Return
 
 ; Deorder Seleted Text
-^!+n::
-  RenumberSeletedText(true)
+^!+o::
+  ReorderSeletedText(true)
 Return
 
 ; Unorder Seleted Text
 ^!u::
-  RenumberSeletedText(false, true, "-")
-Return
-
-; Click TB(-)Ot(-)
-^!o::
-  ClickNoneTBNoneOt()
-Return
-
-; Select tabs
-; 報告編輯
-^1::
-  ClickReportEditing()
-Return
-
-; 歷史報告
-^3::
-  ClickPreviousReports()
+  ReorderSeletedText(false, true, "-")
 Return
 
 ; Confirm and Next
@@ -214,60 +148,15 @@ Return
   SendEvent !x
 Return
 
-; Set predefined exam flow
-^!f::
-  SetPredefinedExamFlow()
-Return
-
-; Get SPG or SEG report
-^!s::
-  DoSPGorSEG()
-Return
-
-; Detect Non-Ascii Chars
-^!a::
-  DetectNonAsciiChars()
-Return
-
 ; Get Mesa Scale
 ^!m::
   GetMesaScale()
-Return
-
-; Go Next Exam
-^j::
-  GoNextExam()
-Return
-
-; Go Prev Exam
-^k::
-  GoPrevExam()
-Return
-
-; Click Same Patient Exams
-^!p::
-  ClickSamePatientExams()
-Return
-
-^+h::
-  ClickEMR()
 Return
 
 ^+o::
   OpenCurrentAccNoInOsiriX()
 Return
 
-; Status of US RCT Without Image
-^!+u::
-  StatusOfUsRctWithoutImage()
-Return
-
 #IfWinActive
-
-; Insert Patient Exam Info
-;; This hotkey cannot be included in SmartWonder window group
-^!h::
-  InsertPatientExamInfo()
-Return
 
 ^!r::Reload  ; Assign Ctrl-Alt-R as a hotkey to restart the script.

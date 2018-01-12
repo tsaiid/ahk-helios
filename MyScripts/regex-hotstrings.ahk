@@ -2,7 +2,6 @@
 #Include Lib\Hotstrings.ahk
 hotstrings("plsp(\d)(\d)\s", "plsp")
 hotstrings("pcsp(\d)(\d)\s", "pcsp")
-hotstrings("g(\d+)\n", "g")
 Return
 
 plsp:
@@ -92,11 +91,3 @@ pcsp:
   SendInput, {Enter}
   SendInput, %cageStr%
 Return
-
-#IfWinActive ahk_class TImgViewPort
-
-g:
-  GoToImage($1)
-Return
-
-#IfWinActive
