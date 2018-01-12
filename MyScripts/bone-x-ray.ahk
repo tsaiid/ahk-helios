@@ -229,7 +229,7 @@ Plain Film of Cervical Spine:
 
 - Osteophyte formation:
 - Disk space narrowing:
-- Prominant unco-vertebral joint:
+- Prominent unco-vertebral joint:
 - Encroachment of neuroforamen:
 - Anterolisthesis: nil
 - Retrolisthesis: nil
