@@ -327,10 +327,8 @@ Return
 
 ;; srCTNec
 ::srctnec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast and (2) Contrast-enhanced
@@ -377,10 +375,8 @@ Return
 
 ;; srCTNec1
 ::srctnec1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Noncontrast CT scan of head and neck was performed with a multi-slice CT scanner:
 SCAN RANGE: axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
