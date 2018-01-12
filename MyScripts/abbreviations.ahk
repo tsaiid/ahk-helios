@@ -116,6 +116,7 @@
 ::ckd::chronic kidney disease
 ::bph::benign prostatic hyperplasia
 ::sma::superior mesenteric artery
+::smv::superior mesenteric vein
 ::ima::inferior mesenteric artery
 ::iud::intrauterine device
 ::gb::gallbladder

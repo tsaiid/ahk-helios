@@ -7,6 +7,16 @@
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
 
+::cctok::
+  MyForm =
+(
+No pulmonary nodule.
+No mediastinal lymphadenopathy.
+The thoracic cage and spine are unremarkable.
+)
+  Paste(MyForm)
+Return
+
 ;; Lung Routine
 ::cctlr::
   MyForm =
@@ -41,7 +51,7 @@ Return
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
 METHOD:
-  - (1) HRCT (2) Noncontrast survey
+  - (1) HRCT (inspiration and expiration) (2) Noncontrast survey
   - Scan range: lower neck to adrenal gland
 
 COMPARISON:

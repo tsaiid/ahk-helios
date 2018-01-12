@@ -30,7 +30,7 @@
 ::lfdl::On double-lumen catheter via left femoral vein.
 ::nfa::No evidence of subphrenic free air.
 ::foley::s/p Foley catheterization.
-::iud1::s/p intrauterine device implantation.
+::spiud::s/p intrauterine device implantation.
 ::haic-ok::On HAIC. The tip position shows no migration as compared with previous angiography.
 ::spa::Surgical clips at RLQ of abdomen, in favor of post appendectomy.
 ::sphaic::Coils at the upper abdomen, may be due to previous hepatic arterial infusion chemotherapy.

@@ -13,9 +13,10 @@
 ::np::No abnormal patch opacity in lung fields.
 ::nn::No nodular opacities (> 1cm) noted over bilateral lung fields.
 ::0::No previous film for comparison.
-::1::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Tab}No active lung lesion.
+::1::No abnormal patch opacity in lung fields.{Enter}No cardiomegaly.{Tab}No active lung lesion.
 ::2::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change. {Enter}No cardiomegaly.{Tab}No active lung lesion.
-::3::No abnormal patch opacity in lung fields. {Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
+::3::No abnormal patch opacity in lung fields.{Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
+::4::Increased linear opacity and peribronchial thickening over bilateral lung fields, r/o bronchiolitis.{Enter}No cardiomegaly.{Tab}Suspicious bronchiolitis.
 ::clnic::The condition of lung shows no obvious change as compared with previous study.
 ::clat::Suggest correlation with lateral view.
 ::ett::On endotracheal tube with tip at proper location.
@@ -69,7 +70,9 @@
 ::rpicc::On PICC via right arm.
 ::lpicc::On PICC via left arm.
 ::rppm::s/p PPM implantation at right upper chest with lead tips at RA and RV.
+::rsppm::s/p PPM implantation at right upper chest with lead tip RV.
 ::lppm::s/p PPM implantation at left upper chest with lead tips at RA and RV.
+::lsppm::s/p PPM implantation at left upper chest with lead tip RV.
 ::ile::Insufficient inspiration crowds lung markings.
 ::pe::Increased vascular markings and ill-defined vascular contours indicating pulmonary edema.
 ::mpe::Mildly increased vascular markings and ill-defined vascular contours indicating mild pulmonary edema.

@@ -23,6 +23,7 @@ Return
 ::lapok::No retroperitoneal or mesenteric lymphadenopathy.
 ::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
 ::l-ok::The lungs covered in the scanning range are normal.
+::l-ok1::No pulmonary nodule.
 ::b-ok::In bone window, the findings are unremarkable.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
