@@ -42,12 +42,34 @@ Return
   SendEvent ^z
 Return
 
+;; Copy current line
 #c::
-  Send {Home}+{End}^c
+  SendEvent {Home}+{End}^c
 Return
 
+;; Copy current line and then paste in Inpression section
+#v::
+  SendEvent {Home}+{End}^c{Tab}^v
+Return
+
+;; Delete to the end of line
+^k::
+  SendEvent +{End}{Del}
+Return
+
+;; Open recent worklist
 ^w::
   SendEvent {AppsKey}
+Return
+
+;; Move current line up
+^Up::
+  SendEvent {Home}+{End}^x{Up}^v{Up}
+Return
+
+;; Move current line down
+^Down::
+  SendEvent {Home}+{End}^x{Down}^v{Up}
 Return
 
 #IfWinActive
@@ -86,7 +108,6 @@ Return
 ;LWin & Tab::AltTab    ; Mimick Alt-Tab
                       ; Alt-tab hotkeys are not affected by #IfWin: they are in effect for all windows.
 
-#v::^v
 #x::^x
 /*
 #w::^w
