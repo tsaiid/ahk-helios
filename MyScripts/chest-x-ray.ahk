@@ -160,7 +160,13 @@
 ::rsoa::OA change of right shoulder.
 ::lsoa::OA change of left shoulder.
 ::bsoa::OA change of bilateral shoulders.
-::xg::Few tiny dense nodules over bilateral lung fields, in favor of granulomas.
+::blfgs::Few tiny dense nodules over bilateral lung fields, in favor of granulomas.
+::rlfg::A small calcified nodule over right lung field, possibly a granuloma.
+::rulfg::A small calcified nodule over right upper lung field, possibly a granuloma.
+::rllfg::A small calcified nodule over right lower lung field, possibly a granuloma.
+::llfg::A small calcified nodule over left lung field, possibly a granuloma.
+::lulfg::A small calcified nodule over left upper lung field, possibly a granuloma.
+::lllfg::A small calcified nodule over left lower lung field, possibly a granuloma.
 ::plbok::Post lung biopsy, and no obvious pneumothorax is noted.
 ::aak::Atherosclerotic change of the aortic knob.
 ::rci::Anterior interposition of the colon to the liver reaching the under-surface of the right hemidiaphragm.

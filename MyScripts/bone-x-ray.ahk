@@ -84,12 +84,12 @@
 ::afr::avulsion fracture
 ::pfr::pathologic fracture
 ::lfr::linear fracture
-::rpcf::Right proximal third clavicule fracture.
-::lpcf::Left proximal third clavicule fracture.
-::rmcf::Right middle third clavicule fracture.
-::lmcf::Left middle third clavicule fracture.
-::rdcf::Right distal third clavicule fracture.
-::ldcf::Left distal third clavicule fracture.
+::rpcf::Right proximal third clavicular fracture.
+::lpcf::Left proximal third clavicular fracture.
+::rmcf::Right middle third clavicular fracture.
+::lmcf::Left middle third clavicular fracture.
+::rdcf::Right distal third clavicular fracture.
+::ldcf::Left distal third clavicular fracture.
 ::rfnf::Right femoral neck fracture.
 ::lfnf::Left femoral neck fracture.
 ::usfr::ulnar styloid process fracture.
