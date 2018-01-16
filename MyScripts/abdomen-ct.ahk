@@ -39,6 +39,8 @@ Return
 ::actbph::Prostate enlargement with intravesical protrusion.
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
+::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
+::actmfl::Diffusely decreased attenuation of the liver, suggestive of fatty liver.
 
 ::actok1::
   MyForm =

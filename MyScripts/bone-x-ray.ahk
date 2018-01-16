@@ -172,6 +172,8 @@
 ::rammfr::Medial malleolar fracture of right ankle.
 ::ralmfr::Lateral malleolar fracture of right ankle.
 ::rabmfr::Bimalleolar fracture of right ankle.
+::rsas::s/p anchor screw fixation at right shoulder.
+::lsas::s/p anchor screw fixation at left shoulder.
 
 ; Multiline
 ::flat::

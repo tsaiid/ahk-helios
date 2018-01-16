@@ -29,10 +29,10 @@
 ::wo::without `
 ::esp::especially `
 ::asp::aspiration
-::cw::comsistent with `
+::cw::consistent with `
 ::ow::otherwise, `
 ::rm::remarkable `
-::urm::unremarkable `
+::urm::unremarkable
 ::cnbd::cannot be determined
 ::cnbe::cannot be excluded
 ::sbe::should be excluded

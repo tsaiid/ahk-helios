@@ -164,6 +164,12 @@
 ::dva::developmental venous anomaly
 ::pvwm::periventricular white matter
 ::rcvs::reversible cerebral vasoconstriction syndrome
+::mca::middle cerebral artery
+::aca::anterior cerebral artery
+::pca::posterior cerebral artery
+
+;; Head & Neck
+::cps::chronic paranasal sinusitis
 
 ;; Others
 ::dvt::deep vein thrombosis
