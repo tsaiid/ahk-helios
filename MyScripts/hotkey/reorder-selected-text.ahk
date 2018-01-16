@@ -6,6 +6,23 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
   SendEvent ^c
   Sleep, 300
 
+
+  ; numbering the selected text
+  selectedText := clipboard
+  normalizedValue := clipboard
+  StringReplace, normalizedValue, normalizedValue, `r`n, `n, All
+
+  StringRight, strRight, normalizedValue, 1
+  If (Ord(strRight) == Ord("`n")) {
+    StringTrimRight, normalizedValue, normalizedValue, 1
+    hadTrimmedRight := True
+  }
+
+  StringSplit, norAry, normalizedValue, `n
+  endLine := norAry0
+
+;  MsgBox, endLine = %endLine%, strRight = %ascStrRight%, ``n = %ascNewLine%
+
 /*
   Loop, parse, clipboard, `n, `r
   {
@@ -14,12 +31,6 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
   }
 */
 
-  ; numbering the selected text
-  selectedText := clipboard
-  normalizedValue := clipboard
-  StringReplace, normalizedValue, normalizedValue, `r`n, `n, All
-  StringSplit, norAry, normalizedValue, `n
-  endLine := norAry0
   If (StrLen(selectedText) > 0) {
     finalText := ""
     currLineNo := 0
@@ -30,9 +41,9 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
           orderChar := (StrLen(itemChar) > 0 ? itemChar : ++currLineNo . ".")
           finalText .= orderChar . " "
         }
-        finalText .= RegExReplace(A_LoopField, "^(\s*)((\d+\.)|([-\+\*])|(\(?\d+\)))?(\s*)(\w?)(.*)", "$u7$8")
+        finalText .= RegExReplace(A_LoopField, "^(\s*)((\d+\.)|([-\+\*>])|(\(?\d+\)))?(\s*)(\w?)(.*)", "$u7$8")
 
-        If (A_Index < endLine)
+        If (A_Index < endLine || hadTrimmedRight)
           finalText .= "`n"
       } Else {
         ; use a para to control if all line is empty, ignore it, and do not append an \n
