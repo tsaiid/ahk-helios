@@ -45,7 +45,7 @@ Return
   MyForm =
 (
 Noncontrast CT of the paranasal sinuses was performed with a multi-slice CT scanner:
-SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan slice thickness and coronal reconstruction
+SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan, with coronal and sagittal reconstruction
 
 PREVIOUS CT SCAN of the paranasal sinuses: no
 

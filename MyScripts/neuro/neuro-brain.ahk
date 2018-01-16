@@ -252,7 +252,7 @@ No evidence of high signal intensity lesion in the brain stem on DWI.
 
 Several tiny high signal intensity lesions in right occipital lobe, bilateral centrum semiovale and bilateral high frontal-parietal lobes on T2WI, FLAIR and DWI images. Acute embolic infarctions are suspected.
 
-Presence of small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter, with high signal intensity on T2WI, FLAIR, and DWI, and lower apparent diffusion coefficeint (ADC).
+Presence of small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter, with high signal intensity on T2WI, FLAIR, and DWI, and lower apparent diffusion coefficient (ADC).
 
 Presence of tiny old ischemic infarction involving bil. basal ganglion region.
 
@@ -265,7 +265,7 @@ The bilateral lateral ventricles showed symmetrical without dilatation.
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 
-MRA shows turbulent flow or mild stenosis over intracranial portion of bilateral internal carotid arteries and basilar atery.
+MRA shows turbulent flow or mild stenosis over intracranial portion of bilateral internal carotid arteries and basilar artery.
 
 Noncontrast intracranial MRA with 3D TOF shows that multiple foci of high grade stenoses over intracranial portion of the internal carotid artery.
 
@@ -274,19 +274,19 @@ MRA shows presence of stenosis noted over the bilateral carotid siphon and supra
 MRA shows presence of high grade stenosis or occlussion over the right/left carotid siphon and distal M1 of right/left MCA, with paucity of the branches of the right/left MCA noted.
 
 MRA shows--
-Presence of normal variation of fenestration of the proximal basilar artery. (Hx: 13776391, ac: 65343630)
-(Hx: 14770377, Ac: 69245411)
+Presence of normal variation of fenestration of the proximal basilar artery.
 
-CTA shows noraml variation of A1 of left anterior cerebral artery fenestration. (Hx: 9481974, ac: 99785929)
+CTA shows noraml variation of A1 of left anterior cerebral artery fenestration.
 
-Normal variation of right fetal posterior cerebral artery and trifurcation of anterior cerebral artery. (Hx: 3577988, ac: 66986943)
+Normal variation of right fetal posterior cerebral artery and trifurcation of anterior cerebral artery.
 
-MRA shows normal variation of right persistent trigeminal artery. (HX: 5581748, ac: 57139640) (Hx: 15417944, Ac: 75376134) (Hx: 15785305, Ac: 81838580, F/69Y, 20170503)
+MRA shows normal variation of right persistent trigeminal artery.
 
-MRA shows normal variation of left persistent carotid-vertebrobasilar anastomosis, possibly persistent hypoglossal artery or persistent proatlantal intersegmental artery.  (Hx: 16381605, Ac: 85095461, M/51Y, 20170920)
+MRA shows normal variation of left persistent carotid-vertebrobasilar anastomosis, possibly persistent hypoglossal artery or persistent proatlantal intersegmental artery.
+
+MRA shows absence of an A1 segment of the left anterior cerebral artery, and the origin of both A2 segments from a single, right A1 segment, in favor of A1 segment absence or hypoplasia.
 
 MRA shows normal variation of azygos anterior cerebral artery (uncommon to rare variant of the circle of Willis where the two A1 segments of the anterior cerebral artery (ACA) join to form a single trunk).
-Hx: 6203312, Ac: 79930827, F/61Y, 20161021
 
 Presence of hypoplasia of A1 portion of right/left anterior cerebral artery.
 
@@ -418,16 +418,17 @@ Return
 
 ;; MRB
 ::mrb::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the brain performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI (localizer), Axial T1WI, T2WI, GET2*WI,
-FLAIR (Fluid Attenuated Inversion Recovery), Coronal T1WI, T2WI
-Diffusion-weighted Imaging (DWI), post Gadolinium enhancement with axial and coronal T1 weighted image showed:
+METHOD:
+- Sagittal T1WI
+- Axial T1WI, T2WI, GET2*WI, FLAIR, DWI, ADC map
+- Coronal T1WI, T2WI
+- post Gadolinium enhancement: axial, coronal, sagittal T1 weighted image
+- Intracranial MRA with 3D TOF and focus on the circle of Willis
 SCAN RANGE: from the skull base to the vertex
-CONTRAST MEDIUM: IV route, 0.1mmol/kg
+CONTRAST MEDIUM: IV route, 0.1 mmol/kg
 
 The MRI of the brain performed with a 3-T scanner:
 METHOD: Sagittal T1WI (localizer)
@@ -435,7 +436,7 @@ Axial T1WI, T2WI, T2*GRE, FLAIR (Fluid Attenuated Inversion Recovery), DWI (Diff
 Coronal T1WI, T2WI
 Gd-enhanced 3D-SPACE and 3D-MPRAGE T1WI with fat suppression
 SCAN RANGE: From the skull base to the vertex
-CONTRAST MEDIUM: IV route, 0.1mmol/kg, 1ml/sec.
+CONTRAST MEDIUM: IV route, 0.1 mmol/kg, 1ml/sec.
 
 COMPARISON:
 Applicable previous MRI of brain: no
@@ -448,6 +449,10 @@ No definite abnormal signal intensity mass lesion in the brain noted including s
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal intracranial leptomeningeal enhancement noted.
+
+MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+
+MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
 
 IMPRESSION:
 No significant intracranial finding

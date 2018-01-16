@@ -50,14 +50,14 @@ Return
 ::cto2::
   MyForm =
 (
-Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2mm slice thickness showed:
+Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2 mm slice thickness showed:
 
 Previous CT of orbit: no
 
 FINDINGS:
 
 1. Presence of cystic/mass lesion, size about ---------- cm, over ----------.
-2. ----------- of enlargement of -------------- rectus muscle and expophthalmos noted, ------- of tendon insertion, thyroid related ophthalmophathy/orbital pseudotumor more in favor.
+2. ----------- of enlargement of -------------- rectus muscle and exophthalmos noted, ------- of tendon insertion, thyroid related ophthalmopathy/orbital pseudotumor more in favor.
 3. No evidence of mass lesion over orbital, retro-ocular, sellar, suprasellar regions.
 )
   Paste(MyForm)
