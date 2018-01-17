@@ -47,7 +47,7 @@
 ::spster1::Post median sternotomy with wire fixation. Several drains in the thorax.
 ::spc::Surgical clips at RUQ of abdomen, in favor of post cholecystectomy.
 ::spc0::S/P cholecystectomy.
-::sptae::Lipiodol retention in the liver, probably due to previous TAE.
+::sptae::Lipiodol retention in the liver, probably due to previous TACE.
 ::p/tae::Lipiodol retention in liver.
 ::ricvp::On central venous catheter via right internal jugular vein with tip at superior vena cava.
 ::licvp::On central venous catheter via left internal jugular vein with tip at superior vena cava.
