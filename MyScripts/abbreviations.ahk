@@ -103,6 +103,7 @@
 ::rom::range of motion
 ::asis::anterior superior iliac spine
 ::aiis::anterior inferior iliac spine
+::hme::hereditary multiple exostoses
 
 ;; Abdomen
 ::ln::lymph node

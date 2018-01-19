@@ -16,7 +16,7 @@
 :c:imp2::Others as above descriptions.
 ::ifch::from the imaging findings and clinical history, `
 ::mrmast::Increased signal intensity over -------------, mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
-::ctmast::Presecne of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
+::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
 ::ctatr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
 ::ctatr1::Mild dilatation of ventricular system and sulcal widening of bil. cerebral hemispheres noted, in favor of mild brain atrophy.
 ::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
@@ -25,6 +25,7 @@
 ::necsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharyngeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
 ::mrns::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+::sdsa::Suggest correlate with DSA if clinically indicated.
 
 ::ctps::
   MyForm =
@@ -84,6 +85,39 @@ The mastoid air cells are well-aerated.
   MyForm =
 (
 C/W chronic paranasal sinusitis, most severe at left maxillary.
+)
+  Paste(MyForm)
+Return
+
+::mriiac::
+  MyForm =
+(
+MRI of internal auditory canal with:
+- T2 SPACE axial, coronal, oblique sagittal
+- T1WI axial, coronal
+- T2WI axial, coronal, sagittal
+MRI of whole brain with:
+- T2WI axial
+
+COMPARISON: no
+
+FINDINGS:
+- Normal appearance of bilateral cochlea, vestibules, semicircular canals, and IACs.
+- Normal appearance of bilateral cochlear nerves.
+- Normal appearance of bilateral vestibular aqueducts.
+
+- Normal appearance of bilateral mastoid air cells.
+- Increased signal intensity over left mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
+
+- No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+- The bilateral lateral ventricles showed symmetrical without dilatation.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. No evidence of cochlear aplasia, cochlear nerve agenesis, or other malformations.
+2. Left mastoiditis or fluid collection.
 )
   Paste(MyForm)
 Return

@@ -157,6 +157,8 @@
 ::bhoa::OA change of bilateral hips.
 ::rkoa::OA change of right knee.
 ::lkoa::OA change of left knee.
+::raoa::OA change of right ankle.
+::laoa::OA change of left ankle.
 ::bkoa::OA change of bilateral knees.
 ::rwoa::OA change of right wrist.
 ::lwoa::OA change of left wrist.

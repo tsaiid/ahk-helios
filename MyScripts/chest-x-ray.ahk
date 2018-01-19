@@ -86,8 +86,10 @@
 ::inef::interlobar effusion
 ::pcef::pericardial effusion
 ::iabp::On IABP, with tip in the thoracic aorta.
+::sl0::Scoliosis of L-spine.
 ::sll::Scoliosis of L-spine with convexity to the left.
 ::slr::Scoliosis of L-spine with convexity to the right.
+::st0::Scoliosis of T-spine.
 ::stl::Scoliosis of T-spine with convexity to the left.
 ::str::Scoliosis of T-spine with convexity to the right.
 ::msll::Mild scoliosis of L-spine with convexity to the left.
@@ -109,7 +111,7 @@
 ::llf::left lung field
 ::rlf::right lung field
 ::bulf::bilateral upper lung fields
-::lulf::left upper lung fleld
+::lulf::left upper lung field
 ::rulf::right upper lung field
 ::bllf::bilateral lower lung fields
 ::lllf::left lower lung field
