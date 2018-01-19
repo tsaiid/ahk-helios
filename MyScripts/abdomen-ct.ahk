@@ -24,7 +24,7 @@ Return
 ::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
 ::l-ok::The lungs covered in the scanning range are normal.
 ::l-ok1::No pulmonary nodule.
-::b-ok::In bone window, the findings are unremarkable.
+::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
 ::actgbss::Presence of several gallbladder stones without obvious GB distention or wall thickening.
@@ -41,6 +41,7 @@ Return
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
 ::actmfl::Diffusely decreased attenuation of the liver, suggestive of fatty liver.
+::actc::Irregular surface of the liver with nodularities, indicating liver cirrhosis.
 
 ::actok1::
   MyForm =
@@ -119,13 +120,15 @@ Extrahepatic spread: No.
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
 
-Spleen: unremarkable.
+Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
 
 Kidneys and ureters: Unremarkable.
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
 )
   Paste(MyForm)
 Return
@@ -174,7 +177,20 @@ Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 and 420 seconds scanning d
 Previous abdominal CT: none.
 
 FINDINGS:
+Kidneys: Unremarkable
+Ureters: Unremarkable
+Urinary bladder: Unremarkable
 
+Regional lymphadenopathy: No
+Non-regional lymphadenopathy: No
+
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+Pancreas: Unremarkable
+
+Lower lungs: Unremarkable
+Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
 Return

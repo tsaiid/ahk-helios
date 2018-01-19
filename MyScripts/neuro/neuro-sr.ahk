@@ -1,9 +1,7 @@
 ;; srCT3D
 ::srct3d::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner;
 Non-contrast axial contiguous scanning of face in bone algorithm with coronal and 3D reconstruction images
@@ -46,6 +44,52 @@ Pterygoid plates: normal / fracture
 
 IMPRESSION:
 Multiple facial bone fracture, left side
+)
+  Paste(MyForm)
+Return
+
+;; srCT3Dok
+::srct3dok::
+  MyForm =
+(
+TECHNIQUE:
+Multi-slice CT scanner;
+Non-contrast axial contiguous scanning of face in bone algorithm with coronal and 3D reconstruction images
+
+COMPARISON:
+Applicable previous CT of face: none
+
+FINDINGS:
+
+*Facial bones, right side
+
+Frontal bone: normal
+Ethmoid bone: normal
+Bony orbit: normal
+Zygoma: normal
+Maxilla / Maxillary sinus: normal
+Pterygoid plates: normal
+
+
+*Facial bones, left side
+
+Frontal bone: normal
+Ethmoid bone: normal
+Bony orbit: normal
+Zygoma: normal
+Maxilla / Maxillary sinus: normal
+Pterygoid plates: normal
+
+*Mandible: normal
+*Nasal bone, septum and nasal cavity: normal
+*Sphenoid bones: normal
+*Temporal bones: normal
+*Parietal bones: normal
+*Occipital bones: normal
+
+*Hematoma: none / paranasal sinuses / nasal cavity / periorbital region / scalp / cheek
+
+*Others: none
 )
   Paste(MyForm)
 Return

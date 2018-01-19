@@ -116,7 +116,7 @@ Return
 ::cctcta::
   MyForm =
 (
-CT scan of the thorax was performed with a multi-slice CT scanner.
+CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
 
 METHOD:
   - (1) non-contrast (2) contrast enhancement for CT angiography
