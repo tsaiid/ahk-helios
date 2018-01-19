@@ -15,6 +15,7 @@ GroupAdd, Helios, Helios
 #Include <JSON>
 #Include <StdOutStream>
 #Include <WinHttpRequest>
+#Include <Acc>
 
 ; Options
 ENABLE_KEY_COUNTER := 0
