@@ -1,25 +1,21 @@
 ﻿; HotKey
 ;; Reordering the selected text
 
-ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
-  clipboard := ""
+ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = ""){
+  Clipboard := ""
   SendEvent ^c
   Sleep, 300
 
+  StringReplace, selectedText, Clipboard, `r`n, `n, All
 
-  ; numbering the selected text
-  selectedText := clipboard
-  normalizedValue := clipboard
-  StringReplace, normalizedValue, normalizedValue, `r`n, `n, All
-
-  StringRight, strRight, normalizedValue, 1
+  StringRight, strRight, selectedText, 1
   If (Ord(strRight) == Ord("`n")) {
-    StringTrimRight, normalizedValue, normalizedValue, 1
+    StringTrimRight, selectedText, selectedText, 1
     hadTrimmedRight := True
   }
 
-  StringSplit, norAry, normalizedValue, `n
-  endLine := norAry0
+  StringSplit, txtAry, selectedText, `n
+  endLine := txtAry0
 
 ;  MsgBox, endLine = %endLine%, strRight = %ascStrRight%, ``n = %ascNewLine%
 
@@ -34,7 +30,7 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
   If (StrLen(selectedText) > 0) {
     finalText := ""
     currLineNo := 0
-    Loop, Parse, normalizedValue, `n
+    Loop, Parse, selectedText, `n
     {
       If (!RegExMatch(A_LoopField, "^\s*$")) {
         If (!deOrder) {
@@ -43,12 +39,13 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
         }
         finalText .= RegExReplace(A_LoopField, "^(\s*)((\d+\.)|([-\+\*>])|(\(?\d+\)))?(\s*)(\w?)(.*)", "$u7$8")
 
-        If (A_Index < endLine || hadTrimmedRight)
-          finalText .= "`n"
+        If (A_Index < endLine || hadTrimmedRight) {
+          finalText .= "`r`n"
+        }
       } Else {
         ; use a para to control if all line is empty, ignore it, and do not append an \n
         If (keepEmptyLine) {
-          finalText .= A_LoopField . "`n"
+          finalText .= A_LoopField . "`r`n"
         }
       }
     }
@@ -60,7 +57,7 @@ ReorderSeletedText(deOrder = false, keepEmptyLine = false, itemChar = ""){
 
     ;textRange.text := finalText
     ;MsgBox % finalText
-    clipboard := finalText
+    Clipboard := finalText
     SendEvent ^v
   } Else {
     ; No selection. Do nothing.
