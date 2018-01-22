@@ -154,6 +154,7 @@
 ::iai::intra-abdominal infection
 ::uc::urothelial carcinoma
 ::uti::urinary tract infection
+::ou::obstructive uropathy
 
 ;; Neuro
 ::ich::intracranial hemorrhage
@@ -171,6 +172,7 @@
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
+::tao::thyroid-associated orbitopathy
 
 ;; Others
 ::dvt::deep vein thrombosis

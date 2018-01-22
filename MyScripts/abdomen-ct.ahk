@@ -36,12 +36,14 @@ Return
 ::mrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
+::actns::No evidence of high-attenuation stone along the urinary tracts.
 ::actbph::Prostate enlargement with intravesical protrusion.
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
-::actmfl::Diffusely decreased attenuation of the liver, suggestive of fatty liver.
+::actmfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
 ::actc::Irregular surface of the liver with nodularities, indicating liver cirrhosis.
+::actcc::Wall thickening of the urinary bladder with trabeculation, suggestive of chronic cystitis.
 
 ::actok1::
   MyForm =

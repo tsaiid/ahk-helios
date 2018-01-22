@@ -26,6 +26,7 @@
 ::mrns::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 ::sdsa::Suggest correlate with DSA if clinically indicated.
+::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
 
 ::ctps::
   MyForm =
