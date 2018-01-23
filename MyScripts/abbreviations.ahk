@@ -169,6 +169,7 @@
 ::mca::middle cerebral artery
 ::aca::anterior cerebral artery
 ::pca::posterior cerebral artery
+::va::vertebral artery
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

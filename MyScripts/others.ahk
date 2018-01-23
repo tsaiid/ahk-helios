@@ -72,6 +72,7 @@
 ::eso0::esophagus
 ::fb::foreign body
 ::ld::low density
+::pbi::previous brain insults
 
 ::pl::possibly `
 ::pb::probably `
