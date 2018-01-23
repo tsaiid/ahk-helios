@@ -7,6 +7,7 @@ SendMode, Input
 
 ; Group Control For Helios
 GroupAdd, Helios, Helios
+GroupAdd, Helios, ahk_class ThunderRT6FormDC
 
 ; External Libraries
 #Include <WBGet>
@@ -142,6 +143,11 @@ Return
 ; Unorder Seleted Text
 ^!u::
   ReorderSeletedText(false, true, "-")
+Return
+
+; Second Unorder Seleted Text
+^!+u::
+  ReorderSeletedText(false, true, "  >")
 Return
 
 ; Confirm and Next
