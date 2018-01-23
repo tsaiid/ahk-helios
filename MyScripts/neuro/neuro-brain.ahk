@@ -460,3 +460,74 @@ SUGGESTION:
 )
   Paste(MyForm)
 Return
+
+::bcta::
+  MyForm =
+(
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
+METHOD: multi thin-slice spiral scanning of arterial, venous, and delayed phases
+SCAN RANGE: axial plane from the neck to the vertex.
+CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection
+
+Previous CT: no
+
+FINDINGS:
+Low density and loss of gray and white matter differentiation at right middle cerebral artery territory:
+- M2: "MCA cortex lateral to insular ribbon" corresponding to anterior temporal lobe
+- M5: "lateral MCA territory immediately superior to M2"
+- M6: "posterior MCA territory immediately superior to M3"
+Suggestive of acute ischemic stroke.
+
+Alberta stroke programme early CT score (ASPECTS):
+caudate
+putamen
+internal capsule
+insular cortex
+M1: "anterior MCA cortex," corresponding to frontal operculum
+M2: "MCA cortex lateral to insular ribbon" corresponding to anterior temporal lobe
+M3: "posterior MCA cortex" corresponding to posterior temporal lobe
+M4: "anterior MCA territory immediately superior to M1"
+M5: "lateral MCA territory immediately superior to M2"
+M6: "posterior MCA territory immediately superior to M3"
+
+A high-attenuation thrombus is noted at the M1 level of right MCA.
+No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+
+The multiphase CTA shows:
+- Long segment of occlusion from right extracranial ICA at C3 level up to M1 of right MCA.
+
+Compared to asymptomatic contralateral hemisphere there are just a few vessels visible in any phase within the occluded vascular territory. University of Calgary classification score 1 (poor collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of two phases in filling in of peripheral vessels and decreased prominence and extent or a one-phase delay and some regions with no vessels in some part of the territory occluded. University of Calgary classification score 2 (intermediate collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of two phases in filling in of peripheral vessels but prominence and extent is the same or there is a one phase delay and decreased prominence (thinner vessels) / reduced number of vessels in some part of the territory occluded. University of Calgary classification score 3 (intermediate collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of one phase in filling in of peripheral vessels but prominence and extent is the same. University of Calgary classification score 4 (good collateral)
+
+Compared to asymptomatic contralateral hemisphere, there is no delay and normal or increased prominence of peripheral vessels/ normal extent within the occluded arteries territory within the symptomatic hemisphere. University of Calgary classification score 5 (good collateral)
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Acute ischemic stroke, right MCA territory, ASPECTS: 7, with good collateral (University of Calgary classification score 4)
+)
+  Paste(MyForm)
+Return
+
+::bctacol::
+  MyForm =
+(
+Compared to asymptomatic contralateral hemisphere there are just a few vessels visible in any phase within the occluded vascular territory. University of Calgary classification score 1 (poor collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of two phases in filling in of peripheral vessels and decreased prominence and extent or a one-phase delay and some regions with no vessels in some part of the territory occluded. University of Calgary classification score 2 (intermediate collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of two phases in filling in of peripheral vessels but prominence and extent is the same or there is a one phase delay and decreased prominence (thinner vessels) / reduced number of vessels in some part of the territory occluded. University of Calgary classification score 3 (intermediate collateral).
+
+Compared to asymptomatic contralateral hemisphere there is a delay of one phase in filling in of peripheral vessels but prominence and extent is the same. University of Calgary classification score 4 (good collateral)
+
+Compared to asymptomatic contralateral hemisphere, there is no delay and normal or increased prominence of peripheral vessels/ normal extent within the occluded arteries territory within the symptomatic hemisphere. University of Calgary classification score 5 (good collateral)
+)
+  Paste(MyForm)
+Return

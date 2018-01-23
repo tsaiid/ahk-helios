@@ -24,3 +24,25 @@ Right Colles fracture, with intra-articular involvement.
 )
   Paste(MyForm)
 Return
+
+;; CT Extremity - Lower Limbs
+::ectl::
+  MyForm =
+(
+CT Lower Extremity:
+Scanning from thigh to foot, axial, coronal, sagittal, and 3D VRT views
+
+)
+  Paste(MyForm)
+Return
+
+;; CT Extremity - Upper Limbs
+::ectu::
+  MyForm =
+(
+CT Upper Extremity:
+Scanning from arm to finger, axial, coronal, sagittal, and 3D VRT views
+
+)
+  Paste(MyForm)
+Return

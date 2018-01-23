@@ -35,7 +35,12 @@ Return
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
 ::mrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
+::actraa::A __-cm fat-containing enhancing nodular lesion at the right adrenal, in favor of adenoma.
+::actlaa::A __-cm fat-containing enhancing nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
+::actrkaml::A __-cm fat-containing tumor at the right kidney, in favor of angiomyolipoma.
+::actlkaml::A __-cm fat-containing tumor at the left kidney, in favor of angiomyolipoma.
+::actbkaml::Fat-containing tumors at the both kidneys, size up to __ cm, in favor of angiomyolipomas.
 ::actns::No evidence of high-attenuation stone along the urinary tracts.
 ::actbph::Prostate enlargement with intravesical protrusion.
 ::aphe::arterial phase hyperenhancement
@@ -94,6 +99,32 @@ The lungs covered in the scanning range are normal.
   MyForm =
 (
 C/W acute appendicitis.
+)
+  Paste(MyForm)
+Return
+
+::actappr::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+The appendix is swollen, with severe mesoappendiceal fatty stranding. Its mucosa is discontinuous and some adjacent fluid collections are noted. These findings are suggestive of acute appendicitis with rupture.
+
+The liver, spleen, pancreas, adrenals, and kidneys are normal.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are normal.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+C/W acute appendicitis with rupture.
 )
   Paste(MyForm)
 Return
@@ -440,6 +471,40 @@ IMPRESSION:
 
 SUGGESTION:
 
+)
+  Paste(MyForm)
+Return
+
+::act+l::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Neck to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous CT: none.
+
+FINDINGS:
+- Lung nodule or mass: negative
+- Lung parenchyma and airway: unremarkable
+- Mediastinum: unremarkable
+- Pleura: unremarkable
+- Pericardium and heart: unremarkable
+- Aorta and pulmonary artery: unremarkable
+
+- Liver: unremarkable
+- Spleen: unremarkable
+- Biliary tree: unremarkable
+- Pancreas: unremarkable
+- GI Tracts: unremarkable
+- Adrenals: unremarkable
+- Kidneys and ureters: unremarkable
+- Urinary Bladder: unremarkable
+
+- Lymph node enlargement > 1 cm: No mediastinal, retroperitoneal, or mesenteric lymphadenopathy.
+
+- Bony structure: unremarkable
 )
   Paste(MyForm)
 Return

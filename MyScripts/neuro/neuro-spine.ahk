@@ -49,7 +49,7 @@ Return
   MyForm =
 (
 Noncontrast CT of C-spine was performed with a multi-slice CT scanner:
-SCAN RANGE: axial plane performed from C1 to T1, and oblique axial reconstruction from C1 to C2 with 2-mm and C3 to T1 with 3-mm continuous scan slice thickness, and with sagittal and coronal reconstruction 3-mm continuous scan slice thickness
+SCAN RANGE: axial plane performed from C1 to T1 with 3-mm continuous scan, and with sagittal and coronal reconstruction 3-mm continuous scan slice thickness
 
 Previous CT of C-spine: no
 
@@ -65,9 +65,35 @@ The spinal cord and disc condition cannot be well evaluated in this noncontrast 
 
 Due to streak artifact in the cervico-thoracic junction noted, this area couldn't be well evaluated by the CT scan.
 
+The lungs covered in the scanning range are normal.
+
 IMPRESSION:
 No obvious fracture-dislocation of the C-spine noted.
 Others as the above descriptions.
+)
+  Paste(MyForm)
+Return
+
+::ctts1::
+  MyForm =
+(
+Noncontrast CT of T-spine was performed with a multi-slice CT scanner:
+SCAN RANGE: axial plane performed from C7 to L1, and sagittal and coronal reconstruction 5-mm continuous scan slice thickness
+
+Previous CT of T-spine: no
+
+FINDINGS:
+No obvious fracture-dislocation of the T-spine noted.
+
+No evident hyperdense hematoma in the prevertebral region and epidural space noted.
+
+The lungs covered in the scanning range are normal.
+
+*The evaluation of spinal cord and disc condition is limited in noncontrast CT scan.
+
+
+IMPRESSION:
+No obvious fracture-dislocation of the T-spine noted.
 )
   Paste(MyForm)
 Return

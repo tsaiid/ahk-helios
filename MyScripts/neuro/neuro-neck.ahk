@@ -7,7 +7,7 @@
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast and (2) Contrast-enhanced
-scanning in axial plane from skull base to thoracic inlet with 5-mm-thick contiguous slices and coronal reformatted images.
+scanning in axial plane from skull base to thoracic inlet with 3-mm-thick contiguous slices and coronal reformatted images.
 Contrast medium: intravenous route, volume: 60 mL, rate: 1.0 mL/sec
 
 COMPARISON:
