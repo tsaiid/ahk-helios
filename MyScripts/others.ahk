@@ -6,7 +6,7 @@
 ::cpf::compression fracture
 ::cmf::comminuted fracture `
 ::cal::calcification
-::si::(Ser/Img: ){Left}
+::si::(Se/Im: ){Left}
 ::sao::small amount of `
 ::smao::small to moderate amount of `
 ::mao::moderate amount of `

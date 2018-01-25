@@ -64,12 +64,11 @@
 ::aa::arteries
 ::v::vein
 ::impr::improvement
+::neo::no evidence of `
+::nseo::no strong evidence of `
 
 ;; Bone
 ::pf::patellofemoral `
-::gbs::gallbladder stone
-::gbss::gallbladder stones
-::neo::no evidence of `
 ::plf::posterolateral fusion mass
 ::ddh::developmental dysplasia of the hip
 ::mcl::medial collateral ligament
@@ -121,6 +120,8 @@
 ::ima::inferior mesenteric artery
 ::iud::intrauterine device
 ::gb::gallbladder
+::gbs::gallbladder stone
+::gbss::gallbladder stones
 ::cbd::common bile duct
 ::chd::common hepatic duct
 ::ihd::intrahepatic duct
@@ -155,6 +156,9 @@
 ::uc::urothelial carcinoma
 ::uti::urinary tract infection
 ::ou::obstructive uropathy
+::bti::biliary tract infection
+::hc::hepatic cyst
+::hcs::hepatic cysts
 
 ;; Neuro
 ::ich::intracranial hemorrhage
