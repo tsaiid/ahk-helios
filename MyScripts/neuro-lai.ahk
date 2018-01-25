@@ -57,14 +57,12 @@ Return
 
 ;; MRSE
 ::mrse::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-MRI of the sella performed with Sagittal T1WI (localizer)
-Sagittal  T1WI and T2WI
-Coronal T1WI and T2WI
-Post contrast dynamic and conventional T1WI with Fat sat showed:
+MRI of the sella performed with:
+- Axial T2WI for whole brain
+- Sagittal and Coronal T1WI
+- Post contrast dynamic Coronal and conventional Sagittal T1WI
 
 PREVIOUS MRI of the sella: no
 
@@ -88,7 +86,7 @@ No evidence of mass lesion on the sellar or suprasellar or hypothalamus regions.
 
 No evidence of abnormal enhancing mass lesion noted over the suprasellar region noted.
 
-No evidence of hyposignal intensity nodule noted within the pituitary gland in the conventional and dynamic scan. Suggest correlate with prolatin level.
+No evidence of low signal intensity nodule noted within the pituitary gland in the conventional and dynamic scan. Suggest correlate with prolactin level.
 
 1. Presence of enhanced cystic/mass lesion over sellar and suprasellar arer, size about---------cm.
 2. Pituitary gland height about--------mm.
@@ -113,10 +111,8 @@ Return
 
 ;; MRSE1
 ::mrse1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the sella performed with
 Sagittal T1WI (localizer)
 Sagittal T1WI and T2WI
@@ -130,8 +126,6 @@ FINDINGS:
 3. No evidence of mass lesion on the sellar or suprasellar or hypothalamus regions.
 4. Presence of hyposignal intensity nodule over the right/left pituitary gland in the conventional/dynamic scan.
 5. No evidence of hyposignal intensity nodule noted within the pituitary gland in the conventional and dynamic scan
-IMPRESSION:
-SUGGESTION:
 )
   Paste(MyForm)
 Return

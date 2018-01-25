@@ -239,12 +239,10 @@ carotid stenosis
   Paste(MyForm)
 Return
 
-;; srCTCS1
-::srctcs1::
-  MyOrder := CopyOrder()
+;; srCTCS2
+::srctcs2::
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner;
 Non-contrast axial contiguous scanning of cervical spine with sagittal and coronal reformatted images
@@ -326,12 +324,10 @@ Return
 
 ;; srCTN2
 ::srctn2::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
-Multi-slice CT scanner without contrast medium in axial plane from skull base to vertex with 4 to 5-mm-thick contiguous slices
+Multi-slice CT scanner without contrast medium in axial plane from skull base to vertex with 5-mm-thick contiguous slices
 
 COMPARISON:
 Applicable previous CT of brain: none

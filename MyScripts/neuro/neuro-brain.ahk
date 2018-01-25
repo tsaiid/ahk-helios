@@ -141,6 +141,7 @@ No obvious fracture of the skull base and the skull.
   SleepThenTab()
   MyForm =
 (
+No definite acute ICH, EDH, SDH.
 No remarkable intracranial findings on noncontrast CT.
 )
   Paste(MyForm)

@@ -44,8 +44,8 @@ The aim of this CT study is to evaluate ---------------
 Return
 
 
-;; CTCS1
-::ctcs1::
+;; CTCS2
+::ctcs2::
   MyForm =
 (
 Noncontrast CT of C-spine was performed with a multi-slice CT scanner:
@@ -243,14 +243,14 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
-;; MRSPT
-::mrspt::
+;; MRSPT2
+::mrspt2::
   MyForm =
 (
 The MRI of the T-spine performed:
-Coronal T2WI with fat sat (localized)
-Sagittal TI, T2WI
-Axial T1WI and T2WI with fat sat:
+- Coronal T2WI with fat sat
+- Sagittal TI, T2WI
+- Axial T1WI and T2WI
 
 PREVIOUS MRI of T-spine: no
 
@@ -291,8 +291,6 @@ Presence of diffuse bulging disc noted over the T12-L1 region, and causing mild 
 
 IMPRESSION:
 No evidence of abnormal signal intensity lesion over the spinal canal of the lower C-spine and T-spine region noted.
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

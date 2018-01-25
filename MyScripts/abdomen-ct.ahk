@@ -49,6 +49,7 @@ Return
 ::actmfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
 ::actc::Irregular surface of the liver with nodularities, indicating liver cirrhosis.
 ::actcc::Wall thickening of the urinary bladder with trabeculation, suggestive of chronic cystitis.
+::nifa::No evidence of intraperitoneal free air.
 
 ::actok1::
   MyForm =
@@ -87,7 +88,10 @@ Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
-A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fatty stranding, c/w acute appendicitis.
+A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
+Small amount of ascites in the rectovesical pouch.
+Small amount of ascites in the Cul-de-sac.
+No evidence of intraperitoneal free air.
 
 The liver, spleen, pancreas, adrenals, and kidneys are normal.
 The pelvis are normal.
@@ -479,7 +483,7 @@ Return
   MyForm =
 (
 METHOD:
-Non-contrast and contrast-enhanced abdominal CT scans.
+Non-contrast and contrast-enhanced chest and abdominal CT scans.
 Scanning range: Neck to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
