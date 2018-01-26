@@ -155,3 +155,20 @@ Return
 ::rcs::Some renal cysts in both kidneys, size up to  cm.{Left 4}
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
+
+; 資源共享
+::share::
+  MyForm =
+(
+The study has been uploaded to our PACS system.
+Original report has been attached as a picture file.
+For second opinion, please submit a formal consultation request to our department.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+The study has been uploaded to our PACS system.
+)
+  Paste(MyForm)
+Return

@@ -89,13 +89,16 @@
 ::sl0::Scoliosis of L-spine.
 ::sll::Scoliosis of L-spine with convexity to the left.
 ::slr::Scoliosis of L-spine with convexity to the right.
+::msl0::Mild scoliosis of L-spine.
+::msll::Mild scoliosis of L-spine with convexity to the left.
+::mslr::Mild scoliosis of L-spine with convexity to the right.
 ::st0::Scoliosis of T-spine.
 ::stl::Scoliosis of T-spine with convexity to the left.
 ::str::Scoliosis of T-spine with convexity to the right.
-::msll::Mild scoliosis of L-spine with convexity to the left.
-::mslr::Mild scoliosis of L-spine with convexity to the right.
+::mst0::Mild coliosis of T-spine.
 ::mstl::Mild scoliosis of T-spine with convexity to the left.
 ::mstr::Mild scoliosis of T-spine with convexity to the right.
+::stl0::Scoliosis of T- and L-spine.
 ::pi::ill-defined pulmonary infiltration over `
 ::pi0::pulmonary infiltration
 ::po::patch opacity
