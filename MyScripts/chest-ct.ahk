@@ -74,6 +74,33 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+::cctncsd+a::
+  MyForm =
+(
+CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
+
+METHOD:
+  - (1) Noncontrast survey
+  - Scan range: lower neck to hip
+
+COMPARISON:
+Applicable previous CT of chest: no
+Applicable previous CT of abdomen: no
+
+FINDINGS:
+1. Lung and large airways: no pulmonary nodules.
+2. Pleura: no visible nodularity or pleural thickening.
+3. Great vessels: within normal limits.
+4. Heart: within normal limits.
+5. Mediastinum and hila: no LNs > 1 cm.
+6. Chest Wall and low neck: within normal limits.
+7. Abdomen: within normal limits in visualized range.
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+Return
+
 ;; NCLD
 ::cctncld::
   MyOrder := CopyOrder()

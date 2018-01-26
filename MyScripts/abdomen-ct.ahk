@@ -133,18 +133,43 @@ C/W acute appendicitis with rupture.
   Paste(MyForm)
 Return
 
+::actad::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with early arterial and delayed phases.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable.
+
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return
+
 ::acthcc::
   MyForm =
 (
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
 Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with arterial and portovenous phases.
 
 Previous abdominal CT: none.
 
 FINDINGS:
-
 Liver: tumor profiles:
 number: two
 segment, size: S5 and S8 ( 2.5 and 1.4 cm)
@@ -321,25 +346,31 @@ FINDINGS:
   Paste(MyForm)
 Return
 
-::actad::
-  MyOrder := CopyOrder()
+::actnck::
   MyForm =
 (
-INDICATION: %MyOrder%
-
 METHOD:
-Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 3-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Non-contrast enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
 
 Previous abdominal CT: none.
 
 FINDINGS:
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
 
-IMPRESSION:
+Adrenals: Unremarkable
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+GI tract: Unremarkable
 
-SUGGESTION:
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
+Lower lungs: Unremarkable
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return

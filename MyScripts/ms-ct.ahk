@@ -32,6 +32,7 @@ Return
 CT Lower Extremity:
 Scanning from thigh to foot, axial, coronal, sagittal, and 3D VRT views
 
+FINDINGS:
 )
   Paste(MyForm)
 Return
@@ -43,6 +44,7 @@ Return
 CT Upper Extremity:
 Scanning from arm to finger, axial, coronal, sagittal, and 3D VRT views
 
+FINDINGS:
 )
   Paste(MyForm)
 Return
