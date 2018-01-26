@@ -141,6 +141,11 @@ Return
 Return
 
 ; Unorder Seleted Text
+^+u::
+  ReorderSeletedText(false, false, "-")
+Return
+
+; Unorder Seleted Text
 ^!u::
   ReorderSeletedText(false, true, "-")
 Return
