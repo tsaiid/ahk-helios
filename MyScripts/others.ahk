@@ -102,6 +102,8 @@ Return
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
 
+;; Limitations
+::olnd::However, the obstruction level cannot be demonstrated in this study.
 
 ::sgo::suggestive of `
 ::obv::obvious
@@ -144,7 +146,7 @@ Return
 ::fac::fluid accumulation
 ::me::mediastinum
 ::fa::free air
-::fs::fatty stranding
+::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
