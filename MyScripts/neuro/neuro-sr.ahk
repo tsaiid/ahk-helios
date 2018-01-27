@@ -60,36 +60,38 @@ COMPARISON:
 Applicable previous CT of face: none
 
 FINDINGS:
+- Facial bones, right side
+  > Frontal bone: normal
+  > Ethmoid bone: normal
+  > Bony orbit: normal
+  > Zygoma: normal
+  > Maxilla / Maxillary sinus: normal
+  > Pterygoid plates: normal
 
-*Facial bones, right side
+- Facial bones, left side
+  > Frontal bone: normal
+  > Ethmoid bone: normal
+  > Bony orbit: normal
+  > Zygoma: normal
+  > Maxilla / Maxillary sinus: normal
+  > Pterygoid plates: normal
 
-Frontal bone: normal
-Ethmoid bone: normal
-Bony orbit: normal
-Zygoma: normal
-Maxilla / Maxillary sinus: normal
-Pterygoid plates: normal
+- Mandible: normal
+- Nasal bone, septum and nasal cavity: normal
+- Sphenoid bones: normal
+- Temporal bones: normal
+- Parietal bones: normal
+- Occipital bones: normal
 
+- Hematoma: none / paranasal sinuses / nasal cavity / periorbital region / scalp / cheek
 
-*Facial bones, left side
-
-Frontal bone: normal
-Ethmoid bone: normal
-Bony orbit: normal
-Zygoma: normal
-Maxilla / Maxillary sinus: normal
-Pterygoid plates: normal
-
-*Mandible: normal
-*Nasal bone, septum and nasal cavity: normal
-*Sphenoid bones: normal
-*Temporal bones: normal
-*Parietal bones: normal
-*Occipital bones: normal
-
-*Hematoma: none / paranasal sinuses / nasal cavity / periorbital region / scalp / cheek
-
-*Others: none
+- Others: none
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of facial bone fracture.
 )
   Paste(MyForm)
 Return

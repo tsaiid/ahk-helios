@@ -1,24 +1,5 @@
 ﻿; Abdomen CT Forms
 
-;; General
-
-::act::
-  MyForm =
-(
-METHOD:
-Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
-
-Previous abdominal CT: none.
-
-FINDINGS:
-
-)
-  Paste(MyForm)
-Return
-
-
 ;; Hotstrings
 ::lapok::No retroperitoneal or mesenteric lymphadenopathy.
 ::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
@@ -53,13 +34,58 @@ Return
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
 
+
+;; forms
+::act::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+
+)
+  Paste(MyForm)
+Return
+
+::actsr::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Adrenals: Unremarkable
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+GI tract: Unremarkable
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return
+
 ::actok1::
   MyForm =
 (
-The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
-The lower abdomen and pelvis are normal.
+The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
+The lower abdomen and pelvis are unremarkable.
 No retroperitoneal or mesenteric lymphadenopathy.
-The lungs covered in the scanning range are normal.
+The lungs covered in the scanning range are unremarkable.
 )
   Paste(MyForm)
 Return

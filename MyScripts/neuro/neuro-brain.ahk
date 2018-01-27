@@ -142,6 +142,7 @@ No obvious fracture of the skull base and the skull.
   MyForm =
 (
 No definite acute ICH, EDH, SDH.
+No evident acute intracranial finding.
 No remarkable intracranial findings on noncontrast CT.
 )
   Paste(MyForm)
@@ -173,7 +174,7 @@ Return
 ::ct3d::
   MyForm =
 (
-Noncontrast CT scan of the face and skull, with thin slice 2 mm, and post reconstruction 3D display.
+Noncontrast CT scan of the face and skull, with thin slice 3 mm, and post reconstruction 3D display.
 
 COMPARISON:
 Applicable previous 3D-CT of face: no
