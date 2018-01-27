@@ -54,7 +54,7 @@
 ::ned::no evidence of disease.
 ::ner::no evidence of local recurrence.
 ::hx::history `
-::subq::subcutaneous `
+::sq::subcutaneous `
 ::afl::air-fluid level
 ::c::contrast medium
 ::wnl::within normal limits
@@ -174,6 +174,7 @@
 ::aca::anterior cerebral artery
 ::pca::posterior cerebral artery
 ::va::vertebral artery
+::gp::globus pallidus
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

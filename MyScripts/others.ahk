@@ -73,6 +73,7 @@
 ::fb::foreign body
 ::ld::low density
 ::pbi::previous brain insults
+::ech::edematous change
 
 ::pl::possibly `
 ::pb::probably `
@@ -101,6 +102,8 @@ Return
 ::fu0::follow-up
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
+::csono::Suggest correlate with sonography.
+::ctrus::Suggest correlate with transrectal ultrasonography.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
