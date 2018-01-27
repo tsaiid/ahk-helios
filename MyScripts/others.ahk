@@ -102,6 +102,8 @@ Return
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
 
+;; Limitations
+::olnd::However, the obstruction level cannot be demonstrated in this study.
 
 ::sgo::suggestive of `
 ::obv::obvious
@@ -144,7 +146,7 @@ Return
 ::fac::fluid accumulation
 ::me::mediastinum
 ::fa::free air
-::fs::fatty stranding
+::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
@@ -155,3 +157,20 @@ Return
 ::rcs::Some renal cysts in both kidneys, size up to  cm.{Left 4}
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
+
+; 資源共享
+::share::
+  MyForm =
+(
+The study has been uploaded to our PACS system.
+Original report has been attached as a picture file.
+For second opinion, please submit a formal consultation request to our department.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+The study has been uploaded to our PACS system.
+)
+  Paste(MyForm)
+Return

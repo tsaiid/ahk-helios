@@ -60,6 +60,37 @@
 ::calspp::Presence of calcaneal spur at the insertion of the plantar fascia.
 ::calspa::Presence of calcaneal spur at the insertion of the Achilles tendon.
 ::nabl::No active bone lesion.
+
+;; Fractures
+::orif::s/p screw and plate fixation.
+::fr::fracture
+::frs::fractures
+::clfr::clavicular fracture
+::afr::avulsion fracture
+::pfr::pathologic fracture
+::lfr::linear fracture
+::hs::in healing stage
+::bu::bone union
+::mu::malunion
+::pbu::partial bone union
+::rpcf::Right proximal third clavicular fracture.
+::lpcf::Left proximal third clavicular fracture.
+::rmcf::Right middle third clavicular fracture.
+::lmcf::Left middle third clavicular fracture.
+::rdcf::Right distal third clavicular fracture.
+::ldcf::Left distal third clavicular fracture.
+::rfnf::Right femoral neck fracture.
+::lfnf::Left femoral neck fracture.
+::usfr::ulnar styloid process fracture.
+::lhsfr::left humeral shaft fracture.
+::rhsfr::right humeral shaft fracture.
+::lphfr::left proximal humeral fracture.
+::rphfr::right proximal humeral fracture.
+
+;; Prosthesis
+::rdhs::s/p right dynamic hip screw fixation.
+::ldhs::s/p left dynamic hip screw fixation.
+::bdhs::s/p bilateral dynamic hip screw fixation.
 ::rthr::s/p right total hip replacement.
 ::lthr::s/p left total hip replacement.
 ::bthr::s/p bilateral total hip replacements.
@@ -77,35 +108,13 @@
 ::btka::s/p bilateral total knee arthroplasties.
 ::btka0::s/p bilateral total knee arthroplasty.{Enter}A drain at bilateral knee region.
 ::btka1::s/p bilateral total knee arthroplasty, without loosening.
-::orif::s/p screw and plate fixation.
-::fr::fracture
-::frs::fractures
-::clfr::clavicular fracture
-::afr::avulsion fracture
-::pfr::pathologic fracture
-::lfr::linear fracture
-::rpcf::Right proximal third clavicular fracture.
-::lpcf::Left proximal third clavicular fracture.
-::rmcf::Right middle third clavicular fracture.
-::lmcf::Left middle third clavicular fracture.
-::rdcf::Right distal third clavicular fracture.
-::ldcf::Left distal third clavicular fracture.
-::rfnf::Right femoral neck fracture.
-::lfnf::Left femoral neck fracture.
-::usfr::ulnar styloid process fracture.
-::rdhs::s/p right dynamic hip screw fixation.
-::ldhs::s/p left dynamic hip screw fixation.
-::bdhs::s/p bilateral dynamic hip screw fixation.
+
 ::js::joint space
 ::jsn::joint space narrowing
 ::jsw::joint space widening
 ::ds::disc space
 ::dsn::disc space narrowing `
 ::mof::marginal osteophyte formation
-::hs::in healing stage
-::bu::bone union
-::mu::malunion
-::pbu::partial bone union
 ::wol::without loosening.
 ::anb::accessory navicular bone
 ::l4::Sacralization of L5 vertebra.

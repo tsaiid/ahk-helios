@@ -4,6 +4,7 @@
 ::6mcct::Follow up chest CT scan 6 months later.
 ::csono::Suggest correlate with sonography.
 ::tacal::Atherosclerotic change and calcification of aortic wall.
+::mtacal::Mild atherosclerotic change and calcification of aortic wall.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
 
@@ -59,6 +60,33 @@ METHOD:
 
 COMPARISON:
 Applicable previous CT of chest: no
+
+FINDINGS:
+1. Lung and large airways: no pulmonary nodules.
+2. Pleura: no visible nodularity or pleural thickening.
+3. Great vessels: within normal limits.
+4. Heart: within normal limits.
+5. Mediastinum and hila: no LNs > 1 cm.
+6. Chest Wall and low neck: within normal limits.
+7. Abdomen: within normal limits in visualized range.
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+Return
+
+::cctncsd+a::
+  MyForm =
+(
+CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
+
+METHOD:
+  - (1) Noncontrast survey
+  - Scan range: lower neck to hip
+
+COMPARISON:
+Applicable previous CT of chest: no
+Applicable previous CT of abdomen: no
 
 FINDINGS:
 1. Lung and large airways: no pulmonary nodules.
@@ -255,18 +283,15 @@ Return
 
 ;; Esophageal cancer, staging
 ::cctecs::
-  MyOrder := CopyOrder()
   MyForm =
 (
 CT scan of the thorax was performed with a MDCT scanner.
 
 PROTOCOL:
-METHOD: (1) HRCT (2) NCCT (3) CECT were performed
+METHOD: (1) NCCT (2) CECT were performed
 SCAN RANGE: lower neck to adrenal gland
 
-INDICATION: %MyOrder%
-
-Date of previous chest CT scan: YYYY/MM/DD
+Previous chest CT scan: no
 
 FINDINGS:
 1. TUMOR LOCATION
@@ -287,17 +312,19 @@ posterior wall of trachea(+), posterior wall of main bronchus(+),
 4. REGIONAL NODAL METASTASIS
 --- No or Equivocal
 --- Yes, if yes
----Number of suspicious lymph node: 1-2 (N1), 3-6 (N2), or >7 (N3)
+--- Number of suspicious lymph node: 1-2 (N1), 3-6 (N2), or >7 (N3)
 --- Location (specified as below):
 Lower cervical(+), supraclavicular(+), and sternal notch (+),
-Right upper Paratracheal (+), Left upper paratracheal (+),
+Right upper paratracheal (+), Left upper paratracheal (+),
 Right lower paratracheal (+), Left lower paratracheal (+),
 Prevascular (+), Retrotracheal (+),
 Subaortic (A-P window) (+), Paraaortic (ascending aorta or phrenic) (+),
 Subcarinal (+), Paraesophageal(+),
 Right Hilar (+), Left Hilar (+),
+Right cardiac, Left cardiac
+Lesser curvature
+Left gastric artery
 
-Others:
 5. DISTANT METASTASIS (IN THIS STUDY)
 --- No or Equivocal
 --- Yes, location: _________
@@ -305,10 +332,6 @@ Others:
 
 IMPRESSION:
 (1) Esophageal CA of , cTNM. (AJCC 2009, 7th ed.)
-(2)
-(3)
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return
