@@ -63,12 +63,12 @@ Return
 Return
 
 ;; Move current line up
-^Up::
+!Up::
   SendEvent {Home}+{End}^x{Up}^v{Up}
 Return
 
 ;; Move current line down
-^Down::
+!Down::
   SendEvent {Home}+{End}^x{Down}^v{Up}
 Return
 
