@@ -28,6 +28,7 @@
 ::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 ::sdsa::Suggest correlate with DSA if clinically indicated.
 ::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
+::pfsdh::Presence of a acute hematoma extending over the left side of falx cerebri, suggestive of an acute parafalcine SDH.
 
 ::neclnok::
   MyForm =
@@ -128,6 +129,34 @@ FINDINGS:
 (
 1. No evidence of cochlear aplasia, cochlear nerve agenesis, or other malformations.
 2. Left mastoiditis or fluid collection.
+)
+  Paste(MyForm)
+Return
+
+::mricvaok::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+Findings:
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of high signal intensity on DWI suggesting acute or recent ischemia infarction in the brain noted.
 )
   Paste(MyForm)
 Return

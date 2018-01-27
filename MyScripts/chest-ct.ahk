@@ -192,14 +192,11 @@ Return
 
 ;; Lung cancer, staging
 ::cctlcs::
-  MyOrder := CopyOrder()
   MyForm =
 (
 CT scan of the thorax was performed with a MDCT scanner.
-METHOD: (1) HRCT (2) NCCT (3) CECT were performed
+METHOD: (1) NCCT (2) CECT were performed
 SCAN RANGE: lower neck to adrenal gland
-
-INDICATION: %MyOrder%
 
 PREVIOUS CHEST CT SCAN: Not available.
 
@@ -207,48 +204,51 @@ FINDINGS:
 A. Tumor Profile
 (1) Tumor Location:
 (2) Tumor Size & Invasion (T):
---- Greatest Diamter (cm):
---- Tumor <= 2cm (T1a)
---- 2cm < Tumor <= 3cm (T1b)
---- 3cm < Tumor <= 5cm (T2a)
---- 5cm < Tumor <= 7cm (T2b)
---- Tumor > 7cm (T3)
+--- Greatest Diameter (cm):
+* Tumor <= 1 cm (T1a)
+* 1 cm < Tumor <= 2 cm (T1b)
+* 2 cm < Tumor <= 3 cm (T1c)
+* 3 cm < Tumor <= 4 cm (T2a)
+* 4 cm < Tumor <= 5 cm (T2b)
+* 5 cm < Tumor <= 7 cm (T3)
+* Tumor < 7 cm (T4)
 
---- Surrounded by lung or visceral pleura (T1)
---- Invades visceral pleura (T2)
---- Invades chest wall, diaphragm, phrenic nerve, mediasinal pleura, parietal pericardium (T3)
---- Invades mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina (T4)
+* Not more proximal than main bronchus (T1)
 
---- Not more proximal than lobar bronchus (T1)
---- Involves main bronchus, >= 2cm from carina (T2)
---- Tumor in the main bronchus( < 2cm from carina) (T3)
+* Involves main bronchus (T2)
+* Invades visceral pleura (T2)
+* Focal atelectasis or obstructive pneumonitis to hilum (T2)
+* Involves part or anterior longitudinal ligament of the lung (T2)
 
---- Focal atelectasis or obstructive pneumonitis to hilum (T2)
---- Atelectasis of entire lung (T3)
 
---- Separate tumor nodule(s) in same lobe (T3)
---- Separate tumor nodule(s) in a different lobe (T4)
+* Invades parietal pleura, chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium (T3)
+* Separate tumor nodule(s) in same lobe (T3)
+
+* Invades mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina (T4)
+* Separate tumor nodule(s) in a different ipsilateral lobe (T4)
 
 (3) Regional Lymph Nodes (N)
---- No regional lymph node metastasis (N0)
---- Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension (N1)
---- Metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s) (N2)
---- Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s) (N3)
+* No regional lymph node metastasis (N0)
+* Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension (N1)
+* Metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s) (N2)
+* Metastasis in contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph node(s) (N3)
 
 (4) Distant Metastasis (M)
---- M0: no evidence in the scanned range (M0)
---- Separate tumor nodule(s) in a contralateral lobe (M1a)
---- Tumor with pleural nodules or malignant pleural (or pericardial) effusion (M1a)
---- Distant metastasis (M1b) at *
---- Uncertain lesion in the scanned range, which could be metastatic lesion or not, and    require further study (Mx)
+* No evidence in the scanned range (M0)
+* Separate tumor nodule(s) in a contralateral lobe (M1a)
+* Tumor with pleural or pericardial nodules, or malignant pleural (or pericardial) effusion (M1a)
+* Single extrathoracic metastasis in a single organ (M1b):
+* Multiple extrathoracic metastasis in a single organ or multiple organs (M1c):
+* Uncertain lesion in the scanned range, which could be metastatic lesion or not, and    require further study (Mx)
 
 B. Other Findings
 
-
-IMPRESSION:
-(1) Lung cancer of , cTNM (AJCC 2009, 7th ed.) if proved
-
-SUGGESTION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Lung cancer of , cTNM (AJCC 2016, 8th ed.) if proved
 )
   Paste(MyForm)
 Return

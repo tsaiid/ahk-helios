@@ -50,6 +50,8 @@ Return
 ::actc::Irregular surface of the liver with nodularities, indicating liver cirrhosis.
 ::actcc::Wall thickening of the urinary bladder with trabeculation, suggestive of chronic cystitis.
 ::nifa::No evidence of intraperitoneal free air.
+::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
+::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
 
 ::actok1::
   MyForm =
@@ -144,7 +146,6 @@ Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with arterial and portovenous phase
 Previous abdominal CT: none.
 
 FINDINGS:
-
 Liver: tumor profiles:
 number: two
 segment, size: S5 and S8 ( 2.5 and 1.4 cm)
@@ -199,6 +200,49 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
+)
+  Paste(MyForm)
+Return
+
+::actctsi::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Pancreas:
+
+Modified CTSI score:
+Pancreatic inflammation
+0: normal pancreas
+2: intrinsic pancreatic abnormalities with or without inflammatory changes in peripancreatic fat
+4: pancreatic or peripancreatic fluid collection or peripancreatic fat necrosis
+Pancreatic necrosis
+0: none
+2: 30`% or less
+4: more than 30`%
+
+Biliary tree:
+No evidence of high-attenuation gallstone.
+No biliary tree dilatation.
+S/P cholecystectomy.
+
+Regional lymphadenopathy: No
+Non-regional lymphadenopathy: No
+
+Liver: Unremarkable
+Spleen: Unremarkable
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+GI tract: Unremarkable
+
+Lower lungs: Unremarkable
+Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
 Return
@@ -344,7 +388,7 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
-::actcrc::
+::actcrcs::
   MyOrder := CopyOrder()
   MyForm =
 (
