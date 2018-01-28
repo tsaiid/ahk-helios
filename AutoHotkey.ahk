@@ -73,6 +73,7 @@ PRESERVE_CLIPBOARD := 0
   #Include MyScripts\ugi-small-intestine.ahk
   #Include MyScripts\intravenous-pyelogram.ahk
   #Include MyScripts\special.ahk
+  #Include MyScripts\angio.ahk
 
   #Include MyScripts\ms-mri.ahk
   #Include MyScripts\ms-ct.ahk
