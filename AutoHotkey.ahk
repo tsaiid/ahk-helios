@@ -106,6 +106,7 @@ SetTitleMatchMode, 2
 #Include MyScripts\hotkey\get-mesa-scale.ahk
 #Include MyScripts\hotkey\open-in-osirix.ahk
 #Include MyScripts\hotkey\copy-helios-report-into-notepad.ahk
+#Include MyScripts\hotkey\backup-helios-report-to-file.ahk
 
 ; Previously enabled but now disabled functions
 ;; The checking mechanism changed. No need to active current image before submitting since 2014-02.

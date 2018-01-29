@@ -72,6 +72,12 @@ Return
   SendEvent {Home}+{End}^x{Down}^v{Up}
 Return
 
+; Backup Report Before Confilm
+!c::
+  BackupHeliosReportToFile()
+  SendEvent !c
+Return
+
 #IfWinActive
 
 ; Need to handle the global hotkey ^t from Helios
