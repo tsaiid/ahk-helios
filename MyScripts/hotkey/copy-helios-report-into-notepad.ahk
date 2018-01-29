@@ -15,11 +15,26 @@ CopyHeliosReportIntoNotepad() {
     findingText := Acc_Get("Value", "4.9.30.1", 0, "ahk_id " hWnd)
     impText := Acc_Get("Value", "4.9.33", 0, "ahk_id " hWnd)
 
-    ; windows styly newline
-    findingText := RegExReplace(findingText, "(?<!\r)\n", "`r`n")
-    impText := RegExReplace(impText, "(?<!\r)\n", "`r`n")
+    finalText =
+(
+****
+# %ptID%
+# %ptName%
+# %ptSexAge%
+# %examDate%
+# %examName%
 
-    finalText = %ptID% %ptName% %ptSexAge% %examDate% %examName%`r`n`r`n----`r`n%findingText%`r`n`r`n====`r`n%impText%
+-- F: --
+%findingText%
+
+== I: ==
+%impText%
+)
+
+
+    ; windows styly newline
+    finalText := RegExReplace(finalText, "(?<!\r)\n", "`r`n")
+
     Clipboard := finalText
 
     Run, Notepad.exe, , , notepadPID
