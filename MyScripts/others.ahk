@@ -6,7 +6,7 @@
 ::cpf::compression fracture
 ::cmf::comminuted fracture `
 ::cal::calcification
-::si::(Se/Im: ){Left}
+::si::(Ser/Img: ){Left}
 ::sao::small amount of `
 ::smao::small to moderate amount of `
 ::mao::moderate amount of `
@@ -23,7 +23,7 @@
 ::i::increased `
 ::d::decreased `
 ::e::enhancement
-::ec::enhancing
+::ec::enhancing `
 ::rec::recurrence
 ::w::with `
 ::wo::without `
@@ -135,7 +135,7 @@ Return
 ::sp::suspicious `
 ::ic::inflammatory change
 ::cd::consolidation
-::nc::臨床不打藥
+::nc::noncontrast-enhanced study
 ::sc::surgical clips
 ::ss::surgical staples
 ::mrt::more on right side

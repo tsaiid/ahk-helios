@@ -175,6 +175,7 @@
 ::pca::posterior cerebral artery
 ::va::vertebral artery
 ::gp::globus pallidus
+::ica::internal carotid artery
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
