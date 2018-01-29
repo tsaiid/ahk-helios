@@ -119,10 +119,10 @@ FINDINGS:
 A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
 Small amount of ascites in the rectovesical pouch.
 Small amount of ascites in the Cul-de-sac.
+No obvious ascites is noted.
 No evidence of intraperitoneal free air.
 
 The liver, spleen, pancreas, adrenals, and kidneys are normal.
-The pelvis are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are normal.
 )
@@ -245,13 +245,24 @@ Return
 (
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
 Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 30 and 80 seconds scanning delay.
 
 Previous abdominal CT: none.
 
 FINDINGS:
+Pancreas: Unremarkable
 
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable.
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
 )
   Paste(MyForm)
 Return

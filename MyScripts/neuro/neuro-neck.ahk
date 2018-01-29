@@ -172,27 +172,25 @@ PREVIOUS MRI of the skull base and neck: no
 PREVIOUS CT of the skull base and neck: no
 
 FINDINGS:
-
 1. Primary tumor status:
 
 2. Cervical nodes:
-a. No evidence of bulky lymph nodes over --------------- carotid space and --------------- posterior triangle of submandibular and neck regions was noted.
+No evidence of bulky lymph nodes over --------------- carotid space and --------------- posterior triangle of submandibular and neck regions was noted.
 
-b. Presence of several/multiple lymph nodes noted over --------------- carotid space and --------------- posterior triangle of submandibular and neck regions, the biggest size about --------  cm, R/O inflammatory or metastatic lymph nodes.
+Presence of several/multiple lymph nodes noted over --------------- carotid space and --------------- posterior triangle of submandibular and neck regions, the biggest size about --------  cm, R/O inflammatory or metastatic lymph nodes.
 
-c. Presence of several/multiple lymph nodes noted over ---------------, the biggest size about --------  cm, the differential diagnoses including lymphoma, metastasis, or inflammation, recommend biopsy or close follow up.
+Presence of several/multiple lymph nodes noted over ---------------, the biggest size about --------  cm, the differential diagnoses including lymphoma, metastasis, or inflammation, recommend biopsy or close follow up.
 
 3. Others:
-a. No evidence of enhanced mass lesion in the submandibular and neck region.
+No evidence of enhanced mass lesion in the submandibular and neck region.
 
-b. No particular findings of nasopharynx, parotid gland, and submandibular gland.
+No particular findings of nasopharynx, parotid gland, and submandibular gland.
 
-c. No particular findings of nasopharynx, parotid gland, submandibular gland, and thyroid gland.
+No particular findings of nasopharynx, parotid gland, submandibular gland, and thyroid gland.
 
-d. Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
+Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
 
-IMPRESSION:
-SUGGESTION:
+The visible brain is unremarkable.
 )
   Paste(MyForm)
 Return

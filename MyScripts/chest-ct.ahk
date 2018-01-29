@@ -94,7 +94,9 @@ FINDINGS:
 4. Heart: within normal limits.
 5. Mediastinum and hila: no LNs > 1 cm.
 6. Chest Wall and low neck: within normal limits.
-7. Abdomen: within normal limits in visualized range.
+7. Abdomen:
+  > The liver, spleen, pancreas, adrenals, kidneys, and pelvis are normal.
+  > No retroperitoneal or mesenteric lymphadenopathy.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
