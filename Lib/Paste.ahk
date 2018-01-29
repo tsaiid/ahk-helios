@@ -1,10 +1,14 @@
-﻿; Paste(text)
+﻿; Paste(text, convertCRLF)
 ; 在送出 Ctrl-V 貼上後，可能要給系統一些等待的時間，
 ; 如果直接把 Clipboard 復原，會貼到舊的內容
 ; Source: http://www.autohotkey.com/board/topic/44917-paste-but-preserve-clipboard-simple/
 
-Paste(text, alsoChangeFont = 0) {
+Paste(text, convertCRLF = True) {
   global PRESERVE_CLIPBOARD
+
+  If (convertCRLF) {
+    text := RegExReplace(text, "(?<!\r)\n", "`r`n")
+  }
 
   If (PRESERVE_CLIPBOARD) {
     ClipSaved := ClipboardAll
@@ -16,12 +20,6 @@ Paste(text, alsoChangeFont = 0) {
     Clipboard := text
     Send ^v
   }
-
-#IfWinActive ahk_group SmartWonder
-  If (alsoChangeFont) {
-    ChangeFont()
-  }
-#IfWinActive
 }
 
 ; 原本的方法以為：
