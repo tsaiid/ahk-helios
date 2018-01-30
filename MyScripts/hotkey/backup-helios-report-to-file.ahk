@@ -40,6 +40,7 @@ BackupHeliosReportToFile(fileName = "HeliosReportBackup.txt") {
     ; windows styly newline
     finalText := RegExReplace(finalText, "(?<!\r)\n", "`r`n")
 
+    FileEncoding, UTF-8
     FileAppend, %finalText%, %fileName%
     ;MsgBox % finalText
   } Else {
