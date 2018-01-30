@@ -4,18 +4,19 @@
 ::amrmrcp::
   MyForm =
 (
-MRI of the pancreas and biliary tree.
+MRI of the Liver and MRCP.
 
-Scanning Protocol:
- -Axi FSE T2+FS, 6-7mm/1mm
- -MRCP, thin 1.6mm/0.8m overlapped, MIP coronal reconstruction.
- -DWI
- -Cor FIESTA +FS, Large FOV
- -Axi Dynamic LAVA 3D, 0, 25, and 75 th seconds, 5-mm slice.
+SCANNING PROTOCOL:
+- Cor TrueFISP: whole abdomen
+- Axi, Cor TrueFISP thin slice
+- Axi TSE T2, T2+FS, DWI, ADC maps, T1+FS, T1 IP/OOP
+- MRCP, Axi, Cor, MIP reconstruction
+- Axi, Cor VIBE T1+FS
+- Cor DWI (b=400): whole abdomen
 
-Comparison:
+COMPARISON: no
 
-Findings:
+FINDINGS:
 
 )
   Paste(MyForm)
@@ -27,7 +28,7 @@ Return
 MRI of the prostate with 3T Skyra.
 
 SCANNING PROTOCOL:
-- Distended colon with jelly
+- Distended rectum with jelly
 - Abdomen and pelvis:
   * HASTE T2: axial, coronal
   * DWI: coronal
@@ -84,11 +85,36 @@ Others: unremarkable
 
 ----
 PI-RADS v2 Assessment Categories:
-* PI-RADS 1 – Very low (clinically significant cancer is highly unlikely to be present)
-* PI-RADS 2 – Low (clinically significant cancer is unlikely to be present)
-* PI-RADS 3 – Intermediate (the presence of clinically significant cancer is equivocal)
-* PI-RADS 4 – High (clinically significant cancer is likely to be present)
-* PI-RADS 5 – Very high (clinically significant cancer is highly likely to be present)
+* PI-RADS 1 - Very low (clinically significant cancer is highly unlikely to be present)
+* PI-RADS 2 - Low (clinically significant cancer is unlikely to be present)
+* PI-RADS 3 - Intermediate (the presence of clinically significant cancer is equivocal)
+* PI-RADS 4 - High (clinically significant cancer is likely to be present)
+* PI-RADS 5 - Very high (clinically significant cancer is highly likely to be present)
+)
+  Paste(MyForm)
+Return
+
+::amrcx::
+  MyForm =
+(
+MRI of the Uterine Cervix.
+
+SCANNING PROTOCOL:
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * T2: axial, coronal
+  * DWI (b=400): coronal
+  * T1+C: axial
+- Uterus:
+  * TSE T2: axial, coronal, sagittal
+  * DWI (b=1000), ADC: axial
+  * T1+FS: axial, sagittal
+  * T1+C+FS: axial, coronal, sagittal
+
+COMPARISON: no
+
+FINDINGS:
+
 )
   Paste(MyForm)
 Return
@@ -140,11 +166,11 @@ Return
   MyForm =
 (
 PI-RADS v2 Assessment Categories:
-* PI-RADS 1 – Very low (clinically significant cancer is highly unlikely to be present)
-* PI-RADS 2 – Low (clinically significant cancer is unlikely to be present)
-* PI-RADS 3 – Intermediate (the presence of clinically significant cancer is equivocal)
-* PI-RADS 4 – High (clinically significant cancer is likely to be present)
-* PI-RADS 5 – Very high (clinically significant cancer is highly likely to be present)
+* PI-RADS 1 - Very low (clinically significant cancer is highly unlikely to be present)
+* PI-RADS 2 - Low (clinically significant cancer is unlikely to be present)
+* PI-RADS 3 - Intermediate (the presence of clinically significant cancer is equivocal)
+* PI-RADS 4 - High (clinically significant cancer is likely to be present)
+* PI-RADS 5 - Very high (clinically significant cancer is highly likely to be present)
 )
   Paste(MyForm)
 Return

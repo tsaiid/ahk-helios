@@ -1,15 +1,17 @@
 ﻿; Neuro Orbital Forms
 
-;; CTO1
-::cto1::
+::cto2::
   MyForm =
 (
-Noncontrast CT scan of orbit performed with axial and coronal section, 2-2 mm slice thickness showed:
+Non-contrast CT scan of orbit
+
+TECHNIQUE:
+Slice thickness: 2-2 mm
+Plane: axial, coronal, oblique sagittal
 
 Previous CT of orbit: no
 
 FINDINGS:
-
 1. ---------- of fracture over --------------- orbital wall.
 2. Presence of ---------- orbital floor fracture, with rectus muscle/orbital fat herniation.
 3. Presence of high density foreign body noted over ----------
@@ -19,13 +21,14 @@ FINDINGS:
   Paste(MyForm)
 Return
 
-;; CTO1ok
-::cto1ok::
+::cto2ok::
   MyForm =
 (
+Non-contrast CT scan of orbit
+
 TECHNIQUE:
-Multi-slice CT scanner
-Non-contrast CT scan of orbit in axial plane and coronal reformatted images 2-2 mm slice thickness showed:
+Slice thickness: 2-2 mm
+Plane: axial, coronal, oblique sagittal
 
 PREVIOUS CT of orbit: no
 
@@ -46,8 +49,35 @@ No evidence of high density foreign body noted at the bilateral intraocular and 
   Paste(MyForm)
 Return
 
-;; CTO2
-::cto2::
+::cto2tao::
+  MyForm =
+(
+Non-contrast CT scan of orbit
+
+TECHNIQUE:
+Slice thickness: 2-2 mm
+Plane: axial, coronal, oblique sagittal
+
+PREVIOUS CT of orbit: no
+
+FINDINGS:
+- Exophthalmos at left side.
+- Enlargement of left inferior rectus muscle, with sparing the anterior tendon, c/w thyroid-associated orbitopathy. However, due to it's unilateral and asymmetrical, orbital pseudotumor may also be considered. Suggest correlate with thyroid function test.
+
+- No evident fracture of bilateral orbits.
+- Symmetrical size of bilateral orbital retroocular optic nerves.
+- The paranasal sinuses are clear.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Possibly thyroid-associated orbitopathy, left side. DDx: orbital pseudotumor. Suggest correlate with thyroid function test.
+)
+  Paste(MyForm)
+Return
+
+::cto1::
   MyForm =
 (
 Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2 mm slice thickness showed:
@@ -63,8 +93,7 @@ FINDINGS:
   Paste(MyForm)
 Return
 
-;; CTO2wnl
-::cto2wnl::
+::cto1wnl::
   MyForm =
 (
 Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2mm slice thickness showed:

@@ -317,6 +317,7 @@ MRA did not show the information of the vertebral artery due to the limited FOV 
 S/P embolization of left vertebral artery aneurysm anterior to the medulla with susceptability artifact, possibly from coil embolization. However, whether embolization of the aneurysm was completed or not cannot be evaluated because of limited FOV (field of view) of this MRA study which cannot show the full information of vertebral artery. Please correlate with prior studies to check the status of the left vertebral artery aneurysm.
 
 MRV shows no evidence of venous thrombosis involving the intracranial venous sinuses noted.
+MRV shows a suspicious segment of absent flow over right transverse sinus. However, no definite abnormal signal intensity within the right transverse sinus is noted. Hypoplastic transverse sinus and/or flow gap artifact is considered. Suggest DSA if venous sinus thrombosis is still highly suspected clinically.
 
 IMPRESSION:
 Essentially negative finding.

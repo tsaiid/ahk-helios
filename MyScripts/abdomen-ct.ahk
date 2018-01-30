@@ -416,7 +416,7 @@ Return
 (
 METHOD:
 Non-contrast enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Scanning range: Liver to symphysis, 3-mm contiguous scan, coronal reconstruction.
 
 Previous abdominal CT: none.
 
