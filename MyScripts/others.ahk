@@ -136,6 +136,7 @@ Return
 ::ic::inflammatory change
 ::cd::consolidation
 ::nc::noncontrast-enhanced study
+::ce::contrast-enhanced study
 ::sc::surgical clips
 ::ss::surgical staples
 ::mrt::more on right side
