@@ -8,6 +8,8 @@ SendMode, Input
 ; Group Control For Helios
 GroupAdd, Helios, Helios
 GroupAdd, Helios, ahk_class ThunderRT6FormDC
+GroupAdd, FemhLogin, Helios Login
+GroupAdd, FemhLogin, 亞東紀念醫院 新醫療系統
 
 ; External Libraries
 #Include <WBGet>
@@ -177,5 +179,10 @@ Return
 Return
 
 #IfWinActive
+
+^!t::
+  FileEncoding, UTF-8
+  MsgBox % A_FileEncoding
+Return
 
 ^!r::Reload  ; Assign Ctrl-Alt-R as a hotkey to restart the script.
