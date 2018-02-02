@@ -42,7 +42,7 @@
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -58,7 +58,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -111,7 +111,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -141,7 +141,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -167,7 +167,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with early arterial and delayed phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with early arterial and delayed phases.
 
 Previous abdominal CT: none.
 
@@ -193,7 +193,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with arterial and portovenous phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
 
 Previous abdominal CT: none.
 
@@ -229,7 +229,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with arterial, portovenous, and equilibrium phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial, portovenous, and equilibrium phases.
 
 Previous abdominal CT: none.
 
@@ -246,7 +246,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 30 and 80 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 30 and 80 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -273,7 +273,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -316,7 +316,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 3-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 and 420 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 and 420 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -339,12 +339,44 @@ Skeleton: No osteolytic nor osteoblastic lesion
   Paste(MyForm)
 Return
 
+::actgyn::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Uterus: Unremarkable
+Ovaries: Unremarkable
+
+Regional lymphadenopathy: No
+Non-regional lymphadenopathy: No
+
+Kidneys: Unremarkable
+Ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+Pancreas: Unremarkable
+
+Lower lungs: Unremarkable
+Skeleton: No osteolytic nor osteoblastic lesion
+)
+  Paste(MyForm)
+Return
+
 ::actl::
   MyForm =
 (
 ** Non-contrast and contrast-enhanced chest and abdominal CT scans.
 Scanning range: lower neck to symphysis, 5-mm contiguous scan.
-Contrast medium administered: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium administered: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Indications: R/O lymphoma for staging
 
@@ -464,7 +496,7 @@ Return
 PROCEDURE: Non-contrast and contrast-enhanced abdominal CT scans.
 TECHNIQUE description:
    Scanning range: Liver to symphysis, 5-mm contiguous scan.
-   Contrast medium: Yes, 100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+   Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Clinical indications: colorectal tumor staging.
 
@@ -517,7 +549,7 @@ METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Distended the stomach with water and scanned in prone position.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -541,7 +573,7 @@ METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Oral contrast medium: Yes.
-IV contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+IV contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -567,7 +599,7 @@ INDICATION: PCU
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with arterial and portovenous phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
 
 Previous abdominal CT: none.
 
@@ -598,7 +630,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced chest and abdominal CT scans.
 Scanning range: Neck to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 80-100 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous CT: none.
 

@@ -54,22 +54,18 @@ SCAN RANGE: axial plane performed from C1 to T1 with 3-mm continuous scan, and w
 Previous CT of C-spine: no
 
 FINDINGS:
-
+- No obvious fracture-dislocation of the C-spine noted.
+- No evidence of the C1-C2 anterior and lateral subluxation noted.
+- No evident hyperdense hematoma in the prevertebral region and epidural space noted.
+- The spinal cord and disc condition cannot be well evaluated in this noncontrast CT scan of the C-spine.
+- Due to streak artifact in the cervico-thoracic junction noted, this area couldn't be well evaluated by the CT scan.
+- The lungs covered in the scanning range are normal.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No obvious fracture-dislocation of the C-spine noted.
-
-No evidence of the C1-C2 anterior and lateral subluxation noted.
-
-No evident hyperdense hematoma in the prevertebral region and epidural space noted.
-
-The spinal cord and disc condition cannot be well evaluated in this noncontrast CT scan of the C-spine.
-
-Due to streak artifact in the cervico-thoracic junction noted, this area couldn't be well evaluated by the CT scan.
-
-The lungs covered in the scanning range are normal.
-
-IMPRESSION:
-No obvious fracture-dislocation of the C-spine noted.
-Others as the above descriptions.
 )
   Paste(MyForm)
 Return

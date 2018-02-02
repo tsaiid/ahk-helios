@@ -166,3 +166,35 @@ No evidence of high signal intensity on DWI suggesting acute or recent ischemia 
 )
   Paste(MyForm)
 Return
+
+::mriich::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+Findings:
+- A 5.9 x 3 x 3.7 cm hematoma, in subacute stage, with peripheral hemosiderin deposition, over left temporo-parieto-occipital area.
+- No evidence of mass lesion nearby that may be contribute to the ICH. (*noncontrast-enhanced study has lower sensitivity for subtle lesion)
+- No evidence of microhemorrhage nor cortical superficial siderosis on the GET2*WI, that suggestive of cerebral amyloid angiopathy.
+- MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+
+- No other high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+- Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy considered.
+- Presence of small hyperintensities in the right occipital cortical region on T2WI and FLAIR, which may be gliosis, or old ischemia or previous brain insult.
+- Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+- Incidental finding of right side fetal type posterior cerebral artery (PCA) from right internal carotid artery (ICA) with hypoplasia change at P1 segment of right PCA noted.
+- Presence of asymmetry of bilateral vertebral arteries, and more prominence over the right side, and patent flow of bilateral vertebral arteries noted, normal variation in favor.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Subacute ICH over left temporo-parieto-occipital area. No definite etiology identified.
+)
+  Paste(MyForm)
+Return

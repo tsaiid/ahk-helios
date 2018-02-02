@@ -407,9 +407,11 @@ FINDINGS:
 *Neck soft tissue and muscles: normal
 
 *Others: none
-
-
-IMPRESSION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No significant finding in face and neck region
 )
   Paste(MyForm)

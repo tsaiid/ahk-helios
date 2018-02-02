@@ -148,6 +148,31 @@ No remarkable intracranial findings on noncontrast CT.
   Paste(MyForm)
 Return
 
+::ctn2hich::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+- Acute intracranial hemorrhage over right lentiform nucleus, size about 2.7 x 2.4 x 3 cm, suspicious hypertensive ICH.
+- Mild mass effect compressing the right lateral ventricle.
+- No obvious midline shift.
+
+- No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Possibly hypertensive ICH over right lentiform nucleus.
+)
+  Paste(MyForm)
+Return
+
 ;; 1CTA
 ::1cta::
   MyForm =
@@ -242,7 +267,7 @@ Findings:
 -----------------------------------
 Post-contrast study was not performed due to clinician request.
 
-Becasue this patient couldn't tolerate this examination finally, the Gd-enhanced study was not obtained.
+Because this patient couldn't tolerate this examination finally, the Gd-enhanced study was not obtained.
 
 Post-contrast study was not performed due to patient's family refusal.
 
@@ -256,7 +281,7 @@ Several tiny high signal intensity lesions in right occipital lobe, bilateral ce
 
 Presence of small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter, with high signal intensity on T2WI, FLAIR, and DWI, and lower apparent diffusion coefficient (ADC).
 
-Presence of tiny old ischemic infarction involving bil. basal ganglion region.
+Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 
 Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 
