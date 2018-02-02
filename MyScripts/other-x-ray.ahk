@@ -6,9 +6,11 @@
 ::nip0::no obvious improvement.
 ::mip0::mild improvement.
 ::pc0::progressive change.
-::rc0::regressive change.
 ::pc1::progressive change than previous.
+::mpc0::mild progressive change.
+::rc0::regressive change.
 ::rc1::regressive change than previous.
+::mrc0::mild regressive change.
 ::nbd::Nature to be determined.
 ::msok::Bilateral maxillary sinuses are well-aerated.
 ::rmcs::Ground glass opacity in right maxillary sinus, suspicious mucoperiosteal thickening or chronic sinusitis.

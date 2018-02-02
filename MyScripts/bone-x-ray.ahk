@@ -159,8 +159,8 @@
 ::nbok::No evidence of nasal bone fracture.
 ::spv::s/p vertebroplasty at `
 ::pif::pars interarticularis fracture
-::rif::Intertrochanteric fracture of right hip.
-::lif::Intertrochanteric fracture of left hip.
+::rif::Intertrochanteric fracture of right femur.
+::lif::Intertrochanteric fracture of left femur.
 ::rhoa::OA change of right hip.
 ::lhoa::OA change of left hip.
 ::bhoa::OA change of bilateral hips.

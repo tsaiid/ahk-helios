@@ -35,6 +35,7 @@
 ::sce::subcutaneous emphysema
 ::aaa::abdominal aortic aneurysm
 ::pau::penetrating atherosclerotic ulcer
+::cop::cryptogenic organizing pneumonia
 
 ;; General
 ::ant::anterior `

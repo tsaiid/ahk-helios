@@ -122,6 +122,7 @@
 ::rll::right lower lung
 ::lll::left lower lung
 ::bll::bilateral lower lungs
+::bbl::bilateral basal lungs
 ::rul::right upper lung
 ::lul::left upper lung
 ::bul::bilateral upper lungs
@@ -162,6 +163,7 @@
 ::prlpg::Post removal of left pigtail drain. No pneumothorax noted.
 ::ate::atelectasis
 ::late::linear atelectasis
+::sate::subsegmental atelectasis
 ::rsoa::OA change of right shoulder.
 ::lsoa::OA change of left shoulder.
 ::bsoa::OA change of bilateral shoulders.
