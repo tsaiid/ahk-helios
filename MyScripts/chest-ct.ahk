@@ -6,6 +6,8 @@
 ::mtacal::Mild atherosclerotic change and calcification of aortic wall.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
+::cctcad0::Calcification of the coronary arteries.
+::mcctcad0::Mild calcification of the coronary arteries.
 
 ::cctok::
   MyForm =
