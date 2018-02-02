@@ -1,5 +1,7 @@
 ﻿; Neuro Neck Forms
 
+::ctneclnok::No evidence of bulky lymph nodes over bilateral carotid space and posterior triangle of submandibular and neck regions noted.
+
 ;; CTNEC
 ::ctnec::
   MyForm =

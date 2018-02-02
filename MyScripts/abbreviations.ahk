@@ -176,6 +176,7 @@
 ::va::vertebral artery
 ::gp::globus pallidus
 ::ica::internal carotid artery
+::caa::cerebral amyloid angiopathy
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

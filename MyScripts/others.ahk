@@ -104,6 +104,7 @@ Return
 ::fufe::Suggest follow-up or further evaluation.
 ::csono::Suggest correlate with sonography.
 ::ctrus::Suggest correlate with transrectal ultrasonography.
+::cdsa::Suggest correlate with DSA.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
@@ -154,6 +155,7 @@ Return
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
+::ol::obstruction level
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 
