@@ -78,6 +78,14 @@ Return
   SendEvent !c
 Return
 
+; Confirm, Next, and Start Edit
+^s::
+  Send !c
+  Send !x
+
+  ; wait status to be changed
+  StartEditAfterReady()
+Return
 #IfWinActive
 
 ; Need to handle the global hotkey ^t from Helios
