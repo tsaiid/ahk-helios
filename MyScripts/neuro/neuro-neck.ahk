@@ -96,6 +96,54 @@ PS. The evaluation is limited especially for solid organs, neck lymph nodes and 
   Paste(MyForm)
 Return
 
+; Acute tonsillitis
+::ctnecat::
+  MyForm =
+(
+TECHNIQUE:
+Multi-slice CT scanner with
+(1) Non-contrast and (2) Contrast-enhanced
+scanning in axial plane from skull base to thoracic inlet with 3-mm-thick contiguous slices and coronal reformatted images.
+Contrast medium: intravenous route, volume: 60 mL, rate: 1.0 mL/sec
+
+COMPARISON:
+Applicable previous CT of face and neck: none
+Applicable previous MRI of face and neck: none
+
+FINDINGS:
+Bilateral tonsillar enlargement, touching in the midline forming "kissing tonsils".
+Small low density within the right tonsil.
+Acute tonsillitis with abscess formation is considered.
+
+The lingual tonsils also show enlargement.
+Symmetrical enlargement of the roof and posterior wall of the nasopharynx, suggestive of adenoid hyperplasia, probably related to the acute inflammation.
+
+Cervical nodes:
+Multiple enlarged lymph nodes over the bilateral carotid spaces, posterior cervical spaces, in favor of reactive lymph nodes. Suggest follow-up.
+No evidence of bulky lymph nodes over bilateral supraclavicular fossae, bilateral submandibular and submental space.
+
+Orbits: normal
+Paranasal sinuses: normal
+Skull base: normal
+Nasopharynx: normal
+Oropharynx: normal
+Hypopharynx: normal
+Larynx: normal
+Oral cavity: limited interpretation due to dental artifacts
+Thoracic inlet: normal
+Parotid gland: normal
+Submandibular gland: normal
+Thyroid gland: normal
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Acute tonsillitis with abscess formation.
+)
+  Paste(MyForm)
+Return
+
 ;; CTNECHRCT
 ::ctnechrct::
   MyForm =

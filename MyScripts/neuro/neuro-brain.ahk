@@ -7,7 +7,7 @@
 CT scan of brain was performed with a multi-slice CT scanner:
 METHOD: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
-CONTRAST MEDIUM: IV route, 80 ml, 1 ml/sec.
+CONTRAST MEDIUM: IV route, 70 ml, 1 ml/sec.
 
 COMPARISON:
 Applicable previous CT of brain: no
@@ -41,7 +41,7 @@ Return
 CT scan of brain was performed with a multi-slice CT scanner:
 METHOD: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
-CONTRAST MEDIUM: IV route, 80 ml, 1 ml/sec.
+CONTRAST MEDIUM: IV route, 70 ml, 1 ml/sec.
 
 COMPARISON:
 Applicable previous CT of brain: no
@@ -367,11 +367,9 @@ Follow up or further evaluation.
 Return
 
 ;; MRICVA-1
-::mricva-1::
-  MyOrder := CopyOrder()
+::mricva1::
   MyForm =
 (
-INDICATION: %MyOrder%
 The MR of the brain performed with Sagittal T1WI (localizer)
 Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
 Coronal T1WI, T2WI
@@ -489,13 +487,13 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
-::bcta::
+::bctas::
   MyForm =
 (
 CT angiography of brain and neck was performed with a multi-slice CT scanner:
 METHOD: multi thin-slice spiral scanning of arterial, venous, and delayed phases
 SCAN RANGE: axial plane from the neck to the vertex.
-CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
+CONTRAST MEDIUM: IV bolus injection, 70 ml, rate: 3 ml/sec
 IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection
 
 Previous CT: no
@@ -556,6 +554,43 @@ Compared to asymptomatic contralateral hemisphere there is a delay of two phases
 Compared to asymptomatic contralateral hemisphere there is a delay of one phase in filling in of peripheral vessels but prominence and extent is the same. University of Calgary classification score 4 (good collateral)
 
 Compared to asymptomatic contralateral hemisphere, there is no delay and normal or increased prominence of peripheral vessels/ normal extent within the occluded arteries territory within the symptomatic hemisphere. University of Calgary classification score 5 (good collateral)
+)
+  Paste(MyForm)
+Return
+
+::bctaa::
+  MyForm =
+(
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
+METHOD: multi thin-slice spiral scanning of arterial, venous, and delayed phases
+SCAN RANGE: axial plane from the neck to the vertex.
+CONTRAST MEDIUM: IV bolus injection, 70 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection
+
+Previous CT: no
+
+FINDINGS:
+A saccular aneurysm is noted at the anterior communicating artery
+- size about 5 x 3 x 2 mm
+- neck about 2 mm
+- orientation: pointing anteriorly, and mildly inferiorly
+- variant anatomy:
+  > Hypoplasia of A1 portion of left anterior cerebral artery.
+  > Left side fetal type posterior cerebral artery (PCA).
+
+Atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries, without significant luminal stenosis.
+No obvious stenosis of the extracranial carotid arteries and vertebral arteries.
+
+Presence of acute subarachnoid hemorrhage in the suprasellar and ambient cisterns, with extension to the interhemispheric fissure and bilateral sylvian fissures.
+No definite area of obvious abnormal density in the brain parenchyma noted.
+The bilateral lateral ventricles showed symmetrical without dilatation.
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Ruptured ACom aneurysm, with acute SAH.
 )
   Paste(MyForm)
 Return

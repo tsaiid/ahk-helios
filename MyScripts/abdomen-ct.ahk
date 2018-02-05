@@ -19,6 +19,7 @@
 ::actraa::A __-cm fat-containing enhancing nodular lesion at the right adrenal, in favor of adenoma.
 ::actlaa::A __-cm fat-containing enhancing nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
+::actckd1::Atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
 ::actrkaml::A __-cm fat-containing tumor at the right kidney, in favor of angiomyolipoma.
 ::actlkaml::A __-cm fat-containing tumor at the left kidney, in favor of angiomyolipoma.
 ::actbkaml::Fat-containing tumors at the both kidneys, size up to __ cm, in favor of angiomyolipomas.
@@ -161,6 +162,34 @@ C/W acute appendicitis with rupture.
   Paste(MyForm)
 Return
 
+::actppu::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Presence of intraperitoneal free air with turbid ascites, predominantly at the upper abdomen, suggestive of hollow organ perforation.
+Abnormal wall thickness over the duodenal bulb region with loss of wall integrity. Perforated peptic ulcer is suspected.
+
+The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
+The lower abdomen and pelvis are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Hollow organ perforation, suspicious perforated peptic ulcer.
+)
+  Paste(MyForm)
+Return
+
 ::actad::
   MyForm =
 (
@@ -289,6 +318,8 @@ Pancreatic necrosis
 0: none
 2: 30`% or less
 4: more than 30`%
+Extrapancreatic complications
+2: one or more of pleural effusion, ascites, vascular complications, parenchymal complications and/or gastrointestinal involvement
 
 Biliary tree:
 No evidence of high-attenuation gallstone.
@@ -306,6 +337,12 @@ GI tract: Unremarkable
 
 Lower lungs: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Acute pancreatitis. Modified CTSI score:
 )
   Paste(MyForm)
 Return
@@ -489,6 +526,34 @@ Lower lungs: Unremarkable
   Paste(MyForm)
 Return
 
+::actk::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+Adrenals: Unremarkable
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+GI tract: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return
+
 ::actcrcs::
   MyOrder := CopyOrder()
   MyForm =
@@ -654,6 +719,12 @@ FINDINGS:
 - Lymph node enlargement > 1 cm: No mediastinal, retroperitoneal, or mesenteric lymphadenopathy.
 
 - Bony structure: unremarkable
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable acute intrathoracic or intraabdominal findings.
 )
   Paste(MyForm)
 Return
