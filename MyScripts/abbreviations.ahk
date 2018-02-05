@@ -160,6 +160,7 @@
 ::bti::biliary tract infection
 ::hc::hepatic cyst
 ::hcs::hepatic cysts
+::ppu::perforated peptic ulcer
 
 ;; Neuro
 ::ich::intracranial hemorrhage
@@ -175,6 +176,8 @@
 ::aca::anterior cerebral artery
 ::pca::posterior cerebral artery
 ::va::vertebral artery
+::acom::anterior communicating artery
+::pcom::posterior communicating artery
 ::gp::globus pallidus
 ::ica::internal carotid artery
 ::caa::cerebral amyloid angiopathy

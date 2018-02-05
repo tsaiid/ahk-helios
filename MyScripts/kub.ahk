@@ -95,5 +95,20 @@ Obvious small bowel gas, c/w stool impaction.
 )
   Paste(MyForm)
 Return
+::sk::
+  MyForm =
+(
+The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.
+No evidence of subphrenic free air.
+No obvious air-fluid level in the bowel.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable findings.
+)
+  Paste(MyForm)
+Return
 
 ::nafl::No obvious air-fluid level in the bowel.

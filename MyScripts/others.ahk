@@ -99,12 +99,14 @@ Return
 ::fe0::further evaluation
 ::feci::Suggest further evaluation if clinically indicated.
 ::fu::Suggest follow-up.
+::cfu::Suggest close follow-up.
 ::fu0::follow-up
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
 ::csono::Suggest correlate with sonography.
 ::ctrus::Suggest correlate with transrectal ultrasonography.
 ::cdsa::Suggest correlate with DSA.
+::coim::Suggest correlate with other imaging modality.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
@@ -148,9 +150,9 @@ Return
 ::nd::newly developed
 ::ws::wedge-shaped
 ::ift::infiltration
-::fac::fluid accumulation
 ::me::mediastinum
 ::fa::free air
+::fac::fluid accumulation
 ::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.

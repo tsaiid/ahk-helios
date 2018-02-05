@@ -18,7 +18,8 @@
 ::mrmast::Increased signal intensity over -------------, mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
 ::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
 ::ctatr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
-::ctatr1::Mild dilatation of ventricular system and sulcal widening of bil. cerebral hemispheres noted, in favor of mild brain atrophy.
+::ctatr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+::ctatr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
@@ -55,7 +56,7 @@ Return
 ::mrps::
   MyForm =
 (
-Presence of hyperintensity on T2WI over right/left/bilateral sphenoid sinus, right/left/bilateral ethmoid sinus, right/left/bilateral maxillary sinus, right/left/bilateral frontal sinus, in favor of mild sinusitis. Suggest clinical check up.
+Presence of hyperintensity on T2WI over right/left/bilateral sphenoid sinus, right/left/bilateral ethmoid sinus, right/left/bilateral maxillary sinus, right/left/bilateral frontal sinus, in favor of mild sinusitis.
 )
   Paste(MyForm)
 Return

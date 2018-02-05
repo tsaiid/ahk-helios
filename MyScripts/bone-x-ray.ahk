@@ -149,7 +149,21 @@
 ::bf::bone fragment
 ::c7::The C7 vertebra is blocked by the shoulder shadow with limited evaluation.
 ::c12ok::No evidence of atlanto-axial subluxation or odontoid fracture.
-::cspok::No disc space narrowing, spondylolisthesis, or fracture.{Enter}No abnormal widening of the prevertebral space.
+::cspok::
+  MyForm =
+(
+No disc space narrowing, spondylolisthesis, or fracture.
+No abnormal widening of the prevertebral space.
+No evidence of foreign body in the neck region.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No disc space narrowing, spondylolisthesis, or fracture.
+)
+  Paste(MyForm)
+Return
 ::c5l::C5 and levels below are blocked with a limited evaluation.
 ::c6l::C6 and levels below are blocked with a limited evaluation.
 ::c7l::C7 and levels below are blocked with a limited evaluation.
@@ -248,8 +262,12 @@ Plain Film of Cervical Spine:
 - Retrolisthesis: nil
 )
   Paste(MyForm)
-  SendEvent {Tab}
-  SendEvent DJD of C-spine.
+  SleepThenTab()
+  MyForm =
+(
+DJD of C-spine.
+)
+  Paste(MyForm)
 Return
 
 ::sco::
