@@ -3,7 +3,7 @@
 
 ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = ""){
   Clipboard := ""
-  SendEvent ^c
+  Send ^c
   Sleep, 300
 
   StringReplace, selectedText, Clipboard, `r`n, `n, All
@@ -58,7 +58,7 @@ ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = ""){
     ;textRange.text := finalText
     ;MsgBox % finalText
     Clipboard := finalText
-    SendEvent ^v
+    Send ^v
   } Else {
     ; No selection. Do nothing.
     MsgBox, No content in the Clipboard.

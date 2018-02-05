@@ -40,6 +40,6 @@ CopyHeliosReportIntoNotepad() {
     Run, Notepad.exe, , , notepadPID
     WinWait, ahk_pid %notepadPID%
     WinActivate
-    SendEvent, ^v
+    Send, ^v
   }
 }

@@ -11,6 +11,6 @@ GroupAdd, Helios, Helios
 ; Backup Report Before Confilm
 !c::
   BackupHeliosReportToFile()
-  SendEvent !c
+  Send !c
 Return
 #IfWinActive
