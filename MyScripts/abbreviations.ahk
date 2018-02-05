@@ -35,6 +35,7 @@
 ::sce::subcutaneous emphysema
 ::aaa::abdominal aortic aneurysm
 ::pau::penetrating atherosclerotic ulcer
+::imh::intramural hematoma
 ::cop::cryptogenic organizing pneumonia
 
 ;; General

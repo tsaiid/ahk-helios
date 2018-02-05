@@ -23,6 +23,7 @@
 ::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
+::mrpbi::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::cteps::Small low density near right/left side of anterior commissure, in favor of enlarged perivascular space.
 ::necsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharyngeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
 ::mrnecsprt::Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.

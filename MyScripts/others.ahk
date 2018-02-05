@@ -165,6 +165,7 @@ Return
 ::rcs::Some renal cysts in both kidneys, size up to  cm.{Left 4}
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
+::srcs::Some small renal cysts in both kidneys.
 
 ; 資源共享
 ::share::
