@@ -166,6 +166,7 @@ Return
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
 ::srcs::Some small renal cysts in both kidneys.
+::shcs::Some small hepatic cysts.
 
 ; 資源共享
 ::share::

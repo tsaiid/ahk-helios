@@ -21,7 +21,6 @@
 ::srrcs::Several renal cysts in the right kidney, size up to  cm.{Left 4}
 ::srlc::A __-cm renal cyst in the left kidney.
 ::srlcs::Several renal cysts in the left kidney, size up to  cm.{Left 4}
-::shcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::spb::The pancreas can not be well evaluated because of gas blockage.
 ::spaok::The visualized portion of pancreas is normal.
 ::bsm::Borderline splenomegaly, size about  cm.{Left 4}

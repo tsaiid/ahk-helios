@@ -37,6 +37,7 @@
 ::pau::penetrating atherosclerotic ulcer
 ::imh::intramural hematoma
 ::cop::cryptogenic organizing pneumonia
+::egj::esophagogastric junction
 
 ;; General
 ::ant::anterior `
@@ -112,6 +113,7 @@
 ::lap::lymphadenopathy
 ::laps::lymphadenopathies
 ::mlap::metastatic lymphadenopathy
+::eln::enlarged lymph node
 ::met::metastasis
 ::mets::metastases
 ::metc::metastatic
