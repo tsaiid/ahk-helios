@@ -1,6 +1,27 @@
 ; Abdomen MR Forms
 
 ;; General
+::amrpan::
+  MyForm =
+(
+MRI of the Pancreas and MRCP.
+
+SCANNING PROTOCOL:
+- Cor TrueFISP: whole abdomen
+- Axi HASTE T2, TSE T2+FS, heavy T2+FS, DWI, ADC maps, T1+FS, T1 IP/OOP
+- Axi, Cor HASTE T2+FS thin slice
+- MRCP MIP reconstruction
+- Cor VIBE T1+FS, Dynamic Contrast Enhanced: whole abdomen
+- MRA MIP reconstruction
+
+COMPARISON: no
+
+FINDINGS:
+
+)
+  Paste(MyForm)
+Return
+
 ::amrmrcp::
   MyForm =
 (
@@ -106,6 +127,31 @@ SCANNING PROTOCOL:
   * DWI (b=400): coronal
   * T1+C: axial
 - Uterus:
+  * TSE T2: axial, coronal, sagittal
+  * DWI (b=1000), ADC: axial
+  * T1+FS: axial, sagittal
+  * T1+C+FS: axial, coronal, sagittal
+
+COMPARISON: no
+
+FINDINGS:
+
+)
+  Paste(MyForm)
+Return
+
+::amrrec::
+  MyForm =
+(
+MRI of the Pelvis and Rectum.
+
+SCANNING PROTOCOL:
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * T2: axial, coronal
+  * DWI (b=400): coronal
+  * T1+C: axial
+- Rectum:
   * TSE T2: axial, coronal, sagittal
   * DWI (b=1000), ADC: axial
   * T1+FS: axial, sagittal
