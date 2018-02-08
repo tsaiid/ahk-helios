@@ -92,3 +92,40 @@ Retention: Nil.
 )
   Paste(MyForm)
 Return
+
+::vfss::
+  MyForm =
+(
+Videofluoroscopic swallowing study (VFSS) shows:
+- Status post Tracheostomy
+
+Contrast:
+ - Barium with thin, thick and paste consistency.
+
+Oral phase:
+ - Oral drooling: no
+ - Bolus holding: normal
+ - Oral stasis: no
+ - Oral mucosal coating: normal
+ - Premature oral leakage: no
+ - Piecemeal swallowing: no
+ - Tongue-palate contact: normal
+
+Pharyngeal phase:
+ - Swallowing trigger: general normal
+ - Vallecular stasis: mild amount
+ - Pyriform sinus stasis: no
+ - Velar elevation: normal and complete
+ - Pharyngeal contraction: normal
+ - Hyoid bone elevation: normal and complete
+ - Epiglottic movement: normal
+ - Laryngeal penetration: no
+ - Aspiration: no
+ - Pharyngeal mucosal coating: normal
+ - Pharyngo-oral reflux: no
+ - Pharyngo-nasal reflux: no
+ - Symmetry of bolus passage from the pharynx to esophagus: symmetric
+ - Increased retropharyngeal soft tissue: no
+)
+  Paste(MyForm)
+Return

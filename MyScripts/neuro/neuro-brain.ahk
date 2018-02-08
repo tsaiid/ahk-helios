@@ -127,8 +127,6 @@ COMPARISON:
 Applicable previous CT of brain: no
 
 FINDINGS:
-Presence of skull base artifact with superimpose of bil. frontal base, bil. temporal base, and posterior fossa.
-
 No definite area of obvious abnormal density in the brain noted.
 
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
@@ -294,7 +292,7 @@ Post contrast study showed no abnormal enhancing lesion in the brain and no abno
 
 MRA shows turbulent flow or mild stenosis over intracranial portion of bilateral internal carotid arteries and basilar artery.
 
-Noncontrast intracranial MRA with 3D TOF shows that multiple foci of high grade stenoses over intracranial portion of the internal carotid artery.
+Noncontrast intracranial MRA with 3D TOF shows that multiple foci of stenoses over intracranial portion of the bilateral internal carotid arteries.
 
 MRA shows presence of stenosis noted over the bilateral carotid siphon and supraclinoid internal carotid arteries, and high grade stenosis over main trunk of right side middle cerebral artery, and with paucity of the branches of the right side middle cerebral artery noted.
 
