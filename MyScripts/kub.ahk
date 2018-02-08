@@ -19,6 +19,7 @@
 ::bpcn::s/p bilateral percutaneous nephrostomies.
 ::rfcvp::On central venous catheter via right femoral vein.
 ::lfcvp::On central venous catheter via left femoral vein.
+::bfcvp::On central venous catheters via bilateral femoral veins.
 ::ki::Obvious small bowel gas, may be due to ileus.
 ::ki2::Focal dilated bowel loops, probably ileus or partial bowel obstruction.
 ::kiafl::Mild dilated bowel loops with several air-fluid levels, probably partial bowel obstruction or ileus.
@@ -34,6 +35,7 @@
 ::spiud::s/p intrauterine device implantation.
 ::haic-ok::On HAIC. The tip position shows no migration as compared with previous angiography.
 ::spa::Surgical clips at RLQ of abdomen, in favor of post appendectomy.
+::spa0::s/p appendectomy.
 ::sphaic::Coils at the upper abdomen, may be due to previous hepatic arterial infusion chemotherapy.
 ::aacal::Calcification of abdominal aortic wall.
 ::ka::Increased opacity of the abdomen with centralization of the bowel gas, probably due to ascites.

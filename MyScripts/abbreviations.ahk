@@ -71,6 +71,7 @@
 ::nseo::no strong evidence of `
 
 ;; Bone
+::msk::musculoskeletal
 ::pf::patellofemoral `
 ::plf::posterolateral fusion mass
 ::ddh::developmental dysplasia of the hip
@@ -174,6 +175,7 @@
 ::cva::cerebrovascular accident
 ::dva::developmental venous anomaly
 ::pvwm::periventricular white matter
+::scwm::subcortical white matter
 ::rcvs::reversible cerebral vasoconstriction syndrome
 ::mca::middle cerebral artery
 ::aca::anterior cerebral artery

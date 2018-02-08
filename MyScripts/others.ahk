@@ -158,6 +158,7 @@ Return
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
 ::ol::obstruction level
+::nobs::nonobstructive
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

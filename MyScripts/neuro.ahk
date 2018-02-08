@@ -21,6 +21,7 @@
 ::ctatr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::ctatr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
 ::mrpbi::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
@@ -37,6 +38,9 @@
 ::lgwd::loss of gray-white matter differentiation
 ::mdr::midline deviation to right side.
 ::mdl::midline deviation to left side.
+::rnth::Right nasal turbinate hypertrophy.
+::lnth::Left nasal turbinate hypertrophy.
+::bnth::Bilateral nasal turbinate hypertrophy.
 
 ::neclnok::
   MyForm =

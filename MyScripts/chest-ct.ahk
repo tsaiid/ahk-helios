@@ -8,6 +8,7 @@
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
 ::cctcad0::Calcification of the coronary arteries.
 ::mcctcad0::Mild calcification of the coronary arteries.
+::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 
 ::cctok::
   MyForm =
