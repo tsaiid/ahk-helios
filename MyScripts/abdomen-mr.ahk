@@ -220,3 +220,119 @@ PI-RADS v2 Assessment Categories:
 )
   Paste(MyForm)
 Return
+
+::amrgynpa::
+  MyForm =
+(
+MRI of the Uterus.
+
+SCANNING PROTOCOL:
+- Abdomen and pelvis:
+  * TrueFISP T2 Cor; HASTE T2 Sag, Axi
+  * DWI (b=400): Cor
+- Uterus:
+  * TSE T2 Axi, Cor, Sag
+  * TSE T1 Axi, Cor, Sag; TSE T1+FS Axi
+  * VIBE T1+FS Axi
+  * DWI (b=1000), ADC: Axi
+
+COMPARISON: no
+
+FINDINGS:
+A gravid uterus with abnormally low position of the placenta, completely covering the internal cervical os, c/w placenta previa, grade IV (complete placenta previa).
+
+T2 HASTE and true FISP images show
+- Heterogeneous signal intensity in the placenta
+- Abnormal intraplacental dark bands
+- Abnormal dilated intraplacental vascularity
+- Focal thinning of myometrium
+- Loss of triple-layered appearance of normal myometrium
+at the lower anterior uterine segment, c/w placenta accreta. Suggest correlation with placental sonography and clinical history.
+
+The fetus is in vertex presentation, and the images show no hydrocephalus, no hydronephrosis, and no obvious structural anomaly.
+The amniotic fluid volume is within normal limits.
+
+
+REF:
+Imaging findings of PA, Cardinal signs
+- Dark intraplacental bands on T2-weighted images
+- Heterogeneity within the placenta
+- Abnormal disorganized placental vascularity
+- Others – less sensitive signs
+- Uterine bulging
+- Focal interruptions of the myometrial wall (high specificity for increta and percreta)
+- Tenting of urinary bladder (highly specific for percreta)
+
+- Irregular dark bands on T2 HASTE images showing decreased signal on true FISP images, representing abnormal fibrin deposition;
+- Dilated tortuous signal voids on T2 HASTE images deep within the placenta showing increased signal on true FISP images, which is indicative of abnormal vascular lacunae.
+
+
+Key imaging features of normal placentation
+- Homogeneous T2-intermediate signal intensity of placenta
+- Subtle thin, regularly spaced placental septi
+- Normal subplacental vascularity
+- Triple-layered sandwich appearance of myometrium
+- Pear-shape of normal gravid uterus with smooth contour.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+C/W complete placenta previa, with placenta accreta. Suggest correlation with placental sonography and clinical history.
+No obvious fetal anomaly.
+)
+  Paste(MyForm)
+Return
+
+::amremca::
+  MyForm =
+(
+MRI of the Uterus.
+
+SCANNING PROTOCOL:
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * HASTE T2: axial, coronal
+  * DWI (b=400): coronal
+  * T1+C: axial
+- Uterus:
+  * TSE T2: axial, coronal
+  * DWI (b=1000), ADC: axial
+  * T1+FS: axial, sagittal
+  * T1+C+FS: axial, coronal, sagittal
+
+COMPARISON: no
+
+FINDINGS:
+Endometrial tumor:
+- Signal intensity: isointense on T1WI, slightly hyperintense on T2WI, with diffusion restriction; relative less enhancement.
+- Extent: whole uterine cavity, extending to the cervix.
+- Invasion: disruption of low T2 signal cervical stroma
+
+Lymph node:
+- No regional lymph node metastasis.
+
+Distant metastasis:
+- No liver, adrenal metastasis.
+- No non-regional lymph node metastasis.
+
+Others:
+- A 6.1-cm pedunculated uterine myoma at anterior wall.
+- A 3.2-cm left ovarian cyst.
+- Multiple small cystic lesions within the cervical stroma, in favor of Nabothian cysts.
+- Small amount of ascites in the Cul-de-sac.
+
+- Liver: Unremarkable
+- Spleen: Unremarkable
+- Pancreas: Unremarkable
+- GI tract: Unremarkable
+- Kidneys and ureters: Unremarkable
+- Urinary bladder: Unremarkable
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Endometrial cancer, FIGO Stage II.
+)
+  Paste(MyForm)

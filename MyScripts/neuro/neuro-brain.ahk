@@ -254,13 +254,13 @@ Return
 The MR of the brain performed with Sagittal T1WI
 Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
 Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
-And post Gadolinium (0.1 mmol/kg) enhancement with axial and coronal T1 weighted image
+And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
 Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 [[Intracranial MRA with 3D TOF and focus on the circle of Willis, intracranial MR venography (MRV) showed:]]
 
 Previous MRI of brain: none
 
-Findings:
+FINDINGS:
 
 -----------------------------------
 Post-contrast study was not performed due to clinician request.

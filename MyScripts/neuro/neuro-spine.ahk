@@ -1,14 +1,25 @@
 ﻿; Neuro Spine Forms
 
 ;; CTL
-::ctl::
+::ctls2::
   MyForm =
 (
-Non-contrast and post-contrast helical axial CT of lumbar spine with coronal and sagittal MPR reformations shows:
+Non-contrast helical axial CT of lumbar spine with coronal and sagittal MPR reformations shows:
 
 PREVIOUS CT SCAN of L-spine: no
 
 FINDINGS:
+Degenerative disc disease of L-spine:
+- Spondylosis:
+- Disc space narrowing:
+- Endplate change:
+- Spondylolisthesis:
+- Retrolisthesis:
+- Protrusion disc:
+- Spinal stenosis:
+- Neuroforaminal stenosis:
+
+* The spinal cord and disc condition may be evaluated limitedly in noncontrast CT scan.
 
 Evident rotatory scoliosis of upper lumbar spine, convex to left with associated degenerative disc and facet joints.
 There is moderate degree degenerative disc disease, L1 through S1.
@@ -70,7 +81,7 @@ No obvious fracture-dislocation of the C-spine noted.
   Paste(MyForm)
 Return
 
-::ctts1::
+::ctts2::
   MyForm =
 (
 Noncontrast CT of T-spine was performed with a multi-slice CT scanner:
