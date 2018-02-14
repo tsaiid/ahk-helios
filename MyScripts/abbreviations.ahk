@@ -190,6 +190,7 @@
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
 ::tao::thyroid-associated orbitopathy
+::mng::multinodular goiter
 
 ;; Others
 ::dvt::deep vein thrombosis

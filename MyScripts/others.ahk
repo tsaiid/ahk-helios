@@ -159,6 +159,7 @@ Return
 ::nsf::Non-specific findings.
 ::ol::obstruction level
 ::nobs::nonobstructive
+::obs::obstruction
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

@@ -86,6 +86,7 @@
 ::rhsfr::right humeral shaft fracture.
 ::lphfr::left proximal humeral fracture.
 ::rphfr::right proximal humeral fracture.
+::fx::fixation
 
 ;; Prosthesis
 ::rdhs::s/p right dynamic hip screw fixation.
@@ -124,6 +125,8 @@
 ::sts::soft tissue swelling
 ::rasts::Soft tissue swelling around right ankle.
 ::lasts::Soft tissue swelling around left ankle.
+::rksts::Soft tissue swelling around right knee.
+::lksts::Soft tissue swelling around left knee.
 ::sijok::No evidence of blurring, sclerosis, or bone erosion over bilateral sacroiliac joints.
 ::wgd::wedge deformity
 ::opc::osteoporotic change

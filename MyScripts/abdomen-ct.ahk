@@ -6,6 +6,7 @@
 ::l-ok::The lungs covered in the scanning range are normal.
 ::l-ok1::No pulmonary nodule.
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
+::btok::No biliary tree obstruction.
 ::actfl::Fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
@@ -240,6 +241,7 @@ Extrahepatic spread: No.
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
 
+Adrenals: Unremarkable
 Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
@@ -508,7 +510,8 @@ Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Previous abdominal CT: none.
 
 FINDINGS:
-Kidneys and ureters: Unremarkable
+Kidneys: No hydronephrosis.
+Ureters: No definite stone-like radiopacity along the urinary tract. No hydroureter.
 Urinary bladder: Unremarkable
 
 Adrenals: Unremarkable
