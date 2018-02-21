@@ -144,6 +144,7 @@ Return
 ::spd::suspected
 ::sp::suspicious `
 ::ic::inflammatory change
+::infl::inflammation
 ::cd::consolidation
 ::nc::noncontrast-enhanced study
 ::ce::contrast-enhanced study
@@ -157,7 +158,7 @@ Return
 ::nd::newly developed
 ::ws::wedge-shaped
 ::ift::infiltration
-::me::mediastinum
+::me::mediastinal `
 ::fa::free air
 ::fac::fluid accumulation
 ::fs::fat stranding
@@ -167,6 +168,8 @@ Return
 ::ol::obstruction level
 ::nobs::nonobstructive
 ::obs::obstruction
+::hypoec::hypoenhanced `
+::hyperec::hyperenhanced `
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 
