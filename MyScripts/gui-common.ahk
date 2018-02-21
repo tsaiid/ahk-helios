@@ -51,3 +51,72 @@ LLDForm()
   Gui, Show, x345 y288 h170 w327, LLD Helper
 }
 
+;; for Fleischner Society 2017 guidelines
+Fleischner2017Form()
+{
+  ;global FsgRadioGroup
+  Gui, FSG: New
+  Gui, font, s10, Verdana
+
+  Gui, Add, Text, , Solid
+  Gui, Add, GroupBox, xm ym+20 Section w245 h90, Single
+  Gui, Add, GroupBox, xm+255 ym+20 Section w245 h90, Multiple
+  Gui, Add, Text, xm, Subsolid
+  Gui, Add, GroupBox, xm ym+140 Section w150 h70, Single GGN
+  Gui, Add, GroupBox, xm+170 ym+140 Section w150 h70, Single part solid
+  Gui, Add, GroupBox, xm+340 ym+140 Section w150 h70, Multiple
+  ; Solid single
+  Gui, Add, Radio, xm+10  ym+40  vFsgRadioGroup   , < 6 mm
+  Gui, Add, Radio, xm+10  ym+60                   , 6-8 mm
+  Gui, Add, Radio, xm+10  ym+80                   , > 8 mm
+  ; Solid multiple
+  Gui, Add, Radio, xm+265  ym+40                  , < 6 mm
+  Gui, Add, Radio, xm+265  ym+60                  , 6-8 mm
+  Gui, Add, Radio, xm+265  ym+80                  , > 8 mm
+
+  ; Subsolid single GGN
+  Gui, Add, Radio, xm+10  ym+160                   , < 6 mm
+  Gui, Add, Radio, xm+10  ym+180                   , >= 6 mm
+  ; Subsolid single part solid
+  Gui, Add, Radio, xm+180  ym+160                   , < 6 mm
+  Gui, Add, Radio, xm+180  ym+180                   , >= 6 mm
+  ; Subsolid multiple
+  Gui, Add, Radio, xm+350  ym+160                  , < 6 mm
+  Gui, Add, Radio, xm+350  ym+180                  , >= 6 mm
+
+  Gui, Add, Button, xm gFsgButtonOK default, OK
+
+  Gui, Show, AutoSize Center, Fleischner 2017 Guidelines Helper
+}
+
+FsgButtonOK:
+  Gui, Submit, NoHide  ; Save the input from the user to each control's associated variable.
+  If (FsgRadioGroup == 0) {
+    MsgBox, Empty value
+    Return
+  }
+
+  FsgRecommendations := ["no routine follow-up in low risk patients; optional CT at 12 months in high risk patients."
+                       , "CT at 6-12 months, then at 18-24 months in high risk patients."
+                       , "consider CT at 3 months, PET/CT, or tissue sampling."
+
+                       , "no routine follow-up in low risk patients; optional CT at 12 months in high risk patients."
+                       , "CT at 3-6 months, then at 18-24 months in high risk patients."
+                       , "CT at 3-6 months, then at 18-24 months in high risk patients."
+
+                       , "no routine follow-up."
+                       , "CT at 6-12 months to confirm persistence, then CT every 2 years until 5 years."
+
+                       , "no routine follow-up"
+                       , "CT at 3-6 months to confirm persistence. If unchanged and solid component remains < 6 mm, annual CT should be performed for 5 years."
+
+                       , "CT at 3-6 months. If stable, consider CT at 2 and 4 years."
+                       , "CT at 3-6 months. Subsequent management based on the most suspicious nodule(s)."]
+
+  MyForm := "Fleischner Society 2017 Guidelines recommends: " + FsgRecommendations[FsgRadioGroup]
+
+  Gui, Destroy
+  WinActivate, ahk_id %hParentWnd%
+  Paste(MyForm)
+  ;MsgBox, %FsgRadioGroup%`n%MyForm%
+Return

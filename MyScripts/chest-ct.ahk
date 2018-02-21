@@ -10,6 +10,12 @@
 ::mcctcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 
+;; Show helper to insert Fleischner guideline
+::fsg::
+  hParentWnd := WinExist("A")
+  Fleischner2017Form()
+Return
+
 ::cctok::
   MyForm =
 (
@@ -155,12 +161,22 @@ COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. AORTA: not unusual for age
-2. PULMONARY ARTERY: Not definite filling defect
-3. OTHER VESSELS: Not unusual for age
-4. OTHER THORACIC ORGANS:
-5. ABDOMINAL ORGANS SCANNED:
+1. AORTA:
+  > No evidence of aortic aneurysm or dissection.
 
+2. PULMONARY ARTERY:
+  > No definite filling defect
+
+3. OTHER VESSELS: Not unusual for age
+
+4. OTHER THORACIC ORGANS:
+  > No pulmonary nodule.
+  > No mediastinal lymphadenopathy.
+
+5. ABDOMINAL ORGANS SCANNED: Unremarkable
+
+6. OTHERS:
+  > No osteolytic or osteoblastic bone lesion in the scanning range.
 )
   Paste(MyForm)
 Return
@@ -239,7 +255,7 @@ A. Tumor Profile
 * 3 cm < Tumor <= 4 cm (T2a)
 * 4 cm < Tumor <= 5 cm (T2b)
 * 5 cm < Tumor <= 7 cm (T3)
-* Tumor < 7 cm (T4)
+* 7 cm < Tumor (T4)
 
 * Not more proximal than main bronchus (T1)
 
@@ -330,8 +346,25 @@ Left gastric artery
 --- Yes, location: _________
 6. OTHER FINDINGS
 
-IMPRESSION:
-(1) Esophageal CA of , cTNM. (AJCC 2009, 7th ed.)
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Esophageal CA of , cTNM. (AJCC 2016, 8th ed.)
+)
+  Paste(MyForm)
+Return
+
+::cctsr::
+  MyForm =
+(
+Lung and large airways: no pulmonary nodules.
+Pleura: no visible nodularity or pleural thickening.
+Great vessels: within normal limits.
+Heart: within normal limits.
+Mediastinum and hila: no LNs > 1 cm.
+Chest Wall and low neck: within normal limits.
 )
   Paste(MyForm)
 Return
