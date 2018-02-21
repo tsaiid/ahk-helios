@@ -5,6 +5,7 @@ currAccNo := ""
 hParentWnd := 0
 LLDFormRtLD := 0
 LLDFormLtLD := 0
+FsgRadioGroup := 0
 
 ;; counters for statistics
 cntGetPreviousReport := 0
