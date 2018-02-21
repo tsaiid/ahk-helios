@@ -129,7 +129,7 @@ Applicable previous CT of brain: no
 FINDINGS:
 No definite area of obvious abnormal density in the brain noted.
 
-No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
@@ -139,7 +139,7 @@ No obvious fracture of the skull base and the skull.
   SleepThenTab()
   MyForm =
 (
-No definite acute ICH, EDH, SDH.
+No definite acute ICH, SAH, EDH, or SDH.
 No evident acute intracranial finding.
 No remarkable intracranial findings on noncontrast CT.
 )
@@ -167,6 +167,31 @@ FINDINGS:
   MyForm =
 (
 Possibly hypertensive ICH over right lentiform nucleus.
+)
+  Paste(MyForm)
+Return
+
+::ctn2hichivh::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+- Acute intracranial hemorrhage over right basal ganglion and thalamus, size about 4.3 x 2.8 x 3.6 cm, suspicious hypertensive ICH.
+- The ICH ruptured into the ventricular system, causing intraventricular hemorrhage in the bilateral lateral ventricles, the third and fourth ventricles.
+- Mild mass effect compressing the right lateral ventricle, and mild midline shift to left.
+
+- No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Possibly hypertensive ICH over right basal ganglion and thalamus, with IVH.
 )
   Paste(MyForm)
 Return

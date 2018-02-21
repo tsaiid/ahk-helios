@@ -1,7 +1,7 @@
 ﻿; Abdomen CT Forms
 
 ;; Hotstrings
-::lapok::No retroperitoneal or mesenteric lymphadenopathy.
+::actlapok::No retroperitoneal or mesenteric lymphadenopathy.
 ::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
 ::l-ok::The lungs covered in the scanning range are normal.
 ::l-ok1::No pulmonary nodule.
@@ -76,6 +76,8 @@ Kidneys and ureters: Unremarkable
 Urinary bladder: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
+No evidence of intraperitoneal free air.
+No obvious ascites.
 
 Lower lungs: Unremarkable
 )
@@ -311,23 +313,31 @@ Previous abdominal CT: none.
 
 FINDINGS:
 Pancreas:
+- Intrinsic pancreatic edematous change without necrosis.
+- The peripancreatic fat is relatively normal.
+- No peripancreatic fluid accumulation.
+- The pancreatic duct is dilated.
 
-Modified CTSI score:
-Pancreatic inflammation
-0: normal pancreas
-2: intrinsic pancreatic abnormalities with or without inflammatory changes in peripancreatic fat
-4: pancreatic or peripancreatic fluid collection or peripancreatic fat necrosis
-Pancreatic necrosis
-0: none
-2: 30`% or less
-4: more than 30`%
-Extrapancreatic complications
-2: one or more of pleural effusion, ascites, vascular complications, parenchymal complications and/or gastrointestinal involvement
+* Modified CTSI score:
+- Pancreatic inflammation
+  > 0: normal pancreas
+  > 2: intrinsic pancreatic abnormalities with or without inflammatory changes in peripancreatic fat
+  > 4: pancreatic or peripancreatic fluid collection or peripancreatic fat necrosis
+- Pancreatic necrosis
+  > 0: none
+  > 2: 30`% or less
+  > 4: more than 30`%
+- Extrapancreatic complications
+  > 0: none
+  > 2: one or more of pleural effusion, ascites, vascular complications, parenchymal complications and/or gastrointestinal involvement
 
 Biliary tree:
-No evidence of high-attenuation gallstone.
-No biliary tree dilatation.
-S/P cholecystectomy.
+- No evidence of high-attenuation gallstone.
+- Several small high-attenuation gallstones at the distal CBD.
+- No biliary tree dilatation.
+- Dilatation of the CBD (diameter about 1.4 cm) and bilateral IHDs.
+- S/P cholecystectomy.
+- Several small gallbladder stones, and the GB is distended.
 
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
@@ -355,8 +365,37 @@ Return
 (
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 3-mm contiguous scan.
+Scanning range: Liver to symphysis, 3-mm contiguous scan. Coronal reconstruction.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 and 420 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Kidneys: Unremarkable
+Ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+Regional lymphadenopathy: No
+Non-regional lymphadenopathy: No
+
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+Pancreas: Unremarkable
+
+Lower lungs: Unremarkable
+Skeleton: No osteolytic nor osteoblastic lesion
+)
+  Paste(MyForm)
+Return
+
+::actrcc::
+  MyForm =
+(
+METHOD:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan. Coronal reconstruction.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 30 and 120 seconds scanning delay.
 
 Previous abdominal CT: none.
 
@@ -526,6 +565,47 @@ No evident upper abdominal retroperitoneal lymphadenopathy identified.
 Lower lungs: Unremarkable
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+Return
+
+::actnc+l::
+  MyForm =
+(
+METHOD:
+Non-contrast enhanced abdominal CT scans.
+Scanning range: Neck to symphysis, 3-mm contiguous scan, coronal reconstruction.
+
+Previous CT: none.
+
+FINDINGS:
+- Lung parenchyma: negative
+- Airway: unremarkable
+- Mediastinum: unremarkable
+- Pleura: unremarkable
+- Pericardium and heart: unremarkable
+- Aorta and pulmonary artery: unremarkable
+
+- Liver: unremarkable
+- Spleen: unremarkable
+- Biliary tree: unremarkable
+- Pancreas: unremarkable
+- GI Tracts: unremarkable
+- Adrenals: unremarkable
+- Kidneys and ureters: unremarkable
+- Urinary Bladder: unremarkable
+
+- Lymph node enlargement > 1 cm: No mediastinal, retroperitoneal, or mesenteric lymphadenopathy.
+
+- Bony structure: unremarkable
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable acute intrathoracic or intraabdominal findings.
 )
   Paste(MyForm)
 Return
