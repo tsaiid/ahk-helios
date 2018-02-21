@@ -111,6 +111,9 @@ SetTitleMatchMode, 2
 #Include MyScripts\hotkey\backup-helios-report-to-file.ahk
 #Include MyScripts\hotkey\start-edit-after-ready.ahk
 
+; Mouse Macro
+#Include MyScripts\mouse\magnify-ge-uv-grid.ahk
+
 ; Previously enabled but now disabled functions
 ;; The checking mechanism changed. No need to active current image before submitting since 2014-02.
 ;;#Include MyScripts\active-current-image-before-submit.ahk
