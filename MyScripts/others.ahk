@@ -2,9 +2,11 @@
 ::lt::left `
 ::rt::right `
 ::ifo::in favor of `
+::mfo::more favor of `
 ::acw::as compared with `
 ::cpf::compression fracture
 ::cmf::comminuted fracture `
+::bfr::burst fracture `
 ::cal::calcification
 ::si::(Ser/Img: ){Left}
 ::sao::small amount of `
@@ -51,6 +53,7 @@
 ::rol::radiopaque lesion
 ::o::opacity
 ::g::granuloma
+::gl::gland
 ::l::lesion
 ::mod::moderate `
 ::sv::severe `
@@ -66,7 +69,7 @@
 ::ap::arterial phase
 ::pvp::portovenous phase
 ::dp::delayed phase
-::bd0::bone density
+::bd::bone density
 ::ndlg::Nearly dislodgement is considered.
 ::eva::evaluation
 ::eso0::esophagus
@@ -74,6 +77,9 @@
 ::ld::low density
 ::pbi::previous brain insults
 ::ech::edematous change
+::nfs::neuroforaminal stenosis
+::at-::attenuation
+::d-::density
 
 ::pl::possibly `
 ::pb::probably `
@@ -106,6 +112,7 @@ Return
 ::csono::Suggest correlate with sonography.
 ::ctrus::Suggest correlate with transrectal ultrasonography.
 ::cdsa::Suggest correlate with DSA.
+::clab::Suggest correlate with Lab data.
 ::coim::Suggest correlate with other imaging modality.
 
 ;; Limitations

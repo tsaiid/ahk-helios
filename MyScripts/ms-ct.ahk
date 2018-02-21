@@ -17,6 +17,35 @@
 ::l41::L4 through S1
 ::l51::L5-S1
 
+::c12::C1-C2
+::c13::C1 through C3
+::c14::C1 through C4
+::c15::C1 through C5
+::c16::C1 through C6
+::c17::C1 through C7
+::c11::C1 through T1
+::c23::C2-C3
+::c24::C2 through C4
+::c25::C2 through C5
+::c26::C2 through C6
+::c27::C2 through C7
+::c21::C2 through T1
+::c34::C3-C4
+::c35::C3 through C5
+::c36::C3 through C6
+::c37::C3 through C7
+::c31::C3 through T1
+::c45::C4-C5
+::c46::C4 through C6
+::c47::C4 through C7
+::c41::C4 through T1
+::c56::C5-C6
+::c57::C5 through C7
+::c51::C5 through T1
+::c67::C6-C7
+::c61::C6 through T1
+::c71::C7-T1
+
 ::g1::grade I
 ::g2::grade II
 

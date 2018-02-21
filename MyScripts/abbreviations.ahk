@@ -28,7 +28,7 @@
 ::pnas::pneumonias
 ::bpn::bronchopneumonia
 ::htx::hemothorax
-::pjp::pneumocystis jiroveci pneumonia
+::pjp::Pneumocystis jiroveci pneumonia
 ::brec::bronchiectasis
 ::ttn::transient tachypnea of the newborn
 ::ild::interstitial lung disease
@@ -107,6 +107,7 @@
 ::asis::anterior superior iliac spine
 ::aiis::anterior inferior iliac spine
 ::hme::hereditary multiple exostoses
+::ddd::degenerative disc disease
 
 ;; Abdomen
 ::ln::lymph node
@@ -148,7 +149,7 @@
 ::ccc::cholangiocarcinoma
 ::gerd::gastroesophageal reflux disease
 ::fnh::focal nodular hyperplasia
-::hh::hepatic henamgioma
+::hh::hepatic hemangioma
 ::rn::regenerative nodule
 ::dn::dysplastic nodule
 ::uvj::ureterovesical junction
@@ -191,6 +192,7 @@
 ::cps::chronic paranasal sinusitis
 ::tao::thyroid-associated orbitopathy
 ::mng::multinodular goiter
+::zmc::zygomaticomaxillary complex
 
 ;; Others
 ::dvt::deep vein thrombosis

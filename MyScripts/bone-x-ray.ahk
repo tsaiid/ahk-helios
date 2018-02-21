@@ -6,8 +6,9 @@
 ::bkok::Bilateral knees:{Enter}No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
 ::llath::Atherosclerotic change and calcification of the lower limb vessels.
 ::djdl::DJD change of L-spine.
-::mdjdl::Mild DJD change of L-spine with spur formation.
-::mdjdl1::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
+::mdjdl::Mild DJD change of L-spine.
+::mdjdl1::Mild DJD change of L-spine with spur formation.
+::mdjdl2::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::djdt::DJD change of T-spine.
 ::mdjdt::DJD change of T-spine with spur formation.
 ::djdtl::DJD change of T- and L-spine.

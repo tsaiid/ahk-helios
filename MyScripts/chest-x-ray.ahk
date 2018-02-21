@@ -61,8 +61,10 @@
 ::sppok::s/p Port-A implantation, without immediate complication.
 ::rport::On Port-A catheter via right subclavian vein.
 ::rport1::On Port-A catheter via right subclavian vein.{ENTER}No pneumothorax is noted.
+::riport::On Port-A catheter via right internal jugular vein.
 ::lport::On Port-A catheter via left subclavian vein.
 ::lport1::On Port-A catheter via left subclavian vein.{ENTER}No pneumothorax is noted.
+::liport::On Port-A catheter via lefgt internal jugular vein.
 ::rsperm::On Permcath via right subclavian vein.
 ::lsperm::On Permcath catheter via left subclavian vein.
 ::riperm::On Permcath catheter via right internal jugular vein.

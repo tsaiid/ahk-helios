@@ -41,6 +41,18 @@
 ::rnth::Right nasal turbinate hypertrophy.
 ::lnth::Left nasal turbinate hypertrophy.
 ::bnth::Bilateral nasal turbinate hypertrophy.
+::ctmcm::Prominent retrocerebellar cerebrospinal fluid space with normal vermis, 4th ventricle, and cerebellar hemispheres, in favor of mega cisterna magna.
+::epc::endplate change
+::ctnph::Enlarged lateral and third ventricles, with relatively normal 4th ventricle. Ventricular enlargement out of proportion to cortical sulcal enlargement, and presence of bilateral periventricular low density. Normal pressure hydrocephalus may be suspected. DDx: normal aging brain.
+::f-p::fronto-parietal
+::f-t-p::fronto-temporo-parietal
+::f-t::fronto-temporal
+::p-o::parieto-occipital
+::t-p::temporo-parietal
+::f-::frontal
+::p-::parietal
+::t-::temporal
+::o-::occipital
 
 ::neclnok::
   MyForm =
@@ -61,7 +73,7 @@ Return
 ::mrps::
   MyForm =
 (
-Presence of hyperintensity on T2WI over right/left/bilateral sphenoid sinus, right/left/bilateral ethmoid sinus, right/left/bilateral maxillary sinus, right/left/bilateral frontal sinus, in favor of mild sinusitis.
+Presence of hyperintensity on T2WI over right/left/bilateral sphenoid, right/left/bilateral ethmoid, right/left/bilateral maxillary, right/left/bilateral frontal sinuses, in favor of mild sinusitis.
 )
   Paste(MyForm)
 Return

@@ -5,6 +5,6 @@
   LiberaBMD()
 Return
 
-::bd::
+::bmd1::
   LiberaBMDSR()
 Return
