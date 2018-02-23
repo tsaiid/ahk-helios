@@ -1,13 +1,19 @@
 ﻿; Sono-guide
-:*:sg-ptgbd::
+::ctgptgbd::
   MyForm =
 (
-Under sonography guidance, the gallbladder was localized.
+Under sonography and CT guidance, the gallbladder was localized.
 The skin was prepared and the area was draped.
-Under local anesthesia, a 6 Fr one-step pigtail catheter (with string lock) was placed transhepatically into the gallbladder.
+After local anesthesia, a 6 Fr one-step pigtail catheter (with string lock) was placed transhepatically into the gallbladder.
 Dark green, mucinous fluid was aspirated.
-Then, the drain was fixed with Mefix.
+Then, the drain was fixed with Nylon.
 The whole procedure was smooth, the patient tolerated well, and no immediate complication was noted.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+PTGBD was done.
 )
   Paste(MyForm)
 Return
@@ -130,7 +136,7 @@ Breast /side:  Left
 Biopsy region: 2/0cm
 Performed Radiologist: Wang
 Biopsy procedure:freehand technique, guided by 10-MHz linear array transducer (GE Logiq Book XP Portable Ultrasound System)
-Biopsy device: automated guns (14G,MaxCore Disposable Core Biopsy Instruments ) or 18-gauge Tru-cut needles with a 22-mm throw. 
+Biopsy device: automated guns (14G,MaxCore Disposable Core Biopsy Instruments ) or 18-gauge Tru-cut needles with a 22-mm throw.
 Number of core samples: 6
 Complication: nil
 )

@@ -1,6 +1,6 @@
 ﻿; Esophagraphy
 
-::eso::
+::epg::
   MyForm =
 (
 Esophagography was performed under fluoroscopy:
@@ -10,7 +10,7 @@ Smooth passage of the barium without definite mass effect or abnormal mucosa pat
   Paste(MyForm)
 Return
 
-::eso-ca::
+::epg-ca::
   MyForm =
 (
 Esophagography was performed under fluoroscopy:
@@ -20,7 +20,7 @@ A 11-cm long irregular area of narrowing, with mucosal nodularity and ulceration
   Paste(MyForm)
 Return
 
-::eso-p::
+::epg-p::
   MyForm =
 (
 Esophagography was performed under fluoroscopy:
@@ -31,7 +31,7 @@ No definite mass effect or abnormal mucosa pattern of the esophagus.
   Paste(MyForm)
 Return
 
-::ugieso-ca::
+::ugiepg-ca::
   MyForm =
 (
 Double-contrast upper GI study from esophagus to proximal duodenum was performed smoothly and showed:

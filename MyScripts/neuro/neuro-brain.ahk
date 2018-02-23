@@ -15,6 +15,11 @@ Applicable previous CT of brain: same day earlier (non-contrast)
 Applicable previous CT of brain:      (other hospital)
 
 FINDINGS:
+A 1.3-cm enhancing nodule over left paramedian cerebellar hemisphere is noted, suggestive of brain metastasis.
+Tiny enhancing nodule at the tip of left sylvian fissure, possibly leptomeningeal metastasis.
+
+Brain tissue loss and encephalomalacia over right cerebellar hemisphere, in favor of previous brain insults.
+
 Presence of skull base artifact with superimpose of bil. frontal base, bil. temporal base, and posterior fossa.
 
 No definite abnormal enhancing mass lesion in the brain noted.
@@ -22,6 +27,10 @@ No definite abnormal enhancing mass lesion in the brain noted.
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
+
+The major dural venous sinuses are unremarkable.
+
+No obvious fracture of the skull base and the skull.
 
 IMPRESSION:
 No remarkable intracranial findings on CT.
@@ -35,7 +44,7 @@ Follow up or further evaluation.
 Return
 
 ;; CTN1wnl
-::ctn1wnl::
+::ctn1ok::
   MyForm =
 (
 CT scan of brain was performed with a multi-slice CT scanner:
@@ -47,15 +56,20 @@ COMPARISON:
 Applicable previous CT of brain: no
 
 FINDINGS:
-Presence of skull base artifact with superimpose of bil. frontal base, bil. temporal base, and posterior fossa.
-
 No definite abnormal enhancing mass lesion in the brain noted.
 
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-IMPRESSION:
+The major dural venous sinuses are unremarkable.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No definite abnormal enhancing mass lesion in the brain noted.
 )
   Paste(MyForm)
@@ -506,6 +520,37 @@ MRA shows no evidence of occlusion or high grade stenosis over intracranial port
 IMPRESSION:
 No significant intracranial finding
 SUGGESTION:
+)
+  Paste(MyForm)
+Return
+
+::mriseizure::
+  MyForm =
+(
+The MR of the brain performed
+- Axial T1WI, T2WI, FLAIR, DWI with ADC map
+- Coronal T1WI
+- Sagittal T1WI, T2WI
+- Thin slice coronal T2WI focusing on temporal lobe.
+- And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+- Intracranial MRA with 3D TOF and focus on the circle of Willis:
+
+Previous MRI of brain: none
+
+FINDINGS:
+No evidence of hippocampal atrophy or abnormal signal intensity.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+Presence of hyperintensity on T2WI over left maxillary sinuses, in favor of sinusitis.
+
+MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+
+MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
 )
   Paste(MyForm)
 Return

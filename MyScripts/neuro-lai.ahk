@@ -178,22 +178,20 @@ Return
 
 ;; mritumorCP
 ::mritumorcp::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-The MR of the brain performed with Sagittal T1WI (localizer)
-Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
-Coronal T1WI, T2WI
-Diffusion-weighted Imaging (DWI)
-3D FIESTA with 0.8mm thin slice thickness focusing on the brain stem
-And post Gadolinium enhancement with axial and coronal T1 weighted image showed:
-SCAN RANGE: from the skull base to the vertex
-CONTRAST MEDIUM: IV route, 0.1mmol/kg
+MRI of whole brain with:
+- T2WI axial
+- T1WI+C axial, coronal, sagittal
+MRI of CP angle with:
+- High-resolution T2 SPACE axial, coronal
+- T1WI coronal
+- T2WI axial, coronal
 
 PREVIOUS MRI of the brain: no
 
 FINDINGS:
+Presence of a 2.5 x 2.2 x 1.9 cm mass lesion over the right C-P angle cistern region, extending into the right internal acoustic canal ("ice cream on cone" appearance), with iso- T1, mild hyper- T2 signal intensity, and contrast-enhanced study shows strong enhancement. Vestibular schwannoma (acoustic neuroma) is considered.
 
 Postcontrast study shows no evidence of abnormal enhancing tumor mass lesion over the bil. C-P angle cistern region noted.
 
@@ -212,6 +210,39 @@ No evidence of abnormal signal intensity tumor mass lesion over the bil. C-P ang
 
 No evidence of abnormal enhancing tumor mass lesion over the brain stem, skull base, bil. CP angle cistern and bil. pre-pontine cistern region noted.
 SUGGESTION:
+)
+  Paste(MyForm)
+Return
+
+::mritumorcpvs::
+  MyForm =
+(
+MRI of whole brain with:
+- T2WI axial
+- T1WI+C axial, coronal, sagittal
+MRI of CP angle with:
+- High-resolution T2 SPACE axial, coronal
+- T1WI coronal
+- T2WI axial, coronal
+
+PREVIOUS MRI of the brain: no
+
+FINDINGS:
+Presence of a 2.5 x 2.2 x 1.9 cm mass lesion over the right C-P angle cistern region, extending into the right internal acoustic canal ("ice cream on cone" appearance), with iso- T1, mild hyper- T2 signal intensity, and contrast-enhanced study shows strong enhancement. Vestibular schwannoma (acoustic neuroma) is considered.
+
+No definite abnormal signal intensity mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+Post contrast study showed no other abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+
+Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+
+Presence of small area high signal intensity on T2WI noted over the bilateral mastoid air sinus, suspicious small effusion or poor pneumatization.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+C/W right vestibular schwannoma (acoustic neuroma).
 )
   Paste(MyForm)
 Return

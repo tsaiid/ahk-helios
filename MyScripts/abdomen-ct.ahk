@@ -366,7 +366,7 @@ Return
 METHOD:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 3-mm contiguous scan. Coronal reconstruction.
-Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 and 420 seconds scanning delay.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds and 30 minutes scanning delay.
 
 Previous abdominal CT: none.
 
@@ -553,14 +553,14 @@ Kidneys: No hydronephrosis.
 Ureters: No definite stone-like radiopacity along the urinary tract. No hydroureter.
 Urinary bladder: Unremarkable
 
+No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
+
 Adrenals: Unremarkable
 Liver: Unremarkable
 Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
 GI tract: Unremarkable
-
-No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
 Lower lungs: Unremarkable
 
@@ -624,14 +624,14 @@ FINDINGS:
 Kidneys and ureters: Unremarkable
 Urinary bladder: Unremarkable
 
+No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
+
 Adrenals: Unremarkable
 Liver: Unremarkable
 Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
 GI tract: Unremarkable
-
-No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
 Lower lungs: Unremarkable
 )
