@@ -122,6 +122,9 @@ FINDINGS:
 Atherosclerotic change and calcification of the arterial wall, from abdominal aorta to the peripheral arteries of foot.
 Because too small diameter of arteries and the severe calcification, the patency below the popliteal level is difficult to evaluate.
 
+Multifocal luminal stenosis over bilateral anterior tibial, posterior tibial, and peroneal arteries, c/w peripheral arterial disease. They are relatively patent to at least ankle level.
+Because too small diameter of arteries and the severe calcification, the evaluation may be limited.
+
 Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
 Some small nonobstructive bilateral renal stones.
 
