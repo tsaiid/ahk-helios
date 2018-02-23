@@ -168,8 +168,13 @@ Return
 ::ol::obstruction level
 ::nobs::nonobstructive
 ::obs::obstruction
-::hypoec::hypoenhanced `
-::hyperec::hyperenhanced `
+::hypoec::hypo-enhanced `
+::hyperec::hyper-enhanced `
+::fl::fatty liver
+::mfl::mild fatty liver
+::mfl1::mild fatty liver without focal lesion.
+::duf::degenerative uterine fibroid
+::eso::esophagus
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

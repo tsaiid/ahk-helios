@@ -9,6 +9,7 @@
 ::cctcad0::Calcification of the coronary arteries.
 ::mcctcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+::hrctok::No abnormal air trapping in both inspiratory and expiratory phases.
 
 ;; Show helper to insert Fleischner guideline
 ::fsg::

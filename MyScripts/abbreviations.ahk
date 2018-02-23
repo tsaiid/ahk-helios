@@ -90,7 +90,6 @@
 ::itb::iliotibial band
 ::cmn::cephalomedullary nail
 ::imn::intramedullary nail
-::spl::spondylolisthesis
 ::cmp::chondromalacia patella
 ::mm::medial meniscus
 ::lm::lateral meniscus

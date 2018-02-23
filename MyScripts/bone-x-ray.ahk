@@ -13,6 +13,8 @@
 ::mdjdt::DJD change of T-spine with spur formation.
 ::djdtl::DJD change of T- and L-spine.
 ::mdjdtl::DJD change of T- and L-spine with spur formation.
+::spdl::spondylolisthesis
+::spl::spondylosis
 ::lkoa::OA change of the left knee.
 ::rkoa::OA change of the right knee.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
@@ -63,17 +65,12 @@
 ::nabl::No active bone lesion.
 
 ;; Fractures
-::orif::s/p screw and plate fixation.
 ::fr::fracture
 ::frs::fractures
 ::clfr::clavicular fracture
 ::afr::avulsion fracture
 ::pfr::pathologic fracture
 ::lfr::linear fracture
-::hs::in healing stage
-::bu::bone union
-::mu::malunion
-::pbu::partial bone union
 ::rpcf::Right proximal third clavicular fracture.
 ::lpcf::Left proximal third clavicular fracture.
 ::rmcf::Right middle third clavicular fracture.
@@ -87,7 +84,13 @@
 ::rhsfr::right humeral shaft fracture.
 ::lphfr::left proximal humeral fracture.
 ::rphfr::right proximal humeral fracture.
+::orif::s/p screw and plate fixation.
 ::fx::fixation
+::hs::in healing stage
+::bu::bone union
+::mu::malunion
+::pbu::partial bone union
+::nfd::no further displacement.
 
 ;; Prosthesis
 ::rdhs::s/p right dynamic hip screw fixation.
@@ -252,6 +255,7 @@ Return
 ::sii4::Complete fusion or ankylosis of the joint with or withoutsome residual sclerosis. Grade IV (ankylosis) sacroiliitis.
 
 ::djdc::DJD change of C-spine.
+::mdjdc0::Mild DJD change of C-spine.
 ::mdjdc::Mild DJD change of C-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::csp::
   MyForm =
