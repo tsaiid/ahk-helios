@@ -231,13 +231,9 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
 Previous abdominal CT: none.
 
 FINDINGS:
-Liver: tumor profiles:
-number: two
-segment, size: S5 and S8 ( 2.5 and 1.4 cm)
-enhancement:  hyper- in arterial phase, hypo- in venous/delayed phase
-vessel invasion: Nil
+Liver:
 cirrhotic change: nil, portosystemic collaterals (-)
-comments: in favor of HCCs
+vessel invasion: Nil
 
 Extrahepatic spread: No.
 Regional lymphadenopathy: No
