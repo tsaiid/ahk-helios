@@ -47,7 +47,6 @@
 ::n::nodule
 ::nr::nodular
 ::lr::linear
-::nl::nodular lesions
 ::cn::calcified nodule
 ::cg::calcified granuloma
 ::rol::radiopaque lesion
@@ -55,6 +54,8 @@
 ::g::granuloma
 ::gl::gland
 ::l::lesion
+::nl::nodular lesion
+::cl::cystic lesion
 ::mod::moderate `
 ::sv::severe `
 ::mtm::mild to moderate
@@ -114,9 +115,11 @@ Return
 ::cdsa::Suggest correlate with DSA.
 ::clab::Suggest correlate with Lab data.
 ::coim::Suggest correlate with other imaging modality.
+::cbs::Suggest correlate with bone scan.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
+::tstc::too small to categorize
 
 ::sgo::suggestive of `
 ::obv::obvious

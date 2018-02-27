@@ -39,6 +39,10 @@
 ::cop::cryptogenic organizing pneumonia
 ::egj::esophagogastric junction
 
+;; CV
+::ivc::inferior vena cava
+::svc::superior vena cava
+
 ;; General
 ::ant::anterior `
 ::post::posterior `
@@ -115,6 +119,7 @@
 ::laps::lymphadenopathies
 ::mlap::metastatic lymphadenopathy
 ::eln::enlarged lymph node
+::cln::calcified lymph node
 ::met::metastasis
 ::mets::metastases
 ::metc::metastatic
@@ -199,3 +204,4 @@
 ::op::operation
 ::avm::arteriovenous malformation
 ::st::soft tissue
+::fnac::fine needle aspiration cytology

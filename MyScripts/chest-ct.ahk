@@ -9,7 +9,7 @@
 ::cctcad0::Calcification of the coronary arteries.
 ::mcctcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
-::hrctok::No abnormal air trapping in both inspiratory and expiratory phases.
+::cctnat::No abnormal air trapping in both inspiratory and expiratory phases.
 
 ;; Show helper to insert Fleischner guideline
 ::fsg::
@@ -284,7 +284,7 @@ A. Tumor Profile
 * Tumor with pleural or pericardial nodules, or malignant pleural (or pericardial) effusion (M1a)
 * Single extrathoracic metastasis in a single organ (M1b):
 * Multiple extrathoracic metastasis in a single organ or multiple organs (M1c):
-* Uncertain lesion in the scanned range, which could be metastatic lesion or not, and    require further study (Mx)
+* Uncertain lesion in the scanned range, which could be metastatic lesion or not, and require further study (Mx)
 
 B. Other Findings
 
