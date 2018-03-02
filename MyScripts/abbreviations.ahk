@@ -38,6 +38,8 @@
 ::imh::intramural hematoma
 ::cop::cryptogenic organizing pneumonia
 ::egj::esophagogastric junction
+::cpe::cardiogenic pulmonary edema
+::abpa::allergic bronchopulmonary aspergillosis
 
 ;; CV
 ::ivc::inferior vena cava
@@ -170,6 +172,7 @@
 ::hc::hepatic cyst
 ::hcs::hepatic cysts
 ::ppu::perforated peptic ulcer
+::toa::tubo-ovarian abscess
 
 ;; Neuro
 ::ich::intracranial hemorrhage

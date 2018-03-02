@@ -106,9 +106,9 @@
 ::po::patch opacity
 ::no::nodular opacity
 ::lo::linear opacity
-::flo::fibrolinear opacity
-::fno::fibronodular opacity
-::rno::reticulonodular opacity
+::flo::fibrolinear opacities
+::fno::fibronodular opacities
+::rno::reticulonodular opacities
 ::ip::inflammatory process.
 ::cic::chronic inflammatory change
 ::abg::air-bronchogram
@@ -190,3 +190,4 @@
 
 ; Neck
 ::croup::Presence of steeple sign and hypopharyngeal distention, c/w croup.
+::nocroup::No evidence of steeple sign and hypopharyngeal distention.

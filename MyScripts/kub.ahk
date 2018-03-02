@@ -5,6 +5,7 @@
 ::/kd::Decubitus view of the abdomen:{Enter 2}
 
 ::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.{Tab}No remarkable findings.
+::kk::The bowel gas pattern is unremarkable.{Enter}No obvious bony lesion.{Tab}The bowel gas pattern is unremarkable.
 ::k2::The bilateral kidney shadows and psoas muscle contours are normal.
 ::k3::The psoas muscle contours are normal.
 ::kb::the bowel gas pattern is normal.
