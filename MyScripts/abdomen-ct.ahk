@@ -310,6 +310,7 @@ Previous abdominal CT: none.
 FINDINGS:
 Pancreas:
 - Intrinsic pancreatic edematous change without necrosis.
+- Several acute necrotic collections.
 - The peripancreatic fat is relatively normal.
 - No peripancreatic fluid accumulation.
 - The pancreatic duct is dilated.

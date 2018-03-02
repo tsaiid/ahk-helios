@@ -316,28 +316,31 @@ FINDINGS:
 --- Upper third of thoracic segment (sternal notch to azygos vein)
 --- Middle third of thoracic segment (azygos vein to inferior pulmonary vein)
 --- Lower third of thoracic segment (inferior pulmonary vein to esophagogastric junction)
+
 2. TUMOR SIZE
 --- Measurable: Length________ cm , Max thickness ________ cm
 --- Non-measurable
+
 3. TUMOR INVASION
 --- No or Equivocal
 --- Yes, if yes:
-T3: Advantitia(+)
+T3: Adventitia(+)
 T4a: pleura(+), pericardium(+), diaphragm(+), peritoneum(+),
 T4b: aortic wall(+), carina(+), left atrial wall (+), vertebral body(+),
 posterior wall of trachea(+), posterior wall of main bronchus(+),
+
 4. REGIONAL NODAL METASTASIS
 --- No or Equivocal
 --- Yes, if yes
 --- Number of suspicious lymph node: 1-2 (N1), 3-6 (N2), or >7 (N3)
 --- Location (specified as below):
-Lower cervical(+), supraclavicular(+), and sternal notch (+),
-Right upper paratracheal (+), Left upper paratracheal (+),
-Right lower paratracheal (+), Left lower paratracheal (+),
-Prevascular (+), Retrotracheal (+),
-Subaortic (A-P window) (+), Paraaortic (ascending aorta or phrenic) (+),
-Subcarinal (+), Paraesophageal(+),
-Right Hilar (+), Left Hilar (+),
+Lower cervical, supraclavicular, and sternal notch,
+Right upper paratracheal, Left upper paratracheal,
+Right lower paratracheal, Left lower paratracheal,
+Prevascular, Retrotracheal,
+Subaortic (A-P window), Paraaortic (ascending aorta or phrenic),
+Subcarinal, Paraesophageal,
+Right Hilar, Left Hilar,
 Right cardiac, Left cardiac
 Lesser curvature
 Left gastric artery
@@ -345,6 +348,7 @@ Left gastric artery
 5. DISTANT METASTASIS (IN THIS STUDY)
 --- No or Equivocal
 --- Yes, location: _________
+
 6. OTHER FINDINGS
 
 )
