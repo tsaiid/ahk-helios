@@ -2,6 +2,7 @@
 #NoEnv
 #Hotstring EndChars `t
 #Hotstring O
+#MaxHotkeysPerInterval 200
 SetBatchLines -1  ; better performance: http://scsnake.blogspot.tw/2016/03/hotstring.html
 SendMode, Input
 
