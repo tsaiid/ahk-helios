@@ -300,16 +300,6 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
-
------------------------------------
-Post-contrast study was not performed due to clinician request.
-
-Because this patient couldn't tolerate this examination finally, the Gd-enhanced study was not obtained.
-
-Post-contrast study was not performed due to patient's family refusal.
-
-Post-contrast study was not performed due to impaired renal function of the patient.
-
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
 No evidence of high signal intensity lesion in the brain stem on DWI.
@@ -329,9 +319,13 @@ The bilateral lateral ventricles showed symmetrical without dilatation.
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 
+MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+
+MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+
 MRA shows turbulent flow or mild stenosis over intracranial portion of bilateral internal carotid arteries and basilar artery.
 
-Noncontrast intracranial MRA with 3D TOF shows that multiple foci of stenoses over intracranial portion of the bilateral internal carotid arteries.
+MRA shows multiple foci of stenoses over intracranial portion of the bilateral internal carotid arteries.
 
 MRA shows presence of stenosis noted over the bilateral carotid siphon and supraclinoid internal carotid arteries, and high grade stenosis over main trunk of right side middle cerebral artery, and with paucity of the branches of the right side middle cerebral artery noted.
 
@@ -340,48 +334,33 @@ MRA shows presence of high grade stenosis or occlussion over the right/left caro
 MRA shows--
 Presence of normal variation of fenestration of the proximal basilar artery.
 
-CTA shows noraml variation of A1 of left anterior cerebral artery fenestration.
+Presence of normal variation of right/left /bilateral fetal posterior cerebral artery.
+Right side fetal type posterior cerebral artery (PCA) from right internal carotid artery (ICA) with hypoplasia change at P1 segment of right PCA noted.
 
 Normal variation of right fetal posterior cerebral artery and trifurcation of anterior cerebral artery.
 
 MRA shows normal variation of right persistent trigeminal artery.
-
 MRA shows normal variation of left persistent carotid-vertebrobasilar anastomosis, possibly persistent hypoglossal artery or persistent proatlantal intersegmental artery.
 
 MRA shows absence of an A1 segment of the left anterior cerebral artery, and the origin of both A2 segments from a single, right A1 segment, in favor of A1 segment absence or hypoplasia.
+Presence of hypoplasia of A1 portion of right/left anterior cerebral artery.
 
 MRA shows normal variation of azygos anterior cerebral artery (uncommon to rare variant of the circle of Willis where the two A1 segments of the anterior cerebral artery (ACA) join to form a single trunk).
 
-Presence of hypoplasia of A1 portion of right/left anterior cerebral artery.
-
+Presence of normal variant of common origin of left vertebral artery and left common carotid artery, so called "left brachiocephalic trunk".
 Normal variant of left vertebral artery directly arising from the aortic arch.
-
-Presence of normal variation of right/left /bilateral fetal posterior cerebral artery.
-
-Incidental finding of right side fetal type posterior cerebral artery (PCA) from right internal carotid artery (ICA) with hypoplasia change at P1 segment of right PCA noted.
-
 Presence of long segment hypoplasia or narrowing of left vertebral artery of the neck portion.
-
 Presence of mild asymmetry of bilateral vertebral arteries, and more prominence over the right side, and patent flow of bilateral vertebral arteries noted, normal variation in favor.
 
-Presence of normal variant of common origin of left vertebral artery and left common carotid artery, so called "left brachiocephalic trunk".
-
-MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
-
-MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
-
 MRA shows presence of segmental occlusion or high grade stenosis of the intracranial portion of basilar artery.
-MRA shows small diameter of right/left intracranial vertebral artery.
-MRA shows nonvisualization of right/left intracranial vertebral artery.
-
-MRA did not show the information of the vertebral artery due to the limited FOV (field of view) of this MRA study noted.
-
-S/P embolization of left vertebral artery aneurysm anterior to the medulla with susceptability artifact, possibly from coil embolization. However, whether embolization of the aneurysm was completed or not cannot be evaluated because of limited FOV (field of view) of this MRA study which cannot show the full information of vertebral artery. Please correlate with prior studies to check the status of the left vertebral artery aneurysm.
 
 MRV shows no evidence of venous thrombosis involving the intracranial venous sinuses noted.
 MRV shows a suspicious segment of absent flow over right transverse sinus. However, no definite abnormal signal intensity within the right transverse sinus is noted. Hypoplastic transverse sinus and/or flow gap artifact is considered. Suggest DSA if venous sinus thrombosis is still highly suspected clinically.
-
-IMPRESSION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 Essentially negative finding.
 No remarkable significant intracranial findings.
 
@@ -396,9 +375,6 @@ Old lacunar infarct. Old ischemic infarct.
 Previous brain insult; old lacunar infarcts.
 
 Small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter.
-
-SUGGESTION:
-Follow up or further evaluation.
 )
   Paste(MyForm)
 Return

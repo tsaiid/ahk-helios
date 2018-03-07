@@ -45,11 +45,12 @@ plsp:
       cage = %cage%-%endStr%, L%endStr%
     }
     }
-  rangeStr = Post laminectomy, transpedicular screws, rods fixation at %range%.
-  cageStr = Post interbody cage placement at %cage%.
-    SendInput, %rangeStr%
-  SendInput, {Enter}
-  SendInput, %cageStr%
+  finalStr =
+(
+Post laminectomy, transpedicular screws, rods fixation at %range%.
+Post interbody cage placement at %cage%.
+)
+  Paste(finalStr)
 Return
 
 pcsp:

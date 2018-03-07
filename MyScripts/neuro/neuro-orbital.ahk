@@ -39,6 +39,8 @@ Symmetrical size of bilateral orbital retroocular optic nerves.
 No evidence of high density foreign body noted at the bilateral intraocular and retroocular regions.
 No evidence of bony fragment noted near optic canal region.
 No evidence of orbital emphysema noted.
+Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits.
+No abnormal thickening of the extraocular muscles.
 )
   Paste(MyForm)
   SleepThenTab()

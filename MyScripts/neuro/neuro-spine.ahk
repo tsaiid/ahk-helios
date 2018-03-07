@@ -241,6 +241,8 @@ Presence of several nodular lesions noted over the right side thyroid gland,  na
 11. Presence of abnormal signal intensity involving the ------ spine, and compression of the spinal cord at -------- level, R/O metastasis, myeloma, or lymphoma
 
 IMPRESSION:
+Cervical spondylosis and DDD, with mild spinal stenosis and neuroforaminal stenosis. Details as above descriptions.
+
 Cervical degenerative spondylosis, disc space narrowing and protrusion disk. Details as above descriptions.
 
 Cervical degenerative spondylosis, disc space narrowing, herniation disk and spinal stenosis. Details as above descriptions.

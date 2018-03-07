@@ -644,14 +644,15 @@ TECHNIQUE description:
    Scanning range: Liver to symphysis, 5-mm contiguous scan.
    Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
-Clinical indications: colorectal tumor staging.
-
 Previous similar study reviewed/comparison: Yes. (<date>) | NONE
 
 Findings:
 
 Rectal tumor
-Size: [  x  x  cm]
+Colon tumor
+Location:
+Length:
+Maximal thickness:
 
 T-stage of the tumor
 [T1 (tumor invades the submucosa]]
@@ -668,11 +669,11 @@ N1c: Tumor deposit(s) in the subserosa, mesentery, or non-peritonealized pericol
 N2a: Metastasis in 4 to 6 regional lymph nodes
 N2b: Metastasis in 7 or more regional lymph nodes
 
-M1a: Metastasis confined to one organ or site (e.g., liver, lung, ovary, non-regional node).
-M1b: Metastases in more than one organ/site or the peritoneum.
+M1a: Metastasis confined to one site or organ is identified without peritoneal metastasis.
+M1b: Metastases to two or more site or organ is identified without peritoneal metastasis.
+M1c: Metastases to the peritoneal surface is identified alone or with other site or organ metastasis.
 
-NOTE: in case of mucinous-type of rectal tumor the involved lymph nodes may
-have fluid-like density.
+NOTE: in case of mucinous-type of rectal tumor the involved lymph nodes may have fluid-like density.
 
 Bony metastases: [None] visible / number and size of any bony metastases
 No abnormal findings in the liver, GB, biliary system, pancreas, spleen, and both kidneys.
