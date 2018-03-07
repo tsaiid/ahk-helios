@@ -194,6 +194,8 @@
 ::gp::globus pallidus
 ::ica::internal carotid artery
 ::caa::cerebral amyloid angiopathy
+::ene::encephalomalacia
+::sba::senile brain atrophy
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

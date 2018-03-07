@@ -93,7 +93,7 @@
   indicationStr := "INDICATION: " . CopyOrder()
   Paste(indicationStr)
 Return
-:c:CMP::COMPARISON:
+:c:CMP::COMPARISON: ^+1
 :c:IMP::IMPRESSION:
 :c:SG::SUGGESTION:
 :c:FD::FINDINGS:

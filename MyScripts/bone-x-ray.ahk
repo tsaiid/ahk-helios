@@ -198,12 +198,12 @@ Return
 ::llath::Atherosclerotic change of lower limb vessels.
 ::lasts::Soft tissue swelling over left ankle region.
 ::rasts::Soft tissue swelling over right ankle region.
-::lammfr::Medial malleolar fracture of left ankle.
-::lalmfr::Lateral malleolar fracture of left ankle.
-::labmfr::Bimalleolar fracture of left ankle.
-::rammfr::Medial malleolar fracture of right ankle.
-::ralmfr::Lateral malleolar fracture of right ankle.
-::rabmfr::Bimalleolar fracture of right ankle.
+::lammf::Medial malleolar fracture of left ankle.
+::lalmf::Lateral malleolar fracture of left ankle.
+::labmf::Bimalleolar fracture of left ankle.
+::rammf::Medial malleolar fracture of right ankle.
+::ralmf::Lateral malleolar fracture of right ankle.
+::rabmf::Bimalleolar fracture of right ankle.
 ::rsas::s/p anchor screw fixation at right shoulder.
 ::lsas::s/p anchor screw fixation at left shoulder.
 

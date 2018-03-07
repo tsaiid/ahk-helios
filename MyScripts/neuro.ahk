@@ -17,6 +17,7 @@
 ::ifch::from the imaging findings and clinical history, `
 ::mrmast::Increased signal intensity over -------------, mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
 ::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
+::ctcmast::Underdeveloped pneumatization and sclerotic change of right/left/bilateral mastoid air cells, suspicious chronic mastoiditis.
 ::ctatr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
 ::ctatr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::ctatr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
@@ -65,7 +66,7 @@ Return
 ::ctps::
   MyForm =
 (
-Presence of mild mucoperiosteal thickening and soft tissue density in the bilateral frontal sinuses, bilateral ethmoid sinuses, bilateral maxillary sinuses, and bilateral sphenoid sinuses, in favor of mild sinusitis.
+Presence of mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
 )
   Paste(MyForm)
 Return
@@ -110,7 +111,7 @@ SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan, with
 PREVIOUS CT SCAN of the paranasal sinuses: no
 
 FINDINGS:
-Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal sinuses, bilateral ethmoid sinuses, bilateral maxillary sinuses, and bilateral sphenoid sinuses, in favor of mild sinusitis.
+Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
 Mild nasal septum deviation to left side.
 The bony structure is unremarkable.
 The mastoid air cells are well-aerated.
