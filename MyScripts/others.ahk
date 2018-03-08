@@ -120,6 +120,7 @@ Return
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
 ::tstc::too small to categorize
+::motion::* Obvious motion artifacts may limit the interpretation.
 
 ::sgo::suggestive of `
 ::obv::obvious
