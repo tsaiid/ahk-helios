@@ -42,7 +42,7 @@
 ::act::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -58,7 +58,7 @@ Return
 ::actsr::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -113,7 +113,7 @@ Return
 ::actapp::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -129,7 +129,7 @@ No evidence of intraperitoneal free air.
 
 The liver, spleen, pancreas, adrenals, and kidneys are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
-The lungs covered in the scanning range are normal.
+The lungs covered in the scanning range are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -143,7 +143,7 @@ Return
 ::actappr::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -155,7 +155,7 @@ The appendix is swollen, with severe mesoappendiceal fatty stranding. Its mucosa
 
 The liver, spleen, pancreas, adrenals, and kidneys are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
-The lungs covered in the scanning range are normal.
+The lungs covered in the scanning range are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -169,7 +169,7 @@ Return
 ::actppu::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -197,7 +197,7 @@ Return
 ::actad::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with early arterial and delayed phases.
@@ -223,7 +223,7 @@ Return
 ::acthcc::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
@@ -256,7 +256,7 @@ Return
 ::acthccf::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial, portovenous, and equilibrium phases.
@@ -273,7 +273,7 @@ Return
 ::actpan::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 30 and 80 seconds scanning delay.
@@ -300,7 +300,7 @@ Return
 ::actctsi::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -360,7 +360,7 @@ Return
 ::acttcc::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 3-mm contiguous scan. Coronal reconstruction.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds and 30 minutes scanning delay.
@@ -389,7 +389,7 @@ Return
 ::actrcc::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan. Coronal reconstruction.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 30 and 120 seconds scanning delay.
@@ -418,7 +418,7 @@ Return
 ::actgyn::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -494,7 +494,7 @@ Return
 ::actcta::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: arterial and venous phases.
@@ -522,7 +522,7 @@ Return
 ::actnc::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 3-mm contiguous scan, coronal reconstruction.
 
@@ -539,7 +539,7 @@ Return
 ::actnck::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 
@@ -569,7 +569,7 @@ Return
 ::actnc+l::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast enhanced abdominal CT scans.
 Scanning range: Neck to symphysis, 3-mm contiguous scan, coronal reconstruction.
 
@@ -610,7 +610,7 @@ Return
 ::actk::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -692,7 +692,7 @@ Return
 (
 INDICATION: %MyOrder%
 
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Distended the stomach with water and scanned in prone position.
@@ -716,7 +716,7 @@ Return
 (
 INDICATION: %MyOrder%
 
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Oral contrast medium: Yes.
@@ -743,7 +743,7 @@ Return
 (
 INDICATION: PCU
 
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
@@ -774,7 +774,7 @@ Return
 ::act+l::
   MyForm =
 (
-METHOD:
+TECHNIQUE:
 Non-contrast and contrast-enhanced chest and abdominal CT scans.
 Scanning range: Neck to symphysis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -814,7 +814,29 @@ Return
 ::actacc::
   MyForm =
 (
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Diffuse gallbladder wall thickening and edematous change with gallbladder stones and GB distention are noted. Acute cholecystitis is considered.
 Diffuse gallbladder wall thickening and edematous change with pericholecystic fluid accumulation, and tiny gallbladder stones are noted. Even though, no obvious GB distention. Acute cholecystitis is still considered.
+Presence of a high-attenuation gallstone at the orifice of cystic duct, with distended gallbladder, diffuse gallbladder wall thickening and edematous change, c/w acute calculus cholecystitis.
+
+The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
+The lower abdomen and pelvis are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+C/W acute cholecystitis.
+C/W acute calculus cholecystitis.
 )
   Paste(MyForm)
 Return

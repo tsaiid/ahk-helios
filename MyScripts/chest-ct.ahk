@@ -10,6 +10,14 @@
 ::mcctcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 ::cctnat::No abnormal air trapping in both inspiratory and expiratory phases.
+::cctlapok::
+  MyForm =
+(
+No mediastinal or pulmonary hilar lymphadenopathy.
+No axillary, supraclavicular, mediastinal or pulmonary hilar lymphadenopathy.
+)
+  Paste(MyForm)
+Return
 
 ;; Show helper to insert Fleischner guideline
 ::fsg::
@@ -33,7 +41,7 @@ Return
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
-METHOD:
+TECHNIQUE:
   - (1) Noncontrast survey (2) contrast enhancement (inspiration/expiration) were performed
   - (1) Noncontrast survey (2) contrast enhancement were performed
   - Scan range: lower neck to adrenal gland
@@ -61,7 +69,7 @@ Return
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
-METHOD:
+TECHNIQUE:
   - (1) HRCT (inspiration and expiration) (2) Noncontrast survey
   - (1) Noncontrast survey (inspiration and expiration)
   - (1) Noncontrast survey
@@ -89,7 +97,7 @@ Return
 (
 CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
 
-METHOD:
+TECHNIQUE:
   - (1) Noncontrast survey
   - Scan range: lower neck to hip
 
@@ -153,7 +161,7 @@ Return
 (
 CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
 
-METHOD:
+TECHNIQUE:
   - (1) non-contrast (2) contrast enhancement for CT angiography
   - Scan range: target vessel
   - Contrast medium: IV route, rate: as fast as IV route allowed
@@ -240,7 +248,7 @@ Return
   MyForm =
 (
 CT scan of the thorax was performed with a MDCT scanner.
-METHOD: (1) NCCT (2) CECT were performed
+TECHNIQUE: (1) NCCT (2) CECT were performed
 SCAN RANGE: lower neck to adrenal gland
 
 PREVIOUS CHEST CT SCAN: Not available.
@@ -305,7 +313,7 @@ Return
 CT scan of the thorax was performed with a MDCT scanner.
 
 PROTOCOL:
-METHOD: (1) NCCT (2) CECT were performed
+TECHNIQUE: (1) NCCT (2) CECT were performed
 SCAN RANGE: lower neck to adrenal gland
 
 Previous chest CT scan: no

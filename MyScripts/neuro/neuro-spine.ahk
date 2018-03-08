@@ -191,24 +191,19 @@ C3-4, C4-5, C5-6, C6-7, C7-T1: Diffuse herniation of disc (HIVD), and small post
 C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1:  Presence of mild anterior spondylolisthesis, and slightly bulging disc, and causing mild/moderate spinal stenosis. (however, no obvious compression of the spinal cord).
 
 Diffuse ossification of posterior longitudinal ligament from C2 to C7, diffuse bulging disk, combined with mild ligament flavum hypertrophy, causing severe spinal stenosis over C2-C3 and nearly moderate spinal stenosis from C3 through C6 and mild spinal stenosis over C6-C7.
-
 Ossification of ligament flavum or ligament flavum hypertrophy at C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1, more on right side, causing mild/moderate/severe spinal stenosis.
 
 Narrowing of right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1 intervertebral neuroforaminas due to the degenerative change and severe disc space narrowing.
-
 Neuroforaminal stenosis, mild: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1
 Neuroforaminal stenosis, moderate to severe: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1
 
 No evidence of abnormal signal intensity lesion within the spinal cord of the C-spine.
-
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the C-spine.
 
 Suspicious high signal intensity within the cervical cord at the C4 and C5 level on T2WI noted, DDx: contusion edema, prior cord insult with cord gliosis, and/or artifact.
-
 Presence of mild high signal intensity within the cervical cord at the C5 and C6 spine level on T2WI noted, probably due to the spinal stenosis and/or prior cord injury edema and/or prior cord insult with cord gliosis or small cystic change.
-
 Presence of high signal intensity within the spinal cord from C1 to C5 disc level on T2WI noted, which may be due to cord edema, demyelination or gliosis change.
-IMPRESSIONS:
+
 Evident cervical spondylosis with spinal cord signal change.
 
 Presence of old compression fracture and with decreased vertebral height over the C4 and C5 spine vertebral body.
@@ -225,29 +220,21 @@ mild/severe disc space narrowing noted over ---
 small spondylosis
 degenerative endplate change
 
+A slitlike syrinx cavity at C1-C2 level, in favor of a persistent central canal.
+
 Presence of a nodular lesion noted over the right/left side thyroid gland, diameter/size about 2.8cm, , nature to be determined, recommend thyroid sonography correlation.
-
 Presence of suspicious a small nodular lesion noted over the right side thyroid gland, recommend thyroid sonography correlation if clinical indicated.
-
 Presence of several nodular lesions noted over the right side thyroid gland,  nature to be determined, recommend thyroid sonography correlation if clinical indicated.
-
-4. --------: Mild retrolisthesis--------
-5. --------: Presence of -------- DJD/spondylolytic type spondylolisthesis--------
-6. Presence of narrowing of intervertebral foramen over -----.
-7. No evidence of fracture of cervical spine.
-8. Presence of fracture/subluxation over --------------.
-9. Presence of high signal within the spinal cord at ------ level, indicating contusion edema/gliosis/compression with cord signal change
-10. Presence of infectious osteomylitis involving the ------- spine, combined with epidural/paraspinal soft tissue infection, causing compression of the spinal cord
-11. Presence of abnormal signal intensity involving the ------ spine, and compression of the spinal cord at -------- level, R/O metastasis, myeloma, or lymphoma
-
-IMPRESSION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 Cervical spondylosis and DDD, with mild spinal stenosis and neuroforaminal stenosis. Details as above descriptions.
 
 Cervical degenerative spondylosis, disc space narrowing and protrusion disk. Details as above descriptions.
 
 Cervical degenerative spondylosis, disc space narrowing, herniation disk and spinal stenosis. Details as above descriptions.
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

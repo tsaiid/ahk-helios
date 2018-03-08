@@ -213,7 +213,7 @@ Return
   MyForm =
 (
 MRI of the skull base and neck was performed:
-METHOD: Axial T1WI and T2WI with fat suppression; Coronal and sagittal post Gd-enhanced T1WI with fat suppression
+TECHNIQUE: Axial T1WI and T2WI with fat suppression; Coronal and sagittal post Gd-enhanced T1WI with fat suppression
 SCAN RANGE: from the skull base to the low neck
 CONTRAST MEDIUM: IV route, 0.1 mmol/kg, rate: 2.0 mL/sec
 

@@ -5,7 +5,7 @@
   MyForm =
 (
 CT scan of brain was performed with a multi-slice CT scanner:
-METHOD: (1) Noncontrast and (2) Post-contrast enhancement
+TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
 CONTRAST MEDIUM: IV route, 70 ml, 1 ml/sec.
 
@@ -48,7 +48,7 @@ Return
   MyForm =
 (
 CT scan of brain was performed with a multi-slice CT scanner:
-METHOD: (1) Noncontrast and (2) Post-contrast enhancement
+TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
 CONTRAST MEDIUM: IV route, 70 ml, 1 ml/sec.
 
@@ -215,13 +215,13 @@ Return
   MyForm =
 (
 CT angiography of brain and neck was performed with a multi-slice CT scanner:
-METHOD: multi thin-slice spiral scanning of arterial and venous phases
+TECHNIQUE: multi thin-slice spiral scanning of arterial and venous phases
 SCAN RANGE: axial plane from the skull base to the vertex.
 CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
 IMAGE POST-PROCESSING: done in workstation with multiPlanar reconstruction, maximal intensity projection and volume rendering technique
 
 CT scan of brain was performed with a multi-slice CT scanner:
-METHOD: (1) Noncontrast and (2) Post-contrast enhancement
+TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
 
 Previous CT: no
@@ -460,7 +460,7 @@ Return
   MyForm =
 (
 The MRI of the brain performed with a 1.5-T scanner:
-METHOD:
+TECHNIQUE:
 - Sagittal T1WI
 - Axial T1WI, T2WI, GET2*WI, FLAIR, DWI, ADC map
 - Coronal T1WI, T2WI
@@ -470,7 +470,7 @@ SCAN RANGE: from the skull base to the vertex
 CONTRAST MEDIUM: IV route, 0.1 mmol/kg
 
 The MRI of the brain performed with a 3-T scanner:
-METHOD: Sagittal T1WI (localizer)
+TECHNIQUE: Sagittal T1WI (localizer)
 Axial T1WI, T2WI, T2*GRE, FLAIR (Fluid Attenuated Inversion Recovery), DWI (Diffusion-weighted Imaging)
 Coronal T1WI, T2WI
 Gd-enhanced 3D-SPACE and 3D-MPRAGE T1WI with fat suppression
@@ -535,7 +535,7 @@ Return
   MyForm =
 (
 CT angiography of brain and neck was performed with a multi-slice CT scanner:
-METHOD: multi thin-slice spiral scanning of arterial, venous, and delayed phases
+TECHNIQUE: multi thin-slice spiral scanning of arterial, venous, and delayed phases
 SCAN RANGE: axial plane from the neck to the vertex.
 CONTRAST MEDIUM: IV bolus injection, 70 ml, rate: 3 ml/sec
 IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection
@@ -606,7 +606,7 @@ Return
   MyForm =
 (
 CT angiography of brain and neck was performed with a multi-slice CT scanner:
-METHOD: multi thin-slice spiral scanning of arterial, venous, and delayed phases
+TECHNIQUE: multi thin-slice spiral scanning of arterial, venous, and delayed phases
 SCAN RANGE: axial plane from the neck to the vertex.
 CONTRAST MEDIUM: IV bolus injection, 70 ml, rate: 3 ml/sec
 IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection

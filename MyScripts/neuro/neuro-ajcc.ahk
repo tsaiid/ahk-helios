@@ -7,7 +7,7 @@
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Non-contrast and (2) Contrast enhancement
+TECHNIQUE: (1) Non-contrast and (2) Contrast enhancement
 SCAN RANGE: Axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -83,7 +83,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI,
+TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
    Coronal T1WI and T2WI with fat suppression,
    Gd-enhanced dynamic and conventional T1WI with fat suppression
@@ -164,7 +164,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Noncontrast and (2) Post-contrast enhancement
+TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -245,7 +245,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI,
+TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
    Coronal T1WI and T2WI with fat suppression,
    Gd-enhanced dynamic and conventional T1WI with fat suppression
@@ -344,7 +344,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Noncontrast and (2) Post-contrast enhancement
+TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -405,7 +405,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T/3.0-T scanner:
-METHOD: Sagittal T1WI and T2WI, Axial T1WI and T2WI with fat suppression, Coronal T1WI and T2WI with fat suppression, Post Gd-enhanced dynamic and conventional T1WI with
+TECHNIQUE: Sagittal T1WI and T2WI, Axial T1WI and T2WI with fat suppression, Coronal T1WI and T2WI with fat suppression, Post Gd-enhanced dynamic and conventional T1WI with
 fat suppression
 SCAN RANGE: from the skull base to the low neck
 CONTRAST MEDIUM: IV route, 0.1mmol/kg, rate: 2.0 mL/sec
@@ -468,7 +468,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Non-contrast and (2) Contrast-enhanced
+TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -517,7 +517,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI,
+TECHNIQUE: Sagittal T1WI and T2WI,
 Axial T1WI and T2WI with fat suppression,
 Coronal T1WI and T2WI with fat suppression,
 Post Gd-enhanced dynamic and conventional T1WI with fat suppression
@@ -569,7 +569,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Non-contrast and (2) Contrast-enhanced
+TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -619,7 +619,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI,
+TECHNIQUE: Sagittal T1WI and T2WI,
 Axial T1WI and T2WI with fat suppression,
 Coronal T1WI and T2WI with fat suppression,
 Post Gd-enhanced dynamic and conventional T1WI with fat suppression
@@ -672,7 +672,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Non-contrast and (2) Contrast-enhanced
+TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
@@ -737,7 +737,7 @@ Return
 (
 INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
-METHOD: Sagittal T1WI and T2WI,
+TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
    Coronal T1WI and T2WI with fat suppression,
    Gd-enhanced dynamic and conventional T1WI with fat
@@ -807,7 +807,7 @@ Return
 (
 INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
-METHOD: (1) Non-contrast and (2) Contrast-enhanced
+TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
 CONTRAST MEDIUM: IV route, volume: 100 mL, rate: 1.0 mL/sec
 
