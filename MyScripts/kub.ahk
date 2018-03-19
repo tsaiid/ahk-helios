@@ -4,12 +4,12 @@
 ::/sk::Standing abdomen radiograph:{Enter 2}
 ::/kd::Decubitus view of the abdomen:{Enter 2}
 
-::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.{Tab}No remarkable findings.
+::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are unremarkable.{Tab}No remarkable findings.
 ::kk::The bowel gas pattern is unremarkable.{Enter}No obvious bony lesion.{Tab}The bowel gas pattern is unremarkable.
 ::k2::The bilateral kidney shadows and psoas muscle contours are normal.
 ::k3::The psoas muscle contours are normal.
-::kb::the bowel gas pattern is normal.
-::kb1::the bowel gas pattern is unremarkable.
+::kb::the bowel gas pattern is unremarkable.
+::kb1::the bowel gas pattern is normal.
 ::kob::The other bowel gas pattern is normal.
 ::ks::Mottled gas pattern along colon course is noted, implying fecal residues retention.
 ::kp::Ring like calcification nodules in the pelvic cavity are mostly due to phleboliths of the vein.
@@ -67,16 +67,14 @@
 ::ks1::
   MyForm =
 (
-Mottled gas pattern along colon course is noted, implying fecal residues retention.
-Otherwise, the bowel gas pattern is normal.
+Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is normal.
 )
   Paste(MyForm)
 Return
 ::ks2::
   MyForm =
 (
-Mottled gas pattern along colon course is noted, implying fecal residues retention.
-Otherwise, the bowel gas pattern is normal.
+Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is normal.
 
 Bilateral kidney shadows and psoas muscle contours are normal.
 )

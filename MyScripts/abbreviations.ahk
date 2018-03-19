@@ -30,6 +30,7 @@
 ::htx::hemothorax
 ::pjp::Pneumocystis jiroveci pneumonia
 ::brec::bronchiectasis
+::tbrec::traction bronchiectasis
 ::ttn::transient tachypnea of the newborn
 ::ild::interstitial lung disease
 ::sce::subcutaneous emphysema
@@ -40,41 +41,12 @@
 ::egj::esophagogastric junction
 ::cpe::cardiogenic pulmonary edema
 ::abpa::allergic bronchopulmonary aspergillosis
+::tib::tree-in-bud appearance
+::pfn::perifissural nodule
 
 ;; CV
 ::ivc::inferior vena cava
 ::svc::superior vena cava
-
-;; General
-::ant::anterior `
-::post::posterior `
-::sup::superior `
-::inf::inferior `
-::lat::lateral `
-::med::medial `
-::suplat::superolateral `
-::inflat::inferolateral `
-::antlat::anterolateral `
-::postlat::posterolateral `
-::ext::external `
-::int::internal `
-::pri::primary `
-::sec::secondary `
-::ned::no evidence of disease.
-::ner::no evidence of local recurrence.
-::hx::history `
-::sq::subcutaneous `
-::afl::air-fluid level
-::c::contrast medium
-::wnl::within normal limits
-::prev::previous
-::htn::hypertension
-::a::artery
-::aa::arteries
-::v::vein
-::impr::improvement
-::neo::no evidence of `
-::nseo::no strong evidence of `
 
 ;; Bone
 ::msk::musculoskeletal
@@ -173,6 +145,9 @@
 ::hcs::hepatic cysts
 ::ppu::perforated peptic ulcer
 ::toa::tubo-ovarian abscess
+::a-c::ascending colon
+::d-c::descending colon
+::s-c::sigmoid colon
 
 ;; Neuro
 ::ich::intracranial hemorrhage
@@ -196,6 +171,7 @@
 ::caa::cerebral amyloid angiopathy
 ::ene::encephalomalacia
 ::sba::senile brain atrophy
+::bg::basal ganglion
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
@@ -210,3 +186,34 @@
 ::avm::arteriovenous malformation
 ::st::soft tissue
 ::fnac::fine needle aspiration cytology
+
+;; General
+::ant::anterior `
+::post::posterior `
+::sup::superior `
+::inf::inferior `
+::lat::lateral `
+::med::medial `
+::suplat::superolateral `
+::inflat::inferolateral `
+::antlat::anterolateral `
+::postlat::posterolateral `
+::ext::external `
+::int::internal `
+::pri::primary `
+::sec::secondary `
+::ned::no evidence of disease.
+::ner::no evidence of local recurrence.
+::hx::history `
+::sq::subcutaneous `
+::afl::air-fluid level
+::wnl::within normal limits
+::prev::previous
+::htn::hypertension
+::a::artery
+::aa::arteries
+::v::vein
+::impr::improvement
+::neo::no evidence of `
+::nseo::no strong evidence of `
+::c::contrast medium

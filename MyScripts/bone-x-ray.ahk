@@ -10,13 +10,11 @@
 ::mdjdl1::Mild DJD change of L-spine with spur formation.
 ::mdjdl2::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::djdt::DJD change of T-spine.
-::mdjdt::DJD change of T-spine with spur formation.
+::mdjdt::Mild DJD change of T-spine with spur formation.
 ::djdtl::DJD change of T- and L-spine.
-::mdjdtl::DJD change of T- and L-spine with spur formation.
+::mdjdtl::Mild DJD change of T- and L-spine with spur formation.
 ::spdl::spondylolisthesis
 ::spl::spondylosis
-::lkoa::OA change of the left knee.
-::rkoa::OA change of the right knee.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
 ::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, consistent with osteoarthrosis.
 ::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
@@ -134,7 +132,8 @@
 ::sijok::No evidence of blurring, sclerosis, or bone erosion over bilateral sacroiliac joints.
 ::wgd::wedge deformity
 ::opc::osteoporotic change
-::gopc::generalized osteoporotic change
+::gopc::Generalized osteoporotic change.
+::dopc::Disuse osteoporotic change.
 ::dop::disuse osteoporosis
 ::avn::avascular necrosis
 ::lhd::A drain at left hip region.
@@ -187,9 +186,12 @@ Return
 ::bhoa::OA change of bilateral hips.
 ::rkoa::OA change of right knee.
 ::lkoa::OA change of left knee.
+::bkoa::OA change of bilateral knees.
+::mrkoa::Mild OA change of right knee.
+::mlkoa::Mild OA change of left knee.
+::mbkoa::Mild OA change of bilateral knees.
 ::raoa::OA change of right ankle.
 ::laoa::OA change of left ankle.
-::bkoa::OA change of bilateral knees.
 ::rwoa::OA change of right wrist.
 ::lwoa::OA change of left wrist.
 ::bwoa::OA change of bilateral wrists.
@@ -336,7 +338,6 @@ Return
 ::wvok::
   MyForm =
 (
-Waters' view shows:
 - The paranasal sinuses are clear.
 - The bony structures are unremarkable.
 - The mastoid air cells are well-aerated.

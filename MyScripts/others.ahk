@@ -38,6 +38,7 @@
 ::cnbd::cannot be determined
 ::cnbe::cannot be excluded
 ::sbe::should be excluded
+::mbs::may be suspected
 ::mcnbe::malignancy cannot be excluded.
 ::msbe::malignancy should be excluded.
 ::m::multiple `
@@ -121,6 +122,8 @@ Return
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
 ::tstc::too small to categorize
 ::motion::* Obvious motion artifacts may limit the interpretation.
+::ncl::* The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+::mart::* Obvious metallic artifact may limit the evaluation.
 
 ::sgo::suggestive of `
 ::obv::obvious
