@@ -79,6 +79,7 @@ Return
 (
 CT Lower Extremity:
 Scanning from thigh to foot, axial, coronal, sagittal, and 3D VRT views
+Scanning from thigh to foot, axial, coronal, sagittal views
 
 FINDINGS:
 )
@@ -90,6 +91,7 @@ Return
   MyForm =
 (
 CT Lower Extremity:
+Pre and post contrast-enhanced study.
 Axial Scanning from lower abdomen to foot, with coronal reconstruction
 
 FINDINGS:

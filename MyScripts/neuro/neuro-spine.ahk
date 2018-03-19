@@ -408,6 +408,13 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
+:r0:000::
+(
+aaa
+{Tab}
+bbb
+)
+
 ;; MRSPL2
 ::mrspl2::
   MyForm =
@@ -454,7 +461,7 @@ L1-L2, L2-L3, L3-L4, L4-L5, L5-S1: No definite spinal stenosis.
 
 L1-L2, L2-L3, L3-L4, L4-L5, L5-S1: Presence of diffuse bulging disk, causing mild indentation of anterior dural sac, however, no obvious significant spinal stenosis.
 
-L1-L2, L2-L3, L3-L4, L4-L5, L5-S1: Presence of diffuse bulging/protrusion/herniation disk, disc space narrowing, degenerative endplate change, ligament flavum hypertrophy and facet joint degenerative change causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
+L1-L2, L2-L3, L3-L4, L4-L5, L5-S1: Presence of diffuse bulging/protrusion/herniation disk, disc space narrowing, degenerative endplate change, ligament flavum hypertrophy and facet joint degenerative change, causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
 
 L4-5 and L5-S1: Diffuse bulging disc with posterior protrusion disc, hypertrophy of ligamentum flavum and degenerative change of facet joints noted, resulting in spinal stenosis of L4-5/severe, and L5-S1/moderate.
 
@@ -520,8 +527,11 @@ Presence of benign hemangioma noted over the L2 spine vertebral body, size about
 Bilateral renal cysts.
 
 Bilateral/Right/Left hydronephrosis and hydroureter. The precise nature to be determined. Suggest clinical correlation.
-
-IMPRESSION:
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 Lumbar degenerative spondylosis, disc space narrowing and protrusion disk. Details as above descriptions.
 
 Degenerative spine disease with spinal stenosis. Details see descriptions.
@@ -529,8 +539,6 @@ Degenerative spine disease with spinal stenosis. Details see descriptions.
 No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the L-spine noted.
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

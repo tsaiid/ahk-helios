@@ -138,19 +138,18 @@ FINDINGS:
 2. Mediastinum: no lymph node enlargement > 1 cm.
 3. Heart:
   > Size: normal.
-  > Coronary artery calcification: no or minimal.
+  > Coronary artery calcification: no / minimal.
 4. Great vessels: normal diameter.
-5. Pleura: N.A.
-6. Chest wall and spine: N.A.
-7. Upper abdomen: N.A.
-
---------------------
-CONCLUSION:
-(1) no remarkable nodular lesions in bilateral lungs.
-(2) no or minimal coronary artery calcification.
-
-*N.P. means no particular findings adjusted for patient's age.
-*N.A. means complete evaluation is not available due to absence of contrast enhancement however, from the limited information, there is no evident lesion.
+5. Pleura: unremarkable
+6. Chest wall and spine: unremarkable
+7. Upper abdomen: unremarkable
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+no remarkable nodular lesions in bilateral lungs.
+no or minimal coronary artery calcification.
 )
   Paste(MyForm)
 Return

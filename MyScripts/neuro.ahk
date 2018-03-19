@@ -7,9 +7,12 @@
 ::ath::Atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
 ::athc::Atherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
 ::athv::Atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries.
-::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy considered.
-::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy considered.
-::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy considered.
+::math::Mildtherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
+::mathc::Mildtherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
+::mathv::Mildtherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries.
+::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::ubo::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
 :c:imp::As the above descriptions.
@@ -18,10 +21,10 @@
 ::mrmast::Increased signal intensity over -------------, mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
 ::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
 ::ctcmast::Underdeveloped pneumatization and sclerotic change of right/left/bilateral mastoid air cells, suspicious chronic mastoiditis.
-::ctatr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
-::ctatr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
-::ctatr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
-::mratr::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+::atr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
+::atr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+::atr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
+::atr3::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
@@ -111,15 +114,18 @@ SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan, with
 PREVIOUS CT SCAN of the paranasal sinuses: no
 
 FINDINGS:
-Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
-Mild nasal septum deviation to left side.
-The bony structure is unremarkable.
-The mastoid air cells are well-aerated.
+- Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
+- Mild nasal septum deviation to left side.
+- Bilateral nasal conchae hypertrophy.
+- Bilateral palatine tonsil enlargement.
+- The bony structure is unremarkable.
+- The mastoid air cells are well-aerated.
 )
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
+C/W chronic paranasal sinusitis.
 C/W chronic paranasal sinusitis, most severe at left maxillary.
 )
   Paste(MyForm)

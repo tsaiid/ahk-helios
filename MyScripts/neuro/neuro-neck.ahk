@@ -97,6 +97,7 @@ PS. The evaluation is limited especially for solid organs, neck lymph nodes and 
 Return
 
 ; Acute tonsillitis
+; Peritonsillar abscess
 ::ctnecat::
   MyForm =
 (
@@ -115,12 +116,17 @@ Bilateral tonsillar enlargement, touching in the midline forming "kissing tonsil
 Small low density within the right tonsil.
 Acute tonsillitis with abscess formation is considered.
 
+Mild left tonsillar enlargement.
+Multiloculated fluid accumulation at left peritonsillar region, with rim enhancement, size about 3 cm, c/w peritonsillar abscesses.
+They extend from oropharyngeal to hypopharyngeal level.
+
 The lingual tonsils also show enlargement.
 Symmetrical enlargement of the roof and posterior wall of the nasopharynx, suggestive of adenoid hyperplasia, probably related to the acute inflammation.
 
 Cervical nodes:
 Multiple enlarged lymph nodes over the bilateral carotid spaces, posterior cervical spaces, in favor of reactive lymph nodes. Suggest follow-up.
 No evidence of bulky lymph nodes over bilateral supraclavicular fossae, bilateral submandibular and submental space.
+Several enlarged lymph nodes over the bilateral carotid spaces, probably reactive lymph nodes.
 
 Orbits: normal
 Paranasal sinuses: normal
@@ -140,6 +146,7 @@ Thyroid gland: normal
   MyForm =
 (
 Acute tonsillitis with abscess formation.
+Left peritonsillar abscesses.
 )
   Paste(MyForm)
 Return

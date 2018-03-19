@@ -15,7 +15,7 @@ LLDButtonOK:
   RtLL := Round(LLDFormRtLL / 10, 1)
   LtLL := Round(LLDFormLtLL / 10, 1)
   delta := Round(Abs(RtLL - LtLL), 1)
-  MeningfulLLD := (delta >= 1 ? "Evidence of leg length discrepancy" : "No evidence of leg length discrepancy")
+  MeningfulLLD := (delta >= 1 ? "Evidence of leg length discrepancy." : "No evidence of leg length discrepancy.")
   MyForm =
 (
 Triple film of lower extremities in standing AP projection :

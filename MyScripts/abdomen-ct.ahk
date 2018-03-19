@@ -8,6 +8,7 @@
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
 ::btok::No biliary tree obstruction.
 ::actfl::Fatty liver without focal lesion.
+::mactfl::Mild fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
 ::actgbss::Presence of several gallbladder stones without obvious GB distention or wall thickening.
@@ -26,7 +27,8 @@
 ::actlkaml::A __-cm fat-containing tumor at the left kidney, in favor of angiomyolipoma.
 ::actbkaml::Fat-containing tumors at the both kidneys, size up to __ cm, in favor of angiomyolipomas.
 ::actns::No evidence of high-attenuation stone along the urinary tracts.
-::actbph::Prostate enlargement with intravesical protrusion.
+::actbph::Mild enlarged prostate is noted, most likely benign prostatic hyperplasia.
+::actbph1::Prostate enlargement with intravesical protrusion.
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
@@ -66,6 +68,38 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+
+GI tract: Unremarkable
+
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+Prostate: Unremarkable
+GYN organ: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return
+
+::actncsr::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+
+Previous abdominal CT: none.
+
+FINDINGS:
 Adrenals: Unremarkable
 Liver: Unremarkable
 Spleen: Unremarkable
@@ -75,11 +109,13 @@ GI tract: Unremarkable
 Kidneys and ureters: Unremarkable
 Urinary bladder: Unremarkable
 
-No evident upper abdominal retroperitoneal lymphadenopathy identified.
+No evident retroperitoneal or mesenteric lymphadenopathy identified.
 No evidence of intraperitoneal free air.
 No obvious ascites.
 
 Lower lungs: Unremarkable
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return
@@ -339,6 +375,7 @@ Biliary tree:
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
 
+Adrenals: Unremarkable
 Liver: Unremarkable
 Spleen: Unremarkable
 Kidneys and ureters: Unremarkable
@@ -375,6 +412,7 @@ Urinary bladder: Unremarkable
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
 
+Adrenals: Unremarkable
 Liver: Unremarkable
 Biliary tree: Unremarkable
 Spleen: Unremarkable
@@ -404,6 +442,7 @@ Urinary bladder: Unremarkable
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
 
+Adrenals: Unremarkable
 Liver: Unremarkable
 Biliary tree: Unremarkable
 Spleen: Unremarkable
@@ -524,7 +563,7 @@ Return
 (
 TECHNIQUE:
 Non-contrast enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 3-mm contiguous scan, coronal reconstruction.
+Scanning range: Liver to symphysis, 5-mm contiguous scan, coronal reconstruction.
 
 Previous abdominal CT: none.
 

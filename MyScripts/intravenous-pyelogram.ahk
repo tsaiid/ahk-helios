@@ -9,7 +9,7 @@
 ::ivp::
   MyForm =
 (
-IV urography was performed and demostrates as follows:
+IV urography was performed and demonstrates as follows:
 
 1. Clear bilateral renal shadows and psoas muscle lines.
    Bilateral/ Right side/ Left side renal shadow/s are/is obscured by excessive bowel gas.

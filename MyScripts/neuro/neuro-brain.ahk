@@ -500,6 +500,50 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
+;; MRB - Lung cancer staging
+::mrblcs::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+
+A 3.3-cm enhancing lesion within the left parietal skull, suspicious bone metastasis.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+Empty sella appearance.
+
+Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+MRA shows
+- A suspicious aneurysm at the anterior communicating artery (Ser/Img: 9/63), size about 2 mm. Suggest correlate with DSA.
+- No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
+- No evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+- Left fetal type posterior cerebral artery.
+- Hypoplasia of A1 portion of left anterior cerebral artery.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of brain metastasis.
+)
+  Paste(MyForm)
+Return
+
 ::mriseizure::
   MyForm =
 (
@@ -527,6 +571,12 @@ Presence of hyperintensity on T2WI over left maxillary sinuses, in favor of sinu
 MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
 MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable intracranial findings.
 )
   Paste(MyForm)
 Return
