@@ -148,6 +148,7 @@
 ::a-c::ascending colon
 ::d-c::descending colon
 ::s-c::sigmoid colon
+::jdd::juxtapapillary duodenal diverticulum
 
 ;; Neuro
 ::ich::intracranial hemorrhage
@@ -172,6 +173,8 @@
 ::ene::encephalomalacia
 ::sba::senile brain atrophy
 ::bg::basal ganglion
+::vb::vertebral body
+::vbs::vertebral bodies
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

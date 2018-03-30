@@ -8,7 +8,7 @@
 ::cmf::comminuted fracture `
 ::bfr::burst fracture `
 ::cal::calcification
-::si::(Ser/Img: ){Left}
+::si::(Se/Im: ){Left}
 ::sao::small amount of `
 ::smao::small to moderate amount of `
 ::mao::moderate amount of `
@@ -76,10 +76,12 @@
 ::eva::evaluation
 ::eso0::esophagus
 ::fb::foreign body
+::hd::high density
 ::ld::low density
 ::pbi::previous brain insults
 ::ech::edematous change
 ::nfs::neuroforaminal stenosis
+::snfs::spinal and neuroforaminal stenosis
 ::at-::attenuation
 ::d-::density
 
@@ -122,7 +124,7 @@ Return
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
 ::tstc::too small to categorize
 ::motion::* Obvious motion artifacts may limit the interpretation.
-::ncl::* The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+::ncl::* The evaluation is limited due to absence of contrast enhancement, especially for solid organs and vascular structure.
 ::mart::* Obvious metallic artifact may limit the evaluation.
 
 ::sgo::suggestive of `
@@ -137,13 +139,13 @@ Return
 ::T1l::T1 hypointensity
 ::T2h::T2 hyperintensity
 ::T2l::T2 hypointensity
-::hyperd::hyperdense
-::hypod::hypodense
-::isod::isodense
-::hia::high-attenuation
-::loa::low-attenuation
-::hypere::hyperechoic
-::hypoe::hypoechoic
+::hyperd::hyperdense `
+::hypod::hypodense `
+::isod::isodense `
+::hia::high-attenuation `
+::loa::low-attenuation `
+::hypere::hyperechoic `
+::hypoe::hypoechoic `
 :c:fd::filling defect
 ::pg::progression
 ::rg::regression
@@ -159,7 +161,7 @@ Return
 ::ss::surgical staples
 ::mrt::more on right side
 ::mlt::more on left side
-::adj::adjacent
+::adj::adjacent `
 ::std::soft tissue density
 ::ddx::differential diagnoses
 ::nd::newly developed
@@ -173,10 +175,11 @@ Return
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
 ::ol::obstruction level
-::nobs::nonobstructive
+::nobs::nonobstructive `
 ::obs::obstruction
 ::hypoec::hypo-enhanced `
 ::hyperec::hyper-enhanced `
+::pce::post-contrast enhancement
 ::fl::fatty liver
 ::mfl::mild fatty liver
 ::mfl1::mild fatty liver without focal lesion.

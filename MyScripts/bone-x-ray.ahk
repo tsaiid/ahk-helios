@@ -32,13 +32,15 @@
 ::rpatok::No lateral tilting or subluxation of right patella. No PF joint space narrowing.
 ::pats::Lateral subluxation of bilateral patellae, with severe PF joint space narrowing at lateral facet.
 ::mpats::Mild lateral subluxation of bilateral patellae, with mild PF joint space narrowing at lateral facet.
-::lmpats::Mild lateral subluxation of left patella, with mild PF joint space narrowing at lateral facet.
-::rmpats::Mild lateral subluxation of right patella, with mild PF joint space narrowing at lateral facet.
+::mlpats::Mild lateral subluxation of left patella, with mild PF joint space narrowing at lateral facet.
+::mrpats::Mild lateral subluxation of right patella, with mild PF joint space narrowing at lateral facet.
 ::mpatt::Mild lateral tilting of bilateral patellae, with mild PF joint space narrowing at lateral facet.
-::lmpatt::Mild lateral tilting of left patella, with mild PF joint space narrowing at lateral facet.
-::rmpatt::Mild lateral tilting of right patella, with mild PF joint space narrowing at lateral facet.
+::mlpatt::Mild lateral tilting of left patella, with mild PF joint space narrowing at lateral facet.
+::mrpatt::Mild lateral tilting of right patella, with mild PF joint space narrowing at lateral facet.
 ::patts::Lateral tilting and subluxation of bilateral patellae, with severe PF joint space narrowing, subchondral sclerosis and marginal osteophyte formation at lateral facet.
 ::mpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
+::mlpatts::Mild lateral tilting and subluxation of left patella, with PF joint space narrowing at lateral facet.
+::mrpatts::Mild lateral tilting and subluxation of right patella, with PF joint space narrowing at lateral facet.
 ::acrd::Lateral downsloping of the acromion, narrowing the acromiohumeral distance, which may be associated with impingement of the supraspinatus tendon.
 ::acrok::No lateral downsloping or hooking of the acromion.
 ::acrsp0::Subacromial spur.

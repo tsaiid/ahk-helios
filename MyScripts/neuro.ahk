@@ -7,9 +7,9 @@
 ::ath::Atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
 ::athc::Atherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
 ::athv::Atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries.
-::math::Mildtherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
-::mathc::Mildtherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
-::mathv::Mildtherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries.
+::math::Mild atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
+::mathc::Mild atherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
+::mathv::Mild atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries.
 ::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
@@ -32,11 +32,15 @@
 ::cteps::Small low density near right/left side of anterior commissure, in favor of enlarged perivascular space.
 ::necsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharyngeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
 ::mrnecsprt::Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
+::mrnecspc::Mild mucosal and submucosal soft tissue thickening over the nasopharyngeal and oropharyngeal regions, in favor of post-treatment change. Suggest follow-up.
 ::mrns::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 ::sdsa::Suggest correlate with DSA if clinically indicated.
 ::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
 ::pfsdh::Presence of a acute hematoma extending over the left side of falx cerebri, suggestive of an acute parafalcine SDH.
+::lfpca::Left fetal type posterior cerebral artery.
+::rfpca::Right fetal type posterior cerebral artery.
+::bfpca::Bilateral fetal type posterior cerebral arteries.
 ::psok::The paranasal sinuses are clear.
 ::rfvps::s/p ventriculo-peritoneal shunt from right frontal area, with tip at left lateral ventricle.
 ::lgwd::loss of gray-white matter differentiation
@@ -48,15 +52,16 @@
 ::ctmcm::Prominent retrocerebellar cerebrospinal fluid space with normal vermis, 4th ventricle, and cerebellar hemispheres, in favor of mega cisterna magna.
 ::epc::endplate change
 ::ctnph::Enlarged lateral and third ventricles, with relatively normal 4th ventricle. Ventricular enlargement out of proportion to cortical sulcal enlargement, and presence of bilateral periventricular low density. Normal pressure hydrocephalus may be suspected. DDx: normal aging brain.
-::f-p::fronto-parietal
-::f-t-p::fronto-temporo-parietal
-::f-t::fronto-temporal
-::p-o::parieto-occipital
-::t-p::temporo-parietal
-::f-::frontal
-::p-::parietal
-::t-::temporal
-::o-::occipital
+::f-p::fronto-parietal `
+::f-t-p::fronto-temporo-parietal `
+::f-t::fronto-temporal `
+::p-o::parieto-occipital `
+::t-p::temporo-parietal `
+::t-o::temporo-occipital `
+::f-::frontal `
+::p-::parietal `
+::t-::temporal `
+::o-::occipital `
 
 ::neclnok::
   MyForm =
@@ -116,7 +121,7 @@ PREVIOUS CT SCAN of the paranasal sinuses: no
 FINDINGS:
 - Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
 - Mild nasal septum deviation to left side.
-- Bilateral nasal conchae hypertrophy.
+- Bilateral nasal turbinate hypertrophy.
 - Bilateral palatine tonsil enlargement.
 - The bony structure is unremarkable.
 - The mastoid air cells are well-aerated.
