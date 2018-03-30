@@ -247,6 +247,8 @@ No particular findings of nasopharynx, parotid gland, submandibular gland, and t
 
 Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
 
+The paranasal sinuses and mastoid air cells are unremarkable.
+
 The visible brain is unremarkable.
 )
   Paste(MyForm)

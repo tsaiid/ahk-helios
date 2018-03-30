@@ -131,6 +131,15 @@ The lungs covered in the scanning range are unremarkable.
   Paste(MyForm)
 Return
 
+::actok2::
+  MyForm =
+(
+No evidence of intraperitoneal free air.
+No obvious ascites.
+)
+  Paste(MyForm)
+Return
+
 ::ctcaok::
   MyForm =
 (
@@ -226,6 +235,35 @@ The lungs covered in the scanning range are unremarkable.
   MyForm =
 (
 Hollow organ perforation, suspicious perforated peptic ulcer.
+)
+  Paste(MyForm)
+Return
+
+::actdiv::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: lower abdomen to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+- Mild wall thickening and submucosal edema over the ascending colon, with mesocolic fat stranding, most likely diverticulitis.
+- Small amount of ascites in the pelvis and right paracolic gutter.
+- No evidence of intraperitoneal free air.
+
+- The appendix is normal.
+
+- The visible liver, spleen, pancreas, kidneys are unremarkable.
+- No retroperitoneal or mesenteric lymphadenopathy.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Ascending colon diverticulitis, without rupture.
 )
   Paste(MyForm)
 Return
@@ -347,6 +385,8 @@ FINDINGS:
 Pancreas:
 - Intrinsic pancreatic edematous change without necrosis.
 - Several acute necrotic collections.
+- Several peripancreatic fluid collections, and inflammatory changes in peripancreatic fat.
+- Small filling defects in the portal vein, suspicious thrombophlebitis.
 - The peripancreatic fat is relatively normal.
 - No peripancreatic fluid accumulation.
 - The pancreatic duct is dilated.
@@ -371,6 +411,8 @@ Biliary tree:
 - Dilatation of the CBD (diameter about 1.4 cm) and bilateral IHDs.
 - S/P cholecystectomy.
 - Several small gallbladder stones, and the GB is distended.
+- Relatively high-attenuation gallbladder content, suggestive of GB sludge.
+- No GB wall thickening.
 
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
@@ -580,7 +622,7 @@ Return
 (
 TECHNIQUE:
 Non-contrast enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Scanning range: Liver to symphysis, 3-mm contiguous scan.
 
 Previous abdominal CT: none.
 

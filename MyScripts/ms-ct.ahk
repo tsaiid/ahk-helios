@@ -78,10 +78,32 @@ Return
   MyForm =
 (
 CT Lower Extremity:
+Pre- and post-contrast study.
 Scanning from thigh to foot, axial, coronal, sagittal, and 3D VRT views
 Scanning from thigh to foot, axial, coronal, sagittal views
 
 FINDINGS:
+)
+  Paste(MyForm)
+Return
+
+;; CTA - Lower limb
+::ectal::
+  MyForm =
+(
+CTA of Lower Extremity:
+Pre and post contrast-enhanced axial scanning from kidney to foot
+Axial and coronal reconstruction with MIP technique
+
+COMPARISON: no
+
+FINDINGS:
+
+Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
+Some small nonobstructive bilateral renal stones.
+
+The lower abdomen and pelvis are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
 )
   Paste(MyForm)
 Return

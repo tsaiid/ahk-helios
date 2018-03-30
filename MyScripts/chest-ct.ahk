@@ -125,7 +125,7 @@ Return
 ::cctncld::
   MyForm =
 (
-Ultra-low dose, high resolution non-contrast CT scan for screening pulmonary nodule.
+Low dose, high resolution non-contrast CT scan for screening pulmonary nodule.
 Scanner: Multi-detector CT scanner.
 Scan range: thoracic inlet to diaphragm.
 Reconstruction: axial and coronal reconstruction.
