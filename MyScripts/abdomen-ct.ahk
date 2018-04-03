@@ -349,7 +349,7 @@ Return
 (
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
+Scanning range: Diaphragm to kidney, 3-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 30 and 80 seconds scanning delay.
 
 Previous abdominal CT: none.

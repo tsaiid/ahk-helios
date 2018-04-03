@@ -80,6 +80,7 @@
 ::ld::low density
 ::pbi::previous brain insults
 ::ech::edematous change
+::sps::spinal stenosis
 ::nfs::neuroforaminal stenosis
 ::snfs::spinal and neuroforaminal stenosis
 ::at-::attenuation

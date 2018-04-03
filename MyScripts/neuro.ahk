@@ -29,6 +29,7 @@
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
 ::mrpbi::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
+::li1::Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 ::cteps::Small low density near right/left side of anterior commissure, in favor of enlarged perivascular space.
 ::necsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharyngeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
 ::mrnecsprt::Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
@@ -62,8 +63,12 @@
 ::p-::parietal `
 ::t-::temporal `
 ::o-::occipital `
+::rd::restricted diffusion
+::bgd::bulging disc
+::prd::protrusion disc
+::hrd::herniation disc
 
-::neclnok::
+::neclapok::
   MyForm =
 (
 No bulky lymph nodes over bilateral submandibular and submental, carotid spaces, and supraclavicular fossae noted.
@@ -225,6 +230,36 @@ Findings:
   MyForm =
 (
 Subacute ICH over left temporo-parieto-occipital area. No definite etiology identified.
+)
+  Paste(MyForm)
+Return
+
+;; MR Brachial Plexus
+::mribp::
+  MyForm =
+(
+MRI of Brachial Plexus:
+- Cor T1WI, T2WI, T2WI+FS, T2 SPACE
+- Sag T2WI
+MRI of C-spine:
+- Sag T2WI
+- Axi T1WI, T2WI
+
+COMPARISON: No
+
+FINDINGS:
+The bilateral brachial plexus are symmetrical with no abnormal signal intensity change.
+
+Multiple muscle groups show edematous change, including bilateral rotator cuffs, extensors and flexors of left arm, c/w rhabdomyolysis.
+
+C2-C3: postero-central protrusion disc, causing mild indentation of the anterior dural sac.
+C3-C4: diffuse bulging disc, spondylosis, with ligamentum flavum hypertrophy, causing moderate to severe spinal stenosis.
+C4-C5: diffuse bulging disc, spondylosis, with ligamentum flavum hypertrophy, causing moderate spinal stenosis.
+C5-C6: diffuse bulging disc, causing mild indentation of the anterior dural sac.
+C6-C7: diffuse bulging disc, spondylosis, disc space narrowing, endplate change, with ligamentum flavum hypertrophy, causing moderate spinal stenosis.
+C7-T1: diffuse bulging disc, causing mild spinal stenosis.
+
+No abnormal signal intensity change within the cervical spinal cord.
 )
   Paste(MyForm)
 Return
