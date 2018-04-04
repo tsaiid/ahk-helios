@@ -160,13 +160,13 @@ HRCT of the temporal bone with axial and coronal section 0.4 mm showed:
 Previous HRCT of the temporal bone: none
 
 FINDINGS:
-Presence of soft tissue density at bilateral mastoid sinuses noted, c/w otitis media and matoiditis with fluid accumulation.
+Presence of soft tissue density at bilateral mastoid sinuses noted, c/w otitis media and mastoiditis with fluid accumulation.
 
-Presence of soft tissue density over left middle ear, left mastoid antrum, and poor pneumonization of the left mastoid air sinus, R/O COM with mastoiditis.
+Presence of soft tissue density over left middle ear, left mastoid antrum, and poor pneumatization of the left mastoid air sinus, R/O COM with mastoiditis.
 
-Presence of soft tissue density over left middle ear, aditus, left mastoid antrum, and poor pneumonization of the left mastoid air sinus, and small soft tissue density over right middle ear, R/O COM with  granulation tissue or cholesteatoma.
+Presence of soft tissue density over left middle ear, aditus, left mastoid antrum, and poor pneumatization of the left mastoid air sinus, and small soft tissue density over right middle ear, R/O COM with  granulation tissue or cholesteatoma.
 
-Poor pneumonization of the bilateral mastoid air sinuses.
+Poor pneumatization of the bilateral mastoid air sinuses.
 
 No evidence of soft tissue bony destruction in the jugular foramen.
 No evidence of soft tissue mass over the cochlear promontory.

@@ -168,7 +168,7 @@ FINDINGS:
 
 No obvious significant spinal stenosis of the C-spine.
 
-No evidence of focal herniation of nucleus pulposis (HIVD) in the C-spine region noted.
+No evidence of focal herniation of nucleus pulposus (HIVD) in the C-spine region noted.
 
 No evidence of abnormal signal intensity lesion within the spinal cord of the C-spine.
 
@@ -521,7 +521,7 @@ small spondylosis
 
 Presence of disc space narrowing noted over L2-3, L3-4, and severe disc space narrowing noted L4-5 and L5-S1.
 
-Presence of small hemangiomas over L1 and L4 spine verterbral body.
+Presence of small hemangiomas over L1 and L4 spine vertebral bodies.
 Presence of benign hemangioma noted over the L2 spine vertebral body, size about 2.1 x 2 x 2cm.
 
 Bilateral renal cysts.
