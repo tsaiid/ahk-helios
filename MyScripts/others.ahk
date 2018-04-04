@@ -44,6 +44,7 @@
 ::m::multiple `
 ::mf::multifocal `
 ::ml::multiloculated `
+::mp::most prominent at `
 ::s::several `
 ::n::nodule
 ::nr::nodular

@@ -64,9 +64,15 @@
 ::t-::temporal `
 ::o-::occipital `
 ::rd::restricted diffusion
-::bgd::bulging disc
+::dbd::diffuse bulging disc
 ::prd::protrusion disc
 ::hrd::herniation disc
+::postcen::postero-central `
+::postlat::postero-lateral `
+::lpl::left postero-lateral `
+::rpl::right postero-lateral `
+::lfh::ligament flavum hypertrophy
+::retr::retrolisthesis
 
 ::neclapok::
   MyForm =
@@ -111,6 +117,8 @@ Return
 MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
 MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+
+No significant vascular stenosis in the major intracranial arteries.
 )
   Paste(MyForm)
 Return

@@ -46,8 +46,8 @@
 ::c61::C6 through T1
 ::c71::C7-T1
 
-::g1::grade I
-::g2::grade II
+::g1::grade I `
+::g2::grade II `
 
 ;; CT Extremity - Colles Fracture
 ::ectcf::
