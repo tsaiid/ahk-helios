@@ -28,7 +28,7 @@ No definite acute intracranial parenchymal hemorrhage or acute epidural or acute
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-The major dural venous sinuses are unremarkable.
+The major dural venous sinuses are patent.
 
 No obvious fracture of the skull base and the skull.
 
@@ -62,7 +62,7 @@ No definite acute intracranial parenchymal hemorrhage or acute epidural or acute
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-The major dural venous sinuses are unremarkable.
+The major dural venous sinuses are patent.
 
 No obvious fracture of the skull base and the skull.
 )
@@ -325,6 +325,7 @@ MRA shows no evidence of occlusion or high grade stenosis over intracranial port
 
 MRA shows turbulent flow or mild stenosis over intracranial portion of bilateral internal carotid arteries and basilar artery.
 
+MRA shows multiple foci of mild stenoses over intracranial portion of the bilateral internal carotid arteries, probably due to atherosclerosis.
 MRA shows multiple foci of stenoses over intracranial portion of the bilateral internal carotid arteries.
 
 MRA shows presence of stenosis noted over the bilateral carotid siphon and supraclinoid internal carotid arteries, and high grade stenosis over main trunk of right side middle cerebral artery, and with paucity of the branches of the right side middle cerebral artery noted.

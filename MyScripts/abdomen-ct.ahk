@@ -627,6 +627,7 @@ Scanning range: Liver to symphysis, 3-mm contiguous scan.
 Previous abdominal CT: none.
 
 FINDINGS:
+Kidneys and Ureters:
 Kidneys: No hydronephrosis.
 Ureters: No definite stone-like radiopacity along the urinary tract. No hydroureter.
 Urinary bladder: Unremarkable
@@ -651,7 +652,7 @@ Return
   MyForm =
 (
 TECHNIQUE:
-Non-contrast enhanced abdominal CT scans.
+Non-contrast enhanced chest and abdominal CT scans.
 Scanning range: Neck to symphysis, 3-mm contiguous scan, coronal reconstruction.
 
 Previous CT: none.
@@ -750,6 +751,7 @@ N1c: Tumor deposit(s) in the subserosa, mesentery, or non-peritonealized pericol
 N2a: Metastasis in 4 to 6 regional lymph nodes
 N2b: Metastasis in 7 or more regional lymph nodes
 
+M0: No distant metastasis (in this study).
 M1a: Metastasis confined to one site or organ is identified without peritoneal metastasis.
 M1b: Metastases to two or more site or organ is identified without peritoneal metastasis.
 M1c: Metastases to the peritoneal surface is identified alone or with other site or organ metastasis.

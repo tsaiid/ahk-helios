@@ -30,6 +30,7 @@ Return
 (
 No pulmonary nodule.
 No mediastinal lymphadenopathy.
+The heart and great vessels are unremarkable.
 The thoracic cage and spine are unremarkable.
 )
   Paste(MyForm)
