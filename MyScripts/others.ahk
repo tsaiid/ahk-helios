@@ -60,8 +60,9 @@
 ::cl::cystic lesion
 ::mod::moderate `
 ::sv::severe `
-::mtm::mild to moderate
-::mts::moderate to severe
+::stm::small to moderate `
+::mtm::mild to moderate `
+::mts::moderate to severe `
 ::sl::slightly `
 ::sip::superimposed `
 ::pos::position
@@ -82,6 +83,7 @@
 ::pbi::previous brain insults
 ::ech::edematous change
 ::sps::spinal stenosis
+::sps0::mild indentation on anterior dural sac without obvious spinal stenosis
 ::nfs::neuroforaminal stenosis
 ::snfs::spinal and neuroforaminal stenosis
 ::at-::attenuation

@@ -128,6 +128,7 @@
 ::rul::right upper lung
 ::lul::left upper lung
 ::bul::bilateral upper lungs
+::phr::perihilar regions
 ::nnp::No newly developed patch opacity in lung fields.
 ::ii::Exaggerated lung markings at bilateral lowers, may be due to insufficient inspiration.
 ::ii0::insufficient inspiration

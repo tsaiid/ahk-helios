@@ -24,6 +24,7 @@
 ::nsip::non-specific interstitial pneumonia
 ::boop::bronchiolitis obliterans organizing pneumonia
 ::ptx::pneumothorax
+::htx::hemothorax
 ::pna::pneumonia
 ::pnas::pneumonias
 ::bpn::bronchopneumonia
@@ -149,6 +150,7 @@
 ::d-c::descending colon
 ::s-c::sigmoid colon
 ::jdd::juxtapapillary duodenal diverticulum
+::ibd::inflammatory bowel disease
 
 ;; Neuro
 ::ich::intracranial hemorrhage

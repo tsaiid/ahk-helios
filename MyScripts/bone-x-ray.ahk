@@ -15,6 +15,9 @@
 ::mdjdtl::Mild DJD change of T- and L-spine with spur formation.
 ::spdl::spondylolisthesis
 ::spl::spondylosis
+::spll::Spondylosis of L-spine.
+::splc::Spondylosis of C-spine.
+::splt::Spondylosis of T-spine.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
 ::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, consistent with osteoarthrosis.
 ::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
@@ -79,11 +82,11 @@
 ::ldcf::Left distal third clavicular fracture.
 ::rfnf::Right femoral neck fracture.
 ::lfnf::Left femoral neck fracture.
-::usfr::ulnar styloid process fracture.
-::lhsfr::left humeral shaft fracture.
-::rhsfr::right humeral shaft fracture.
-::lphfr::left proximal humeral fracture.
-::rphfr::right proximal humeral fracture.
+::uspf::ulnar styloid process fracture.
+::lhsf::left humeral shaft fracture.
+::rhsf::right humeral shaft fracture.
+::lphf::left proximal humeral fracture.
+::rphf::right proximal humeral fracture.
 ::orif::s/p screw and plate fixation.
 ::fx::fixation
 ::hs::in healing stage
@@ -199,7 +202,6 @@ Return
 ::bwoa::OA change of bilateral wrists.
 ::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis.
 ::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis.
-::llath::Atherosclerotic change of lower limb vessels.
 ::lasts::Soft tissue swelling over left ankle region.
 ::rasts::Soft tissue swelling over right ankle region.
 ::lammf::Medial malleolar fracture of left ankle.
