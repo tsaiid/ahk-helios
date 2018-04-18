@@ -408,13 +408,6 @@ SUGGESTION:
   Paste(MyForm)
 Return
 
-:r0:000::
-(
-aaa
-{Tab}
-bbb
-)
-
 ;; MRSPL2
 ::mrspl2::
   MyForm =

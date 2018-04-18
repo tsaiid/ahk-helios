@@ -232,6 +232,38 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+::1ctaok::
+  MyForm =
+(
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
+TECHNIQUE: multi thin-slice spiral scanning of arterial and venous phases
+SCAN RANGE: axial plane from the skull base to the vertex.
+CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: done in workstation with multiPlanar reconstruction, maximal intensity projection and volume rendering technique
+
+Previous CT: no
+
+FINDINGS:
+- No definite abnormal enhancing mass lesion in the brain noted.
+- No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+- Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+- The bilateral lateral ventricles showed symmetrical without dilatation.
+- The major dural venous sinuses are patent.
+- No obvious fracture of the skull base and the skull.
+
+- No evidence of aneurysm, arterial-venous malformation (AVM), or other vascular lesion.
+- No significant vascular stenosis in the major intracranial arteries.
+- Right fetal type posterior cerebral artery.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of aneurysm, arterial-venous malformation (AVM), or other vascular lesion.
+)
+  Paste(MyForm)
+Return
+
 ;; CT3D
 ::ct3d::
   MyForm =

@@ -1,9 +1,8 @@
 ﻿; Abdomen CT Forms
 
 ;; Hotstrings
-::actlapok::No retroperitoneal or mesenteric lymphadenopathy.
 ::l-b-ok::The lungs covered in the scanning range are normal.{Enter}In bone window, the findings are unremarkable.
-::l-ok::The lungs covered in the scanning range are normal.
+::l-ok::The lungs covered in the scanning range are unremarkable.
 ::l-ok1::No pulmonary nodule.
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
 ::btok::No biliary tree obstruction.
@@ -136,6 +135,15 @@ Return
 (
 No evidence of intraperitoneal free air.
 No obvious ascites.
+)
+  Paste(MyForm)
+Return
+
+::actlapok::
+  MyForm =
+(
+No retroperitoneal or mesenteric lymphadenopathy.
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 )
   Paste(MyForm)
 Return
@@ -653,7 +661,7 @@ Return
 (
 TECHNIQUE:
 Non-contrast enhanced chest and abdominal CT scans.
-Scanning range: Neck to symphysis, 3-mm contiguous scan, coronal reconstruction.
+Scanning range: Neck to symphysis, 5-mm contiguous scan, coronal reconstruction.
 
 Previous CT: none.
 
@@ -908,6 +916,7 @@ FINDINGS:
 Diffuse gallbladder wall thickening and edematous change with gallbladder stones and GB distention are noted. Acute cholecystitis is considered.
 Diffuse gallbladder wall thickening and edematous change with pericholecystic fluid accumulation, and tiny gallbladder stones are noted. Even though, no obvious GB distention. Acute cholecystitis is still considered.
 Presence of a high-attenuation gallstone at the orifice of cystic duct, with distended gallbladder, diffuse gallbladder wall thickening and edematous change, c/w acute calculus cholecystitis.
+Mildly distended gallbladder, with mild GB wall thickening. No obvious pericholecystic fluid accumulation. However, early change of acute cholecystitis cannot be excluded. Suggest correlate with sonography and Murphy sign.
 
 The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
 The lower abdomen and pelvis are unremarkable.
@@ -920,6 +929,37 @@ The lungs covered in the scanning range are unremarkable.
 (
 C/W acute cholecystitis.
 C/W acute calculus cholecystitis.
+)
+  Paste(MyForm)
+Return
+
+::actsc::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Large inspissated fecal material in the rectum and distal sigmoid colon, with bowel wall edema and perirectal fat stranding. Stercoral colitis is considered.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+s/p Foley catheterization. The urinary bladder is not distended enough, and the evaluation is limited.
+
+On NG tube.
+The liver, spleen, pancreas, adrenals, kidneys are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+Subsegmental atelectasis over bilateral lower lungs.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Stercoral colitis. No evidence of perforation.
 )
   Paste(MyForm)
 Return
