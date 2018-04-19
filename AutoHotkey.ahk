@@ -20,6 +20,7 @@ GroupAdd, FemhLogin, 亞東紀念醫院 新醫療系統
 #Include <StdOutStream>
 #Include <WinHttpRequest>
 #Include <Acc>
+#Include <ShowGUIatCurrScreenCenter>
 
 ; Options
 ENABLE_KEY_COUNTER := 0

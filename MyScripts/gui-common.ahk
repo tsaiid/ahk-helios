@@ -48,7 +48,22 @@ LLDForm()
   Gui, LLD: Add, Text, x252 y72 w30 h20, mm
   Gui, LLD: Add, Button, x12 y120 w40 h30 gLLDButtonOK default, OK
 
-  Gui, Show, x345 y288 h170 w327, LLD Helper
+  ; ShowGUIatCurrScreenCenter
+  ;get current monitor index
+	CurrentMonitorIndex:=GetCurrentMonitorIndex()
+	;get Hwnd of current GUI
+	DetectHiddenWindows On
+	Gui, +LastFound
+	Gui, Show, Hide
+	GUI_Hwnd := WinExist()
+	;Calculate size of GUI
+	GetClientSize(GUI_Hwnd,GUI_Width,GUI_Height)
+	DetectHiddenWindows Off
+	;Calculate where the GUI should be positioned
+	GUI_X:=CoordXCenterScreen(GUI_Width,CurrentMonitorIndex)
+	GUI_Y:=CoordYCenterScreen(GUI_Height,CurrentMonitorIndex)
+
+  Gui, Show, % "x" GUI_X " y" GUI_Y, LLD Helper
 }
 
 ;; for Fleischner Society 2017 guidelines
