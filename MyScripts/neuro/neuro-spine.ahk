@@ -525,7 +525,7 @@ Bilateral/Right/Left hydronephrosis and hydroureter. The precise nature to be de
   SleepThenTab()
   MyForm =
 (
-Lumbar degenerative spondylosis, disc space narrowing and protrusion disk. Details as above descriptions.
+Lumbar degenerative spondylosis, spondylolisthesis, and DDD, with spinal and neuroforaminal stenosis. Most prominent at
 
 Degenerative spine disease with spinal stenosis. Details see descriptions.
 

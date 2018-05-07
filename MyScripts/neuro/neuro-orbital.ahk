@@ -39,7 +39,7 @@ Symmetrical size of bilateral orbital retroocular optic nerves.
 No evidence of high density foreign body noted at the bilateral intraocular and retroocular regions.
 No evidence of bony fragment noted near optic canal region.
 No evidence of orbital emphysema noted.
-Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits.
+Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits (<23 mm).
 No abnormal thickening of the extraocular muscles.
 )
   Paste(MyForm)
@@ -63,6 +63,9 @@ Plane: axial, coronal, oblique sagittal
 PREVIOUS CT of orbit: no
 
 FINDINGS:
+- Mild bilateral proptosis.
+- Symmetrical enlargement of bilateral extraocular muscles, especially inferior rectus, medial rectus, superior rectus, with sparing the anterior tendon, c/w thyroid-associated orbitopathy.
+
 - Exophthalmos at left side.
 - Enlargement of left inferior rectus muscle, with sparing the anterior tendon, c/w thyroid-associated orbitopathy. However, due to it's unilateral and asymmetrical, orbital pseudotumor may also be considered. Suggest correlate with thyroid function test.
 
@@ -74,7 +77,36 @@ FINDINGS:
   SleepThenTab()
   MyForm =
 (
+C/W thyroid-associated orbitopathy.
 Possibly thyroid-associated orbitopathy, left side. DDx: orbital pseudotumor. Suggest correlate with thyroid function test.
+)
+  Paste(MyForm)
+Return
+
+::cto2notao::
+  MyForm =
+(
+Non-contrast CT scan of orbit
+
+TECHNIQUE:
+Slice thickness: 2-2 mm
+Plane: axial, coronal, oblique sagittal
+
+PREVIOUS CT of orbit: no
+
+FINDINGS:
+- Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits.
+- No abnormal thickening of the extraocular muscles.
+- Symmetrical size of bilateral orbital retroocular optic nerves.
+- No evident fracture of bilateral orbits.
+- Retention cysts in bilateral maxillary sinuses.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. No obvious proptosis.
+2. No abnormal thickening of the extraocular muscles.
 )
   Paste(MyForm)
 Return

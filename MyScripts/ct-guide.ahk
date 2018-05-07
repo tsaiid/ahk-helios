@@ -16,7 +16,7 @@ Under CT guide, tissue specimens were smoothly taken for pathology examination.
 3. Focal emphysema of lung parenchyma: No/Mild/Moderate/Severe
 4. Patient cooperation: good/fair/poor
 5. Complications:
-   A. Pheumothorax: No/Minimal/Mild/Moderate/Severe; Aspiration for pneumothorax: Yes/No
+   A. Pneumothorax: No/Minimal/Mild/Moderate/Severe; Aspiration for pneumothorax: Yes/No
    B. Focal hemorrhage: Yes/No
    C. Hemoptysis: No
    D. Chest tightness: No
@@ -49,7 +49,7 @@ Under CT guide, tissue specimens were smoothly taken for pathology examination.
 3. Focal emphysema of lung parenchyma: No/Mild/Moderate/Severe
 4. Patient cooperation: good/fair/poor
 5. Complications:
-   A. Pheumothorax: Mild/Moderate/Severe; Pigtail for pneumothorax: Yes, 6Fr.
+   A. Pneumothorax: Mild/Moderate/Severe; Pigtail for pneumothorax: Yes, 6Fr.
    B. Focal hemorrhage: Yes
    C. Hemoptysis: No
    D. Chest tightness: No

@@ -12,6 +12,7 @@
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
 ::actgbss::Presence of several gallbladder stones without obvious GB distention or wall thickening.
 ::actgbsg::Presence of high-attenuation material in the gallbladder with layering, in favor of GB sludge.
+::actgba::Hourglass configuration of the gallbladder, suggestive of segmental adenomyomatosis.
 ::actok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 ::actncok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal. Due to non-contrast study, the evaluation of solid organs is limited.
 ::bpleat::Bilateral pleural effusion with atelectasis of lower lungs.
@@ -80,7 +81,7 @@ Urinary bladder: Unremarkable
 Prostate: Unremarkable
 GYN organ: Unremarkable
 
-No evident upper abdominal retroperitoneal lymphadenopathy identified.
+No evident retroperitoneal lymphadenopathy identified.
 No evidence of intraperitoneal free air.
 No obvious ascites.
 
@@ -584,7 +585,7 @@ Return
   MyForm =
 (
 TECHNIQUE:
-Non-contrast and contrast-enhanced abdominal CT scans.
+Non-contrast and contrast-enhanced abdominal CTA scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
 Contrast medium: arterial and venous phases.
 

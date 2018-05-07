@@ -351,6 +351,7 @@ The bilateral lateral ventricles showed symmetrical without dilatation.
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
 MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.

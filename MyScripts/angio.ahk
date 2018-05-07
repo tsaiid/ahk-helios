@@ -26,6 +26,7 @@ The sheath will be kept for 24 hours for use if other bleeding episode occurs.
 RECOMMENDATION:
 Close f/u patient's vital signs.
 Sandbag compression for at least 4 hours, and bed rest for 8 hours.
+IA infusion of Vasopressin (4U per hour for 5 hours; if further bleeding, repeat q6h in maximal 24 hours)
 
 PLAN:
 Remove the right femoral sheath if no more bleeding after 24 hours.
