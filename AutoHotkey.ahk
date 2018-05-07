@@ -5,6 +5,7 @@
 #MaxHotkeysPerInterval 200
 SetBatchLines -1  ; better performance: http://scsnake.blogspot.tw/2016/03/hotstring.html
 SendMode, Input
+SetTitleMatchMode, 2
 
 ; Group Control For Helios
 GroupAdd, Helios, Helios
@@ -95,8 +96,6 @@ PRESERVE_CLIPBOARD := 0
   ;;; Gui
   #Include MyScripts\gui-common.ahk
 #IfWinActive
-
-SetTitleMatchMode, 2
 
 ;#Include MyScripts\debug.ahk
 
