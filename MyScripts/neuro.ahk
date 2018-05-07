@@ -29,7 +29,6 @@
 ::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
 ::mrpbi::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
-::li1::Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 ::cteps::Small low density near right/left side of anterior commissure, in favor of enlarged perivascular space.
 ::necsprt::Diffuse thickening and enhancement over the epiglottis, arytenoepiglottic folds, and posterior pharyngeal wall over the oropharynx and hypopharynx, c/w post-radiation change.
 ::mrnecsprt::Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
@@ -65,6 +64,8 @@
 ::o-::occipital `
 ::rd::restricted diffusion
 ::dbd::diffuse bulging disc
+::dpd::diffuse protrusion disc
+::dhd::diffuse herniation disc
 ::prd::protrusion disc
 ::hrd::herniation disc
 ::postcen::postero-central `
@@ -73,13 +74,24 @@
 ::rpl::right postero-lateral `
 ::lfh::ligament flavum hypertrophy
 ::retr::retrolisthesis
+::dwiok::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::dvsok::The major dural venous sinuses are patent.
 ::nocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
+::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+
+::li1::
+  MyForm =
+(
+Several small low densities over bilateral basal ganglion regions, in favor of old lacunar infarcts.
+Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
+)
+  Paste(MyForm)
+Return
 
 ::neclapok::
   MyForm =
 (
-No bulky lymph nodes over bilateral submandibular and submental, carotid spaces, and supraclavicular fossae noted.
+No bulky lymph nodes over bilateral submandibular and submental, carotid, posterior cervical spaces, and supraclavicular fossae noted.
 )
   Paste(MyForm)
 Return
@@ -87,7 +99,7 @@ Return
 ::ctps::
   MyForm =
 (
-Presence of mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
+Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses, in favor of mild sinusitis.
 )
   Paste(MyForm)
 Return

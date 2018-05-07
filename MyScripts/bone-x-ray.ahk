@@ -4,6 +4,7 @@
 ::bok2::No obvious bony lesion.
 ::kok::No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No joint space narrowing, dislocation, or fracture.
 ::bkok::Bilateral knees:{Enter}No joint space narrowing, dislocation, or fracture.{Enter}No obvious suprapatellar effusion.{Tab}No remarkable findings.
+::ulath::Atherosclerotic change and calcification of the upper limb vessels.
 ::llath::Atherosclerotic change and calcification of the lower limb vessels.
 ::djdl::DJD change of L-spine.
 ::mdjdl::Mild DJD change of L-spine.
@@ -18,6 +19,9 @@
 ::spll::Spondylosis of L-spine.
 ::splc::Spondylosis of C-spine.
 ::splt::Spondylosis of T-spine.
+::msplc::Mild spondylosis of C-spine.
+::mspll::Mild spondylosis of L-spine.
+::msplt::Mild spondylosis of T-spine.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
 ::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, consistent with osteoarthrosis.
 ::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
@@ -121,7 +125,7 @@
 ::jsn::joint space narrowing
 ::jsw::joint space widening
 ::ds::disc space
-::dsn::disc space narrowing `
+::dsn::disc space narrowing
 ::mof::marginal osteophyte formation
 ::wol::without loosening.
 ::anb::accessory navicular bone
@@ -165,6 +169,7 @@
 (
 No disc space narrowing, spondylolisthesis, or fracture.
 No abnormal widening of the prevertebral space.
+The epiglottis is normal.
 No evidence of foreign body in the neck region.
 )
   Paste(MyForm)
@@ -261,8 +266,8 @@ Return
 ::sii4::Complete fusion or ankylosis of the joint with or withoutsome residual sclerosis. Grade IV (ankylosis) sacroiliitis.
 
 ::djdc::DJD change of C-spine.
-::mdjdc0::Mild DJD change of C-spine.
-::mdjdc::Mild DJD change of C-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
+::mdjdc::Mild DJD change of C-spine.
+::mdjdc1::Mild DJD change of C-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::csp::
   MyForm =
 (

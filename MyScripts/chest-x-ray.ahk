@@ -13,7 +13,23 @@
 ::np::No abnormal patch opacity in lung fields.
 ::nn::No nodular opacities (> 1cm) noted over bilateral lung fields.
 ::0::No previous film for comparison.
-::1::No abnormal patch opacity in lung fields.{Enter}No cardiomegaly.{Tab}No active lung lesion.
+
+::1::
+  MyForm =
+(
+No abnormal patch opacity in lung fields.
+No cardiomegaly.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No active lung lesion.
+
+)
+  Paste(MyForm)
+Return
+
 ::2::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change. {Enter}No cardiomegaly.{Tab}No active lung lesion.
 ::3::No abnormal patch opacity in lung fields.{Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
 ::4::Increased linear opacity and peribronchial thickening over bilateral lung fields, r/o bronchiolitis.{Enter}No cardiomegaly.{Tab}Suspicious bronchiolitis.
@@ -47,6 +63,7 @@
 ::spster1::Post median sternotomy with wire fixation. Several drains in the thorax.
 ::spc::Surgical clips at RUQ of abdomen, in favor of post cholecystectomy.
 ::spc0::S/P cholecystectomy.
+::sph0::S/P hysterectomy.
 ::sptae::Lipiodol retention in the liver, probably due to previous TACE.
 ::p/tae::Lipiodol retention in liver.
 ::ricvp::On central venous catheter via right internal jugular vein with tip at superior vena cava.
@@ -54,8 +71,8 @@
 ::bicvp::On central venous catheters via right and left internal jugular veins with tips at superior vena cava.
 ::rscvp::On central venous catheter via right subclavian vein with tip at superior vena cava.
 ::lscvp::On central venous catheter via left subclavian vein with tip at superior vena cava.
-::ridl::On double lumen catheter via right internal jegular vein.
-::lidl::On double lumen catheter via left internal jegular vein.
+::ridl::On double lumen catheter via right internal jugular vein.
+::lidl::On double lumen catheter via left internal jugular vein.
 ::rsdl::On double lumen catheter via right subclavian vein.
 ::lsdl::On double lumen catheter via left subclavian vein.
 ::sppok::s/p Port-A implantation, without immediate complication.
@@ -64,7 +81,7 @@
 ::riport::On Port-A catheter via right internal jugular vein.
 ::lport::On Port-A catheter via left subclavian vein.
 ::lport1::On Port-A catheter via left subclavian vein.{ENTER}No pneumothorax is noted.
-::liport::On Port-A catheter via lefgt internal jugular vein.
+::liport::On Port-A catheter via left internal jugular vein.
 ::rsperm::On Permcath via right subclavian vein.
 ::lsperm::On Permcath catheter via left subclavian vein.
 ::riperm::On Permcath catheter via right internal jugular vein.
@@ -101,6 +118,7 @@
 ::mstl::Mild scoliosis of T-spine with convexity to the left.
 ::mstr::Mild scoliosis of T-spine with convexity to the right.
 ::stl0::Scoliosis of T- and L-spine.
+::mstl0::Mild scoliosis of T- and L-spine.
 ::pi::ill-defined pulmonary infiltration over `
 ::pi0::pulmonary infiltration
 ::po::patch opacity
@@ -179,6 +197,7 @@
 ::lllfg::A small calcified nodule over left lower lung field, possibly a granuloma.
 ::plbok::Post lung biopsy, and no obvious pneumothorax is noted.
 ::aak::Atherosclerotic change of the aortic knob.
+::maak::Mild atherosclerotic change of the aortic knob.
 ::rci::Anterior interposition of the colon to the liver reaching the under-surface of the right hemidiaphragm.
 ::cpftl::Compression fracture of several lower T- and L-spine.
 ::mw::Mediastinal widening, possibly due to tortuosity of the thoracic aorta. Suggest clinical correlation.
@@ -186,7 +205,9 @@
 ::lotb::Fibrilinear and nodular opacities over left apical region, in favor of old TB.
 ::botb::Fibrilinear and nodular opacities over bilateral apical regions, in favor of old TB.
 ::splm::s/p left mastectomy.
+::splpm::s/p left partial mastectomy.
 ::sprm::s/p right mastectomy.
+::sprpm::s/p right partial mastectomy.
 ::bns::Presence of bilateral nipple shadows.
 
 ; Neck

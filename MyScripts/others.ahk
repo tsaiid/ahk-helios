@@ -86,6 +86,7 @@
 ::sps0::mild indentation on anterior dural sac without obvious spinal stenosis
 ::nfs::neuroforaminal stenosis
 ::snfs::spinal and neuroforaminal stenosis
+::smn::Schmorl's node
 ::at-::attenuation
 ::d-::density
 
@@ -189,11 +190,14 @@ Return
 ::mfl1::mild fatty liver without focal lesion.
 ::duf::degenerative uterine fibroid
 ::eso::esophagus
+::gd::The greatest dimension is about  cm.{Left 4}
+::abn::abnormal `
+::sb::small bowel
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 
 ; common hotstrings
-::rcs::Some renal cysts in both kidneys, size up to  cm.{Left 4}
+::rcs::renal cysts
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
 ::srcs::Some small renal cysts in both kidneys.

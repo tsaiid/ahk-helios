@@ -86,6 +86,9 @@
 ::aiis::anterior inferior iliac spine
 ::hme::hereditary multiple exostoses
 ::ddd::degenerative disc disease
+::sfa::superficial femoral artery
+::ata::anterior tibial artery
+::pta::posterior tibial artery
 
 ;; Abdomen
 ::ln::lymph node
@@ -147,6 +150,7 @@
 ::ppu::perforated peptic ulcer
 ::toa::tubo-ovarian abscess
 ::a-c::ascending colon
+::t-c::transverse colon
 ::d-c::descending colon
 ::s-c::sigmoid colon
 ::jdd::juxtapapillary duodenal diverticulum
@@ -177,12 +181,18 @@
 ::bg::basal ganglion
 ::vb::vertebral body
 ::vbs::vertebral bodies
+::mcm::mega cisterna magna
+::hie::hypoxic-ischaemic encephalopathy
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
 ::tao::thyroid-associated orbitopathy
 ::mng::multinodular goiter
 ::zmc::zygomaticomaxillary complex
+::m-s::maxillary sinus
+::s-s::sphenoid sinus
+::e-s::ethmoid sinus
+::f-s::frontal sinus
 
 ;; Others
 ::dvt::deep vein thrombosis
@@ -190,6 +200,7 @@
 ::op::operation
 ::avm::arteriovenous malformation
 ::st::soft tissue
+::stc::soft tissue component
 ::fnac::fine needle aspiration cytology
 
 ;; General

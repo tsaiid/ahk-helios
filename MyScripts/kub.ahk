@@ -10,7 +10,7 @@
 ::k3::The psoas muscle contours are normal.
 ::kb::the bowel gas pattern is unremarkable.
 ::kb1::the bowel gas pattern is normal.
-::kob::The other bowel gas pattern is normal.
+::kob::The other bowel gas pattern is unremarkable.
 ::ks::Mottled gas pattern along colon course is noted, implying fecal residues retention.
 ::kp::Ring like calcification nodules in the pelvic cavity are mostly due to phleboliths of the vein.
 ::kgbs::A round opacity over RUQ of abdomen, suspicious a gallstone. Suggest correlation with sonography.
@@ -99,7 +99,7 @@ Return
 ::sk::
   MyForm =
 (
-The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are normal.
+The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are unremarkable.
 No evidence of subphrenic free air.
 No obvious air-fluid level in the bowel.
 )
