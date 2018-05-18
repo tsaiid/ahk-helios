@@ -193,6 +193,8 @@ Return
 ::gd::The greatest dimension is about  cm.{Left 4}
 ::abn::abnormal `
 ::sb::small bowel
+::elg::enlargement
+::elgd::enlarged
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

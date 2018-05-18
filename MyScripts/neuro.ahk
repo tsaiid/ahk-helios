@@ -66,6 +66,7 @@
 ::dbd::diffuse bulging disc
 ::dpd::diffuse protrusion disc
 ::dhd::diffuse herniation disc
+::bgd::bulging disc
 ::prd::protrusion disc
 ::hrd::herniation disc
 ::postcen::postero-central `
@@ -121,6 +122,22 @@ CTA shows:
 - no evidence of right vertebral artery dissection.
 - no evidence of beaded appearance in the circle of Willis that suggestive of reversible cerebral vasoconstriction syndrome.
 - no obvious stenosis of the extracranial carotid arteries.
+
+Pre and post-contrast CTA scan of brain and neck :
+
+Brain CT:
+> Suspect lacunar infarction at right pons.
+> A dilated Virchow-Robin space at right basal ganglion.
+> No large established infarction or ICH is noted.
+
+Brain CTA:
+> Bilateral CCA, carotid bulbs and distal ICAs are patent.
+> Bilateral intracranial VA, and BA are patent.
+> Major branches of bilateral ACA, MCA and PCA are patent.
+> No definite vascular anomaly, such as aneurysm, AVM or vessel spasm are noted.
+
+Multiphase CTA:
+> No collateral or perfusion defect is noted.
 )
   Paste(MyForm)
 Return

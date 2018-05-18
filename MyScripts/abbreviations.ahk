@@ -69,7 +69,7 @@
 ::itb::iliotibial band
 ::cmn::cephalomedullary nail
 ::imn::intramedullary nail
-::cmp::chondromalacia patella
+:c:cmp::chondromalacia patella
 ::mm::medial meniscus
 ::lm::lateral meniscus
 ::pvns::pigmented villonodular synovitis

@@ -114,7 +114,7 @@ Return
 ::st0::Scoliosis of T-spine.
 ::stl::Scoliosis of T-spine with convexity to the left.
 ::str::Scoliosis of T-spine with convexity to the right.
-::mst0::Mild coliosis of T-spine.
+::mst0::Mild scoliosis of T-spine.
 ::mstl::Mild scoliosis of T-spine with convexity to the left.
 ::mstr::Mild scoliosis of T-spine with convexity to the right.
 ::stl0::Scoliosis of T- and L-spine.

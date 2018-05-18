@@ -18,6 +18,24 @@ PTGBD was done.
   Paste(MyForm)
 Return
 
+::sgptcd::
+  MyForm =
+(
+Under sonography guidance, PTCD via right/left IHD was performed.
+Severe dilated IHD was noted, with obstruction level at the distal CBD.
+The wire successfully passed through the obstruction level, and then a 8-Fr pigtail with home-made side holes was placed with the tip in the duodenum.
+The drain was fixed with Nylon at the 27-cm mark.
+Bile was collected for laboratory examination.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+PTCD was done.
+)
+  Paste(MyForm)
+Return
+
 :*:sg-a::
   MyForm =
 (

@@ -69,6 +69,7 @@
 ::calsp::Presence of calcaneal spurs at the insertions of the Achilles tendon and the plantar fascia.
 ::calspp::Presence of calcaneal spur at the insertion of the plantar fascia.
 ::calspa::Presence of calcaneal spur at the insertion of the Achilles tendon.
+::mcalsp::Small calcaneal spurs at the insertions of the Achilles tendon and the plantar fascia.
 ::nabl::No active bone lesion.
 
 ;; Fractures
@@ -194,6 +195,9 @@ Return
 ::rhoa::OA change of right hip.
 ::lhoa::OA change of left hip.
 ::bhoa::OA change of bilateral hips.
+::mrhoa::Mild OA change of right hip.
+::mlhoa::Mild OA change of left hip.
+::mbhoa::Mild OA change of bilateral hips.
 ::rkoa::OA change of right knee.
 ::lkoa::OA change of left knee.
 ::bkoa::OA change of bilateral knees.
