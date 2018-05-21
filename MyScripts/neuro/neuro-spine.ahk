@@ -421,27 +421,6 @@ PREVIOUS MRI L-spine: no
 
 FINDINGS:
 
-No significant spinal stenosis of the L-spine.
-
-Slightly bulging disc noted over the L4-5, and with mild indentation of anterior dural sac and with mild spinal stenosis noted.
-
-No evidence of abnormal signal intensity mass lesion over the spinal canal of the lower T-spine and L-spine region noted.
-
-Postcontrast study shows no evidence of abnormal enhancing lesion over the spinal canal of the lower T-spine and L-spine region noted.
-
-No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
-
-No evidence of signal intensity lesion over the spinal cord of the lower T-spine region noted.
-
-No evidence of intraspinal hematoma noted over the L-spine region noted.
-
-No evidence of abnormal signal intensity lesion noted over the conus medullaris region.
-
-Post contrast study shows no evidence of abnormal enhancing lesion noted over the cauda equina.
-
-
-
-
 Presence of scoliosis of the L-spine, convex to left/right side.
 Rotatory scoliosis of L-spine, convex to left/right side.
 Presence of transitional lumbosacral junction type IIa noted.
@@ -528,7 +507,43 @@ Bilateral/Right/Left hydronephrosis and hydroureter. The precise nature to be de
 Lumbar degenerative spondylosis, spondylolisthesis, and DDD, with spinal and neuroforaminal stenosis. Most prominent at
 
 Degenerative spine disease with spinal stenosis. Details see descriptions.
+)
+  Paste(MyForm)
+Return
 
+::mrspl2ok::
+  MyForm =
+(
+The MRI of the L-spine performed:
+Coronal T2WI with fat sat (localized)
+Sagittal T1, T2WI
+Axial T1WI and T2WI:
+
+PREVIOUS MRI L-spine: no
+
+FINDINGS:
+
+No significant spinal stenosis of the L-spine.
+
+Slightly bulging disc noted over the L4-5, and with mild indentation of anterior dural sac and with mild spinal stenosis noted.
+
+No evidence of abnormal signal intensity mass lesion over the spinal canal of the lower T-spine and L-spine region noted.
+
+Postcontrast study shows no evidence of abnormal enhancing lesion over the spinal canal of the lower T-spine and L-spine region noted.
+
+No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
+
+No evidence of signal intensity lesion over the spinal cord of the lower T-spine region noted.
+
+No evidence of intraspinal hematoma noted over the L-spine region noted.
+
+No evidence of abnormal signal intensity lesion noted over the conus medullaris region.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the L-spine noted.

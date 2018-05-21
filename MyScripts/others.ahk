@@ -81,6 +81,7 @@
 ::hd::high density
 ::ld::low density
 ::pbi::previous brain insults
+::pii::previous ischemic insults
 ::ech::edematous change
 ::sps::spinal stenosis
 ::sps0::mild indentation on anterior dural sac without obvious spinal stenosis

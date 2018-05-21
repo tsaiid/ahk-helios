@@ -146,6 +146,7 @@ No definite area of obvious abnormal density in the brain noted.
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
 
 No obvious fracture of the skull base and the skull.
 )

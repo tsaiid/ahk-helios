@@ -10,8 +10,8 @@
 ::mactfl::Mild fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
-::actgbss::Presence of several gallbladder stones without obvious GB distention or wall thickening.
-::actgbsg::Presence of high-attenuation material in the gallbladder with layering, in favor of GB sludge.
+::actgbss::Several gallbladder stones without obvious GB distention or wall thickening.
+::actgbsg::High-attenuation material in the gallbladder with layering, in favor of GB sludge.
 ::actgba::Hourglass configuration of the gallbladder, suggestive of segmental adenomyomatosis.
 ::actok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 ::actncok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal. Due to non-contrast study, the evaluation of solid organs is limited.
