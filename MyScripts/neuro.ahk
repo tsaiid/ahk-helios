@@ -13,7 +13,8 @@
 ::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
-::ubo::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
+::ubo::Several nonspecific tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR (unidentified bright objects).
+::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
 :c:imp::As the above descriptions.
 :c:imp2::Others as above descriptions.
@@ -26,7 +27,7 @@
 ::atr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::atr3::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
-::ctpbi::Presence of ---------tiny/small low density involved right/left/bilateral basal ganglion, right/left/bilateral thalamus, and right/left/bilateral periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
+::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
 ::mrpbi::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::cteps::Small low density near right/left side of anterior commissure, in favor of enlarged perivascular space.
@@ -38,9 +39,9 @@
 ::sdsa::Suggest correlate with DSA if clinically indicated.
 ::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
 ::pfsdh::Presence of a acute hematoma extending over the left side of falx cerebri, suggestive of an acute parafalcine SDH.
-::lfpca::Left fetal type posterior cerebral artery.
-::rfpca::Right fetal type posterior cerebral artery.
-::bfpca::Bilateral fetal type posterior cerebral arteries.
+::lfpca::left fetal type posterior cerebral artery.
+::rfpca::right fetal type posterior cerebral artery.
+::bfpca::bilateral fetal type posterior cerebral arteries.
 ::psok::The paranasal sinuses are clear.
 ::rfvps::s/p ventriculo-peritoneal shunt from right frontal area, with tip at left lateral ventricle.
 ::lgwd::loss of gray-white matter differentiation
@@ -104,6 +105,7 @@ Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal,
 )
   Paste(MyForm)
 Return
+::mctps::Mild mucoperiosteal thickening and soft tissue density in the paranasal sinuses, in favor of mild sinusitis.
 
 ::mrps::
   MyForm =
@@ -112,6 +114,7 @@ Presence of hyperintensity on T2WI over right/left/bilateral sphenoid, right/lef
 )
   Paste(MyForm)
 Return
+::mmrps::Hyperintensity on T2WI over the paranasal sinuses, in favor of mild sinusitis.
 
 ::bctaok::
   MyForm =
@@ -145,6 +148,8 @@ Return
 ::mraok::
   MyForm =
 (
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
+
 MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 
 MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
