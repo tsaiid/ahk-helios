@@ -277,6 +277,38 @@ Ascending colon diverticulitis, without rupture.
   Paste(MyForm)
 Return
 
+::actdivr::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: lower abdomen to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+- Several small diverticula noted over the ascending and sigmoid colon.
+- Wall thickening and edema over the ascending colon, with pericolic fat stranding, most likely diverticulitis.
+- Small extraluminal free air is noted nearby, suggestive of perforation.
+- Several regional reactive lymph nodes.
+- Small amount of ascites in the right paracolic gutter.
+
+- The appendix is normal.
+
+- Mild fatty liver.
+- The spleen, pancreas, kidneys are unremarkable.
+- The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Ascending colon diverticulitis, with rupture.
+)
+  Paste(MyForm)
+Return
+
 ::actad::
   MyForm =
 (

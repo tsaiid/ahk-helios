@@ -15,8 +15,8 @@
 ::ntbd::nature to be determined.
 ::stbd::significance to be determined.
 ::ctbd::cause to be determined.
-::het::heterogeneous
-::hom::homogenous
+::het::heterogeneous `
+::hom::homogenous `
 ::p::presence of `
 ::h::however, `
 ::r::residual `
@@ -176,6 +176,7 @@ Return
 ::me::mediastinal `
 ::fa::free air
 ::fac::fluid accumulation
+::fc::fluid collection
 ::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.

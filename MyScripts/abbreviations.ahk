@@ -155,6 +155,7 @@
 ::s-c::sigmoid colon
 ::jdd::juxtapapillary duodenal diverticulum
 ::ibd::inflammatory bowel disease
+::gist::gastrointestinal stromal tumor
 
 ;; Neuro
 ::ich::intracranial hemorrhage
@@ -175,6 +176,7 @@
 ::pcom::posterior communicating artery
 ::gp::globus pallidus
 ::ica::internal carotid artery
+::eca::external carotid artery
 ::caa::cerebral amyloid angiopathy
 ::ene::encephalomalacia
 ::sba::senile brain atrophy
@@ -183,6 +185,7 @@
 ::vbs::vertebral bodies
 ::mcm::mega cisterna magna
 ::hie::hypoxic-ischaemic encephalopathy
+::sov::superior ophthalmic vein
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
@@ -193,6 +196,7 @@
 ::s-s::sphenoid sinus
 ::e-s::ethmoid sinus
 ::f-s::frontal sinus
+::nsd::nasal septum deviation
 
 ;; Others
 ::dvt::deep vein thrombosis

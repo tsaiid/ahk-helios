@@ -80,6 +80,7 @@
 ::dvsok::The major dural venous sinuses are patent.
 ::nocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
 ::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+::lka::leukoaraiosis
 
 ::li1::
   MyForm =
