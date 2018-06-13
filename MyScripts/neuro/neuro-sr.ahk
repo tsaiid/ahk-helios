@@ -190,10 +190,8 @@ Return
 
 ;; srCTANec
 ::srctanec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast scanning in axial plane from aortic arch to skull base with 4 to 5-mm-thick contiguous slices.

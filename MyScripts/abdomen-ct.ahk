@@ -38,7 +38,7 @@
 ::nifa::No evidence of intraperitoneal free air.
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
-
+::sph0::S/P hysterectomy.
 
 ;; forms
 ::act::
@@ -488,6 +488,7 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds and 30 minutes scannin
 Previous abdominal CT: none.
 
 FINDINGS:
+Kidneys and Ureters:
 Kidneys: Unremarkable
 Ureters: Unremarkable
 Urinary bladder: Unremarkable

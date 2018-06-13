@@ -137,8 +137,16 @@
 ::sts::soft tissue swelling
 ::rasts::Soft tissue swelling around right ankle.
 ::lasts::Soft tissue swelling around left ankle.
+::mrasts::Mild soft tissue swelling around right ankle.
+::mlasts::Mild soft tissue swelling around left ankle.
 ::rksts::Soft tissue swelling around right knee.
 ::lksts::Soft tissue swelling around left knee.
+::mrksts::Mild soft tissue swelling around right knee.
+::mlksts::Mild soft tissue swelling around left knee.
+::rests::Soft tissue swelling around right elbow.
+::lests::Soft tissue swelling around left elbow.
+::mrests::Mild soft tissue swelling around right elbow.
+::mlests::Mild soft tissue swelling around left elbow.
 ::sijok::No evidence of blurring, sclerosis, or bone erosion over bilateral sacroiliac joints.
 ::wgd::wedge deformity
 ::opc::osteoporotic change

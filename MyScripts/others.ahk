@@ -12,6 +12,7 @@
 ::sao::small amount of `
 ::smao::small to moderate amount of `
 ::mao::moderate amount of `
+::lao::large amount of `
 ::ntbd::nature to be determined.
 ::stbd::significance to be determined.
 ::ctbd::cause to be determined.

@@ -39,9 +39,9 @@
 ::sdsa::Suggest correlate with DSA if clinically indicated.
 ::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
 ::pfsdh::Presence of a acute hematoma extending over the left side of falx cerebri, suggestive of an acute parafalcine SDH.
-::lfpca::left fetal type posterior cerebral artery.
-::rfpca::right fetal type posterior cerebral artery.
-::bfpca::bilateral fetal type posterior cerebral arteries.
+::lfpca::Left fetal type posterior cerebral artery is noted.
+::rfpca::Right fetal type posterior cerebral artery is noted.
+::bfpca::Bilateral fetal type posterior cerebral arteries are noted.
 ::psok::The paranasal sinuses are clear.
 ::rfvps::s/p ventriculo-peritoneal shunt from right frontal area, with tip at left lateral ventricle.
 ::lgwd::loss of gray-white matter differentiation
@@ -175,6 +175,7 @@ FINDINGS:
 - Mild nasal septum deviation to left side.
 - Bilateral nasal turbinate hypertrophy.
 - Bilateral palatine tonsil enlargement.
+- Tiny calcifications in the bilateral palatine tonsils.
 - The bony structure is unremarkable.
 - The mastoid air cells are well-aerated.
 )
