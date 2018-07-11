@@ -17,7 +17,7 @@
 ::1::
   MyForm =
 (
-No abnormal patch opacity in lung fields.
+No abnormal patch opacity in the lung fields.
 No cardiomegaly.
 
 )
@@ -128,7 +128,10 @@ Return
 ::flo::fibrolinear opacities
 ::fno::fibronodular opacities
 ::rno::reticulonodular opacities
-::ip::inflammatory process.
+::bafno::Fibronodular opacities over bilateral apical lung fields, in favor of chronic inflammatory change.
+::rafno::Fibronodular opacities over right apical lung fields, in favor of chronic inflammatory change.
+::lafno::Fibronodular opacities over left apical lung fields, in favor of chronic inflammatory change.
+::ip::inflammatory process
 ::cic::chronic inflammatory change
 ::abg::air-bronchogram
 ::blf::bilateral lung fields
@@ -161,8 +164,8 @@ Return
 ::rok::No evident rib fracture.
 ::rcf::Old fracture of right clavicle.
 ::lcf::Old fracture of left clavicle.
-::rcfsp::Previous fracture of right clavicle, s/p internal fixation.
-::lcfsp::Previous fracture of left clavicle, s/p internal fixation.
+::sprcf::Previous fracture of right clavicle, s/p internal fixation.
+::splcf::Previous fracture of left clavicle, s/p internal fixation.
 ::rdia::Elevation of right hemidiaphragm. Phrenic nerve palsy, diaphragmatic eventration, or intraabdominal process is considered.
 ::rdia0::Elevation of right hemidiaphragm.
 ::ldia::Elevation of left hemidiaphragm. Phrenic nerve palsy, diaphragmatic eventration, or intraabdominal process is considered.
@@ -209,7 +212,14 @@ Return
 ::splpm::s/p left partial mastectomy.
 ::sprm::s/p right mastectomy.
 ::sprpm::s/p right partial mastectomy.
-::bns::Presence of bilateral nipple shadows.
+::spcs::s/p coronary stent.
+::bns::Symmetrical small nodular opacities over bilateral lower lung fields, in favor of nipple shadows.
+::lns::A small nodular opacity over left lower lung field, in favor of nipple shadow.
+::rns::A small nodular opacity over right lower lung field, in favor of nipple shadow.
+::seg::segment `
+::bapt::Bilateral apical pleural thickening, in favor of chronic inflammatory change.
+::rapt::Right apical pleural thickening, in favor of chronic inflammatory change.
+::lapt::Left apical pleural thickening, in favor of chronic inflammatory change.
 
 ; Neck
 ::croup::Presence of steeple sign and hypopharyngeal distention, c/w croup.

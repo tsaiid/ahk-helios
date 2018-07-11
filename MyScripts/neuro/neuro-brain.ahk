@@ -211,6 +211,31 @@ Possibly hypertensive ICH over right basal ganglion and thalamus, with IVH.
   Paste(MyForm)
 Return
 
+::ctn2sah::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+Presence of acute subarachnoid hemorrhage in the suprasellar and ambient cisterns, with extension to the interhemispheric fissure and bilateral sylvian fissures, more on right side. Rupture of intracranial aneurysm should be excluded.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Diffuse acute SAH. Rupture of intracranial aneurysm should be excluded.
+)
+  Paste(MyForm)
+Return
+
 ;; 1CTA
 ::1cta::
   MyForm =
@@ -350,7 +375,9 @@ No definite abnormal signal intensity tumor mass lesion in the brain noted inclu
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+The major dural venous sinuses are patent.
 
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
 
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.

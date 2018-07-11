@@ -39,6 +39,11 @@
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
 ::sph0::S/P hysterectomy.
+::actncl::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+::lthrl::s/p left total hip replacement. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
+::rthrl::s/p right total hip replacement. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
+::bthrl::s/p bilateral total hip replacements. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
+::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
 
 ;; forms
 ::act::
@@ -123,7 +128,7 @@ Return
 ::actok1::
   MyForm =
 (
-The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
+The liver, gallbladder, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
 The lower abdomen and pelvis are unremarkable.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are unremarkable.
@@ -502,6 +507,9 @@ Biliary tree: Unremarkable
 Spleen: Unremarkable
 Pancreas: Unremarkable
 
+No retroperitoneal or mesenteric lymphadenopathy.
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+
 Lower lungs: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
 )
@@ -700,7 +708,7 @@ Scanning range: Neck to symphysis, 5-mm contiguous scan, coronal reconstruction.
 Previous CT: none.
 
 FINDINGS:
-- Lung parenchyma: negative
+- Lung parenchyma: unremarkable
 - Airway: unremarkable
 - Mediastinum: unremarkable
 - Pleura: unremarkable
@@ -907,8 +915,8 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous CT: none.
 
 FINDINGS:
-- Lung nodule or mass: negative
-- Lung parenchyma and airway: unremarkable
+- Lung: negative
+- Airway: unremarkable
 - Mediastinum: unremarkable
 - Pleura: unremarkable
 - Pericardium and heart: unremarkable
@@ -951,6 +959,8 @@ Diffuse gallbladder wall thickening and edematous change with gallbladder stones
 Diffuse gallbladder wall thickening and edematous change with pericholecystic fluid accumulation, and tiny gallbladder stones are noted. Even though, no obvious GB distention. Acute cholecystitis is still considered.
 Presence of a high-attenuation gallstone at the orifice of cystic duct, with distended gallbladder, diffuse gallbladder wall thickening and edematous change, c/w acute calculus cholecystitis.
 Mildly distended gallbladder, with mild GB wall thickening. No obvious pericholecystic fluid accumulation. However, early change of acute cholecystitis cannot be excluded. Suggest correlate with sonography and Murphy sign.
+
+No CBD or IHD dilatation.
 
 The liver, spleen, pancreas, adrenals, kidneys, and bowels are unremarkable.
 The lower abdomen and pelvis are unremarkable.

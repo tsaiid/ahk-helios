@@ -1,4 +1,5 @@
 ﻿; Neuro Spine Forms
+::aarst1::Atlantoaxial rotary subluxation is noted. The atlas is rotated on the odontoid with no anterior displacement, suggestive of Fielding and Hawkins type 1.
 
 ;; CTL
 ::ctls2::
@@ -68,8 +69,6 @@ FINDINGS:
 - No obvious fracture-dislocation of the C-spine noted.
 - No evidence of the C1-C2 anterior and lateral subluxation noted.
 - No evident hyperdense hematoma in the prevertebral region and epidural space noted.
-- The spinal cord and disc condition cannot be well evaluated in this noncontrast CT scan of the C-spine.
-- Due to streak artifact in the cervico-thoracic junction noted, this area couldn't be well evaluated by the CT scan.
 - The lungs covered in the scanning range are normal.
 )
   Paste(MyForm)

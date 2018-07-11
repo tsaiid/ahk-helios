@@ -125,6 +125,8 @@
 ::rp::retrograde pyelography
 ::pv::portal vein
 ::abd::abdomen
+::iabd::intraabdominal `
+::intraabd::intraabdominal `
 ::hep::hepatic `
 ::vur::vesicoureteral reflux
 ::hcc::hepatocellular carcinoma
@@ -157,7 +159,7 @@
 ::ibd::inflammatory bowel disease
 ::gist::gastrointestinal stromal tumor
 
-;; Neuro
+;; Brain
 ::ich::intracranial hemorrhage
 ::ivh::intraventricular hemorrhage
 ::sah::subarachnoid hemorrhage
@@ -185,7 +187,7 @@
 ::vbs::vertebral bodies
 ::mcm::mega cisterna magna
 ::hie::hypoxic-ischaemic encephalopathy
-::sov::superior ophthalmic vein
+::iicp::increased intracranial pressure
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
@@ -197,6 +199,10 @@
 ::e-s::ethmoid sinus
 ::f-s::frontal sinus
 ::nsd::nasal septum deviation
+::sov::superior ophthalmic vein
+
+;; Spine
+::aars::atlantoaxial rotary subluxation
 
 ;; Others
 ::dvt::deep vein thrombosis

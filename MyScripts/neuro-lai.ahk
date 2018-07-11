@@ -176,6 +176,40 @@ Recommend correlate with the EMG and NCV studies.
   Paste(MyForm)
 Return
 
+;; mrse - prolactinoma, hemorrhagic or cystic transformation, apoplexy
+;; C14799, 32/F
+::mrse-hemorrhagic::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+A 1.8 x 0.9 x 2.2 cm cystic mass lesion, arising from the sella, with snowman configuration, shows some enhancing component at the periphery, c/w pituitary macroadenoma.
+The lesion shows blood-fluid level, suggestive of previous or recent hemorrhagic or cystic transformation. Pituitary apoplexy may also be considered if an acute clinical symptom presents. Suggest compare with previous images from other institute.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+The major dural venous sinuses are patent.
+
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
+
+MRA shows several suspicious aneurysms at the right supraclinoid ICA, size up to 2.7 mm. Suggest correlate with DSA.
+
+----
+1. C/W pituitary macroadenoma, 1.8 x 0.9 x 2.2 cm, with previous or recent hemorrhagic or cystic transformation. Pituitary apoplexy may also be considered if an acute clinical symptom presents. Suggest compare with previous images from other institute.
+2. Several suspicious aneurysms at the right supraclinoid ICA, size up to 2.7 mm. Suggest correlate with DSA.
+)
+  Paste(MyForm)
+Return
+
 ;; mritumorCP
 ::mritumorcp::
   MyForm =
@@ -195,7 +229,7 @@ Presence of a 2.5 x 2.2 x 1.9 cm mass lesion over the right C-P angle cistern re
 
 Postcontrast study shows no evidence of abnormal enhancing tumor mass lesion over the bil. C-P angle cistern region noted.
 
-No evidence of abnormal enhancing tumor mass lesion over the skull base and bil. CP angle cistern and bil. pre-pontine cistern region noted.
+No evidence of abnormal enhancing tumor mass lesion over the skull base, bilateral CP angle cistern, and bilateral pre-pontine cistern region noted.
 
 Presence of small area high signal intensity on T2WI noted over the left side mastoid air sinus, rule out small effusion or poor pneumatization of left side mastoid air sinus.
 

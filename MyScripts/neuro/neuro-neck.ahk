@@ -33,6 +33,15 @@ The detail could not be evaluated in this noncontrast CT.
 
 
 2. Cervical nodes:
+No bulky lymph nodes over bilateral submandibular and submental, carotid, posterior cervical spaces, and supraclavicular fossae noted.
+No evidence of bulky lymph nodes (> 1cm) over bilateral carotid space and posterior cervical space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral carotid space and posterior cervical space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral supraclavicular fossae noted.
+No evidence of bulky lymph nodes in shortest axis (> 1.5 cm) over bilateral submandibular and submental space noted.
+
+* Imaging criteria:
+  > Carotid space, posterior cervical space, and supraclavicular fossae: shortest axis > 1 cm.
+  > Submandibular and submental space: shortest axis > 1.5 cm.
 
 * right/left/bilateral level I, II, III, IV, V, VI, VII
 
@@ -42,20 +51,6 @@ carotid space (level II, III, IV)
 posterior cervical space (level V)
 anterior cervical space (level VI)
 superior mediastinal space (level VII)
-
-No evidence of bulky lymph nodes (> 1cm) over bilateral carotid space and posterior cervical space noted.
-
-No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral carotid space and posterior cervical space noted.
-
-No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral supraclavicular fossae noted.
-
-No evidence of bulky lymph nodes in shortest axis (> 1.5 cm) over bilateral submandibular and submental space noted.
-
-b. Presence of several/multiple lymph nodes noted over -------- submandibular and submental space ,--------------- carotid space and --------------- posterior cervical space, the biggest size about --------  cm, R/O inflammatory or metastatic lymph nodes.
-
-c. Presence of several lymph nodes noted over -------- submandibular and submental space , bilateral carotid space and posterior cervical space, the biggest size about 1.1 cm, R/O inflammatory lymph nodes. However, lymphoma, metastatic lymph nodes can not be completely excluded.  Suggest clinical check up.
-
-d. Presence of several/multiple lymph nodes noted over -------- submandibular and submental space , ---------------carotid space and posterior cervical space, the biggest size about --------  cm, the differential diagnoses including lymphoma, metastasis, or inflammation, recommend biopsy or close follow up.
 
    ========================
      # level I   : right (-);  left(-)
@@ -155,7 +150,7 @@ Return
 ::ctnechrct::
   MyForm =
 (
-HRCT of the temporal bone with axial and coronal section 0.4 mm showed:
+HRCT of the temporal bone with axial and coronal section 1 mm showed:
 
 Previous HRCT of the temporal bone: none
 
@@ -194,7 +189,7 @@ Return
 ::ctnechrctwnl::
   MyForm =
 (
-HRCT of the temporal bone with axial and coronal section 0.4 mm showed:
+HRCT of the temporal bone with axial and coronal section 1 mm showed:
 
 Previous HRCT of the temporal bone: none
 
@@ -211,6 +206,31 @@ Presence of mucoperiosteal thickening over bilateral ethmoid and maxillary sinus
 
 IMPRESSION:
 No CT imaging evidence of cholesteatoma or otosclerosis noted. Suggest clinical correlation.
+)
+  Paste(MyForm)
+Return
+
+;; CTNECHRCT - Superior semicircular canal dehiscence syndrome
+::ctnechrctscds::
+  MyForm =
+(
+HRCT of the temporal bone with axial and coronal section 1 mm showed:
+
+Previous HRCT of the temporal bone: none
+
+FINDINGS:
+No evidence of soft tissue density over bilateral middle ear, aditus, or mastoid antrum, with intact ossicle chain.
+
+No evidence of soft tissue opacification in bilateral mastoid air sinuses.
+
+Relatively thinning of the bony covering (arcuate eminence) of the right superior semicircular canal (Se/Im: 4/44), but not definite dehiscence. Suggest clinical correlation.
+
+Bilateral cochlear and left semicircular canals show no obvious abnormalities.
+
+No osteolytic foci around the cochlear noted, and thus no CT imaging evidence of cochlear otosclerosis.
+
+IMPRESSION:
+Relatively thinning of the bony covering (arcuate eminence) of the right superior semicircular canal, but not definite dehiscence. Suggest clinical correlation.
 )
   Paste(MyForm)
 Return

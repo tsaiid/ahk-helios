@@ -80,11 +80,19 @@
 ::dvsok::The major dural venous sinuses are patent.
 ::nocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
 ::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+::noich0::No definite acute ICH, SAH, EDH, or SDH.
 ::lka::leukoaraiosis
+::oli::old lacunar infarcts
+::oii::old ischemic infarcts
+::ali::acute lacunar infarcts
+::aii::acute ischemic infarctss
+::gpcal::Calcifications are noted at the bilateral globus pallidi, probably aging related.
+::mgpcal::Mild calcifications are noted at the bilateral globus pallidi, probably aging related.
 
 ::li1::
   MyForm =
 (
+A small low density over left basal ganglion region, in favor of old lacunar infarct.
 Several small low densities over bilateral basal ganglion regions, in favor of old lacunar infarcts.
 Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 )
@@ -239,7 +247,7 @@ No definite abnormal signal intensity tumor mass lesion in the brain noted inclu
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )
   Paste(MyForm)
   SleepThenTab()

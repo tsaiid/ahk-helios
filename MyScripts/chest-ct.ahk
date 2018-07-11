@@ -1,6 +1,7 @@
 ﻿; Chest CT Forms
 
 ;; Hotstrings
+::ist::interlobular septal thickening
 ::6mcct::Follow up chest CT scan 6 months later.
 ::tacal::Atherosclerotic change and calcification of aortic wall.
 ::mtacal::Mild atherosclerotic change and calcification of aortic wall.
@@ -51,8 +52,8 @@ COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. Lung nodule or mass: negative
-2. Lung parenchyma and airway: not unusual for age
+1. Lung: negative
+2. Airway: not unusual for age
 3. Mediastinum: not unusual
 4. Lymph node enlargement > 1 cm: none for age
 5. Pleura: not unusual for age

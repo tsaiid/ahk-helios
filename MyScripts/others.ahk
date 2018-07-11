@@ -38,6 +38,7 @@
 ::urm::unremarkable
 ::cnbd::cannot be determined
 ::cnbe::cannot be excluded
+::cnbte::cannot be totally excluded
 ::sbe::should be excluded
 ::mbs::may be suspected
 ::mcnbe::malignancy cannot be excluded.
@@ -131,8 +132,15 @@ Return
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
 ::tstc::too small to categorize
 ::motion::* Obvious motion artifacts may limit the interpretation.
-::ncl::* The evaluation is limited due to absence of contrast enhancement, especially for solid organs and vascular structure.
 ::mart::* Obvious metallic artifact may limit the evaluation.
+::ncl::
+  MyForm =
+(
+* The evaluation is limited due to absence of contrast enhancement, especially for solid organs and vascular structure.
+* The detection of tiny or occult metastasis is limited due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+Return
 
 ::sgo::suggestive of `
 ::obv::obvious
@@ -183,6 +191,7 @@ Return
 ::nrf::No remarkable findings.
 ::nsf::Non-specific findings.
 ::ol::obstruction level
+::tz::transitional zone
 ::nobs::nonobstructive `
 ::obs::obstruction
 ::hypoec::hypo-enhanced `
@@ -198,6 +207,7 @@ Return
 ::sb::small bowel
 ::elg::enlargement
 ::elgd::enlarged
+::pci::postcontrast images
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

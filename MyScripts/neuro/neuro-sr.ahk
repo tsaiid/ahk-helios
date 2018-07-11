@@ -10,40 +10,39 @@ COMPARISON:
 Applicable previous CT of face: none
 
 FINDINGS:
+- Facial bones, right side
+  > Frontal bone: normal
+  > Ethmoid bone: normal
+  > Bony orbit: normal
+  > Zygoma: normal
+  > Maxilla / Maxillary sinus: normal
+  > Pterygoid plates: normal
 
-*Facial bones, right side
+- Facial bones, left side
+  > Frontal bone: normal
+  > Ethmoid bone: normal
+  > Bony orbit: normal
+  > Zygoma: normal
+  > Maxilla / Maxillary sinus: normal
+  > Pterygoid plates: normal
 
-Frontal bone: normal / fracture, frontal sinus involved / spared
-Ethmoid bone: normal / fracture
-Bony orbit: normal / fracture of lateral wall, medial wall, orbital floor
-Zygoma: normal / fracture of zygomatic arch and zygomaticofrontal suture
-Maxilla / Maxillary sinus: normal / fracture of anterior and posterolateral wall
-Pterygoid plates: normal / fracture
+  > Frontal bone: normal / fracture, frontal sinus involved / spared
+  > Ethmoid bone: normal / fracture
+  > Bony orbit: normal / fracture of lateral wall, medial wall, orbital floor
+  > Zygoma: normal / fracture of zygomatic arch and zygomaticofrontal suture
+  > Maxilla / Maxillary sinus: normal / fracture of anterior and posterolateral wall
+  > Pterygoid plates: normal / fracture
 
+- Mandible: normal
+- Nasal bone, septum and nasal cavity: normal
+- Sphenoid bones: normal
+- Temporal bones: normal
+- Parietal bones: normal
+- Occipital bones: normal
 
-*Facial bones, left side
+- Hematoma: none / paranasal sinuses / nasal cavity / periorbital region / scalp / cheek
 
-Frontal bone: normal / fracture, frontal sinus involved / spared
-Ethmoid bone: normal / fracture
-Bony orbit: normal / fracture of lateral wall, medial wall, orbital floor
-Zygoma: normal / fracture of zygomatic arch and zygomaticofrontal suture
-Maxilla / Maxillary sinus: normal / fracture of anterior and posterolateral wall
-Pterygoid plates: normal / fracture
-
-*Mandible: normal
-*Nasal bone, septum and nasal cavity: normal
-*Sphenoid bones: normal
-*Temporal bones: normal
-*Parietal bones: normal
-*Occipital bones: normal
-
-*Hematoma: none / paranasal sinuses / nasal cavity / periorbital region / scalp / cheek
-
-*Others: none
-
-
-IMPRESSION:
-Multiple facial bone fracture, left side
+- Others: none
 )
   Paste(MyForm)
 Return
