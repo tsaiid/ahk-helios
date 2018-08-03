@@ -336,3 +336,44 @@ Others:
 Endometrial cancer, FIGO Stage II.
 )
   Paste(MyForm)
+
+; Acute appendicitis
+::amrapp::
+  MyForm =
+(
+MRI of the Abdomen for r/o acute appendicitis in pregnancy.
+
+SCANNING PROTOCOL:
+- Abdomen and pelvis:
+  * TrueFISP T2 Cor, Sag; HASTE T2+FS Cor
+  * DWI (b=400): Cor
+- Upper abdomen:
+  * Axi: TSE T2, FL2D T1+FS
+- Lower abdomen and pelvis:
+  * Axi: TrueFISP T2, HASTE T2+FS, TSE T2, FL2D T1_FS
+- Thin slice focusing on RLQ:
+  * TSE T2 Axi, Cor, Sag
+
+COMPARISON: no
+
+FINDINGS:
+The appendix cannot be depicted well. However, no definite swollen tubular structure or inflammatory change over the pericecal region. No strong evidence of acute appendicitis.
+
+A gravid uterus with normal position of the placenta.
+The fetus is in breech presentation, and the images show no hydrocephalus, no hydronephrosis, and no obvious structural anomaly.
+The amniotic fluid volume is within normal limits.
+
+A small left renal cyst.
+Mild right renal pelvic and calyceal dilatation, probably secondary to the pregnancy.
+The liver, gallbladder, spleen, and pancreas are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+No obvious ascites.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No strong evidence of acute appendicitis.
+)
+  Paste(MyForm)

@@ -109,9 +109,8 @@ Return
   MyForm =
 (
 The MRI of the C-spine performed with
-Coronal T1WI (localizer)
-Sagittal TIWI, T2WI, gradient echo T2*WI,
-Axial view with gradient echo T2* weighted imaging
+Coronal T2WI+FS
+Sagittal TIWI, T2WI
 Axial TIWI and T2WI
 Post-contrast, sagittal and axial T1WI:
 
@@ -126,28 +125,6 @@ No evidence of focal herniation of nucleus pulposis (HIVD) in the C-spine region
 No evidence of abnormal signal intensity lesion within the spinal cord of the C-spine.
 
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the C-spine.
-
-
-
-1. --------: No definite spinal stenosis.
-2. --------: Presence of diffuse bulging/protrusion/herniation disk causing mild/moderate/severe spinal stenosis.
-3. --------: Presence of diffuse bulging/protrusion/herniation  disk combined with ligament flavum hypertrophy and facet joint degenerative causing mild/moderate/severe spinal stenosis.
-4. --------: Presence of -------- herniated of nucleus pulposus (HIVD), cranial/caudal migration, with compression /attachment of the adjacent nerve root/dural sac.
-5. Presence of -------- DJD/spondylolytic type spondylolisthesis over ----------.
-6. Presence of narrowing of intervertebral foramen over ---.
-7. No evidence of fracture of cervical spine.
-8. Presence of fracture/subluxation over --------------.
-9. Presence of high signal within the spinal cord at -------- level, indicating edema/gliosis/compression with cord signal change
-10. Presence of infectious osteomylitis involving the --------- spine, combined with epidural/paraspinal soft tissue infection, causing compression of the spinal cord
-11. Presence of abnormal signal intensity involving the --------spine, and compression of the spinal cord at ---------level, R/O metastasis, myeloma, or lymphoma
-12. No evidence of abnormal signal intensity lesion and no evidence of abnormal enhanced lesion within the spinal cord of the C-spine
-13. Presence of abnormal signal intensity mass lesion, extradural/intradural extramedullary/intramedullary location, size about ---------cm, over the ---------spine level.
-14. Post contrast studies show enhancement of the abnormal signal intensity lesion.
-
-IMPRESSION:
-As the above descriptions.
-
-SUGGESTION:
 )
   Paste(MyForm)
 Return

@@ -46,8 +46,8 @@
 ::c61::C6 through T1
 ::c71::C7-T1
 
-::g1::grade I `
-::g2::grade II `
+::g1::grade 1 `
+::g2::grade 2 `
 
 ;; CT Extremity - Colles Fracture
 ::ectcf::
@@ -78,6 +78,7 @@ Return
   MyForm =
 (
 CT Lower Extremity:
+Non-contrast study.
 Pre- and post-contrast study.
 Scanning from thigh to foot, axial, coronal, sagittal, and 3D VRT views
 Scanning from thigh to foot, axial, coronal, sagittal views
@@ -170,7 +171,38 @@ Return
   MyForm =
 (
 CT Upper Extremity:
+Pre and post contrast-enhanced study.
+Scanning from arm to finger, axial, coronal, sagittal views
 Scanning from arm to finger, axial, coronal, sagittal, and 3D VRT views
+
+FINDINGS:
+)
+  Paste(MyForm)
+Return
+
+::ectau::
+  MyForm =
+(
+CTA of Upper Extremity:
+Pre and post contrast-enhanced axial scanning from aortic arch to hand
+Axial and coronal reconstruction with MIP technique
+
+COMPARISON: no
+
+FINDINGS:
+
+)
+  Paste(MyForm)
+Return
+
+;; CT Shoulder
+::ects::
+  MyForm =
+(
+CT Shoulder:
+Pre and post contrast-enhanced study.
+Scanning from neck to upper chest, centering at shoulder, axial, coronal, sagittal views
+Scanning from neck to upper chest, centering at shoulder, axial, coronal, sagittal, and 3D VRT views
 
 FINDINGS:
 )

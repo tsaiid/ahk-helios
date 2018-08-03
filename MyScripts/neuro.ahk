@@ -75,6 +75,7 @@
 ::lpl::left postero-lateral `
 ::rpl::right postero-lateral `
 ::lfh::ligament flavum hypertrophy
+::fjh::facet joint hypertrophy
 ::retr::retrolisthesis
 ::dwiok::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::dvsok::The major dural venous sinuses are patent.
@@ -88,6 +89,7 @@
 ::aii::acute ischemic infarctss
 ::gpcal::Calcifications are noted at the bilateral globus pallidi, probably aging related.
 ::mgpcal::Mild calcifications are noted at the bilateral globus pallidi, probably aging related.
+::mpt::mucoperiosteal thickening
 
 ::li1::
   MyForm =
@@ -95,6 +97,18 @@
 A small low density over left basal ganglion region, in favor of old lacunar infarct.
 Several small low densities over bilateral basal ganglion regions, in favor of old lacunar infarcts.
 Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
+)
+  Paste(MyForm)
+Return
+
+::necok::
+  MyForm =
+(
+The nasopharynx, oropharynx, hypopharynx, and larynx are unremarkable.
+No bulky lymph nodes over bilateral submandibular and submental, carotid, posterior cervical spaces, and supraclavicular fossae noted.
+No particular findings of parotid gland, submandibular gland, and thyroid gland.
+The paranasal sinuses and mastoid air cells are clear.
+The visible brain shows no remarkable findings.
 )
   Paste(MyForm)
 Return
@@ -123,7 +137,14 @@ Presence of hyperintensity on T2WI over right/left/bilateral sphenoid, right/lef
 )
   Paste(MyForm)
 Return
-::mmrps::Hyperintensity on T2WI over the paranasal sinuses, in favor of mild sinusitis.
+::mmrps::
+  MyForm =
+(
+Mild mucoperiosteal thickening and hyperintensity on T2WI over the paranasal sinuses, in favor of mild sinusitis.
+Hyperintensity on T2WI over the paranasal sinuses, in favor of mild sinusitis.
+)
+  Paste(MyForm)
+Return
 
 ::bctaok::
   MyForm =
@@ -193,6 +214,30 @@ FINDINGS:
 (
 C/W chronic paranasal sinusitis.
 C/W chronic paranasal sinusitis, most severe at left maxillary.
+)
+  Paste(MyForm)
+Return
+
+::ctpok::
+  MyForm =
+(
+Noncontrast CT of the paranasal sinuses was performed with a multi-slice CT scanner:
+SCAN RANGE: axial plane of the paranasal sinuses with 3 mm continuous scan, with coronal and sagittal reconstruction
+
+PREVIOUS CT SCAN of the paranasal sinuses: no
+
+FINDINGS:
+- The bilateral frontal, bilateral ethmoid, bilateral maxillary, and bilateral sphenoid sinuses are clear.
+- Mild nasal septum deviation to right side.
+- Bilateral nasal turbinate hypertrophy.
+- The bony structure is unremarkable.
+- The mastoid air cells are well-aerated.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of paranasal sinusitis.
 )
   Paste(MyForm)
 Return

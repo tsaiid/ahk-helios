@@ -11,9 +11,11 @@
 ::mdjdl1::Mild DJD change of L-spine with spur formation.
 ::mdjdl2::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
 ::djdt::DJD change of T-spine.
-::mdjdt::Mild DJD change of T-spine with spur formation.
+::mdjdt::Mild DJD change of T-spine.
+::mdjdt1::Mild DJD change of T-spine with spur formation.
 ::djdtl::DJD change of T- and L-spine.
-::mdjdtl::Mild DJD change of T- and L-spine with spur formation.
+::mdjdtl::Mild DJD change of T- and L-spine.
+::mdjdtl1::Mild DJD change of T- and L-spine with spur formation.
 ::spdl::spondylolisthesis
 ::spl::spondylosis
 ::spll::Spondylosis of L-spine.

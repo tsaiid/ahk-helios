@@ -27,6 +27,7 @@ No definite abnormal enhancing mass lesion in the brain noted.
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
 
 The major dural venous sinuses are patent.
 
@@ -61,6 +62,7 @@ No definite abnormal enhancing mass lesion in the brain noted.
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
 
 The major dural venous sinuses are patent.
 
@@ -70,6 +72,7 @@ No obvious fracture of the skull base and the skull.
   SleepThenTab()
   MyForm =
 (
+No remarkable intracranial findings.
 No definite abnormal enhancing mass lesion in the brain noted.
 )
   Paste(MyForm)
@@ -157,6 +160,63 @@ No obvious fracture of the skull base and the skull.
 No definite acute ICH, SAH, EDH, or SDH.
 No evident acute intracranial finding.
 No remarkable intracranial findings on noncontrast CT.
+)
+  Paste(MyForm)
+Return
+
+::ctn2oktr::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+No definite area of obvious abnormal density in the brain noted.
+
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No definite acute ICH, SAH, EDH, or SDH.
+)
+  Paste(MyForm)
+Return
+
+;; CTN2 - Atrophy, leukoaraiosis
+::ctn2atr::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+
+Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+
+Mild atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Senile brain atrophy; leukoaraiosis.
 )
   Paste(MyForm)
 Return
@@ -353,7 +413,7 @@ Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
 Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
 And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
 Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
-[[Intracranial MRA with 3D TOF and focus on the circle of Willis, intracranial MR venography (MRV) showed:]]
+Intracranial MRA with 3D TOF and focus on the circle of Willis, intracranial MR venography (MRV) showed:
 
 Previous MRI of brain: none
 
@@ -575,20 +635,22 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
+A 2.8-cm enhancing nodular lesion at the left cerebellar hemisphere, with perifocal edema, suggestive of brain metastasis.
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
-
-A 3.3-cm enhancing lesion within the left parietal skull, suspicious bone metastasis.
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-Empty sella appearance.
-
 Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
-
-No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+Several nonspecific tiny hyperintensities in the bilateral periventricular and subcortical white matter regions on T2WI and FLAIR (unidentified bright objects).
 
 Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 The bilateral lateral ventricles showed symmetrical without dilatation.
+
+A 3.3-cm enhancing lesion within the left parietal skull, suspicious bone metastasis.
+
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
+Left fetal type posterior cerebral artery is noted.
 
 MRA shows
 - A suspicious aneurysm at the anterior communicating artery (Ser/Img: 9/63), size about 2 mm. Suggest correlate with DSA.
@@ -596,6 +658,39 @@ MRA shows
 - No evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
 - Left fetal type posterior cerebral artery.
 - Hypoplasia of A1 portion of left anterior cerebral artery.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of brain metastasis.
+Left cerebellar metastasis.
+)
+  Paste(MyForm)
+Return
+
+;; MRB - Lung cancer staging - normal
+::mrblcsok::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -747,6 +842,54 @@ No obvious fracture of the skull base and the skull.
   MyForm =
 (
 Ruptured ACom aneurysm, with acute SAH.
+)
+  Paste(MyForm)
+Return
+
+::bctaavm::
+  MyForm =
+(
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
+TECHNIQUE: multi thin-slice spiral scanning of arterial, venous, and delayed phases
+SCAN RANGE: axial plane from the neck to the vertex.
+CONTRAST MEDIUM: IV bolus injection, 70 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: Multiplanar reconstruction, maximal intensity projection
+
+COMPARISON: nil
+
+FINDINGS:
+* Brain CT:
+- Acute intraparenchymal hemorrhage at left temporal lobe, size about 5.4 x 1.8 x 1.6 cm, with mild perifocal edema.
+- The left lateral ventricle shows slightly compressed. but no obvious midline shift is noted.
+- No abnormal dilatation of the ventricular system.
+- No obvious fracture of the skull base and the skull.
+
+* Brain CTA:
+- A tangle of engorged vascular structure over the left temporal lobe, c/w arteriovenous malformation.
+- The nidus size is about 2 cm.
+- Cortical draining veins are noted to the left sphenoparietal and left transverse sinuses.
+
+* Spetzler-Martin grade:
+- Size of nidus
+  > Small (<3 cm) = 1
+  > Medium (3-6 cm) = 2
+  > Large (>6 cm) = 3
+- Eloquence of adjacent brain
+  > Non-eloquent = 0
+  > Eloquent = 1
+- Venous drainage
+  > Superficial veins only = 0
+  > Deep veins = 1
+
+- Bilateral CCA, carotid bulbs and distal ICAs are patent.
+- Bilateral intracranial VA, and BA are patent.
+- Major branches of bilateral ACA, MCA and PCA are patent.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Left temporal lobe AVM, with ICH. Spetzler-Martin grade: 1.
 )
   Paste(MyForm)
 Return

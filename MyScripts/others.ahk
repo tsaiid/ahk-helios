@@ -189,7 +189,7 @@ Return
 ::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.
-::nsf::Non-specific findings.
+::nsf::non-specific findings
 ::ol::obstruction level
 ::tz::transitional zone
 ::nobs::nonobstructive `

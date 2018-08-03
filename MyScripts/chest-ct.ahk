@@ -127,7 +127,7 @@ Return
 ::cctncld::
   MyForm =
 (
-Low dose, high resolution non-contrast CT scan for screening pulmonary nodule.
+Lower dose, high resolution non-contrast CT scan for screening pulmonary nodule.
 Scanner: Multi-detector CT scanner.
 Scan range: thoracic inlet to diaphragm.
 Reconstruction: axial and coronal reconstruction.
@@ -152,6 +152,43 @@ FINDINGS:
 (
 no remarkable nodular lesions in bilateral lungs.
 no or minimal coronary artery calcification.
+)
+  Paste(MyForm)
+Return
+
+::cctncsdild::
+  MyForm =
+(
+CT scan of the thorax was performed with a multi-slice CT scanner.
+
+TECHNIQUE:
+  - (1) HRCT (inspiration and expiration) (2) Noncontrast survey
+  - (1) Noncontrast survey (inspiration and expiration)
+  - (1) Noncontrast survey
+  - Scan range: lower neck to adrenal gland
+
+COMPARISON:
+Applicable previous CT of chest: no
+
+FINDINGS:
+1. Lung and large airways:
+  > Bilateral subpleural reticulation, interlobular septal thickening, basal honeycombing, suggestive of UIP pattern.
+  > Mild bronchiectasis over bilateral lower lungs.
+  > No definite extensive ground glass abnormality, micronodules, discrete cysts, diffuse mosaic attenuation, nor consolidation.
+2. Pleura: no visible nodularity or pleural thickening.
+3. Great vessels: within normal limits.
+4. Heart: within normal limits.
+5. Mediastinum and hila: no LNs > 1 cm.
+6. Chest Wall and low neck: several small nodules with calcifications in the thyroid. Suggest correlate with sonography.
+7. Abdomen: within normal limits in visualized range.
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+UIP pattern.
 )
   Paste(MyForm)
 Return

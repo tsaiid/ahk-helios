@@ -44,6 +44,7 @@
 ::abpa::allergic bronchopulmonary aspergillosis
 ::tib::tree-in-bud appearance
 ::pfn::perifissural nodule
+::itho::intrathoracic `
 
 ;; CV
 ::ivc::inferior vena cava
@@ -158,6 +159,7 @@
 ::jdd::juxtapapillary duodenal diverticulum
 ::ibd::inflammatory bowel disease
 ::gist::gastrointestinal stromal tumor
+::pppd::pylorus-preserving pancreaticoduodenectomy
 
 ;; Brain
 ::ich::intracranial hemorrhage
@@ -188,6 +190,7 @@
 ::mcm::mega cisterna magna
 ::hie::hypoxic-ischaemic encephalopathy
 ::iicp::increased intracranial pressure
+::icra::intracranial `
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
@@ -200,6 +203,7 @@
 ::f-s::frontal sinus
 ::nsd::nasal septum deviation
 ::sov::superior ophthalmic vein
+::npc::nasopharyngeal cancer
 
 ;; Spine
 ::aars::atlantoaxial rotary subluxation
@@ -224,6 +228,10 @@
 ::inflat::inferolateral `
 ::antlat::anterolateral `
 ::postlat::posterolateral `
+::antsup::anterosuperior `
+::postsup::posterosuperior `
+::antinf::anteroinferior `
+::postinf::posteroinferior `
 ::ext::external `
 ::int::internal `
 ::pri::primary `

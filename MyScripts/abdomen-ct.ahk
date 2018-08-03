@@ -5,7 +5,7 @@
 ::l-ok::The lungs covered in the scanning range are unremarkable.
 ::l-ok1::No pulmonary nodule.
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
-::btok::No biliary tree obstruction.
+::btok::No biliary tree dilatation.
 ::actfl::Fatty liver without focal lesion.
 ::mactfl::Mild fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
@@ -23,12 +23,14 @@
 ::actlaa::A __-cm fat-containing enhancing nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
 ::actckd1::Atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
+::mactckd1::Mild atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
 ::actrkaml::A __-cm fat-containing tumor at the right kidney, in favor of angiomyolipoma.
 ::actlkaml::A __-cm fat-containing tumor at the left kidney, in favor of angiomyolipoma.
 ::actbkaml::Fat-containing tumors at the both kidneys, size up to __ cm, in favor of angiomyolipomas.
 ::actns::No evidence of high-attenuation stone along the urinary tracts.
-::actbph::Mild enlarged prostate is noted, most likely benign prostatic hyperplasia.
+::actbph::Enlarged prostate is noted, most likely benign prostatic hyperplasia.
 ::actbph1::Prostate enlargement with intravesical protrusion.
+::mactbph::Mild enlarged prostate is noted, most likely benign prostatic hyperplasia.
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
@@ -44,6 +46,7 @@
 ::rthrl::s/p right total hip replacement. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::bthrl::s/p bilateral total hip replacements. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
+::actclc::Mild subpleural reticulation and interlobular septal thickening over bilateral lower lungs, in favor of chronic inflammatory change.
 
 ;; forms
 ::act::
@@ -212,6 +215,10 @@ Previous abdominal CT: none.
 FINDINGS:
 The appendix is swollen, with severe mesoappendiceal fatty stranding. Its mucosa is discontinuous and some adjacent fluid collections are noted. These findings are suggestive of acute appendicitis with rupture.
 
+The appendix is swollen, diameter about 1.2 cm, containing an appendicolith near the orifice, with severe mesoappendiceal fatty stranding.
+Its mucosa is discontinuous and small adjacent fluid collections are noted. These findings are suggestive of acute appendicitis with rupture.
+Small amount of turbid ascites in the rectovesical pouch is noted.
+
 The liver, spleen, pancreas, adrenals, and kidneys are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are unremarkable.
@@ -299,17 +306,24 @@ FINDINGS:
 - Several regional reactive lymph nodes.
 - Small amount of ascites in the right paracolic gutter.
 
+- Wall thickening and edema over the sigmoid colon, with pericolic fat stranding, most likely diverticulitis.
+- Extraluminal free air and fluid collection are noted nearby, suggestive of perforation with abscess formation.
+- Small amount of ascites in the rectovesical pouch.
+
+
 - The appendix is normal.
 
+- Several small hepatic and renal cysts.
 - Mild fatty liver.
-- The spleen, pancreas, kidneys are unremarkable.
+- The gallbladder, spleen, pancreas, adrenals, kidneys are unremarkable.
 - The lungs covered in the scanning range are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
-Ascending colon diverticulitis, with rupture.
+Ascending colon acute diverticulitis, with perforation.
+Sigmoid colon acute diverticulitis, with perforation and abscess formation.
 )
   Paste(MyForm)
 Return
@@ -778,13 +792,12 @@ TECHNIQUE description:
 
 Previous similar study reviewed/comparison: Yes. (<date>) | NONE
 
-Findings:
-
+FINDINGS:
 Rectal tumor
 Colon tumor
-Location:
-Length:
-Maximal thickness:
+- Location:
+- Length:
+- Maximal thickness:
 
 T-stage of the tumor
 [T1 (tumor invades the submucosa]]
@@ -792,6 +805,10 @@ T-stage of the tumor
 [T3 (tumor invades the perirectal fat]]
 [T4a: Tumor penetrates to the surface of the visceral peritoneum]
 [T4b: Tumor directly invades or is adherent to other organs or structures ]
+
+Lymph nodes:
+- One enlarged lymph node at the pericolic region (Se/Im: 3/24).
+- No retroperitoneal or mesenteric root lymphadenopathy.
 
 Lymph nodes: [No enlarged nodes / number and size of the lymph nodes in the perirectal space as well as along the major pelvic vessels]
 N0: No regional lymph node metastasis
@@ -801,6 +818,15 @@ N1c: Tumor deposit(s) in the subserosa, mesentery, or non-peritonealized pericol
 N2a: Metastasis in 4 to 6 regional lymph nodes
 N2b: Metastasis in 7 or more regional lymph nodes
 
+Liver: a small hepatic cyst at S2.
+Adrenals: unremarkable
+Kidneys: unremarkable
+Spleen: unremarkable
+Pancreas: unremarkable
+
+Lower lungs: no definite pulmonary nodules detected from available images
+Bony metastases: None in the scanning range.
+
 M0: No distant metastasis (in this study).
 M1a: Metastasis confined to one site or organ is identified without peritoneal metastasis.
 M1b: Metastases to two or more site or organ is identified without peritoneal metastasis.
@@ -808,13 +834,8 @@ M1c: Metastases to the peritoneal surface is identified alone or with other site
 
 NOTE: in case of mucinous-type of rectal tumor the involved lymph nodes may have fluid-like density.
 
-Bony metastases: [None] visible / number and size of any bony metastases
 No abnormal findings in the liver, GB, biliary system, pancreas, spleen, and both kidneys.
 Under lung window, no definite pulmonary nodules detected from available images
-
-IMPRESSION:
-[Rectal /sigmoid ] colon carcinoma
-Tentative image staging based on AJCC 7th edition, 2009: T N Mx
 )
   Paste(MyForm)
 Return
@@ -1004,6 +1025,46 @@ Subsegmental atelectasis over bilateral lower lungs.
   MyForm =
 (
 Stercoral colitis. No evidence of perforation.
+)
+  Paste(MyForm)
+Return
+
+; Portal hypertensive enteropathy
+::actphtn::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Irregular surface of the liver with nodularities, indicating liver cirrhosis.
+Splenomegaly.
+Mild to moderate ascites, relatively not so exudative.
+Portal hypertension is suspected.
+
+Diffuse submucosal edema and mucosal hyperemic change, from stomach, small intestine, colon, to the rectum.
+The major mesenteric vessels are patent, without filling defect.
+DDx: Portal hypertensive gastropathy / enteropathy / colopathy, acute gastroenterocolitis, pseudomembranous colitis (may not involve stomach and small intestine). Suggest clinical correlation.
+
+A few tiny gallbladder stones.
+Mild GB wall edema is noted, without GB distention, probably also secondary to the portal hypertension.
+
+The adrenals and kidneys are unremarkable.
+s/p Foley catheterization.
+Two thin-wall cystic lesions at the bilateral adnexa, size up to 6.5 cm. No mural nodule or thickened internal septum noted.
+
+Subsegmental atelectasis over bilateral lower lungs.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. Diffuse edematous change of the GI tract. DDx: Portal hypertensive gastropathy / enteropathy / colopathy, acute gastroenterocolitis, pseudomembranous colitis (may not involve stomach and small intestine). Suggest clinical correlation.
+2. Cirrhosis, splenomegaly, ascites. Suspicious portal hypertension.
 )
   Paste(MyForm)
 Return
