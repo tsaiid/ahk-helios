@@ -10,6 +10,7 @@ SetTitleMatchMode, 2
 ; Group Control For Helios
 GroupAdd, Helios, Helios
 GroupAdd, Helios, ahk_class ThunderRT6FormDC
+GroupAdd, Helios, 會診系統
 GroupAdd, FemhLogin, Helios Login
 GroupAdd, FemhLogin, 亞東紀念醫院 新醫療系統
 
@@ -84,8 +85,8 @@ PRESERVE_CLIPBOARD := 0
   #Include MyScripts\ms-ct.ahk
 
   #Include MyScripts\mri.ahk
-  #Include MyScripts\others.ahk
   #Include MyScripts\abbreviations.ahk
+  #Include MyScripts\others.ahk
 
   #Include MyScripts\spg.ahk
   #Include MyScripts\bone-density.ahk
@@ -97,7 +98,7 @@ PRESERVE_CLIPBOARD := 0
   #Include MyScripts\gui-common.ahk
 #IfWinActive
 
-;#Include MyScripts\debug.ahk
+#Include MyScripts\debug.ahk
 
 ; HotKeys Lib
 #Include MyScripts\hotkey\change-font.ahk
