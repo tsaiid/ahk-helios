@@ -75,6 +75,8 @@
 ::ap::arterial phase
 ::pvp::portovenous phase
 ::dp::delayed phase
+::ep::equilibrium phase
+::hbp::hepatobiliary phase
 ::bd::bone density
 ::ndlg::Nearly dislodgement is considered.
 ::eva::evaluation
@@ -180,9 +182,11 @@ Return
 ::std::soft tissue density
 ::ddx::differential diagnoses
 ::nd::newly developed
-::ws::wedge-shaped
+::ws::wedge-shaped `
+::wr::wedge resection
 ::ift::infiltration
 ::me::mediastinal `
+::men::mediastinum
 ::fa::free air
 ::fac::fluid accumulation
 ::fc::fluid collection
@@ -208,6 +212,8 @@ Return
 ::elg::enlargement
 ::elgd::enlarged
 ::pci::postcontrast images
+::bdl::borderline `
+::bsmg::borderline splenomegaly
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 

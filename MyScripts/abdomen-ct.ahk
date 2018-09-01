@@ -35,8 +35,9 @@
 ::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
 ::actmfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
-::actc::Irregular surface of the liver with nodularities, indicating liver cirrhosis.
-::actcc::Wall thickening of the urinary bladder with trabeculation, suggestive of chronic cystitis.
+::actc::Irregular surface of the liver with nodularities, indicating cirrhosis.
+::mactc::Mild irregular surface of the liver with nodularities, suspicious mild cirrhosis.
+::actcc::Wall thickening of the urinary bladder with trabeculation without perivesicular fat stranding, suggestive of chronic cystitis.
 ::nifa::No evidence of intraperitoneal free air.
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
@@ -47,6 +48,7 @@
 ::bthrl::s/p bilateral total hip replacements. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
 ::actclc::Mild subpleural reticulation and interlobular septal thickening over bilateral lower lungs, in favor of chronic inflammatory change.
+::hvpvok::The major hepatic and portal veins are patent.
 
 ;; forms
 ::act::
@@ -279,6 +281,7 @@ FINDINGS:
 
 - The visible liver, spleen, pancreas, kidneys are unremarkable.
 - No retroperitoneal or mesenteric lymphadenopathy.
+- The lungs covered in the scanning range are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -510,7 +513,7 @@ FINDINGS:
 Kidneys and Ureters:
 Kidneys: Unremarkable
 Ureters: Unremarkable
-Urinary bladder: Unremarkable
+Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
 
 Regional lymphadenopathy: No
 Non-regional lymphadenopathy: No
@@ -694,7 +697,7 @@ FINDINGS:
 Kidneys and Ureters:
 Kidneys: No hydronephrosis.
 Ureters: No definite stone-like radiopacity along the urinary tract. No hydroureter.
-Urinary bladder: Unremarkable
+Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
 
 No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
 
@@ -765,7 +768,7 @@ Previous abdominal CT: none.
 
 FINDINGS:
 Kidneys and ureters: Unremarkable
-Urinary bladder: Unremarkable
+Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
 
 No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
 
@@ -782,12 +785,11 @@ Lower lungs: Unremarkable
 Return
 
 ::actcrcs::
-  MyOrder := CopyOrder()
   MyForm =
 (
 PROCEDURE: Non-contrast and contrast-enhanced abdominal CT scans.
 TECHNIQUE description:
-   Scanning range: Liver to symphysis, 5-mm contiguous scan.
+   Scanning range: Liver to symphysis, 5-mm contiguous scan. Supine and prone positions.
    Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
 Previous similar study reviewed/comparison: Yes. (<date>) | NONE
@@ -840,12 +842,76 @@ Under lung window, no definite pulmonary nodules detected from available images
   Paste(MyForm)
 Return
 
-::acts::
-  MyOrder := CopyOrder()
+::actcrcs+l::
   MyForm =
 (
-INDICATION: %MyOrder%
+PROCEDURE: Non-contrast and contrast-enhanced chest and abdominal CT scans.
+TECHNIQUE description:
+   Scanning range: Neck to symphysis, 5-mm contiguous scan. Supine and prone positions.
+   Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
+Previous similar study reviewed/comparison: NONE
+
+FINDINGS:
+Rectal tumor
+- Location: rectosigmoid junction, 4.5 cm above the anal verge.
+- Length: 5.5 cm
+- Maximal thickness: 1.6 cm
+- Mild perirectal fat stranding, suggestive of tumor invasion.
+- The presacral space and the fat plane to the uterus are preserved.
+
+T-stage of the tumor
+[T1 (tumor invades the submucosa]]
+[T2 (tumor invades the muscularis propria]]
+[T3 (tumor invades the perirectal fat]]
+[T4a: Tumor penetrates to the surface of the visceral peritoneum]
+[T4b: Tumor directly invades or is adherent to other organs or structures ]
+
+Lymph nodes:
+- No bulky perirectal, pelvic, retroperitoneal or mesenteric root lymphadenopathy.
+
+Lymph nodes: [No enlarged nodes / number and size of the lymph nodes in the perirectal space as well as along the major pelvic vessels]
+N0: No regional lymph node metastasis
+N1a: Metastasis in 1 regional lymph node
+N1b: Metastasis in 2-3 regional lymph nodes
+N1c: Tumor deposit(s) in the subserosa, mesentery, or non-peritonealized pericolic or perirectal tissues without regional nodal metastasis
+N2a: Metastasis in 4 to 6 regional lymph nodes
+N2b: Metastasis in 7 or more regional lymph nodes
+
+Others:
+- Liver: mild fatty liver without focal lesion.
+- Adrenals: unremarkable
+- Kidneys: unremarkable
+- Spleen: unremarkable
+- Pancreas: unremarkable
+
+- Lungs:
+  > Some tiny subpleural nodules over bilateral lungs, with adjacent interlobular septal thickening, probably chronic inflammatory change. However, lung metastasis cannot be totally excluded. Suggest follow-up.
+  > Mild ill-defined ground glass opacities over RML and left lingular lobe, probably insufficient inspiration related change. (Scanning in prone position.)
+- Cardiomegaly; mild LV hypertrophy.
+- Mediastinum: A few slightly enlarged lymph nodes with coarse calcifications, in favor of chronic inflammatory change.
+- Great vessels:
+  > Atherosclerotic change and calcification of aortic wall.
+  > Engorged pulmonary trunk, with larger diameter (3.5 cm) than the ascending aorta. Pulmonary hypertension may be suspected.
+
+- Musculoskeletal:
+  > Scoliosis and DJD change of L-spine.
+  > No focal nodular osteolytic or osteoblastic lesion.
+
+M0: No distant metastasis (in this study).
+M1a: Metastasis confined to one site or organ is identified without peritoneal metastasis.
+M1b: Metastases to two or more site or organ is identified without peritoneal metastasis.
+M1c: Metastases to the peritoneal surface is identified alone or with other site or organ metastasis.
+
+NOTE: in case of mucinous-type of rectal tumor the involved lymph nodes may have fluid-like density.
+)
+  Paste(MyForm)
+Return
+
+
+::acts::
+  MyForm =
+(
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -856,20 +922,13 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return
 
 ::actgyn::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
@@ -976,10 +1035,13 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
+Diffuse gallbladder wall thickening and edematous change with gallbladder stones, GB distention, and pericholecystic fat stranding are noted. Acute cholecystitis is considered.
 Diffuse gallbladder wall thickening and edematous change with gallbladder stones and GB distention are noted. Acute cholecystitis is considered.
 Diffuse gallbladder wall thickening and edematous change with pericholecystic fluid accumulation, and tiny gallbladder stones are noted. Even though, no obvious GB distention. Acute cholecystitis is still considered.
 Presence of a high-attenuation gallstone at the orifice of cystic duct, with distended gallbladder, diffuse gallbladder wall thickening and edematous change, c/w acute calculus cholecystitis.
 Mildly distended gallbladder, with mild GB wall thickening. No obvious pericholecystic fluid accumulation. However, early change of acute cholecystitis cannot be excluded. Suggest correlate with sonography and Murphy sign.
+
+Several gallbladder stones and mild GB distention. However, no obvious GB wall thickening or pericholecystic fat stranding. Acute cholecystitis may be less likely. Suggest clinical and sonographic correlation.
 
 No CBD or IHD dilatation.
 
@@ -994,6 +1056,7 @@ The lungs covered in the scanning range are unremarkable.
 (
 C/W acute cholecystitis.
 C/W acute calculus cholecystitis.
+Early change of acute cholecystitis is suspected. Suggest correlate with sonography and Murphy sign.
 )
   Paste(MyForm)
 Return

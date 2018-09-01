@@ -43,6 +43,117 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+;; MRI liver, MRCP
+::amrhcc::
+  MyForm =
+(
+MRI of the Liver with Gd enhancement, and MRCP.
+
+SCANNING PROTOCOL:
+- Cor TrueFISP: whole abdomen
+- Axi, Cor TrueFISP thin slice
+- Axi HASTE T2, T2+FS, heavy T2, DWI, ADC maps, T1 IP/OOP
+- MRCP, Cor, MIP reconstruction
+- Cor VIBE T1+FS: dynamic A/PV/delayed phases.
+- MRA
+
+COMPARISON: no
+
+FINDINGS:
+* A case of HCC, s/p OP, s/p RFA.
+Liver:
+  > S/p right hepatectomy. Hypertrophic change of the lateral segment.
+  > Cirrhotic change: nil, portosystemic collaterals (-)
+  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portovenous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+  > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+
+Adrenals: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+
+Kidneys and ureters: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+
+)
+  Paste(MyForm)
+Return
+
+;; MRI liver, Primovist
+::amrhccp::
+  MyForm =
+(
+MRI of the Liver with Primovist enhancement, and MRCP.
+
+SCANNING PROTOCOL:
+- Cor TrueFISP: whole abdomen
+- Axi, Cor TrueFISP thin slice
+- Axi TSE T2, T2+FS, HASTE T2, heavy T2, DWI, ADC maps, T1 IP/OOP
+- 2D and 3D MRCP, Cor, MIP reconstruction
+- Axi, Cor VIBE T1+FS: dynamic A/PV/delayed phases, 10/20/30 mins delayed images.
+- MRA
+
+COMPARISON: no
+
+FINDINGS:
+* A case of HCC, s/p OP, s/p RFA.
+Liver:
+  > S/p right hepatectomy. Hypertrophic change of the lateral segment.
+  > Cirrhotic change: nil, portosystemic collaterals (-)
+  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portovenous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+  > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+
+Adrenals: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+
+Kidneys and ureters: external compression on the anterior surface of the right kidney with mild displacement by the S4 hepatic tumors. No hydronephrosis.
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+
+)
+  Paste(MyForm)
+Return
+
+;; MRI Kidney
+::amrrcc::
+  MyForm =
+(
+MRI of the Kidney
+
+SCANNING PROTOCOL:
+- Cor TrueFISP, DWI (b=400): whole abdomen
+- Axi, Cor TrueFISP thin slice: liver+kidney
+- Axi TSE T2, T2+FS, DWI (b=1000), ADC maps, T1 IP/OOP
+- Axi VIBE T1+FS: pre- and post-contrast artery and delayed phases
+- MRU Cor, MIP reconstruction
+
+COMPARISON: no
+
+FINDINGS:
+* A case of right RCC (pT3N0), s/p OP.
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+
+Adrenals: Unremarkable
+Spleen: Unremarkable
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+Lower lungs: Unremarkable
+
+)
+  Paste(MyForm)
+Return
+
 ::amrpr::
   MyForm =
 (
@@ -66,6 +177,8 @@ Prostate:
 - Size: 5.5 x 3.4 x 4.7 cm
 - Volume: 45.7 ml (length x width x height x 0.52)
 - Focal T1 hyperintensities at left lobe, probably post-biopsy change.
+- Enlarged transition zone with heterogeneous nodular signal intensity and an intact low signal pseudocapsule in the periphery, suggestive of benign prostatic hyperplasia.
+- Circumscribed hypointense orheterogeneous encapsulated nodule(s) (BPH)
 
 Lesion 1:
 - location: peripheral zone of right base (PZpl)
@@ -76,23 +189,25 @@ Lesion 1:
 - DCE: negative
 = PI-RADS 3
 
-Lesion 2:
-- location: transition zone of right mid (TZa)
-- size: 1 cm
-- T2WI: Homogeneous, moderately hypointense
-- DWI: Focal mildly hyperintense
-- ADC: Focal mildly hypointense
-- DCE: positive
-= PI-RADS 4
+* Peripheral Zone (PZ)
+- T2WI: Heterogeneous signal intensity or non-circumscribed, rounded, moderate hypointensity (score 3)
+- T2WI: Circumscribed, homogenous moderate hypointensefocus/mass confined to prostate and <1.5 cm in greatest dimension (score 4)
+- T2WI: Same as 4 but ≥1.5cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
 
-Lesion 3:
-- peripheral zone of right apex (PZpm + PZpl)
-- 1.3 cm
-- T2WI: Heterogeneous signal intensity, moderate hypointensity
-- DWI: Focal mildly hyperintense
-- ADC: Focal mildly hypointense
-- DCE: positive
-= PI-RADS 3
+* Transition Zone (TZ)
+- T2WI: Heterogeneous signal intensity with obscured margins (score 3)
+- T2WI: Lenticular or non-circumscribed, homogeneous, moderately hypointense, and <1.5 cm in greatest dimension (score 4)
+- T2WI: Same as 4, but ≥1.5cm in greatest dimensionor definite extraprostatic extension/invasive behavior (score 5)
+
+* DWI
+- DWI/ADC: Focal mildly/moderately hypointense on ADC and isointense/mildly hyperintense on high b-value DWI (score 3)
+- DWI/ADC: Focal markedly hypointense on ADC and markedly hyperintense on high b-value DWI; <1.5cm in greatest dimension (score 4)
+- DWI/ADC: Same as 4 but ≥1.5cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
+
+* DCE
+- DCE: no early enhancement, or diffuse enhancement not corresponding to a focal finding on T2W and/or DWI or focal enhancement corresponding to a lesion demonstrating features of BPH on T2WI (-)
+- DCE: focal, and; earlier than or contemporaneously with enhancement of adjacent normal prostatic tissues, and; correspnds to suspicious finding on T2W and/or DWI (+)
+
 
 Lymphadenopathy:
 - No regional lymphadenopathy.
@@ -102,6 +217,8 @@ Distant metastasis:
 - No retroperitoneal or mesenteric lymphadenopathy.
 
 Seminal vesicles: unremarkable
+Seminal vesicles: bilateral cystic dilatation, probably related with benign prostatic hypertrophy.
+
 Others: unremarkable
 
 ----
@@ -135,7 +252,37 @@ SCANNING PROTOCOL:
 COMPARISON: no
 
 FINDINGS:
+Endometrial tumor:
+- Signal intensity: isointense on T1WI, slightly hyperintense on T2WI, with diffusion restriction; relative less enhancement.
+- Extent: whole uterine cavity, extending to the cervix.
+- Invasion: disruption of low T2 signal cervical stroma
 
+Lymph node:
+- No regional lymph node metastasis.
+
+Distant metastasis:
+- No liver, adrenal metastasis.
+- No non-regional lymph node metastasis.
+
+Others:
+- A 6.1-cm pedunculated uterine myoma at anterior wall.
+- A 3.2-cm left ovarian cyst.
+- Multiple small cystic lesions within the cervical stroma, in favor of Nabothian cysts.
+- Small amount of ascites in the Cul-de-sac.
+
+- Liver: Unremarkable
+- Biliary tree: Unremarkable
+- Spleen: Unremarkable
+- Pancreas: Unremarkable
+- GI tract: Unremarkable
+- Kidneys and ureters: Unremarkable
+- Urinary bladder: Unremarkable
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Endometrial cancer, FIGO Stage II.
 )
   Paste(MyForm)
 Return
@@ -286,7 +433,7 @@ Return
 
 ::amremca::
   MyForm =
-(
+( Join`r
 MRI of the Uterus.
 
 SCANNING PROTOCOL:
@@ -323,6 +470,7 @@ Others:
 - Small amount of ascites in the Cul-de-sac.
 
 - Liver: Unremarkable
+- Biliary tree: Unremarkable
 - Spleen: Unremarkable
 - Pancreas: Unremarkable
 - GI tract: Unremarkable
@@ -336,6 +484,7 @@ Others:
 Endometrial cancer, FIGO Stage II.
 )
   Paste(MyForm)
+Return
 
 ; Acute appendicitis
 ::amrapp::
@@ -377,3 +526,47 @@ The lungs covered in the scanning range are unremarkable.
 No strong evidence of acute appendicitis.
 )
   Paste(MyForm)
+Return
+
+; PCU Abd Tumor Screening
+::amrpcu::
+  MyForm =
+(
+MRI of the abdomen and pelvis with 3T Skyra.
+
+SCANNING PROTOCOL:
+- Abdomen and pelvis:
+  * HASTE T2: axial, coronal; * Heavy T2: axial; * DWI (b=400): coronal
+  * T1 postcontrast delay phase + FS: axial
+- Abdomen
+  * DWI/ADC: axial; * T1+FS, In/Out phase: axial; * MRA
+  * T1 Precontrast, postcontrast arterial, delay phases +FS: coronal
+- Biliary
+  * T2 HASTE + FS: axial, coronal; * 2D MRCP
+- Pelvis
+  * Higher resolution T2 TSE: axial, coronal, sagittal
+
+COMPARISON: no
+
+FINDINGS:
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+Spleen: Unremarkable
+
+GI tract: Unremarkable
+
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+Prostate: Unremarkable
+GYN organ: Unremarkable
+
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+The abdominal aorta and its major branches are unremarkable.
+
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return

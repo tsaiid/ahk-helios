@@ -48,22 +48,17 @@ Return
 
 ; MRI of shoulder
 ::mrsa::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 MRI of right/left shoulder in :
-axial plane : SE T1WI, FSE PDWI, Fat Sat.
-oblique coronal plane : FSE PDWI, FSE T2WI, PDWI with fat satuation
-oblique sagittal plane : SE T1WI, FSE PDWI with fat satuation
+axial plane: TSE PDWI Fat Sat.
+oblique coronal plane: TSE PDWI with fat saturation
+oblique sagittal plane: SE T1WI, TSE PDWI with fat saturation
 with MR arthrography in oblique coronal plane:
 
 PREVIOUS MRI of shoulder: none.
 
 FINDINGS:
-
-IMPRESSIONS:
 )
   Paste(MyForm)
 Return

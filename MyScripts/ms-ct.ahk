@@ -171,6 +171,7 @@ Return
   MyForm =
 (
 CT Upper Extremity:
+Non-contrast enhanced study.
 Pre and post contrast-enhanced study.
 Scanning from arm to finger, axial, coronal, sagittal views
 Scanning from arm to finger, axial, coronal, sagittal, and 3D VRT views

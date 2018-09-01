@@ -1,4 +1,5 @@
 ﻿; CT-guide Forms
+::ctg-lb0::CT-guide lung biopsy is indicated and has been on schedule.
 
 ;; Lung Biopsy
 ::ctg-lb::

@@ -241,7 +241,7 @@ FINDINGS:
   SleepThenTab()
   MyForm =
 (
-Possibly hypertensive ICH over right lentiform nucleus.
+Hypertensive ICH over right lentiform nucleus.
 )
   Paste(MyForm)
 Return
@@ -286,6 +286,38 @@ Presence of acute subarachnoid hemorrhage in the suprasellar and ambient cistern
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Diffuse acute SAH. Rupture of intracranial aneurysm should be excluded.
+)
+  Paste(MyForm)
+Return
+
+::ctn2sdh::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+Presence of fusiform high-attenuation lesion extending over the right anterior falx cerebri, suggestive of an acute parafalcine subdural hematoma.
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural hematoma in the brain noted.
+
+No definite area of obvious abnormal density in the brain parenchyma noted.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
+
+No obvious fracture of the skull base and the skull.
+Subgaleal hematoma over right parietal region.
+
+Acute right anterior parafalcine SDH.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -431,6 +463,7 @@ Presence of tiny old ischemic infarction involving bilateral basal ganglion regi
 Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 
 No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity change in the brain parenchyma.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
@@ -647,6 +680,8 @@ Several nonspecific tiny hyperintensities in the bilateral periventricular and s
 Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
+The major dural venous sinuses are patent.
+
 A 3.3-cm enhancing lesion within the left parietal skull, suspicious bone metastasis.
 
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
@@ -690,6 +725,8 @@ No definite abnormal signal intensity tumor mass lesion in the brain noted inclu
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
+The major dural venous sinuses are patent.
+
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )
   Paste(MyForm)
@@ -697,6 +734,87 @@ MRA shows no significant vascular stenosis in the major intracranial arteries or
   MyForm =
 (
 No evidence of brain metastasis.
+)
+  Paste(MyForm)
+Return
+
+;; MRB - Parkinson disease
+;;; 134884 RE07512451170001
+::mrbpd::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+High-resolution SWI of the midbrain
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+The high resolution SWI shows absence of the normal appearance of nigrosome-1 within the substantia nigra (absent swallow tail sign).  C/W Parkinson disease. DDx: dementia with Lewy bodies.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+Multiple tiny T2 hyperintensity spots over the bilateral basal ganglia, in favor of dilated perivascular spaces.
+
+Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
+Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
+
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. C/W Parkinson disease. DDx: dementia with Lewy bodies.
+2. Senile brain atrophy, mild leukoaraiosis.
+)
+  Paste(MyForm)
+Return
+
+;; No Parkinson disease
+::mrbpdok::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+High-resolution SWI of the midbrain
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+The high resolution SWI shows absence of the normal appearance of nigrosome-1 within the substantia nigra (absent swallow tail sign).  C/W Parkinson disease. DDx: dementia with Lewy bodies.
+
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+
+Multiple tiny T2 hyperintensity spots over the bilateral basal ganglia, in favor of dilated perivascular spaces.
+
+Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+
+No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+
+Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. C/W Parkinson disease. DDx: dementia with Lewy bodies.
+2. Senile brain atrophy, mild leukoaraiosis.
 )
   Paste(MyForm)
 Return
@@ -723,11 +841,12 @@ No definite abnormal signal intensity tumor mass lesion in the brain noted inclu
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
+Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+The major dural venous sinuses are patent.
+
 Presence of hyperintensity on T2WI over left maxillary sinuses, in favor of sinusitis.
 
-MRA shows no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
-
-MRA shows no evidence of occlusion or high grade stenosis over intracranial portion of the internal carotid artery and basilar artery, and main trunk of the bilateral anterior cerebral arteries and middle cerebral arteries.
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )
   Paste(MyForm)
   SleepThenTab()

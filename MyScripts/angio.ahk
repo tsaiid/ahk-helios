@@ -40,3 +40,29 @@ TAE was successfully performed.
 )
   Paste(MyForm)
 Return
+
+::pcn::
+  MyForm =
+(
+Percutaneous Nephrostomy
+
+Operator: I-Ta Tsai
+Anesthesia: local
+
+PROCEDURE:
+Under sonography guidance, the kidney was localized.
+The skin was prepared and the area was draped.
+After local anesthesia, a 18-G needle was introduced to the dilated calyx.
+Clear light yellow urine was sampled, and sent back to ward for examination.
+Under fluoroscopy guidance and using Seldinger's technique, a 8-Fr pigtail drain was placed into the renal pelvis.
+Its patency was confirmed, and then, the drain was fixed with Nylon at external mark 18 cm.
+The whole procedure was smooth, the patient tolerated well, and no immediate complication was noted.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+PCN was successfully performed.
+)
+  Paste(MyForm)
+Return

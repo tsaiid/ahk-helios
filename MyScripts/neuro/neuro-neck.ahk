@@ -67,8 +67,8 @@ superior mediastinal space (level VII)
 Orbits: normal
 Paranasal sinuses: normal
 Skull base: normal
-Nasopharynx: normal
-Oropharynx: normal
+Nasopharynx: normal / symmetrical thickening, adenoidal hyperplasia favored
+Oropharynx: normal / mild enlargement of bilateral palatine tonsils
 Hypopharynx: normal
 Larynx: normal
 Oral cavity: normal/limited interpretation due to dental artifacts
@@ -186,7 +186,7 @@ Suggest clinical correlation and follow up.
 Return
 
 ;; CTNECHRCTwnl
-::ctnechrctwnl::
+::ctnechrctok::
   MyForm =
 (
 HRCT of the temporal bone with axial and coronal section 1 mm showed:

@@ -40,11 +40,14 @@
 ::lpatok::No lateral tilting or subluxation of left patella. No PF joint space narrowing.
 ::rpatok::No lateral tilting or subluxation of right patella. No PF joint space narrowing.
 ::pats::Lateral subluxation of bilateral patellae, with severe PF joint space narrowing at lateral facet.
+::lpats::Lateral subluxation of left patella, with PF joint space narrowing and subchondral sclerosis at lateral facet.
 ::mpats::Mild lateral subluxation of bilateral patellae, with mild PF joint space narrowing at lateral facet.
 ::mlpats::Mild lateral subluxation of left patella, with mild PF joint space narrowing at lateral facet.
 ::mrpats::Mild lateral subluxation of right patella, with mild PF joint space narrowing at lateral facet.
 ::mpatt::Mild lateral tilting of bilateral patellae, with mild PF joint space narrowing at lateral facet.
+::lpatt::Lateral tilting of left patella, with severe PF joint space narrowing and subchondral sclerosis at lateral facet. Chondromalacia patella is considered.
 ::mlpatt::Mild lateral tilting of left patella, with mild PF joint space narrowing at lateral facet.
+::rpatt::Lateral tilting of right patella, with severe PF joint space narrowing and subchondral sclerosis at lateral facet. Chondromalacia patella is considered.
 ::mrpatt::Mild lateral tilting of right patella, with mild PF joint space narrowing at lateral facet.
 ::patts::Lateral tilting and subluxation of bilateral patellae, with severe PF joint space narrowing, subchondral sclerosis and marginal osteophyte formation at lateral facet.
 ::mpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
@@ -111,8 +114,10 @@
 ::bthr::s/p bilateral total hip replacements.
 ::rhba::s/p right hip bipolar hemiarthroplasty.
 ::rhba0::s/p right hip bipolar hemiarthroplasty.{Enter}A drain at right hip region.
+::rhbal::s/p right hip bipolar hemiarthroplasty. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::lhba::s/p left hip bipolar hemiarthroplasty.
 ::lhba0::s/p left hip bipolar hemiarthroplasty.{Enter}A drain at left hip region.
+::lhbal::s/p left hip bipolar hemiarthroplasty. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::bhba::s/p bilateral hip bipolar hemiarthroplasties.
 ::rtka::s/p right total knee arthroplasty.
 ::rtka0::s/p right total knee arthroplasty.{Enter}A drain at right knee region.

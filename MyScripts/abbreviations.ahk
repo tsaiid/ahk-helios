@@ -160,6 +160,7 @@
 ::ibd::inflammatory bowel disease
 ::gist::gastrointestinal stromal tumor
 ::pppd::pylorus-preserving pancreaticoduodenectomy
+::smg::splenomegaly
 
 ;; Brain
 ::ich::intracranial hemorrhage
@@ -171,6 +172,8 @@
 ::dva::developmental venous anomaly
 ::pvwm::periventricular white matter
 ::scwm::subcortical white matter
+::dwm::deep white matter
+::wm::white matter
 ::rcvs::reversible cerebral vasoconstriction syndrome
 ::mca::middle cerebral artery
 ::aca::anterior cerebral artery
@@ -184,6 +187,7 @@
 ::caa::cerebral amyloid angiopathy
 ::ene::encephalomalacia
 ::sba::senile brain atrophy
+::sba3::Senile brain atrophy; leukoaraiosis; old lacunar infarcts.
 ::bg::basal ganglion
 ::vb::vertebral body
 ::vbs::vertebral bodies
@@ -191,6 +195,7 @@
 ::hie::hypoxic-ischaemic encephalopathy
 ::iicp::increased intracranial pressure
 ::icra::intracranial `
+::wad::Wallerian degeneration
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis
@@ -204,6 +209,8 @@
 ::nsd::nasal septum deviation
 ::sov::superior ophthalmic vein
 ::npc::nasopharyngeal cancer
+::iac::internal acoustic canal
+::eac::external acoustic canal
 
 ;; Spine
 ::aars::atlantoaxial rotary subluxation
@@ -215,6 +222,7 @@
 ::avm::arteriovenous malformation
 ::st::soft tissue
 ::stc::soft tissue component
+::stt::soft tissue thickening
 ::fnac::fine needle aspiration cytology
 
 ;; General
@@ -241,9 +249,11 @@
 ::hx::history `
 ::sq::subcutaneous `
 ::afl::air-fluid level
+::bfl::blood-fluid level
 ::wnl::within normal limits
 ::prev::previous
 ::htn::hypertension
+::phtn::portal hypertension
 ::a::artery
 ::aa::arteries
 ::v::vein

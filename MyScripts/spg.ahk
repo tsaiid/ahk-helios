@@ -97,9 +97,9 @@ Abbreviation: Venous Outflow (VO, `%/min); Venous Capacitance (VC, `%); Arterial
 Return
 
 ; SEG
-::seg::
-  DoSEG()
-Return
+;::seg::
+;  DoSEG()
+;Return
 
 DoSEG()
 {

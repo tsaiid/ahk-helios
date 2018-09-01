@@ -13,7 +13,8 @@
 ::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
-::ubo::Several nonspecific tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR (unidentified bright objects).
+::sae3::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered. Several tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
+::ubo::Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
 ::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
 :c:imp::As the above descriptions.
@@ -38,7 +39,7 @@
 ::noaa::No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
 ::sdsa::Suggest correlate with DSA if clinically indicated.
 ::bbgt1h::Symmetrical T1-hyperintensity involving the bilateral globus pallidus, cerebral peduncles, and the dorsal aspect of pons. These areas show no obvious abnormal signal intensity on T2WI. Chronic hepatic encephalopathy is suspected. Suggest clinical correlation if chronic liver disease presents. DDx (less likely): hyperalimentation, Wilson disease, hyper-/hypoparathyroidism.
-::pfsdh::Presence of a acute hematoma extending over the left side of falx cerebri, suggestive of an acute parafalcine SDH.
+::pfsdh::Presence of fusiform high-attenuation lesion extending over the right anterior falx cerebri, suggestive of an acute parafalcine subdural hematoma.
 ::lfpca::Left fetal type posterior cerebral artery is noted.
 ::rfpca::Right fetal type posterior cerebral artery is noted.
 ::bfpca::Bilateral fetal type posterior cerebral arteries are noted.
@@ -159,18 +160,24 @@ CTA shows:
 Pre and post-contrast CTA scan of brain and neck :
 
 Brain CT:
-> Suspect lacunar infarction at right pons.
-> A dilated Virchow-Robin space at right basal ganglion.
-> No large established infarction or ICH is noted.
+- No definite area of obvious abnormal density in the brain noted.
+- No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+- The bilateral lateral ventricles showed symmetrical without dilatation.
+- No obvious fracture of the skull base and the skull.
+
+- Suspect lacunar infarction at right pons.
+- A dilated Virchow-Robin space at right basal ganglion.
+- No large established infarction or ICH is noted.
 
 Brain CTA:
-> Bilateral CCA, carotid bulbs and distal ICAs are patent.
-> Bilateral intracranial VA, and BA are patent.
-> Major branches of bilateral ACA, MCA and PCA are patent.
-> No definite vascular anomaly, such as aneurysm, AVM or vessel spasm are noted.
+- Bilateral CCA, carotid bulbs and distal ICAs are patent.
+- Bilateral intracranial VA, and BA are patent.
+- Major branches of bilateral ACA, MCA and PCA are patent.
+- No definite vascular anomaly, such as aneurysm, AVM or vessel spasm are noted.
+- The major dural venous sinuses are patent.
 
 Multiphase CTA:
-> No collateral or perfusion defect is noted.
+- No collateral or perfusion defect is noted.
 )
   Paste(MyForm)
 Return
@@ -263,6 +270,7 @@ FINDINGS:
 - Increased signal intensity over left mastoid air sinus on T2WI, in favor of mastoiditis or fluid collection in the mastoid.
 
 - No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+- No definite abnormal signal intensity change in the brain parenchyma.
 - The bilateral lateral ventricles showed symmetrical without dilatation.
 )
   Paste(MyForm)
@@ -291,6 +299,8 @@ No evidence of high signal intensity on DWI and lower apparent diffusion coeffic
 No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
+
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
 
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )
