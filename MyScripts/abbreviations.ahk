@@ -161,6 +161,7 @@
 ::gist::gastrointestinal stromal tumor
 ::pppd::pylorus-preserving pancreaticoduodenectomy
 ::smg::splenomegaly
+::pid::pelvic inflammatory disease
 
 ;; Brain
 ::ich::intracranial hemorrhage

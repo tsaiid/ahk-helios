@@ -106,7 +106,10 @@
   indicationStr := "INDICATION: " . CopyOrder()
   Paste(indicationStr)
 Return
-:c:CMP::COMPARISON: ^+1
+;:c:CMP::COMPARISON: ^+1
+:c:CMP::
+  Send, COMPARISON: %prevExamDate%
+Return
 :c:IMP::IMPRESSION:
 :c:SG::SUGGESTION:
 :c:FD::FINDINGS:
@@ -129,6 +132,7 @@ Return
 ::clab::Suggest correlate with Lab data.
 ::coim::Suggest correlate with other imaging modality.
 ::cbs::Suggest correlate with bone scan.
+::cgyn::Suggest GYN check-up.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
@@ -204,6 +208,8 @@ Return
 ::fl::fatty liver
 ::mfl::mild fatty liver
 ::mfl1::mild fatty liver without focal lesion.
+::sfl::severe fatty liver
+::sfl1::severe fatty liver with focal fatty sparing around the GB fossa.
 ::duf::degenerative uterine fibroid
 ::eso::esophagus
 ::gd::The greatest dimension is about  cm.{Left 4}

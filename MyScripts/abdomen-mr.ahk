@@ -190,23 +190,29 @@ Lesion 1:
 = PI-RADS 3
 
 * Peripheral Zone (PZ)
+- T2WI: Uniform hyperintense signal intensity (score 1)
+- T2WI: Linear, wedge-shaped, or diffuse mild hypointensity, usually indistinct margin. (score 2)
 - T2WI: Heterogeneous signal intensity or non-circumscribed, rounded, moderate hypointensity (score 3)
-- T2WI: Circumscribed, homogenous moderate hypointensefocus/mass confined to prostate and <1.5 cm in greatest dimension (score 4)
-- T2WI: Same as 4 but ≥1.5cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
+- T2WI: Circumscribed, homogenous moderate hypointense focus/mass confined to prostate and <1.5 cm in greatest dimension (score 4)
+- T2WI: Same as 4 but >=1.5 cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
 
 * Transition Zone (TZ)
+- T2WI: Homogeneous intermediate signal intensity (score 1)
+- T2WI: Circumscribed (arrows) hypointense or heterogeneous encapsulated nodule(s) (score 2)
 - T2WI: Heterogeneous signal intensity with obscured margins (score 3)
 - T2WI: Lenticular or non-circumscribed, homogeneous, moderately hypointense, and <1.5 cm in greatest dimension (score 4)
-- T2WI: Same as 4, but ≥1.5cm in greatest dimensionor definite extraprostatic extension/invasive behavior (score 5)
+- T2WI: Same as 4, but >=1.5 cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
 
-* DWI
+* DWI/ADC
+- DWI/ADC: No abnormality on ADC and high b-valueDWI (score 1)
+- DWI/ADC: Indistinct hypointense on ADC (score 2)
 - DWI/ADC: Focal mildly/moderately hypointense on ADC and isointense/mildly hyperintense on high b-value DWI (score 3)
-- DWI/ADC: Focal markedly hypointense on ADC and markedly hyperintense on high b-value DWI; <1.5cm in greatest dimension (score 4)
-- DWI/ADC: Same as 4 but ≥1.5cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
+- DWI/ADC: Focal markedly hypointense on ADC and markedly hyperintense on high b-value DWI; <1.5 cm in greatest dimension (score 4)
+- DWI/ADC: Same as 4 but >=1.5 cm in greatest dimension or definite extraprostatic extension/invasive behavior (score 5)
 
 * DCE
 - DCE: no early enhancement, or diffuse enhancement not corresponding to a focal finding on T2W and/or DWI or focal enhancement corresponding to a lesion demonstrating features of BPH on T2WI (-)
-- DCE: focal, and; earlier than or contemporaneously with enhancement of adjacent normal prostatic tissues, and; correspnds to suspicious finding on T2W and/or DWI (+)
+- DCE: focal, and; earlier than or contemporaneously with enhancement of adjacent normal prostatic tissues, and; corresponds to suspicious finding on T2W and/or DWI (+)
 
 
 Lymphadenopathy:

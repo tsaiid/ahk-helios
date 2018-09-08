@@ -220,7 +220,6 @@ FINDINGS:
   MyForm =
 (
 C/W chronic paranasal sinusitis.
-C/W chronic paranasal sinusitis, most severe at left maxillary.
 )
   Paste(MyForm)
 Return

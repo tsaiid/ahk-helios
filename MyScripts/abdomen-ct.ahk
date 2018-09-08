@@ -49,6 +49,7 @@
 ::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
 ::actclc::Mild subpleural reticulation and interlobular septal thickening over bilateral lower lungs, in favor of chronic inflammatory change.
 ::hvpvok::The major hepatic and portal veins are patent.
+::livok::No abnormal enhancing lesion or washout pattern noted.
 
 ;; forms
 ::act::

@@ -145,6 +145,7 @@ Applicable previous CT of brain: no
 
 FINDINGS:
 No definite area of obvious abnormal density in the brain noted.
+No definite abnormal mass lesion in the brain noted.
 
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 
@@ -175,6 +176,7 @@ Applicable previous CT of brain: no
 
 FINDINGS:
 No definite area of obvious abnormal density in the brain noted.
+No definite abnormal mass lesion in the brain noted.
 
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 
@@ -782,7 +784,7 @@ MRA shows no significant vascular stenosis in the major intracranial arteries or
 Return
 
 ;; No Parkinson disease
-::mrbpdok::
+::mrbnopd::
   MyForm =
 (
 The MR of the brain performed with Sagittal T1WI
@@ -815,6 +817,43 @@ MRA shows no significant vascular stenosis in the major intracranial arteries or
 (
 1. C/W Parkinson disease. DDx: dementia with Lewy bodies.
 2. Senile brain atrophy, mild leukoaraiosis.
+)
+  Paste(MyForm)
+Return
+
+;; MRB - Spontaneous intracranial hypotension
+::mrbsih::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+- No obvious subdural effusion.
+- The pachymeningeal enhancement is equivocal. However, diffuse mild dural thickening is noted.
+- No obvious brainstem sagging, but decreased mamillopontine distance (4.3 mm) and decreased pontomesencephalic angle (~40 degree) are noted.
+- The dural venous sinuses show slightly engorgement.
+> Intracranial hypotension still may be suspected.
+
+- No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+- No definite abnormal signal intensity change or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+- The bilateral lateral ventricles showed symmetrical without dilatation. However, enlarged subarachnoid space over bilateral high fronto-parietal region may still suggest brain atrophy.
+- The visible paranasal sinuses, mastoids and skull base are unremarkable.
+
+- MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
+- Right fetal type posterior cerebral artery is noted.
+- Hypoplasia of A1 portion of right anterior cerebral artery.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Although not fully fit the typical image findings, intracranial hypotension still may be suspected. Suggest clinical correlation.
 )
   Paste(MyForm)
 Return

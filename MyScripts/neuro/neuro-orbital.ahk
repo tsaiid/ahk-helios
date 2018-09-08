@@ -111,6 +111,35 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+;; CTO2 - Eyeball rupture
+::cto2ebr::
+  MyForm =
+(
+Non-contrast CT scan of orbit
+
+TECHNIQUE:
+Slice thickness: 2-2 mm
+Plane: axial, coronal, oblique sagittal
+
+Previous CT of orbit: no
+
+FINDINGS:
+- Shallow anterior chamber depth (ACD) of left globe, with a small air bubble in the anterior chamber, and wall irregularity of left globe, c/w eyeball rupture.
+- No evident fracture of bilateral orbits.
+- Symmetrical size of bilateral orbital retroocular optic nerves.
+- No evidence of high density foreign body noted at the bilateral intraocular and retroocular regions.
+- No abnormal thickening of the extraocular muscles.
+- Bilateral nasal turbinate hypertrophy.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+c/w left eyeball rupture.
+)
+  Paste(MyForm)
+Return
+
 ::cto1::
   MyForm =
 (
