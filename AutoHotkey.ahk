@@ -112,6 +112,7 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\hotkey\copy-helios-report-into-notepad.ahk
 #Include MyScripts\hotkey\backup-helios-report-to-file.ahk
 #Include MyScripts\hotkey\start-edit-after-ready.ahk
+#Include MyScripts\hotkey\selecting-tabs.ahk
 
 ; Mouse Macro
 #Include MyScripts\mouse\magnify-ge-uv-grid.ahk
