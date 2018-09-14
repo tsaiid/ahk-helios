@@ -14,8 +14,8 @@ BackupHeliosReportToFile(fileName = "HeliosReportBackup.txt") {
     ptSexAge := examInfo3
     examName := examInfo5
     examDate := examInfo6
-    findingText := Acc_Get("Value", "4.9.30.1", 0, "ahk_id " hWnd)
-    impText := Acc_Get("Value", "4.9.33", 0, "ahk_id " hWnd)
+    findingText := Acc_Get("Value", "4.9.31.1", 0, "ahk_id " hWnd)
+    impText := Acc_Get("Value", "4.9.34", 0, "ahk_id " hWnd)
 
     ; get timestamp
     FormatTime, currentTime, %A_Now%, yyyy/M/d HH:mm:ss
