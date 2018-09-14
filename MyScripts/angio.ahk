@@ -10,6 +10,8 @@ Anesthesia: local
 Approach: right femoral artery
 Catheters: 5Fr sheath, 4Fr RC1, 2.7Fr Progreat
 Catheters: 5Fr sheath, 4Fr RC1, 2.5Fr Cantata
+Catheters: 4Fr sheath, 4Fr J-Curve
+Embolizer: Gelfoam powders
 Embolizer: .018 3/2 Tornado microcoil, Gelfoam powders
 Embolizer: Glue (NBCA/lipiodol = 1:4)
 
@@ -21,6 +23,11 @@ The sheath and catheter were removed, and hemostasis of the puncture sire was ac
 The angiography of celiac trunk, followed by gastroduodenal artery, showed active bleeding from the superior pancreaticoduodenal artery.
 Embolization was performed with Glue (NBCA/lipiodol = 1:4).
 The follow-up GDA and SMA angiography showed no more active bleeding.
+The sheath will be kept for 24 hours for use if other bleeding episode occurs.
+
+The angiography of celiac trunk, followed by proper hepatic artery, showed a hypervascular mass at left lobe of liver, supplied mainly by the left hepatic artery, and active bleeding from the tumor vessels.
+Embolization was performed with Gelfoam powders via the LHA, and then the PHA.
+The follow-up CHA and SMA angiography showed no more active bleeding.
 The sheath will be kept for 24 hours for use if other bleeding episode occurs.
 
 RECOMMENDATION:
@@ -37,6 +44,7 @@ Then, sandbag compression for at least 4 hours, and bed rest for 8 hours.
   MyForm =
 (
 TAE was successfully performed.
+TAE for HCC rupture was successfully performed.
 )
   Paste(MyForm)
 Return

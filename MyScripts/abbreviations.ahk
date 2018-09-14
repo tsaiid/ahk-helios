@@ -16,7 +16,7 @@
 :c:LUL::left upper lobe
 :c:LLL::left lower lobe
 :c:LLnL::left lingular lobe
-::linll::lingula of left lung
+:c:llnl::lingula of left lung
 ::ppm::permanent pacemaker
 ::pmf::progressive massive fibrosis
 ::aip::acute interstitial pneumonia
@@ -45,6 +45,7 @@
 ::tib::tree-in-bud appearance
 ::pfn::perifissural nodule
 ::itho::intrathoracic `
+::cle::centrilobular emphysema
 
 ;; CV
 ::ivc::inferior vena cava
@@ -162,6 +163,7 @@
 ::pppd::pylorus-preserving pancreaticoduodenectomy
 ::smg::splenomegaly
 ::pid::pelvic inflammatory disease
+::bt::biliary tree
 
 ;; Brain
 ::ich::intracranial hemorrhage
@@ -188,6 +190,7 @@
 ::caa::cerebral amyloid angiopathy
 ::ene::encephalomalacia
 ::sba::senile brain atrophy
+::sba2::Senile brain atrophy; leukoaraiosis.
 ::sba3::Senile brain atrophy; leukoaraiosis; old lacunar infarcts.
 ::bg::basal ganglion
 ::vb::vertebral body

@@ -156,7 +156,7 @@ no or minimal coronary artery calcification.
   Paste(MyForm)
 Return
 
-::cctncsdild::
+::cctncsduip::
   MyForm =
 (
 CT scan of the thorax was performed with a multi-slice CT scanner.

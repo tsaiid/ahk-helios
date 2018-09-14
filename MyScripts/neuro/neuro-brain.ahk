@@ -238,6 +238,7 @@ FINDINGS:
 - No obvious midline shift.
 
 - No obvious fracture of the skull base and the skull.
+- The visible paranasal sinuses, mastoids and skull base are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -263,6 +264,7 @@ FINDINGS:
 - Mild mass effect compressing the right lateral ventricle, and mild midline shift to left.
 
 - No obvious fracture of the skull base and the skull.
+- The visible paranasal sinuses, mastoids and skull base are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -288,6 +290,8 @@ Presence of acute subarachnoid hemorrhage in the suprasellar and ambient cistern
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 No obvious fracture of the skull base and the skull.
+
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()

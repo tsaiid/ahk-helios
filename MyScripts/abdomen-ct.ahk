@@ -408,6 +408,46 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+;; Infiltrative HCC
+;;; 1011800
+::acthccihcc::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Liver:
+- Cirrhotic change: yes; portosystemic collaterals: yes
+- Large ill-defined infiltrative tumor involving the S1-2-3-4-5-8 of the liver.
+- Tumor thrombosis in the engorged left and main portal veins, which nearly cross to the right portal vein. Some blood clots at the proximal part of main portal vein.
+- The arterial and portovenous phases show heterogeneous nodular and linear hypo-enhancement pattern in the main tumor, while the tumor thrombi show heterogeneous arterial phase hyper-enhancement.
+> Infiltrative HCC is considered.
+
+Adrenals: Unremarkable
+Spleen: splenomegaly
+Biliary tree: gallbladder stone; No biliary tree dilatation.
+Pancreas: Unremarkable
+Kidneys and ureters: Unremarkable.
+
+Massive ascites.
+The bowels show diffuse wall edema, probably portal hypertensive enteropathy.
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
+
+Lower lungs: Unremarkable
+
+====
+1. Infiltrative HCC, left lobe and partial right lobe, with portal vein tumor thrombosis.
+2. Cirrhosis, portal hypertension.
+)
+  Paste(MyForm)
+Return
+
+
 ::actpan::
   MyForm =
 (
@@ -1011,6 +1051,9 @@ FINDINGS:
 - Adrenals: unremarkable
 - Kidneys and ureters: unremarkable
 - Urinary Bladder: unremarkable
+
+No evidence of intraperitoneal free air.
+No obvious ascites.
 
 - Lymph node enlargement > 1 cm: No mediastinal, retroperitoneal, or mesenteric lymphadenopathy.
 

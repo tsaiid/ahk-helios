@@ -33,6 +33,7 @@
 ::lfdl::On double-lumen catheter via left femoral vein.
 ::nfa::No evidence of subphrenic free air.
 ::foley::s/p Foley catheterization.
+::foley1::s/p Foley catheterization. The urinary bladder is not distended enough, and the evaluation is limited.
 ::spiud::s/p intrauterine device implantation.
 ::haic-ok::On HAIC. The tip position shows no migration as compared with previous angiography.
 ::spa::Surgical clips at RLQ of abdomen, in favor of post appendectomy.

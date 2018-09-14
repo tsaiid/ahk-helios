@@ -154,6 +154,44 @@ Lower lungs: Unremarkable
   Paste(MyForm)
 Return
 
+;; MRI UB
+::amrub::
+  MyForm =
+(
+MRI of the Urinary bladder
+
+SCANNING PROTOCOL:
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * HASTE T2: axial, coronal
+  * DWI: coronal
+  * T1+C: axial
+- Urinary bladder and Prostate:
+  * TSE T2, DWI, ADC: axial
+  * T1+FS: axial, sagittal
+  * T1+C+FS: axial, coronal, sagittal
+- MRU Cor, MIP reconstruction
+
+COMPARISON: 2017-10-30 (CTU)
+
+FINDINGS:
+* A case of UB cancer, s/p TURBT, s/p CCRT.
+Urinary bladder: Unremarkable
+Kidneys and ureters: Unremarkable
+Prostate: Unremarkable
+
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+
+Adrenals: Unremarkable
+Spleen: Unremarkable
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+Lower lungs: Unremarkable
+)
+  Paste(MyForm)
+Return
+
 ::amrpr::
   MyForm =
 (

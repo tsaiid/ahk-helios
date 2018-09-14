@@ -26,7 +26,7 @@
 ::i::increased `
 ::d::decreased `
 ::e::enhancement
-::ec::enhancing `
+::ec::enhanced `
 ::rec::recurrence
 ::w::with `
 ::wo::without `
@@ -149,7 +149,7 @@ Return
 Return
 
 ::sgo::suggestive of `
-::obv::obvious
+::obv::obvious `
 ::nob::no obvious `
 ::nod::no definite `
 ::noe::no evident `

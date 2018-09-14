@@ -24,9 +24,9 @@
 ::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
 ::ctcmast::Underdeveloped pneumatization and sclerotic change of right/left/bilateral mastoid air cells, suspicious chronic mastoiditis.
 ::atr::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
-::atr1::Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+::atr1::Mild enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::atr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
-::atr3::Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+::atr3::Mild enlargement of the intraventricular system with widening of the subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
