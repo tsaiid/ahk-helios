@@ -193,6 +193,41 @@ No definite acute ICH, SAH, EDH, or SDH.
   Paste(MyForm)
 Return
 
+;; CTN2 - CVA
+::ctn2cva::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+Low density and loss of gray and white matter differentiation at right middle cerebral artery territory:
+- M2: "MCA cortex lateral to insular ribbon" corresponding to anterior temporal lobe
+- M5: "lateral MCA territory immediately superior to M2"
+- M6: "posterior MCA territory immediately superior to M3"
+Suggestive of acute ischemic stroke.
+
+Alberta stroke programme early CT score (ASPECTS):
+caudate
+putamen
+internal capsule
+insular cortex
+M1: "anterior MCA cortex," corresponding to frontal operculum
+M2: "MCA cortex lateral to insular ribbon" corresponding to anterior temporal lobe
+M3: "posterior MCA cortex" corresponding to posterior temporal lobe
+M4: "anterior MCA territory immediately superior to M1"
+M5: "lateral MCA territory immediately superior to M2"
+M6: "posterior MCA territory immediately superior to M3"
+
+A high-attenuation thrombus is noted at the M1 level of right MCA.
+No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
+)
+  Paste(MyForm)
+Return
+
 ;; CTN2 - Atrophy, leukoaraiosis
 ::ctn2atr::
   MyForm =
@@ -330,6 +365,39 @@ Acute right anterior parafalcine SDH.
   MyForm =
 (
 Diffuse acute SAH. Rupture of intracranial aneurysm should be excluded.
+)
+  Paste(MyForm)
+Return
+
+::ctn2hie::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+diffuse edema with effacement of the CSF-containing spaces
+decreased bilateral basal ganglia attenuation
+reversal of the normal CT attenuation of grey and white matter (reversal sign)
+diffuse edema and hypoattenuation of the cerebral hemispheres with sparing of the cerebellum and brainstem (white cerebellum sign)
+Diffuse loss of gray-white matter differentiation over the cerebra and cerebella. Hypoxic-ischaemic encephalopathy is suspected.
+
+No definite abnormal mass lesion in the brain noted.
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+
+The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
+
+No obvious fracture of the skull base and the skull.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Hypoxic-ischaemic encephalopathy is suspected.
 )
   Paste(MyForm)
 Return
@@ -674,6 +742,9 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
+Multiple enhanced nodules and masses over the bilateral cerebra and cerebella, and brainstem, c/w brain metastasis.
+The right frontal and bilateral occipital lobe lesions are larger, size about 2.5-2.8 cm, show cystic change, and have obvious perifocal edema.
+
 A 2.8-cm enhancing nodular lesion at the left cerebellar hemisphere, with perifocal edema, suggestive of brain metastasis.
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
@@ -723,11 +794,11 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
-Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+Post contrast study showed no abnormal enhanced tumor mass lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 

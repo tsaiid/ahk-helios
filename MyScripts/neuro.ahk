@@ -27,6 +27,7 @@
 ::atr1::Mild enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::atr2::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::atr3::Mild enlargement of the intraventricular system with widening of the subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
+::atr4::Diffuse atrophy of bilateral cerebral hemispheres, with deepening and widening of fissures and cortical sulci.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
@@ -80,6 +81,7 @@
 ::retr::retrolisthesis
 ::dwiok::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::dvsok::The major dural venous sinuses are patent.
+::mrnocva::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::nocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
 ::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 ::noich0::No definite acute ICH, SAH, EDH, or SDH.
@@ -91,12 +93,15 @@
 ::gpcal::Calcifications are noted at the bilateral globus pallidi, probably aging related.
 ::mgpcal::Mild calcifications are noted at the bilateral globus pallidi, probably aging related.
 ::mpt::mucoperiosteal thickening
+::npok::Symmetrical soft tissue thickening of the nasopharynx, in favor of adenoidal hyperplasia.
 
 ::li1::
   MyForm =
 (
 A small low density over left basal ganglion region, in favor of old lacunar infarct.
 Several small low densities over bilateral basal ganglion regions, in favor of old lacunar infarcts.
+Several tiny low densities over left basal ganglion region, in favor of old lacunar infarcts.
+Several tiny low densities over right basal ganglion region, in favor of old lacunar infarcts.
 Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 )
   Paste(MyForm)
@@ -130,6 +135,7 @@ Mild mucoperiosteal thickening and soft tissue density in the bilateral frontal,
   Paste(MyForm)
 Return
 ::mctps::Mild mucoperiosteal thickening and soft tissue density in the paranasal sinuses, in favor of mild sinusitis.
+::mctps1::Small soft tissue density in the paranasal sinuses, in favor of mild sinusitis.
 
 ::mrps::
   MyForm =

@@ -1,6 +1,6 @@
 ﻿; HotKey
-;; for SmartWonder
 
+;; For all Helios related window
 #IfWinActive ahk_group Helios
 ^h::
   SendEvent {BS}
@@ -42,6 +42,14 @@ Return
   SendEvent ^z
 Return
 
+!b::
+  Send ^{Left}
+Return
+
+!f::
+  Send ^{Right}
+Return
+
 ;; Copy current line
 #c::
   SendEvent {Home}+{End}^c
@@ -59,7 +67,11 @@ Return
 
 ;; Open recent worklist
 ^w::
-  SendEvent {AppsKey}
+  If (WinActive("ahk_exe Helios.exe")) {
+    Send {AppsKey}
+  } Else {
+    Send ^w
+  }
 Return
 
 ;; Move current line up
@@ -75,39 +87,124 @@ Return
 ; Backup Report Before Confilm
 !c::
   BackupHeliosReportToFile()
-  SendEvent !c
+  Send !c
 Return
 
 ; Confirm, Next, and Start Edit
 ^s::
   Send !c
+  Sleep 1000
   Send !x
 
   ; wait status to be changed
   StartEditAfterReady()
 Return
+
+^+1::
+;  global prevExamDate
+  ;MsgBox, a
+  If (prevExamDate) {
+    Send %prevExamDate%
+  } Else {
+    Send ^+1
+  }
+Return
 #IfWinActive
 
-; Need to handle the global hotkey ^t from Helios
-^t::
-If WinActive("ahk_exe chrome.exe") {
-  ControlSend, ,^t, ahk_exe chrome.exe
-} Else If WinActive("ahk_class MozillaWindowClass") {
-  ControlSend, ,^t, ahk_class MozillaWindowClass
-} Else {
-  SendInput ^t
-}
+;; Only specific to the main Helios window
+#IfWinActive ahk_exe Helios.exe
+^1::
+  ClickReportList()
+Return
+
+^2::
+  ClickOpdList()
+Return
+
+^3::
+  ClickPathoList()
 Return
 
 ^r::
+  Send ^+r
+Return
+
+/*
+^Up::
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    If (impObj.accFocus = "0") {
+      sbUpObj := Acc_Get("Object", IMPRESSION_SCROLLBAR_UP_PATH, 0, "ahk_id " hHeliosWnd)
+    } Else If (findingObj.accFocus = "0") {
+      sbUpObj := Acc_Get("Object", FINDING_SCROLLBAR_UP_PATH, 0, "ahk_id " hHeliosWnd)
+    } Else {
+      Send ^Up
+    }
+    sbUpObj.accDoDefaultAction(0)
+  }
+Return
+
+^Down::
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    If (impObj.accFocus = "0") {
+      sbDownObj := Acc_Get("Object", IMPRESSION_SCROLLBAR_DOWN_PATH, 0, "ahk_id " hHeliosWnd)
+    } Else If (findingObj.accFocus = "0") {
+      sbDownObj := Acc_Get("Object", FINDING_SCROLLBAR_DOWN_PATH, 0, "ahk_id " hHeliosWnd)
+    } Else {
+      Send ^Up
+    }
+    sbDownObj.accDoDefaultAction(0)
+  }
+Return
+*/
+#IfWinActive
+
+;; Edit report
+AppsKey::
+  Send ^+t
+  WinGet, hWnd, ID, Helios
+  If (hWnd) {
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hWnd)
+    If (impObj.accFocus = "0") {
+      impObj.accSelect(0x01, 0)
+    } Else {
+      findingObj.accSelect(0x01, 0)
+    }
+  }
+Return
+
+/*
+; Need to handle the global hotkey ^t from Helios
+^t::
 If WinActive("ahk_exe chrome.exe") {
-  ControlSend, ,^r, ahk_exe chrome.exe
+  ControlGet, controlID, Hwnd,,Chrome_RenderWidgetHostHWND1, Google Chrome
+  ;ControlGet, controlID, Hwnd,,Chrome_RenderWidgetHostHWND1, ahk_exe chrome.exe
+  ControlSend, Chrome_RenderWidgetHostHWND1, ^t, Google Chrome
+  ;ControlSend, Chrome_RenderWidgetHostHWND1, ^t, ahk_exe chrome.exe
+  ;WinGet, hWnd, ID, A
+  ;ControlSend, ahk_parent,^t, ahk_exe chrome.exe  ; send to ahk_parent to make controlsend to chrome ok
+  ;ControlSend, ahk_parent, ^t, ahk_class Chrome_WidgetWin_1
+  ;ControlSend, , {Ctrl down}t{Ctrl up}, ahk_class Chrome_WidgetWin_1
+  ;ControlSend, , ^t, ahk_class Chrome_WidgetWin_1
+  ;MsgBox % hWnd
 } Else If WinActive("ahk_class MozillaWindowClass") {
-  ControlSend, ,^r, ahk_class MozillaWindowClass
+  ControlSend, ,^t, ahk_class MozillaWindowClass
 } Else {
-  SendInput ^r
+  Send ^t
+  WinGet, hWnd, ID, Helios
+  If (hWnd) {
+    findingText := Acc_Get("Object", "4.9.30.1", 0, "ahk_id " hWnd)
+    findingText.accSelect(0x01, 0)
+  }
 }
 Return
+*/
 
 ;; for GE UV
 #IfWinActive ahk_exe Miv2Lib.exe

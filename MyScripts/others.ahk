@@ -41,6 +41,7 @@
 ::cnbte::cannot be totally excluded
 ::sbe::should be excluded
 ::mbs::may be suspected
+::mabs::may also be suspected
 ::mcnbe::malignancy cannot be excluded.
 ::msbe::malignancy should be excluded.
 ::m::multiple `
@@ -132,7 +133,8 @@ Return
 ::clab::Suggest correlate with Lab data.
 ::coim::Suggest correlate with other imaging modality.
 ::cbs::Suggest correlate with bone scan.
-::cgyn::Suggest GYN check-up.
+::sgyn::Suggest GYN check-up.
+::scmp::Suggest compare with previous images if available.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
@@ -197,7 +199,7 @@ Return
 ::fs::fat stranding
 ::hop::hollow organ perforation
 ::nrf::No remarkable findings.
-::nsf::non-specific findings
+::nsf::non-specific finding
 ::ol::obstruction level
 ::tz::transitional zone
 ::nobs::nonobstructive `

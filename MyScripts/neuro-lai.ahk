@@ -74,7 +74,7 @@ No evidence of ectopic post pituitary lobe noted.
 
 No evidence of mass lesion on the sellar or suprasellar or hypothalamus regions.
 
-No evidence of abnormal enhancing mass lesion noted over the suprasellar region noted.
+No evidence of abnormal enhanced mass lesion noted over the suprasellar region noted.
 
 
 
@@ -84,7 +84,7 @@ No evidence of ectopic post pituitary lobe noted.
 
 No evidence of mass lesion on the sellar or suprasellar or hypothalamus regions.
 
-No evidence of abnormal enhancing mass lesion noted over the suprasellar region noted.
+No evidence of abnormal enhanced mass lesion noted over the suprasellar region noted.
 
 No evidence of low signal intensity nodule noted within the pituitary gland in the conventional and dynamic scan. Suggest correlate with prolactin level.
 
@@ -150,7 +150,7 @@ No evidence of obvious high signal in the brachial plexus noted on T2WI and STIR
 No obvious traumatic traction avulsion pseudomeningocele noted over the C-spine region noted.
 Recommend correlate with the EMG and NCV studies.
 
-Post contrast study shows no obvious enhancing mass lesion over the brachial plexus region.
+Post contrast study shows no obvious enhanced mass lesion over the brachial plexus region.
 
 Presence of bulging disc noted over C4-5, C5-6, C6-7, causing mild spinal stenosis.
 
@@ -168,7 +168,7 @@ No evidence of focal herniation of nucleus pulposis (HIVD) in the C-spine region
 IMPRESSION:
 No obvious traumatic traction avulsion pseudomeningocele noted over the C-spine region noted.
 No evidence of obvious high signal in the brachial plexus noted on T2WI and STIR images.
-No obvious enhancing mass lesion over the brachial plexus region.
+No obvious enhanced mass lesion over the brachial plexus region.
 
 SUGGESTION:
 Recommend correlate with the EMG and NCV studies.
@@ -190,7 +190,7 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
-A 1.8 x 0.9 x 2.2 cm cystic mass lesion, arising from the sella, with snowman configuration, shows some enhancing component at the periphery, c/w pituitary macroadenoma.
+A 1.8 x 0.9 x 2.2 cm cystic mass lesion, arising from the sella, with snowman configuration, shows some enhanced component at the periphery, c/w pituitary macroadenoma.
 The lesion shows blood-fluid level, suggestive of previous or recent hemorrhagic or cystic transformation. Pituitary apoplexy may also be considered if an acute clinical symptom presents. Suggest compare with previous images from other institute.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
@@ -227,9 +227,9 @@ PREVIOUS MRI of the brain: no
 FINDINGS:
 Presence of a 2.5 x 2.2 x 1.9 cm mass lesion over the right C-P angle cistern region, extending into the right internal acoustic canal ("ice cream on cone" appearance), with iso- T1, mild hyper- T2 signal intensity, and contrast-enhanced study shows strong enhancement. Vestibular schwannoma (acoustic neuroma) is considered.
 
-Postcontrast study shows no evidence of abnormal enhancing tumor mass lesion over the bil. C-P angle cistern region noted.
+Postcontrast study shows no evidence of abnormal enhanced tumor mass lesion over the bil. C-P angle cistern region noted.
 
-No evidence of abnormal enhancing tumor mass lesion over the skull base, bilateral CP angle cistern, and bilateral pre-pontine cistern region noted.
+No evidence of abnormal enhanced tumor mass lesion over the skull base, bilateral CP angle cistern, and bilateral pre-pontine cistern region noted.
 
 Presence of small area high signal intensity on T2WI noted over the left side mastoid air sinus, rule out small effusion or poor pneumatization of left side mastoid air sinus.
 
@@ -237,12 +237,12 @@ No definite abnormal signal intensity mass lesion in the brain noted including s
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+Post contrast study showed no abnormal enhanced lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 IMPRESSION:
 No evidence of abnormal signal intensity tumor mass lesion over the bil. C-P angle cistern region noted.
 
-No evidence of abnormal enhancing tumor mass lesion over the brain stem, skull base, bil. CP angle cistern and bil. pre-pontine cistern region noted.
+No evidence of abnormal enhanced tumor mass lesion over the brain stem, skull base, bil. CP angle cistern and bil. pre-pontine cistern region noted.
 SUGGESTION:
 )
   Paste(MyForm)
@@ -266,7 +266,7 @@ Presence of a 2.5 x 2.2 x 1.9 cm mass lesion over the right C-P angle cistern re
 
 No definite abnormal signal intensity mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
-Post contrast study showed no other abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+Post contrast study showed no other abnormal enhanced lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 Mild dilatation of intraventricular system with widening of subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 

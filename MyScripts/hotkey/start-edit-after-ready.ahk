@@ -9,8 +9,17 @@ StartEditAfterReady(timeOut = 10) {
     Loop, %maxLoopCount% {
       reportStatusStr := oAcc.accName(0)
 
-      if (InStr(reportStatusStr, "[等待報告]")) {
-        Send ^t
+      If (InStr(reportStatusStr, "[等待報告]")) {
+        Send ^+t
+        Loop, %maxLoopCount% {
+          If (GetCurrAccnoFromGeUv(False)) {
+            ;MsgBox, 1
+            ShowPrevReportWindow()
+            ;InsertAutoReport(False)
+            Break
+          }
+          Sleep, 100
+        }
         Break
       }
 

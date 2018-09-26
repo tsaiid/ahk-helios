@@ -343,7 +343,7 @@ Slightly bulging disc noted over the L4-5, and with mild indentation of anterior
 
 No evidence of abnormal signal intensity mass lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
-Postcontrast study shows no evidence of abnormal enhancing lesion over the spinal canal of the lower T-spine and L-spine region noted.
+Postcontrast study shows no evidence of abnormal enhanced lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
 No evidence of focal herniation of nucleus pulposis (HIVD) in the L-spine region noted.
 
@@ -353,7 +353,7 @@ No evidence of intraspinal hematoma noted over the L-spine region noted.
 
 No evidence of abnormal signal intensity lesion noted over the conus medullaris region.
 
-Post contrast study shows no evidence of abnormal enhancing lesion noted over the cauda equina.
+Post contrast study shows no evidence of abnormal enhanced lesion noted over the cauda equina.
 
 
 
@@ -505,7 +505,7 @@ Slightly bulging disc noted over the L4-5, and with mild indentation of anterior
 
 No evidence of abnormal signal intensity mass lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
-Postcontrast study shows no evidence of abnormal enhancing lesion over the spinal canal of the lower T-spine and L-spine region noted.
+Postcontrast study shows no evidence of abnormal enhanced lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
 No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 

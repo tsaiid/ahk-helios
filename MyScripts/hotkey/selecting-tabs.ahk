@@ -1,20 +1,23 @@
 ﻿; HotKey
 #IfWinActive ahk_exe Helios.exe
 ClickReportList() {
+  global PREV_REPORT_TAB_PATH
   hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  reportListObj := Acc_Get("Object", "4.7.2.1", 0, "ahk_id " hHeliosWnd)
+  reportListObj := Acc_Get("Object", PREV_REPORT_TAB_PATH, 0, "ahk_id " hHeliosWnd)
   reportListObj.accDoDefaultAction(0)
 }
 
 ClickOpdList() {
+  global OPD_TAB_PATH
   hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  opdListObj := Acc_Get("Object", "4.7.2.6", 0, "ahk_id " hHeliosWnd)
+  opdListObj := Acc_Get("Object", OPD_TAB_PATH, 0, "ahk_id " hHeliosWnd)
   opdListObj.accDoDefaultAction(0)
 }
 
 ClickPathoList() {
+  global OP_ADM_PATHO_TAB_PATH
   hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  pathoListObj := Acc_Get("Object", "4.7.2.8", 0, "ahk_id " hHeliosWnd)
+  pathoListObj := Acc_Get("Object", OP_ADM_PATHO_TAB_PATH, 0, "ahk_id " hHeliosWnd)
   pathoListObj.accDoDefaultAction(0)
 }
 #IfWinActive

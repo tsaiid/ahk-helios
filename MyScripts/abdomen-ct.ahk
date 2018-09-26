@@ -16,11 +16,12 @@
 ::actok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 ::actncok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal. Due to non-contrast study, the evaluation of solid organs is limited.
 ::bpleat::Bilateral pleural effusion with atelectasis of lower lungs.
+::actaps::A small wedge-shaped subcapsular enhancement at S_ of liver, in favor of AP shunting.
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
-::mrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
+::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
-::actraa::A __-cm fat-containing enhancing nodular lesion at the right adrenal, in favor of adenoma.
-::actlaa::A __-cm fat-containing enhancing nodular lesion at the left adrenal, in favor of adenoma.
+::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal, in favor of adenoma.
+::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
 ::actckd1::Atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
 ::mactckd1::Mild atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
@@ -32,7 +33,7 @@
 ::actbph1::Prostate enlargement with intravesical protrusion.
 ::mactbph::Mild enlarged prostate is noted, most likely benign prostatic hyperplasia.
 ::aphe::arterial phase hyperenhancement
-::actlok::No definite liver tumor. No abnormal enhancing parenchymal lesion.
+::actlok::No definite liver tumor. No abnormal enhanced parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
 ::actmfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
 ::actc::Irregular surface of the liver with nodularities, indicating cirrhosis.
@@ -49,7 +50,10 @@
 ::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
 ::actclc::Mild subpleural reticulation and interlobular septal thickening over bilateral lower lungs, in favor of chronic inflammatory change.
 ::hvpvok::The major hepatic and portal veins are patent.
-::livok::No abnormal enhancing lesion or washout pattern noted.
+::livok::No abnormal enhanced lesion or washout pattern noted.
+::sacds::Small amount of ascites in the Cul-de-sac.
+::macds::Minimal amount of ascites in the Cul-de-sac.
+::wtsme::wall thickening and submucosal edema
 
 ;; forms
 ::act::
@@ -332,6 +336,38 @@ Sigmoid colon acute diverticulitis, with perforation and abscess formation.
   Paste(MyForm)
 Return
 
+;; Epiploic appendagitis
+::actea::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+A small fat-density ovoid structure adjacent to the descending colon (Se/Im: 4/55, 6/23), with a thin high-density rim, surrounding inflammatory fat stranding, and thickening of the adjacent peritoneum. The adjacent colonic wall thickening is minimal and the amount of fat inflammation is out of proportional to colonic wall thickening. Epiploic appendagitis is more favored than diverticulitis.
+
+The appendix is normal.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+The liver, gallbladder, spleen, pancreas, adrenals, and kidneys are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Epiploic appendagitis at the descending colon.
+)
+  Paste(MyForm)
+Return
+
+;; Adrenal form
 ::actad::
   MyForm =
 (
@@ -1132,6 +1168,38 @@ Subsegmental atelectasis over bilateral lower lungs.
   MyForm =
 (
 Stercoral colitis. No evidence of perforation.
+)
+  Paste(MyForm)
+Return
+
+; Ischemic colitis
+::actic::
+  MyForm =
+(
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Wall thickening, submucosal edema, and mild pericolic fat stranding, involving the whole ascending and transverse colon, suggestive of colitis.
+A clear cut transition level near the splenic flexure (boundary of SMA territory). Ischemic colitis is suspected. DDx: inflammatory bowel disease.
+
+The appendix is normal.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+The liver, spleen, pancreas, adrenals, kidneys are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. Colitis, whole ascending and transverse colon. Ischemic colitis is suspected. DDx: inflammatory bowel disease.
+2. No evidence of hollow organ perforation.
 )
   Paste(MyForm)
 Return

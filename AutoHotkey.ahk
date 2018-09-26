@@ -6,6 +6,7 @@
 SetBatchLines -1  ; better performance: http://scsnake.blogspot.tw/2016/03/hotstring.html
 SendMode, Input
 SetTitleMatchMode, 2
+SetControlDelay -1  ; improve reliability for ControlClick, reduces interference from the user's physical movement of the mouse
 
 ; Group Control For Helios
 GroupAdd, Helios, Helios

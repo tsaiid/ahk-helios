@@ -46,6 +46,7 @@
 ::pfn::perifissural nodule
 ::itho::intrathoracic `
 ::cle::centrilobular emphysema
+::tbc::tracheobronchial calcification
 
 ;; CV
 ::ivc::inferior vena cava
@@ -99,6 +100,7 @@
 ::laps::lymphadenopathies
 ::mlap::metastatic lymphadenopathy
 ::eln::enlarged lymph node
+::rln::reactive lymph node
 ::cln::calcified lymph node
 ::met::metastasis
 ::mets::metastases

@@ -10,12 +10,18 @@ Anesthesia: local
 Approach: right femoral artery
 Catheters: 5Fr sheath, 4Fr RC1, 2.7Fr Progreat
 Catheters: 5Fr sheath, 4Fr RC1, 2.5Fr Cantata
+Catheters: 5Fr sheath, 5Fr RIM, 2.7Fr Progreat
 Catheters: 4Fr sheath, 4Fr J-Curve
 Embolizer: Gelfoam powders
 Embolizer: .018 3/2 Tornado microcoil, Gelfoam powders
 Embolizer: Glue (NBCA/lipiodol = 1:4)
 
 PROCEDURE:
+The angiography of left internal iliac artery showed active bleeding from the left uterine artery.
+TAE of the left uterine artery with Gelfoam powders was performed successfully.
+The follow-up left internal iliac and right internal iliac angiography showed no more active bleeding.
+The angiocatheter and sheath were removed, and hemostasis of puncture site was achieved by manual compression.
+
 The angiography of right renal artery showed active bleeding from the inferior adrenal artery.
 TAE with a microcoil followed by Gelfoam powders was performed successfully.
 The sheath and catheter were removed, and hemostasis of the puncture sire was achieved by manual compression.
@@ -31,6 +37,9 @@ The follow-up CHA and SMA angiography showed no more active bleeding.
 The sheath will be kept for 24 hours for use if other bleeding episode occurs.
 
 RECOMMENDATION:
+Sandbag compression on the puncture site for at least 4 hours, and bed rest for 8 hours.
+Close follow up the vital signs and consciousness.
+
 Close f/u patient's vital signs.
 Sandbag compression for at least 4 hours, and bed rest for 8 hours.
 IA infusion of Vasopressin (4U per hour for 5 hours; if further bleeding, repeat q6h in maximal 24 hours)
@@ -45,6 +54,7 @@ Then, sandbag compression for at least 4 hours, and bed rest for 8 hours.
 (
 TAE was successfully performed.
 TAE for HCC rupture was successfully performed.
+TAE for PPH was successfully performed.
 )
   Paste(MyForm)
 Return

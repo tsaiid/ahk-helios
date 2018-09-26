@@ -24,7 +24,7 @@ No contrast medium. Film interpretation is limited.
 
 The detail could not be evaluated in this noncontrast CT.
 
-*Due to no contrast-enhanced CT performed, small enhancing lesion could not be evaluated.
+*Due to no contrast-enhanced CT performed, small enhanced lesion could not be evaluated.
 
 *PS. The evaluation is limited especially for solid organs, lymph nodes, and vascular structure due to absence of contrast enhancement.
 

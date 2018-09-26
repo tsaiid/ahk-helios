@@ -1,14 +1,484 @@
 ﻿; for debug
+#IfWinActive ahk_exe Helios.exe
+Esc::
+  If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
+    ;MsgBox, cancel
+    ControlClick, Button2
+    Sleep, 500
+    If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
+      ControlGet, ControlHwnd, Hwnd, , Button2
+      MsgBox % ControlHwnd
+    }
+  } Else If (WinActive("醫師報告 ahk_exe Helios.exe")) {
+    hHeliosReportSumWnd := WinExist("醫師報告 ahk_exe Helios.exe")
+    If (hHeliosReportSumWnd) {
+      reportSumWinCloseBtnObj := Acc_Get("Object", "4.1", 0, "ahk_id " hHeliosReportSumWnd)
+      reportSumWinCloseBtnObj.accDoDefaultAction(0)
+    }
+  } Else {
+    ;MsgBox, else
+    Send {Esc}
+  }
+Return
+#IfWinActive
+
+#IfWinActive ahk_group Helios
+
+^7::
+	CoordMode, Mouse, Screen
+  ;MsgBox % A_CoordModeMouse
+Return
+
+
+SelectAbnormalValue(abnKey="B") {
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    abnValAccPath := { 0:  "4.9.10.2"
+                      ,A:  "4.9.10.3"
+                      ,B:  "4.9.10.4"
+                      ,C:  "4.9.10.5"
+                      ,D:  "4.9.10.6"
+                      ,R:  "4.9.10.7" }
+    abnormalValueObj := Acc_Get("Object", abnValAccPath[abnKey], 0, "ahk_id " hHeliosWnd)
+    abnormalValueObj.accSelect(0x3, 0)
+  }
+}
+
+!0::
+  SelectAbnormalValue("0")
+Return
+
+!1::
+  SelectAbnormalValue("A")
+Return
+
+!2::
+  SelectAbnormalValue("B")
+Return
+
+CopyPrevSimilarReport() {
+  accno := GetCurrAccnoFromGeUv()
+  if (accno) {
+    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    ;MsgBox, % (r = -1) ? "successful" : (r = 0) ? "Timeout" : "No response"
+    ;MsgBox, % InOutData
+    ;MsgBox, % InOutHeaders
+    parsedResult := JSON.Load(InOutData)
+    ;MsgBox % parsedResult.report.accno
+    ;MsgBox % parsedResult.info[1]
+    If (parsedResult.report.accno) {
+      global prevExamDate
+      prevExamDate := StrSplit(parsedResult.report.examdate, A_Space)[1]
+      hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+      if (hHeliosWnd) {
+        WinActivate, ahk_exe Helios.exe
+        Send ^+t
+        ;Sleep 1000
+        findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+        impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+        findingObj.accValue(0) := findingObj.accValue(0) . parsedResult.report.findings
+        impObj.accValue(0) := impObj.accValue(0) . parsedResult.report.impression
+      }
+    } Else {
+      MsgBox, No Similar Report.
+    }
+  }
+}
+
+InsertAutoReport(debugInfo=True) {
+  accno := GetCurrAccnoFromGeUv()
+  if (accno) {
+    r := WinHttpRequest("https://dicom.icu/cxr/prob/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    parsedResult := JSON.Load(InOutData)
+    if (parsedResult.success) {
+      prob := parsedResult.probabilities
+      arFdStr =
+      arImpStr =
+
+      if (prob.normal > 0.6 && prob.cardiomegaly < 0.4 && prob.ett < 0.4 && prob.port < 0.4) {
+        ;arFdStr := "No abnormal patch opacity in the lung fields.`r`nNo cardiomegaly."
+        ;arImpStr := "No active lung lesion."
+      } else {
+        if (prob.cardiomegaly > 0.7) {
+          arFdStr := arFdStr . "`r`nCardiomegaly."
+          ;msgbox % prob.cardiomegaly
+        }
+        if (prob.ett > 0.7) {
+          arFdStr := arFdStr . "`r`nOn endotracheal tube."
+        }
+        if (prob.port > 0.7) {
+          arFdStr := arFdStr . "`r`nPresence of Port-A."
+        }
+      }
+
+      ;MsgBox % arFdStr
+      ;MsgBox % arImpStr
+
+      hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+      if (hHeliosWnd) {
+        WinActivate, ahk_exe Helios.exe
+        Send ^+t
+        findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+        impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+        findingObj.accValue(0) := findingObj.accValue(0) . arFdStr
+        impObj.accValue(0) := impObj.accValue(0) . arImpStr
+      }
+    } Else {
+      If (debugInfo) {
+        MsgBox, No prediction data.
+      }
+    }
+  }
+}
+
+$^0::
+  CopyPrevSimilarReport()
+Return
+
+$^+0::
+  accno := GetCurrAccnoFromGeUv()
+  if (accno) {
+    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    parsedResult := JSON.Load(InOutData)
+    If (parsedResult.report.accno) {
+      MsgBox % parsedResult.report.findings "`r`n----`r`n" parsedResult.report.impression
+    } Else {
+      MsgBox, No Similar Report.
+    }
+  }
+Return
 
 $^8::
-  a := ""
-  b := "20140623"
-  EnvSub, b, %a%, Days
-  MsgBox % b
+  ShowPrevReportWindow()
+Return
+
+ShowPrevReportWindow() {
+  _GUI_WIDTH := 500
+  _GUI_TEXTWRAP := _GUI_WIDTH - 20
+
+  Gui, PrevReportGui: New
+  Gui, PrevReportGui:+AlwaysOnTop -MaximizeBox -MinimizeBox
+  Gui, PrevReportGui: Color, 000000
+  ;Gui, PrevReportGui: Add, Button, Default, Reserved
+
+  accno := GetCurrAccnoFromGeUv()
+  if (accno) {
+    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    parsedResult := JSON.Load(InOutData)
+    examdateStr := parsedResult.report.examdate
+    findingStr := parsedResult.report.findings
+    impStr := parsedResult.report.impression
+    ;MsgBox % InOutData
+
+    r := WinHttpRequest("https://dicom.icu/cxr/prob/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    parsedResult := JSON.Load(InOutData)
+    if (parsedResult.success) {
+      prob := parsedResult.probabilities
+      normalStr := "Normal: " + prob.normal
+      cardiomegalyStr := "Cardiomegaly: " + prob.cardiomegaly
+      ettStr := "ETT: " + prob.ett
+      portStr := "Port-A: " + prob.port
+    }
+  } else {
+    findingStr =
+    impStr =
+
+    normalStr =
+    cardiomegalyStr =
+    ettStr =
+    portStr =
+  }
+
+  Gui, PrevReportGui: Font, s12 cFFFFFF, Verdana
+  If (findingStr || impStr) {
+    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP% xm, %examdateStr%
+    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP%, ----`r`n%findingStr%
+    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP%, ----`r`n%impStr%
+    Gui, PrevReportGui: Font, s9, Verdana
+    Gui, PrevReportGui: Add, Button, gCopyPrevSimilarReport, Copy Report
+    Gui, PrevReportGui: Add, Button, gHeliosBtnClearAllText x+10, Clear All Test
+  }
+
+  Gui, PrevReportGui: Font, s9 cFFFFFF, Verdana
+  If (normalStr || cardiomegalyStr || ettStr || portStr) {
+    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP% xm, %normalStr%`r`n%cardiomegalyStr%`r`n%ettStr%`r`n%portStr%
+    Gui, PrevReportGui: Add, Button, gInsertAutoReport, Auto Report
+  }
+
+  DetectHiddenWindows On
+	Gui, +LastFound
+  Gui, Show, Hide
+  GUI_Hwnd := WinExist()
+  GetClientSize(GUI_Hwnd, GUI_Width, GUI_Height)
+  DetectHiddenWindows Off
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  GetClientSize(hHeliosWnd, widthHelios, heightHelios)
+  WinGetPos, xHelios, yHelios, , , ahk_id %hHeliosWnd%
+  ;xPrevReportGui := xHelios + widthHelios - 30 - GUI_Width
+  xPrevReportGui := xHelios + widthHelios - 30 - _GUI_WIDTH
+  yPrevReportGui := yHelios + 50
+
+  ;MsgBox, x=%GUI_Width%, GUI_Hwnd=%GUI_Hwnd%, hHeliosWnd=%hHeliosWnd%
+
+  Gui, PrevReportGui: Show, x%xPrevReportGui% y%yPrevReportGui% w500, Previous Report
+  WinActivate, ahk_exe Helios.exe
+}
+
+PrevReportGuiGuiEscape:
+  Gui, Destroy
+Return
+
+GetCurrAccnoFromGeUv(debugInfo=True) {
+  GEUVhWnd := WinExist("ahk_exe Miv2Lib.exe")
+  ;WinGet, hWnd, ID, Helios
+
+  If (GEUVhWnd) {
+    WinGetTitle, WinTitle, ahk_id %GEUVhWnd%
+    If (RegExMatch(WinTitle, "存取編號:(\w+)" , OutputVar)) {
+      ;MsgBox % OutputVar1
+      ;Clipboard := OutputVar1
+      Return OutputVar1
+    } Else {
+      If (debugInfo) {
+        MsgBox, "No Accno Info: %WinTitle%"
+      }
+      Return False
+    }
+  } Else {
+    If (debugInfo) {
+      MsgBox, No existing GeUv window.
+    }
+    Return False
+  }
+}
+
+; Remap Kana Key
+SC070::
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    ; check if exam is cxr
+    infoText := Acc_Get("Name", "4.5.1.1", 0, "ahk_id " hHeliosWnd)
+    RegExMatch(infoText, "^\[.+\]\s+(\w+)/([^\s]+)\s+\[(.+?)\]\s*\[.+?\]\s+(\[[0-9A-Z]+?\])?\s*\[(.+?)/.+?\]\s+\[([\d-]+).+?\]", examInfo)
+    examName := examInfo5
+    if (examName not in Chest PA,Chest AP) {
+      MsgBox, Not a CXR.
+      Return
+    }
+
+;    WinActivate, ahk_exe Helios.exe
+    Send ^t
+    findingObj := Acc_Get("Object", "4.9.30.1", 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", "4.9.33", 0, "ahk_id " hHeliosWnd)
+    findingObj.accValue(0) := "No abnormal patch opacity in the lung fields.`r`nNo cardiomegaly."
+    impObj.accValue(0) := "No active lung lesion."
+    Send !c
+    Sleep 1000
+    Send !x
+    StartEditAfterReady()
+  } Else {
+    MsgBox, a
+  }
+Return
+
+^+c::
+  If (!CopyPrevReport()) {
+    Send ^+c
+    ;MsgBox, Send Original ^+c
+  }
+Return
+
+#IfWinActive
+
+CopyPrevReport(){
+  WinGet, hWnd, ID, Helios
+
+  If (hWnd) {
+    prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hWnd)
+    prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hWnd)
+    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hWnd)
+    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hWnd)
+
+    reportStatusText := Acc_Get("Name", "4.7.2.1.4", 0, "ahk_id " hWnd)
+    ;MsgBox % reportStatusText
+    If (reportStatusText) {
+      ;MsgBox % prevFindingText
+      findingObj.accValue(0) := findingObj.accValue(0) . prevFindingText
+      impObj.accValue(0) := impObj.accValue(0) . prevImpText
+
+      Return True
+    } Else {
+      ;MsgBox, abc
+    }
+
+  } Else {
+    MsgBox, No existing Helios window.
+  }
+  Return False
+}
+
+HeliosBtnCopyReport:
+  ;hHeliosWnd := WinExist("ahk_class HwndWrapper[Helios.exe")
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    ;ControlSend, ,!q, ahk_id hHeliosWnd
+    prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
+    prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    ;MsgBox % impText.accValue(0)
+    ;MsgBox % newStr
+    findingObj.accValue(0) := findingObj.accValue(0) . prevFindingText
+    impObj.accValue(0) := impObj.accValue(0) . prevImpText
+  } Else {
+    MsgBox, a
+  }
+Return
+
+HeliosBtnClearAllText:
+  ;hHeliosWnd := WinExist("ahk_class HwndWrapper[Helios.exe")
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    ;ControlSend, ,!q, ahk_id hHeliosWnd
+    ;prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
+    ;prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    ;MsgBox % impText.accValue(0)
+    ;MsgBox % newStr
+    ; Save content to Clipboard
+    Clipboard := findingObj.accValue(0) . "`r`n`r`n" . impObj.accValue(0)
+    findingObj.accValue(0) := ""
+    impObj.accValue(0) := ""
+  } Else {
+    MsgBox, a
+  }
+Return
+
+HeliosBtnNormalCXR:
+  ;hHeliosWnd := WinExist("ahk_class HwndWrapper[Helios.exe")
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    ; check if exam is cxr
+    infoText := Acc_Get("Name", "4.5.1.1", 0, "ahk_id " hHeliosWnd)
+    RegExMatch(infoText, "^\[.+\]\s+(\w+)/([^\s]+)\s+\[(.+?)\]\s*\[.+?\]\s+(\[[0-9A-Z]+?\])?\s*\[(.+?)/.+?\]\s+\[([\d-]+).+?\]", examInfo)
+    examName := examInfo5
+    if (examName not in Chest PA,Chest AP) {
+      MsgBox, Not a CXR.
+      Return
+    }
+
+    ;ControlSend, , ^t, ahk_id hHeliosWnd
+    WinActivate, ahk_exe Helios.exe
+    Send ^+t
+    ;prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
+    ;prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    ;MsgBox % impText.accValue(0)
+    ;MsgBox % newStr
+    ; Save content to Clipboard
+    ;Clipboard := findingObj.accValue(0) . "`r`n`r`n" . impObj.accValue(0)
+    findingObj.accValue(0) := "No abnormal patch opacity in the lung fields.`r`nNo cardiomegaly."
+    impObj.accValue(0) := "No active lung lesion."
+    Send !c
+    Sleep 1000
+    Send !x
+    StartEditAfterReady()
+  } Else {
+    MsgBox, a
+  }
+Return
+
+HeliosBtnPcuNormalCXR:
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    ; check if exam is cxr
+    infoText := Acc_Get("Name", "4.5.1.1", 0, "ahk_id " hHeliosWnd)
+    RegExMatch(infoText, "^\[.+\]\s+(\w+)/([^\s]+)\s+\[(.+?)\]\s*\[.+?\]\s+(\[[0-9A-Z]+?\])?\s*\[(.+?)/.+?\]\s+\[([\d-]+).+?\]", examInfo)
+    examName := examInfo5
+    if (examName not in Chest PA,Chest AP) {
+      MsgBox, Not a CXR.
+      Return
+    }
+
+    WinActivate, ahk_exe Helios.exe
+    Send ^+t
+    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    fd_str =
+(
+No abnormal contour or soft tissue shadow in the mediastinum.
+No significant pleural thickening or abnormal shadow is noted in the bilateral lung fields.
+Bilateral costophrenic angles are clear and sharp.
+The heart size is normal.
+The thoracic cage and bones are generally intact.
+)
+    imp_str =
+(
+Normal chest X-ray.
+)
+    findingObj.accValue(0) := fd_str
+    impObj.accValue(0) := imp_str
+    Send !c
+    Sleep 1000
+    Send !x
+    StartEditAfterReady()
+  } Else {
+    MsgBox, a
+  }
+Return
+
+HeliosBtnSaveAndNext:
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  if (hHeliosWnd) {
+    WinActivate, ahk_exe Helios.exe
+    WinWaitActive, ahk_exe Helios.exe
+    Send ^t
+;    Sleep 1000
+    Send !c
+    Sleep 1000
+    Send !x
+    StartEditAfterReady()
+  } Else {
+    MsgBox, a
+  }
+Return
+
+HeliosBtnGuiGuiEscape:
+  Gui, Destroy
 Return
 
 ;; to get bone density report by ajax.
 $^!z::
+hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+if (hHeliosWnd) {
+  Gui, HeliosBtnGui: New
+  Gui, HeliosBtnGui:+AlwaysOnTop -MaximizeBox -MinimizeBox
+  Gui, HeliosBtnGui: Font, s8, Verdana
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnCopyReport, Copy Report
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnClearAllText, Clear All Test
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnSaveAndNext, Save && Next
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnNormalCXR, Normal CXR
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnPcuNormalCXR, PCU CXR
+
+  DetectHiddenWindows On
+	Gui, +LastFound
+  Gui, Show, Hide
+  GUI_Hwnd := WinExist()
+  GetClientSize(GUI_Hwnd, GUI_Width, GUI_Height)
+  DetectHiddenWindows Off
+  GetClientSize(hHeliosWnd, widthHelios, heightHelios)
+  WinGetPos, xHelios, yHelios, , , ahk_id %hHeliosWnd%
+  ;xHeliosBtnGui := xHelios + widthHelios - 30 - GUI_Width
+  xHeliosBtnGui := xHelios + 630
+  yHeliosBtnGui := yHelios + 280
+
+  ;MsgBox, x=%GUI_Width%, GUI_Hwnd=%GUI_Hwnd%, hHeliosWnd=%hHeliosWnd%
+
+  Gui, HeliosBtnGui: Show, x%xHeliosBtnGui% y%yHeliosBtnGui%
+}
+
+/*
   wb := WBGet()
 
   myL =
@@ -83,20 +553,5 @@ $^!z::
 
   window := wb.document.parentWindow
   window.execScript(myL)
-
+*/
 Return
-
-; Ctrl + Alt + Win + L
-; Login to SmartWonder
-;#IfWinActive ahk_class tedpc
-^!#l::
-  wb := WBGet()
-
-  WonderID := wb.document.getElementsByName("WonderID")[0]
-  WonderID.value := "4320"
-  WonderPassword := wb.document.getElementsByName("WonderPassword")[0]
-  WonderPassword.value := "RD4320"
-  LoginImg := wb.document.getElementsByName("login")[0]
-  LoginImg.click()
-Return
-;#IfWinActive

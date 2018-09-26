@@ -1215,7 +1215,7 @@ FINDINGS:
    Morphology: normal / compressed by the mass / incorporated with the mass
    Height: 6 mm (normal for the patient's age)
    Posterior lobe T1WI hyperintensity: normal
-   Intraglandular lesion: none / cyst / microadenoma presented as delayed enhancing nodule
+   Intraglandular lesion: none / cyst / microadenoma presented as delayed enhanced nodule
 
 *Sella turcica: normal
 *Cavernous sinus: normal
@@ -1268,7 +1268,7 @@ FINDINGS:
    Morphology: normal / compressed by the mass / incorporated with the mass
    Height: 6 mm (normal for the patient's age)
    Posterior lobe T1WI hyperintensity: normal
-   Intraglandular lesion: none / cyst / microadenoma presented as delayed enhancing nodule
+   Intraglandular lesion: none / cyst / microadenoma presented as delayed enhanced nodule
 
 *Sella turcica: normal
 *Cavernous sinus: normal

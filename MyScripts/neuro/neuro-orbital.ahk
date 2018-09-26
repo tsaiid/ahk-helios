@@ -40,6 +40,7 @@ No evidence of high density foreign body noted at the bilateral intraocular and 
 No evidence of bony fragment noted near optic canal region.
 No evidence of orbital emphysema noted.
 Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits (<23 mm).
+Measurement of proptosis by the distance between interzygomatic line and posterior sclera are within normal limits (>11 mm).
 No abnormal thickening of the extraocular muscles.
 )
   Paste(MyForm)
@@ -83,7 +84,7 @@ Possibly thyroid-associated orbitopathy, left side. DDx: orbital pseudotumor. Su
   Paste(MyForm)
 Return
 
-::cto2notao::
+::cto2taook::
   MyForm =
 (
 Non-contrast CT scan of orbit
@@ -96,9 +97,16 @@ PREVIOUS CT of orbit: no
 
 FINDINGS:
 - Measurement of proptosis by the distance between interzygomatic line and posterior sclera, and anterior global surface, are within normal limits.
+- Measurement of proptosis by the distance between interzygomatic line and posterior sclera are within normal limits (>11 mm).
+- Measurements by the distance between interzygomatic line and posterior sclera are reduced (< 11 mm).
+
 - No abnormal thickening of the extraocular muscles.
+- No abnormal thickening or fatty infiltration of the extraocular muscles.
+
+- No evidence of mass lesion over the bilateral orbital or retroocular regions.
 - Symmetrical size of bilateral orbital retroocular optic nerves.
 - No evident fracture of bilateral orbits.
+
 - Retention cysts in bilateral maxillary sinuses.
 )
   Paste(MyForm)
@@ -107,6 +115,8 @@ FINDINGS:
 (
 1. No obvious proptosis.
 2. No abnormal thickening of the extraocular muscles.
+
+Bilateral exophthalmos. However, no strong evidence of thyroid-associated orbitopathy. Suggest correlate with Lab data.
 )
   Paste(MyForm)
 Return
@@ -223,7 +233,7 @@ No definite abnormal signal intensity mass lesion in the brain noted including s
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
-Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+Post contrast study showed no abnormal enhanced lesion in the brain and no abnormal leptomeningeal enhancement noted.
 
 
 

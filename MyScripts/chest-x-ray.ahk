@@ -206,6 +206,7 @@ Return
 ::ate::atelectasis
 ::late::linear atelectasis
 ::sate::subsegmental atelectasis
+::bsate::subsegmental atelectasis of bilateral lower lungs.
 ::rsoa::OA change of right shoulder.
 ::lsoa::OA change of left shoulder.
 ::bsoa::OA change of bilateral shoulders.
