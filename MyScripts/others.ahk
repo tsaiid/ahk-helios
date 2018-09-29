@@ -128,6 +128,7 @@ Return
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
 ::csono::Suggest correlate with sonography.
+
 ::ctrus::Suggest correlate with transrectal ultrasonography.
 ::cdsa::Suggest correlate with DSA.
 ::clab::Suggest correlate with Lab data.
