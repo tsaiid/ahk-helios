@@ -18,7 +18,6 @@
 ::bpleat::Bilateral pleural effusion with atelectasis of lower lungs.
 ::actaps::A small wedge-shaped subcapsular enhancement at S_ of liver, in favor of AP shunting.
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
-::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
 ::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal, in favor of adenoma.
 ::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal, in favor of adenoma.
@@ -54,6 +53,7 @@
 ::sacds::Small amount of ascites in the Cul-de-sac.
 ::macds::Minimal amount of ascites in the Cul-de-sac.
 ::wtsme::wall thickening and submucosal edema
+::pcfs::pericholecystic fat stranding
 
 ;; forms
 ::act::

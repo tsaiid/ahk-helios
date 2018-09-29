@@ -1,5 +1,9 @@
 ; Abdomen MR Forms
 
+;; Hotstrings
+::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
+::amrmfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
+
 ;; General
 ::amrpan::
   MyForm =
@@ -217,6 +221,7 @@ Prostate:
 - Focal T1 hyperintensities at left lobe, probably post-biopsy change.
 - Enlarged transition zone with heterogeneous nodular signal intensity and an intact low signal pseudocapsule in the periphery, suggestive of benign prostatic hyperplasia.
 - Circumscribed hypointense orheterogeneous encapsulated nodule(s) (BPH)
+- s/p TURP appearance.
 
 Lesion 1:
 - location: peripheral zone of right base (PZpl)

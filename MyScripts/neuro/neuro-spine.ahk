@@ -174,6 +174,7 @@ Neuroforaminal stenosis, mild: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-
 Neuroforaminal stenosis, moderate to severe: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1
 
 No evidence of abnormal signal intensity lesion within the spinal cord of the C-spine.
+No evidence of abnormal signal intensity tumor mass lesion within the dural sac of the C-spine.
 No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the C-spine.
 
 Suspicious high signal intensity within the cervical cord at the C4 and C5 level on T2WI noted, DDx: contusion edema, prior cord insult with cord gliosis, and/or artifact.

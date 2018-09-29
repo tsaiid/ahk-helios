@@ -133,6 +133,8 @@ Return
 ::clab::Suggest correlate with Lab data.
 ::coim::Suggest correlate with other imaging modality.
 ::cbs::Suggest correlate with bone scan.
+::cercp::Suggest correlate with ERCP.
+::cmrcp::Suggest correlate with MRCP.
 ::sgyn::Suggest GYN check-up.
 ::scmp::Suggest compare with previous images if available.
 

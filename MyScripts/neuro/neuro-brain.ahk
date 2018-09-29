@@ -242,6 +242,7 @@ FINDINGS:
 Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+No definite abnormal mass lesion in the brain noted.
 
 Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 
@@ -538,6 +539,7 @@ Presence of several tiny hyperintensities in the periventricular white matter re
 
 No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 No definite abnormal signal intensity change in the brain parenchyma.
+No definite abnormal tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
@@ -750,6 +752,7 @@ Post contrast study showed no abnormal enhancing lesion in the brain and no abno
 No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
+No abnormal signal intensity change in the brain and brainstem noted.
 
 Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 Several nonspecific tiny hyperintensities in the bilateral periventricular and subcortical white matter regions on T2WI and FLAIR (unidentified bright objects).
