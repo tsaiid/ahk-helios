@@ -10,10 +10,8 @@
 
 ;; hemra
 ::hemra::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRA of the brain with focus on circle of Willis or skull base and Neck region with 2D SPGR time of flight,
 Post contrast enhanced 3D Fast SPGR MRA of the aortic arch and the Neck,
 MIP (maximum intensity projection) of collapse and projection image:
@@ -132,10 +130,8 @@ Return
 
 ;; MRPLE
 ::mrple::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 The MRI of the brachial plexus performed with neurovascular coil
 Coronal T1WI, T2WI with Fat Sat images
 Sagittal T1WI, T2 STIR images

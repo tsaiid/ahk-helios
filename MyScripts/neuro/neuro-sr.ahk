@@ -97,10 +97,8 @@ Return
 
 ;; srCTABrain
 ::srctabrain::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast scanning in axial plane from skull base to vertex with 4 to 5-mm-thick contiguous slices.
@@ -275,10 +273,8 @@ Return
 
 ;; srCTN1
 ::srctn1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with (1) non-contrast and (2) contrast-enhanced
 scanning in axial plane from skull base to vertex with 4 to 5-mm-thick contiguous slices;
@@ -469,10 +465,8 @@ Return
 
 ;; srCTO1
 ::srcto1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with non-contrast scanning in axial plane and coronal reformatted images.
 
@@ -521,10 +515,8 @@ Return
 
 ;; srCTO2
 ::srcto2::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with
 (1) Non-contrast and (2) Contrast-enhanced
@@ -576,10 +568,8 @@ Return
 
 ;; srCTP
 ::srctp::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with non-contrast scanning in axial plane and coronal reformatted images.
 
@@ -630,10 +620,8 @@ Return
 
 ;; srHRCT
 ::srhrct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner with ultra-thin slice (<1mm) axial scan of temporal bone using high-resolution bone algorithm, with coronal reconstruction
 
@@ -687,10 +675,8 @@ Return
 
 ;; srMRANec
 ::srmranec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Magnetic resonance angiography (MRA) of the brain focused on circle of Willis using 3D SPGR time of flight method with MIP (maximum intensity projection) reformatted images and raw data display.
@@ -746,10 +732,8 @@ Return
 
 ;; srMRB
 ::srmrb::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sagittal T1WI (localizer), Axial T1WI, T2WI, GET2*WI, Fluid Attenuated Inversion Recovery (FLAIR), Diffusion-weighted Imaging (DWI),
@@ -793,10 +777,8 @@ Return
 
 ;; srMRBcva
 ::srmrbcva::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sagittal T1WI (localizer), Axial T1WI, T2WI, GET2*WI, Fluid Attenuated Inversion Recovery (FLAIR), Diffusion-weighted Imaging (DWI),
@@ -889,10 +871,8 @@ Return
 
 ;; srMRBcva-wnl
 ::srmrbcva-wnl::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sagittal T1WI (localizer), Axial T1WI, T2WI, GET2*WI, Fluid Attenuated Inversion Recovery (FLAIR), Diffusion-weighted Imaging (DWI),
@@ -952,10 +932,8 @@ Return
 
 ;; srMRICVA
 ::srmricva::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 The MR of the brain performed with Sagittal T1WI (localizer)
@@ -1075,10 +1053,8 @@ Return
 
 ;; srMRNec
 ::srmrnec::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sagittal T1WI and T2WI,
@@ -1129,10 +1105,8 @@ Return
 
 ;; srMRO1
 ::srmro1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Axial T1WI and T2WI with Fat sat,
@@ -1186,10 +1160,8 @@ Return
 
 ;; srMRsella
 ::srmrsella::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sagittal T1WI (localizer)
@@ -1234,10 +1206,8 @@ Return
 
 ;; srMRsella-and-brain
 ::srmrsellaandbrain::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Sella:
@@ -1309,10 +1279,8 @@ Return
 
 ;; srMRSPC1
 ::srmrspc1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Coronal T2WI (localizer)
@@ -1368,10 +1336,8 @@ Return
 
 ;; srMRSPC2
 ::srmrspc2::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Coronal T2WI (localizer)
@@ -1427,10 +1393,8 @@ Return
 
 ;; srMRSPL1
 ::srmrspl1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Coronal T2WI with fat sat (localizer)
@@ -1485,10 +1449,8 @@ Return
 
 ;; srMRSPL2
 ::srmrspl2::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Coronal T2WI with fat sat (localizer)
@@ -1542,7 +1504,6 @@ Return
 
 ;; srSPINE-myelo-CT
 ::srspinemyeloct::
-  MyOrder := CopyOrder()
   MyForm =
 (
 Hx: 3222853, Ac: 71633372, M/77Y, 20150430
@@ -1552,7 +1513,6 @@ Myelography C&T Spine
 
 Myelography was performed smoothly under fluoroscopic guidance via puncture of L3/4 interspinous space.
 
-INDICATION: %MyOrder%
 TECHNIQUE:
 Multi-slice CT scanner;
 Post-myelography axial contiguous scanning of whole spine with sagittal and coronal reformatted images
@@ -1591,10 +1551,8 @@ Return
 
 ;; srMRSPT
 ::srmrspt::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Lumbar spine localization (sagittal T2WI)
@@ -1651,10 +1609,8 @@ Return
 
 ;; srSPINE-whole-MR-CE
 ::srspinewholemrce::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 TECHNIQUE:
 1.5 Tesla scanner
 Cervical spine localization (sagittal T2WI)

@@ -92,9 +92,6 @@ PRESERVE_CLIPBOARD := 0
   #Include MyScripts\spg.ahk
   #Include MyScripts\bone-density.ahk
 
-  ;;; HotKeys
-  #Include MyScripts\hotkey\delete-current-line.ahk
-
   ;;; Gui
   #Include MyScripts\gui-common.ahk
 #IfWinActive
@@ -102,15 +99,9 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\debug.ahk
 
 ; HotKeys Lib
-#Include MyScripts\hotkey\change-font.ahk
-#Include MyScripts\hotkey\copy-order.ahk
 #Include MyScripts\hotkey\get-side-str.ahk
-#Include MyScripts\hotkey\convert-case.ahk
 #Include MyScripts\hotkey\reorder-selected-text.ahk
 #Include MyScripts\hotkey\remapping-original-hotkeys.ahk
-#Include MyScripts\hotkey\get-mesa-scale.ahk
-#Include MyScripts\hotkey\open-in-osirix.ahk
-#Include MyScripts\hotkey\copy-helios-report-into-notepad.ahk
 #Include MyScripts\hotkey\backup-helios-report-to-file.ahk
 #Include MyScripts\hotkey\start-edit-after-ready.ahk
 #Include MyScripts\hotkey\selecting-tabs.ahk
@@ -127,21 +118,9 @@ PRESERVE_CLIPBOARD := 0
 ; Define hotkeys
 #IfWinActive ahk_group Helios
 
-; 將選取的文字改為字首大寫
-^!t::
-  ConvertSelectedTextToSentenceCase()
-Return
-
-; CopyIndication
-^i::
-Capslock & i::
-  MyOrderDiag := CopyOrder()
-  Paste(MyOrderDiag)
-Return
-
 ; Delete current line
 ^y::
-  DeleteCurrentLine()
+  Send {Home}+{End}
 Return
 
 ; Reorder Seleted Text
@@ -167,19 +146,6 @@ Return
 ; Second Unorder Seleted Text
 ^!+u::
   ReorderSeletedText(false, true, "  >")
-Return
-
-^!c::
-  CopyHeliosReportIntoNotepad()
-Return
-
-; Get Mesa Scale
-^!m::
-  GetMesaScale()
-Return
-
-^+o::
-  OpenCurrentAccNoInOsiriX()
 Return
 #IfWinActive  ; ahk_group Helios
 

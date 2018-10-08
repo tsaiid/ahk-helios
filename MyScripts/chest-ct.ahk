@@ -230,12 +230,10 @@ Return
 
 ;; Congenital Heart Disease
 ::cctchd::
-  MyOrder := CopyOrder()
   MyForm =
 (
 MDCT FOR CONGENITAL HEART DISEASE PERFORMED WITH 64-SLICE CT SCANNER
 Total DLP:
-INDICATION: %MyOrder%
 
 COMPARISON:
 Applicable previous CT of chest: no

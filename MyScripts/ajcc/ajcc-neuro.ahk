@@ -2,10 +2,8 @@
 
 ;; Oral-CT-AJCC7
 ::tsoralct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Non-contrast and (2) Contrast enhancement
 SCAN RANGE: Axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -78,10 +76,8 @@ Return
 
 ;; Oral-MR-AJCC7
 ::tsoralmr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
@@ -159,10 +155,8 @@ Return
 
 ;; NPC-CT-AJCC
 ::tsnpcct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -240,10 +234,8 @@ Return
 
 ;; NPC-MR-AJCC
 ::tsnpcmr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
@@ -339,10 +331,8 @@ Return
 
 ;; Larynx-CT-AJCC
 ::tslarct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Noncontrast and (2) Post-contrast enhancement
 SCAN RANGE: axial plane from the skull base to the low neck with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -400,10 +390,8 @@ Return
 
 ;; Larynx-MR-JACC
 ::tslarmr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T/3.0-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI, Axial T1WI and T2WI with fat suppression, Coronal T1WI and T2WI with fat suppression, Post Gd-enhanced dynamic and conventional T1WI with
 fat suppression
@@ -463,10 +451,8 @@ Return
 
 ;; Hypo-CT-AJCC
 ::tshypoct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -512,10 +498,8 @@ Return
 
 ;; Hypo-MR-AJCC
 ::tshypomr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI,
 Axial T1WI and T2WI with fat suppression,
@@ -564,10 +548,8 @@ Return
 
 ;; Salivary-CT-AJCC
 ::tssalct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -614,10 +596,8 @@ Return
 
 ;; Salivary-MR-AJCC
 ::tssalmr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI,
 Axial T1WI and T2WI with fat suppression,
@@ -667,10 +647,8 @@ Return
 
 ;; Oroph-CT-AJCC
 ::tsorophct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction
@@ -732,10 +710,8 @@ Return
 
 ;; Oroph-MR-AJCC
 ::tsorophmr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the skull base and neck was performed with a 1.5-T scanner:
 TECHNIQUE: Sagittal T1WI and T2WI,
    Axial T1WI and T2WI with fat suppression,
@@ -802,10 +778,8 @@ Return
 
 ;; Thy-CT-AJCC
 ::tsthyct::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 CT scan of head and neck was performed with a multi-slice CT scanner:
 TECHNIQUE: (1) Non-contrast and (2) Contrast-enhanced
 SCAN RANGE: Axial plane from the skull base to the thoracic inlet with 5-mm continuous scan slice thickness and coronal reconstruction

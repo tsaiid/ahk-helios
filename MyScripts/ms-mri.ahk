@@ -23,12 +23,9 @@
 
 ;; MRI of Knee
 ::mrk::
-  MyOrder := CopyOrder()
   TheSide := GetSideStr(MyOrder)
   MyForm =
 (
-INDICATION: %MyOrder%
-
 MRI of %TheSide% knee in
 sagittal localizer: SE T1WI
 oblique coronal plane:  fat-suppressed FSE PDWI
@@ -65,11 +62,8 @@ Return
 
 ; MRI of wrist
 ::mrwr::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
-
 MRI of right/left wrist in
 coronal plane: SE T1WI, fat-suppressed FSE PDWI, post contrast T1WI
 axial plane: SE T1WI, fat-suppressed FSE T2WI, post contrast T1WI

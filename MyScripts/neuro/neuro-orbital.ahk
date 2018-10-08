@@ -209,10 +209,8 @@ Return
 
 ;; MRO1
 ::mro1::
-  MyOrder := CopyOrder()
   MyForm =
 (
-INDICATION: %MyOrder%
 MRI of the orbit performed with Sagittal T1WI (localizer)
 Axial T1WI and FSE T2WI with Fat sat
 Coronal T1WI and FSE T2WI with Fat sat
