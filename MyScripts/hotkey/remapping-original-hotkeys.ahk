@@ -109,7 +109,7 @@ Return
     Send ^+1
   }
 Return
-#IfWinActive
+#IfWinActive  ; ahk_group Helios
 
 ;; Only specific to the main Helios window
 #IfWinActive ahk_exe Helios.exe
@@ -127,6 +127,29 @@ Return
 
 ^r::
   Send ^+r
+Return
+
+Esc:: ;; use ESC to close some windows
+  If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
+    ;MsgBox, cancel
+    ControlClick, Button2
+    Sleep, 500
+    If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
+      ControlGet, ControlHwnd, Hwnd, , Button2
+      MsgBox % ControlHwnd
+    }
+  } Else If (WinActive("醫師報告 ahk_exe Helios.exe")) {
+    hHeliosReportSumWnd := WinExist("醫師報告 ahk_exe Helios.exe")
+    If (hHeliosReportSumWnd) {
+      reportSumWinCloseBtnObj := Acc_Get("Object", "4.1", 0, "ahk_id " hHeliosReportSumWnd)
+      reportSumWinCloseBtnObj.accDoDefaultAction(0)
+    }
+  } Else If (WinActive("SOA ahk_exe Helios.exe")) {
+    WinClose
+  } Else {
+    ;MsgBox, else
+    Send {Esc}
+  }
 Return
 
 /*
@@ -162,10 +185,11 @@ Return
   }
 Return
 */
-#IfWinActive
+#IfWinActive  ; ahk_exe Helios.exe
 
 ;; Edit report
-AppsKey::
+;AppsKey::
+SC029::
   Send ^+t
   WinGet, hWnd, ID, Helios
   If (hWnd) {
@@ -178,6 +202,10 @@ AppsKey::
     }
   }
 Return
+
+;; for JIS keyboard
+SC07B::LButton
+SC079::RButton
 
 /*
 ; Need to handle the global hotkey ^t from Helios
