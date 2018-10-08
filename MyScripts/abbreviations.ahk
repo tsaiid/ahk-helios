@@ -51,6 +51,7 @@
 ;; CV
 ::ivc::inferior vena cava
 ::svc::superior vena cava
+::pa::pulmonary artery
 
 ;; Bone
 ::msk::musculoskeletal
@@ -217,6 +218,7 @@
 ::npc::nasopharyngeal cancer
 ::iac::internal acoustic canal
 ::eac::external acoustic canal
+::hfi::hyperostosis frontalis interna
 
 ;; Spine
 ::aars::atlantoaxial rotary subluxation
@@ -257,7 +259,7 @@
 ::afl::air-fluid level
 ::bfl::blood-fluid level
 ::wnl::within normal limits
-::prev::previous
+::prev::previous `
 ::htn::hypertension
 ::phtn::portal hypertension
 ::a::artery

@@ -170,9 +170,9 @@
 ::hm::hypermobility
 ::nhm::No obvious hypermobility.
 ::noas::No obvious squaring of the vertebral bodies.
-::gvr::genu varus
+::gvr::genu varum
 ::gvg::genu valgus
-::hvr::hallux varus
+::hvr::hallux varum
 ::hvg::hallux valgus
 ::if::internal fixation
 ::ef::external fixation
@@ -294,7 +294,7 @@ Plain Film of Cervical Spine:
 
 - Osteophyte formation:
 - Disk space narrowing:
-- Prominent unco-vertebral joint:
+- Prominent uncovertebral joint:
 - Encroachment of neuroforamen:
 - Anterolisthesis: nil
 - Retrolisthesis: nil

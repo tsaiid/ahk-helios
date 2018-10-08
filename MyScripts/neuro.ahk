@@ -13,6 +13,7 @@
 ::sae::Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae::Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+::msae2::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae3::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered. Several tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo::Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
 ::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
@@ -58,7 +59,7 @@
 ::f-p::fronto-parietal `
 ::f-t-p::fronto-temporo-parietal `
 ::f-t::fronto-temporal `
-::p-o::parieto-occipital `
+::p-o::parietooccipital `
 ::t-p::temporo-parietal `
 ::t-o::temporo-occipital `
 ::f-::frontal `
@@ -72,10 +73,10 @@
 ::bgd::bulging disc
 ::prd::protrusion disc
 ::hrd::herniation disc
-::postcen::postero-central `
-::postlat::postero-lateral `
-::lpl::left postero-lateral `
-::rpl::right postero-lateral `
+::postcen::posterocentral `
+::postlat::posterolateral `
+::lpl::left posterolateral `
+::rpl::right posterolateral `
 ::lfh::ligament flavum hypertrophy
 ::fjh::facet joint hypertrophy
 ::retr::retrolisthesis
@@ -301,7 +302,7 @@ Previous MRI of brain: none
 Findings:
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 

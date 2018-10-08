@@ -4,6 +4,7 @@
 ::ifo::in favor of `
 ::mfo::more favor of `
 ::acw::as compared with `
+::acwpi::as compared with the previous images, `
 ::cpf::compression fracture
 ::cmf::comminuted fracture `
 ::bfr::burst fracture `
@@ -46,12 +47,12 @@
 ::msbe::malignancy should be excluded.
 ::m::multiple `
 ::mf::multifocal `
-::ml::multiloculated `
+::ml::multilocular `
 ::mp::most prominent at `
 ::s::several `
 ::n::nodule
-::nr::nodular
-::lr::linear
+::nr::nodular `
+::lr::linear `
 ::cn::calcified nodule
 ::cg::calcified granuloma
 ::rol::radiopaque lesion
@@ -74,7 +75,7 @@
 ::pr::partial response
 ::cr::complete response
 ::ap::arterial phase
-::pvp::portovenous phase
+::pvp::portal venous phase
 ::dp::delayed phase
 ::ep::equilibrium phase
 ::hbp::hepatobiliary phase
@@ -103,10 +104,6 @@
 
 :c:f::findings
 :c:IND::INDICATION:
-:c:IND1::
-  indicationStr := "INDICATION: " . CopyOrder()
-  Paste(indicationStr)
-Return
 ;:c:CMP::COMPARISON: ^+1
 :c:CMP::
   Send, COMPARISON: %prevExamDate%
@@ -127,17 +124,18 @@ Return
 ::fu0::follow-up
 ::ccfu::Suggest clinical correlation and follow-up.
 ::fufe::Suggest follow-up or further evaluation.
+::cpes::Suggest correlate with panendoscopy.
 ::csono::Suggest correlate with sonography.
-
 ::ctrus::Suggest correlate with transrectal ultrasonography.
 ::cdsa::Suggest correlate with DSA.
 ::clab::Suggest correlate with Lab data.
-::coim::Suggest correlate with other imaging modality.
+::coi::Suggest correlate with other imaging modality.
 ::cbs::Suggest correlate with bone scan.
 ::cercp::Suggest correlate with ERCP.
 ::cmrcp::Suggest correlate with MRCP.
 ::sgyn::Suggest GYN check-up.
 ::scmp::Suggest compare with previous images if available.
+::slr3::Suggest repeat or alternative diagnostic imaging 3-6 months later.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.

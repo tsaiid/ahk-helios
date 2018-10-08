@@ -198,7 +198,7 @@ No evidence of soft tissue density over bilateral middle ear, aditus, or mastoid
 
 No evidence of soft tissue opacification in bilateral mastoid air sinuses.
 
-Bilateral cochlear and semicircular canals show no obvious abnormalities.
+The bilateral ossicle chains, cochlear and semicircular canals show no obvious abnormalities.
 
 No osteolytic foci around the cochlear noted, and thus no CT imaging evidence of cochlear otosclerosis.
 

@@ -2,7 +2,8 @@
 
 ;; Hotstrings
 ::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
-::amrmfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
+::amrfl::Marked diffuse signal drop between the in- and opposed-phase images, suggestive of hepatic steatosis.
+::mamrfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
 
 ;; General
 ::amrpan::
@@ -68,7 +69,7 @@ FINDINGS:
 Liver:
   > S/p right hepatectomy. Hypertrophic change of the lateral segment.
   > Cirrhotic change: nil, portosystemic collaterals (-)
-  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portovenous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
   > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
 
 Adrenals: Unremarkable
@@ -107,7 +108,7 @@ FINDINGS:
 Liver:
   > S/p right hepatectomy. Hypertrophic change of the lateral segment.
   > Cirrhotic change: nil, portosystemic collaterals (-)
-  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portovenous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
   > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
 
 Adrenals: Unremarkable

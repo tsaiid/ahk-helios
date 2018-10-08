@@ -152,7 +152,10 @@ No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
 
+No definite bony lesion in the skull.
 No obvious fracture of the skull base and the skull.
+
+The visible paranasal sinuses and mastoids are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -183,6 +186,7 @@ No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 No obvious fracture of the skull base and the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -384,7 +388,8 @@ diffuse edema with effacement of the CSF-containing spaces
 decreased bilateral basal ganglia attenuation
 reversal of the normal CT attenuation of grey and white matter (reversal sign)
 diffuse edema and hypoattenuation of the cerebral hemispheres with sparing of the cerebellum and brainstem (white cerebellum sign)
-Diffuse loss of gray-white matter differentiation over the cerebra and cerebella. Hypoxic-ischaemic encephalopathy is suspected.
+engorgement and dilatation of the superficial venous structures with blood-filled hyperdense subarachnoid space (pseudo-SAH sign).
+Diffuse loss of gray-white matter differentiation over the cerebra and cerebella. Hypoxic-ischemic encephalopathy is suspected.
 
 No definite abnormal mass lesion in the brain noted.
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
@@ -398,7 +403,7 @@ No obvious fracture of the skull base and the skull.
   SleepThenTab()
   MyForm =
 (
-Hypoxic-ischaemic encephalopathy is suspected.
+Hypoxic-ischemic encephalopathy is suspected.
 )
   Paste(MyForm)
 Return

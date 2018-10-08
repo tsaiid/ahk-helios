@@ -19,6 +19,7 @@
 ::actaps::A small wedge-shaped subcapsular enhancement at S_ of liver, in favor of AP shunting.
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
+::acthcc::A -cm nodule over S of liver, shows arterial phase hyperenhancement, washout and enhancing capsule in portal venous phase, suggestive of hepatocellular carcinoma.
 ::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal, in favor of adenoma.
 ::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
@@ -34,10 +35,10 @@
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhanced parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
-::actmfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
+::mactfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
 ::actc::Irregular surface of the liver with nodularities, indicating cirrhosis.
 ::mactc::Mild irregular surface of the liver with nodularities, suspicious mild cirrhosis.
-::actcc::Wall thickening of the urinary bladder with trabeculation without perivesicular fat stranding, suggestive of chronic cystitis.
+::actcc::Wall thickening of the urinary bladder with trabeculation without perivesical fat stranding, suggestive of chronic cystitis.
 ::nifa::No evidence of intraperitoneal free air.
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
@@ -54,6 +55,8 @@
 ::macds::Minimal amount of ascites in the Cul-de-sac.
 ::wtsme::wall thickening and submucosal edema
 ::pcfs::pericholecystic fat stranding
+::lkuok::The left kidney and ureter are unremarkable.
+::rkuok::The right kidney and ureter are unremarkable.
 
 ;; forms
 ::act::
@@ -191,8 +194,8 @@ Previous abdominal CT: none.
 
 FINDINGS:
 A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
-Small amount of ascites in the rectovesical pouch.
-Small amount of ascites in the Cul-de-sac.
+Small amount of ascites in the recto-vesical pouch.
+Small amount of ascites in the cul-de-sac.
 No obvious ascites is noted.
 No evidence of intraperitoneal free air.
 
@@ -280,6 +283,7 @@ Previous abdominal CT: none.
 FINDINGS:
 - Mild wall thickening and submucosal edema over the ascending colon, with mesocolic fat stranding, most likely diverticulitis.
 - Small amount of ascites in the pelvis and right paracolic gutter.
+- No obvious ascites.
 - No evidence of intraperitoneal free air.
 
 - The appendix is normal.
@@ -394,13 +398,13 @@ Lower lungs: Unremarkable
   Paste(MyForm)
 Return
 
-::acthcc::
+::actliv::
   MyForm =
 (
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
-Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portal venous phases.
 
 Previous abdominal CT: none.
 
@@ -427,13 +431,13 @@ Lower lungs: Unremarkable
   Paste(MyForm)
 Return
 
-::acthccf::
+::actlivf::
   MyForm =
 (
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial, portovenous, and equilibrium phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial, portal venous, and equilibrium phases.
 
 Previous abdominal CT: none.
 
@@ -446,13 +450,13 @@ Return
 
 ;; Infiltrative HCC
 ;;; 1011800
-::acthccihcc::
+::actlivihcc::
   MyForm =
 (
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
-Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portal venous phases.
 
 Previous abdominal CT: none.
 
@@ -461,7 +465,7 @@ Liver:
 - Cirrhotic change: yes; portosystemic collaterals: yes
 - Large ill-defined infiltrative tumor involving the S1-2-3-4-5-8 of the liver.
 - Tumor thrombosis in the engorged left and main portal veins, which nearly cross to the right portal vein. Some blood clots at the proximal part of main portal vein.
-- The arterial and portovenous phases show heterogeneous nodular and linear hypo-enhancement pattern in the main tumor, while the tumor thrombi show heterogeneous arterial phase hyper-enhancement.
+- The arterial and portal venous phases show heterogeneous nodular and linear hypo-enhancement pattern in the main tumor, while the tumor thrombi show heterogeneous arterial phase hyper-enhancement.
 > Infiltrative HCC is considered.
 
 Adrenals: Unremarkable
@@ -775,6 +779,7 @@ Kidneys and Ureters:
 Kidneys: No hydronephrosis.
 Ureters: No definite stone-like radiopacity along the urinary tract. No hydroureter.
 Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
+Urinary bladder: Unremarkable
 
 No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
 
@@ -869,7 +874,7 @@ TECHNIQUE description:
    Scanning range: Liver to symphysis, 5-mm contiguous scan. Supine and prone positions.
    Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 
-Previous similar study reviewed/comparison: Yes. (<date>) | NONE
+Previous similar study reviewed/comparison: NONE
 
 FINDINGS:
 Rectal tumor
@@ -897,7 +902,7 @@ N1c: Tumor deposit(s) in the subserosa, mesentery, or non-peritonealized pericol
 N2a: Metastasis in 4 to 6 regional lymph nodes
 N2b: Metastasis in 7 or more regional lymph nodes
 
-Liver: a small hepatic cyst at S2.
+Liver: unremarkable
 Adrenals: unremarkable
 Kidneys: unremarkable
 Spleen: unremarkable
@@ -1036,7 +1041,7 @@ INDICATION: PCU
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
 Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portovenous phases.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with arterial and portal venous phases.
 
 Previous abdominal CT: none.
 
