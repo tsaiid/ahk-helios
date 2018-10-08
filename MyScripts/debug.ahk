@@ -1,25 +1,6 @@
 ﻿; for debug
 #IfWinActive ahk_exe Helios.exe
-Esc::
-  If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
-    ;MsgBox, cancel
-    ControlClick, Button2
-    Sleep, 500
-    If (WinActive("IS Cancel?? ahk_exe Helios.exe") || WinActive("IS Edit?? ahk_exe Helios.exe")) {
-      ControlGet, ControlHwnd, Hwnd, , Button2
-      MsgBox % ControlHwnd
-    }
-  } Else If (WinActive("醫師報告 ahk_exe Helios.exe")) {
-    hHeliosReportSumWnd := WinExist("醫師報告 ahk_exe Helios.exe")
-    If (hHeliosReportSumWnd) {
-      reportSumWinCloseBtnObj := Acc_Get("Object", "4.1", 0, "ahk_id " hHeliosReportSumWnd)
-      reportSumWinCloseBtnObj.accDoDefaultAction(0)
-    }
-  } Else {
-    ;MsgBox, else
-    Send {Esc}
-  }
-Return
+
 #IfWinActive
 
 #IfWinActive ahk_group Helios
@@ -27,33 +8,6 @@ Return
 ^7::
 	CoordMode, Mouse, Screen
   ;MsgBox % A_CoordModeMouse
-Return
-
-
-SelectAbnormalValue(abnKey="B") {
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  if (hHeliosWnd) {
-    abnValAccPath := { 0:  "4.9.10.2"
-                      ,A:  "4.9.10.3"
-                      ,B:  "4.9.10.4"
-                      ,C:  "4.9.10.5"
-                      ,D:  "4.9.10.6"
-                      ,R:  "4.9.10.7" }
-    abnormalValueObj := Acc_Get("Object", abnValAccPath[abnKey], 0, "ahk_id " hHeliosWnd)
-    abnormalValueObj.accSelect(0x3, 0)
-  }
-}
-
-!0::
-  SelectAbnormalValue("0")
-Return
-
-!1::
-  SelectAbnormalValue("A")
-Return
-
-!2::
-  SelectAbnormalValue("B")
 Return
 
 CopyPrevSimilarReport() {
@@ -227,30 +181,6 @@ ShowPrevReportWindow() {
 PrevReportGuiGuiEscape:
   Gui, Destroy
 Return
-
-GetCurrAccnoFromGeUv(debugInfo=True) {
-  GEUVhWnd := WinExist("ahk_exe Miv2Lib.exe")
-  ;WinGet, hWnd, ID, Helios
-
-  If (GEUVhWnd) {
-    WinGetTitle, WinTitle, ahk_id %GEUVhWnd%
-    If (RegExMatch(WinTitle, "存取編號:(\w+)" , OutputVar)) {
-      ;MsgBox % OutputVar1
-      ;Clipboard := OutputVar1
-      Return OutputVar1
-    } Else {
-      If (debugInfo) {
-        MsgBox, "No Accno Info: %WinTitle%"
-      }
-      Return False
-    }
-  } Else {
-    If (debugInfo) {
-      MsgBox, No existing GeUv window.
-    }
-    Return False
-  }
-}
 
 ; Remap Kana Key
 SC070::
