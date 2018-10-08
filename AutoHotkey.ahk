@@ -120,7 +120,7 @@ PRESERVE_CLIPBOARD := 0
 
 ; Delete current line
 ^y::
-  Send {Home}+{End}
+  Send {Home}+{End}{Del}
 Return
 
 ; Reorder Seleted Text
