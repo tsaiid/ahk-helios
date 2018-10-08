@@ -115,6 +115,7 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\hotkey\start-edit-after-ready.ahk
 #Include MyScripts\hotkey\selecting-tabs.ahk
 #Include MyScripts\hotkey\get-curr-accno-from-ge-uv.ahk
+#Include MyScripts\hotkey\selecting-abnormal-value.ahk
 
 ; Mouse Macro
 #Include MyScripts\mouse\magnify-ge-uv-grid.ahk
@@ -180,8 +181,22 @@ Return
 ^+o::
   OpenCurrentAccNoInOsiriX()
 Return
+#IfWinActive  ; ahk_group Helios
 
-#IfWinActive
+
+#IfWinActive ahk_exe Helios.exe
+!0::
+  SelectAbnormalValue("0")
+Return
+
+!1::
+  SelectAbnormalValue("A")
+Return
+
+!2::
+  SelectAbnormalValue("B")
+Return
+#IfWinActive  ; ahk_exe Helios.exe
 
 ^!t::
   FileEncoding, UTF-8

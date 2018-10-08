@@ -14,12 +14,18 @@ FINDING_SCROLLBAR_DOWN_PATH     := "4.9.31.2.3"
 FINDING_SCROLLBAR_UP_PATH       := "4.9.31.2.4"
 IMPRESSION_SCROLLBAR_DOWN_PATH  := "4.9.34.1.3"
 IMPRESSION_SCROLLBAR_UP_PATH    := "4.9.34.1.4"
-ABNORMAL_VALUE_EMPTY            := "4.9.10.2"
-ABNORMAL_VALUE_A                := "4.9.10.3"
-ABNORMAL_VALUE_B                := "4.9.10.4"
-ABNORMAL_VALUE_C                := "4.9.10.5"
-ABNORMAL_VALUE_D                := "4.9.10.6"
-ABNORMAL_VALUE_R                := "4.9.10.7"
+__ABNORMAL_VALUE_EMPTY            := "4.9.10.2"
+__ABNORMAL_VALUE_A                := "4.9.10.3"
+__ABNORMAL_VALUE_B                := "4.9.10.4"
+__ABNORMAL_VALUE_C                := "4.9.10.5"
+__ABNORMAL_VALUE_D                := "4.9.10.6"
+__ABNORMAL_VALUE_R                := "4.9.10.7"
+ABNORMAL_VALUE_PATH := {  0:  __ABNORMAL_VALUE_EMPTY
+                         ,A:  __ABNORMAL_VALUE_A
+                         ,B:  __ABNORMAL_VALUE_B
+                         ,C:  __ABNORMAL_VALUE_C
+                         ,D:  __ABNORMAL_VALUE_D
+                         ,R:  __ABNORMAL_VALUE_R      }
 PREV_REPORT_TAB_PATH            := "4.7.2.1"
 LIS_TAB_PATH                    := "4.7.2.2"
 EXAM_TAB_PATH                   := "4.7.2.3"
