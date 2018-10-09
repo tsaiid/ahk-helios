@@ -138,9 +138,15 @@ Return
 Under sonography guidance, the hypoechoic lesion was localized at S4 of liver.
 The skin was prepared and the area was draped.
 Under local anesthesia, a 6 Fr one-step pigtail catheter (without safety lock) was placed transhepatically into the abscess.
-Milky pus about 5 ml was aspirated.
+Milky pus about 10 ml was aspirated. (10 ml was collected for Lab study.)
 Then, the drain was fixed with 3-0 Nylon.
 The whole procedure was smooth, the patient tolerated well, and no immediate complication was noted.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Percutaneous drain for liver abscess was performed.
 )
   Paste(MyForm)
 Return

@@ -56,12 +56,12 @@
 ::ctmcm::Prominent retrocerebellar cerebrospinal fluid space with normal vermis, 4th ventricle, and cerebellar hemispheres, in favor of mega cisterna magna.
 ::epc::endplate change
 ::ctnph::Enlarged lateral and third ventricles, with relatively normal 4th ventricle. Ventricular enlargement out of proportion to cortical sulcal enlargement, and presence of bilateral periventricular low density. Normal pressure hydrocephalus may be suspected. DDx: normal aging brain.
-::f-p::fronto-parietal `
-::f-t-p::fronto-temporo-parietal `
-::f-t::fronto-temporal `
+::f-p::frontoparietal `
+::f-t-p::frontotemporoparietal `
+::f-t::frontotemporal `
 ::p-o::parietooccipital `
-::t-p::temporo-parietal `
-::t-o::temporo-occipital `
+::t-p::temporoparietal `
+::t-o::temporooccipital `
 ::f-::frontal `
 ::p-::parietal `
 ::t-::temporal `
