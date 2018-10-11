@@ -10,35 +10,6 @@
   ;MsgBox % A_CoordModeMouse
 Return
 
-CopyPrevSimilarReport() {
-  accno := GetCurrAccnoFromGeUv()
-  if (accno) {
-    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
-    ;MsgBox, % (r = -1) ? "successful" : (r = 0) ? "Timeout" : "No response"
-    ;MsgBox, % InOutData
-    ;MsgBox, % InOutHeaders
-    parsedResult := JSON.Load(InOutData)
-    ;MsgBox % parsedResult.report.accno
-    ;MsgBox % parsedResult.info[1]
-    If (parsedResult.report.accno) {
-      global prevExamDate
-      prevExamDate := StrSplit(parsedResult.report.examdate, A_Space)[1]
-      hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-      if (hHeliosWnd) {
-        WinActivate, ahk_exe Helios.exe
-        Send ^+t
-        ;Sleep 1000
-        findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
-        impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
-        findingObj.accValue(0) := findingObj.accValue(0) . parsedResult.report.findings
-        impObj.accValue(0) := impObj.accValue(0) . parsedResult.report.impression
-      }
-    } Else {
-      MsgBox, No Similar Report.
-    }
-  }
-}
-
 InsertAutoReport(debugInfo=True) {
   accno := GetCurrAccnoFromGeUv()
   if (accno) {
@@ -84,23 +55,6 @@ InsertAutoReport(debugInfo=True) {
     }
   }
 }
-
-$^0::
-  CopyPrevSimilarReport()
-Return
-
-$^+0::
-  accno := GetCurrAccnoFromGeUv()
-  if (accno) {
-    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
-    parsedResult := JSON.Load(InOutData)
-    If (parsedResult.report.accno) {
-      MsgBox % parsedResult.report.findings "`r`n----`r`n" parsedResult.report.impression
-    } Else {
-      MsgBox, No Similar Report.
-    }
-  }
-Return
 
 $^8::
   ShowPrevReportWindow()

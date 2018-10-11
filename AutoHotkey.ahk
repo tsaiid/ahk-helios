@@ -107,6 +107,7 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\hotkey\selecting-tabs.ahk
 #Include MyScripts\hotkey\get-curr-accno-from-ge-uv.ahk
 #Include MyScripts\hotkey\selecting-abnormal-value.ahk
+#Include MyScripts\hotkey\copy-prev-similar-report.ahk
 
 ; Mouse Macro
 #Include MyScripts\mouse\magnify-ge-uv-grid.ahk
@@ -161,6 +162,23 @@ Return
 
 !2::
   SelectAbnormalValue("B")
+Return
+
+$^0::
+  CopyPrevSimilarReport()
+Return
+
+$^+0::
+  accno := GetCurrAccnoFromGeUv()
+  if (accno) {
+    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    parsedResult := JSON.Load(InOutData)
+    If (parsedResult.report.accno) {
+      MsgBox % parsedResult.report.findings "`r`n----`r`n" parsedResult.report.impression
+    } Else {
+      MsgBox, No Similar Report.
+    }
+  }
 Return
 #IfWinActive  ; ahk_exe Helios.exe
 
