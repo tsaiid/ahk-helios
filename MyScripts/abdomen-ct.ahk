@@ -57,6 +57,7 @@
 ::pcfs::pericholecystic fat stranding
 ::lkuok::The left kidney and ureter are unremarkable.
 ::rkuok::The right kidney and ureter are unremarkable.
+::appok::the appendix is normal.
 
 ;; forms
 ::act::

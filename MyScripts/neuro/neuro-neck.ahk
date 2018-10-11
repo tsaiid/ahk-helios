@@ -112,7 +112,7 @@ Small low density within the right tonsil.
 Acute tonsillitis with abscess formation is considered.
 
 Mild left tonsillar enlargement.
-Multiloculated fluid accumulation at left peritonsillar region, with rim enhancement, size about 3 cm, c/w peritonsillar abscesses.
+Multilocular fluid accumulation at left peritonsillar region, with rim enhancement, size about 3 cm, c/w peritonsillar abscesses.
 They extend from oropharyngeal to hypopharyngeal level.
 
 The lingual tonsils also show enlargement.

@@ -7,8 +7,8 @@
 ::mtacal::Mild atherosclerotic change and calcification of aortic wall.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
-::cctcad0::Calcification of the coronary arteries.
-::mcctcad0::Mild calcification of the coronary arteries.
+::cad0::Calcification of the coronary arteries.
+::mcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 ::cctnat::No abnormal air trapping in both inspiratory and expiratory phases.
 ::cctlapok::

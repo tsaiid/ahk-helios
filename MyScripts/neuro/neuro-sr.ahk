@@ -387,7 +387,7 @@ FINDINGS:
 *Oropharynx: normal
 *Hypopharynx: normal
 *Larynx: normal
-*Oral cavity: normal / limited interpretation due to dental artifacts
+*Oral cavity: normal (limited interpretation due to dental artifacts)
 *Thoracic inlet, visualized lung and mediastinum: normal
 
 *Parotid gland: normal
