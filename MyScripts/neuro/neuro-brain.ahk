@@ -542,7 +542,7 @@ Presence of tiny old ischemic infarction involving bilateral basal ganglion regi
 
 Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 
-No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 No definite abnormal signal intensity change in the brain parenchyma.
 No definite abnormal tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
@@ -879,7 +879,7 @@ Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
 Previous MRI of brain: none
 
 FINDINGS:
-The high resolution SWI shows absence of the normal appearance of nigrosome-1 within the substantia nigra (absent swallow tail sign).  C/W Parkinson disease. DDx: dementia with Lewy bodies.
+The high resolution SWI shows normal appearance of the substantia nigra (present swallow tail sign).  No strong evidence of Parkinson disease.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
@@ -898,7 +898,7 @@ MRA shows no significant vascular stenosis in the major intracranial arteries or
   SleepThenTab()
   MyForm =
 (
-1. C/W Parkinson disease. DDx: dementia with Lewy bodies.
+1. No strong evidence of Parkinson disease.
 2. Senile brain atrophy, mild leukoaraiosis.
 )
   Paste(MyForm)

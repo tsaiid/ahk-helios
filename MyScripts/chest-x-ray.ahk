@@ -81,6 +81,7 @@ Return
 ::spster1::Post median sternotomy with wire fixation. Several drains in the thorax.
 ::spc::Surgical clips at RUQ of abdomen, in favor of post cholecystectomy.
 ::spc0::S/P cholecystectomy.
+::spc1::S/P cholecystectomy, with mild secondary dilatation of the biliary tract.
 ::sph0::S/P hysterectomy.
 ::sptae::Lipiodol retention in the liver, probably due to previous TACE.
 ::p/tae::Lipiodol retention in liver.

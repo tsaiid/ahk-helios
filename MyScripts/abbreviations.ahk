@@ -233,6 +233,9 @@
 ::stt::soft tissue thickening
 ::fnac::fine needle aspiration cytology
 
+;; MSK
+::scm::sternocleidomastoid
+
 ;; General
 ::ant::anterior `
 ::post::posterior `

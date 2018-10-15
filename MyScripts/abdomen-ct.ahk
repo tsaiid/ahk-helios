@@ -1009,6 +1009,58 @@ FINDINGS:
   Paste(MyForm)
 Return
 
+::actgcs::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan. Prone and supine.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Enhanced mass lesion at the pyloric ring, causing gastric outlet obstruction and distended stomach with much residual food material. Gastric cancer is suspected. The tumor seems invade to the serosa [T4a].
+
+Numerous enlarged lymph nodes at the suprapyloric (5), infrapyloric (6), left gastric (7), common hepatic (8), celiac (9), retropancreatic (13), mesenteric root (14) stations, suggestive of regional metastatic lymphadenopathy. [N3b]
+
+1	right cardiac
+2	left cardiac
+3	lesser curvature
+4	greater curvature
+5	suprapyloric
+6	infrapyloric
+7	left gastric artery
+8	common hepatic artery
+9	coeliac axis
+10	splenic hilus
+11	splenic artery
+12	hepatoduodenal ligament
+13	the posterior aspect of the pancreas head
+14	root of the mesenterium
+15	mesocolon of the transverse colon
+16	para-aortic lymph
+
+Multiple enlarged lymph nodes at the paraaortic region, down to bifurcation level, suggestive of distant metastatic lymphadenopathy. [M1]
+No evidence of liver or adrenal metastasis.
+No evidence of lung and bone metastasis in the scanning range.
+
+A small hypo-enhanced  nodular lesion at the lower portion of the spleen, probably lymphangioma or hemangioma. DDx: metastasis.
+A relatively hypo-enhanced tubular lesion near the T9 right neuroforamen, probably neurogenic tumor. DDx: metastatic lymphadenopathy.
+
+The gallbladder, pancreas, kidneys, and urinary bladder are unremarkable.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Gastric cancer, prepyloric antrum, with regional lymphadenopathy, causing gastric outlet obstruction.
+)
+  Paste(MyForm)
+Return
+
 ::actgyn::
   MyForm =
 (
