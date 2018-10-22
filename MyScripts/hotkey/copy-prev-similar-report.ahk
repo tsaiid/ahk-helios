@@ -2,6 +2,7 @@
 ;; by web api: https://femhrad.tsai.it/ris/recent-similar-report/{accno}
 ;; Depends on: WinHttpRequest (https://autohotkey.com/boards/viewtopic.php?t=3256)
 ;;             JSON (https://autohotkey.com/boards/viewtopic.php?t=627)
+;;             Acc (https://autohotkey.com/boards/viewtopic.php?t=26201)
 ;;             GetCurrAccnoFromGeUv (own lib)
 
 CopyPrevSimilarReport() {
