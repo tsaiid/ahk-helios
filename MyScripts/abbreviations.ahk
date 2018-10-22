@@ -203,6 +203,7 @@
 ::iicp::increased intracranial pressure
 ::icra::intracranial `
 ::wad::Wallerian degeneration
+::cso::centrum semiovale
 
 ;; Head & Neck
 ::cps::chronic paranasal sinusitis

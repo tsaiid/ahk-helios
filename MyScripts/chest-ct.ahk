@@ -44,23 +44,23 @@ Return
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
 TECHNIQUE:
-  - (1) Noncontrast survey (2) contrast enhancement (inspiration/expiration) were performed
-  - (1) Noncontrast survey (2) contrast enhancement were performed
-  - Scan range: lower neck to adrenal gland
+- (1) Noncontrast survey (2) contrast enhancement (inspiration/expiration) were performed
+- (1) Noncontrast survey (2) contrast enhancement were performed
+- Scan range: lower neck to adrenal gland
 
 COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. Lung: negative
-2. Airway: not unusual for age
-3. Mediastinum: not unusual
-4. Lymph node enlargement > 1 cm: none for age
-5. Pleura: not unusual for age
-6. Pericardium and heart: not unusual for age
-7. Aorta and pulmonary artery: not unusual for age
-8. Chest wall and bony structure: not unusual for age
-9. Upper abdomen and adrenals: not unusual for age
+- Lung: negative
+- Airway: not unusual for age
+- Mediastinum: not unusual
+- Lymph node enlargement > 1 cm: none for age
+- Pleura: not unusual for age
+- Pericardium and heart: not unusual for age
+- Aorta and pulmonary artery: not unusual for age
+- Chest wall and bony structure: not unusual for age
+- Upper abdomen and adrenals: not unusual for age
 )
   Paste(MyForm)
 Return
@@ -72,22 +72,22 @@ Return
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
 TECHNIQUE:
-  - (1) HRCT (inspiration and expiration) (2) Noncontrast survey
-  - (1) Noncontrast survey (inspiration and expiration)
-  - (1) Noncontrast survey
-  - Scan range: lower neck to adrenal gland
+- (1) HRCT (inspiration and expiration) (2) Noncontrast survey
+- (1) Noncontrast survey (inspiration and expiration)
+- (1) Noncontrast survey
+- Scan range: lower neck to adrenal gland
 
 COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. Lung and large airways: no pulmonary nodules.
-2. Pleura: no visible nodularity or pleural thickening.
-3. Great vessels: within normal limits.
-4. Heart: within normal limits.
-5. Mediastinum and hila: no LNs > 1 cm.
-6. Chest Wall and low neck: within normal limits.
-7. Abdomen: within normal limits in visualized range.
+- Lung and large airways: no pulmonary nodules.
+- Pleura: no visible nodularity or pleural thickening.
+- Great vessels: within normal limits.
+- Heart: within normal limits.
+- Mediastinum and hila: no LNs > 1 cm.
+- Chest Wall and low neck: within normal limits.
+- Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
@@ -100,21 +100,21 @@ Return
 CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
 
 TECHNIQUE:
-  - (1) Noncontrast survey
-  - Scan range: lower neck to hip
+- (1) Noncontrast survey
+- Scan range: lower neck to hip
 
 COMPARISON:
 Applicable previous CT of chest: no
 Applicable previous CT of abdomen: no
 
 FINDINGS:
-1. Lung and large airways: no pulmonary nodules.
-2. Pleura: no visible nodularity or pleural thickening.
-3. Great vessels: within normal limits.
-4. Heart: within normal limits.
-5. Mediastinum and hila: no LNs > 1 cm.
-6. Chest Wall and low neck: within normal limits.
-7. Abdomen:
+- Lung and large airways: no pulmonary nodules.
+- Pleura: no visible nodularity or pleural thickening.
+- Great vessels: within normal limits.
+- Heart: within normal limits.
+- Mediastinum and hila: no LNs > 1 cm.
+- Chest Wall and low neck: within normal limits.
+- Abdomen:
   > The liver, spleen, pancreas, adrenals, kidneys, and pelvis are normal.
   > No retroperitoneal or mesenteric lymphadenopathy.
 
@@ -136,15 +136,15 @@ COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. Lung: no remarkable nodular lesions (>0.4 cm).
-2. Mediastinum: no lymph node enlargement > 1 cm.
-3. Heart:
+- Lung: no remarkable nodular lesions (>0.4 cm).
+- Mediastinum: no lymph node enlargement > 1 cm.
+- Heart:
   > Size: normal.
   > Coronary artery calcification: no / minimal.
-4. Great vessels: normal diameter.
-5. Pleura: unremarkable
-6. Chest wall and spine: unremarkable
-7. Upper abdomen: unremarkable
+- Great vessels: normal diameter.
+- Pleura: unremarkable
+- Chest wall and spine: unremarkable
+- Upper abdomen: unremarkable
 )
   Paste(MyForm)
   SleepThenTab()
@@ -162,25 +162,25 @@ Return
 CT scan of the thorax was performed with a multi-slice CT scanner.
 
 TECHNIQUE:
-  - (1) HRCT (inspiration and expiration) (2) Noncontrast survey
-  - (1) Noncontrast survey (inspiration and expiration)
-  - (1) Noncontrast survey
-  - Scan range: lower neck to adrenal gland
+- (1) HRCT (inspiration and expiration) (2) Noncontrast survey
+- (1) Noncontrast survey (inspiration and expiration)
+- (1) Noncontrast survey
+- Scan range: lower neck to adrenal gland
 
 COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-1. Lung and large airways:
+- Lung and large airways:
   > Bilateral subpleural reticulation, interlobular septal thickening, basal honeycombing, suggestive of UIP pattern.
   > Mild bronchiectasis over bilateral lower lungs.
   > No definite extensive ground glass abnormality, micronodules, discrete cysts, diffuse mosaic attenuation, nor consolidation.
-2. Pleura: no visible nodularity or pleural thickening.
-3. Great vessels: within normal limits.
-4. Heart: within normal limits.
-5. Mediastinum and hila: no LNs > 1 cm.
-6. Chest Wall and low neck: several small nodules with calcifications in the thyroid. Suggest correlate with sonography.
-7. Abdomen: within normal limits in visualized range.
+- Pleura: no visible nodularity or pleural thickening.
+- Great vessels: within normal limits.
+- Heart: within normal limits.
+- Mediastinum and hila: no LNs > 1 cm.
+- Chest Wall and low neck: several small nodules with calcifications in the thyroid. Suggest correlate with sonography.
+- Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
@@ -200,9 +200,9 @@ Return
 CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
 
 TECHNIQUE:
-  - (1) non-contrast (2) contrast enhancement for CT angiography
-  - Scan range: target vessel
-  - Contrast medium: IV route, rate: as fast as IV route allowed
+- (1) non-contrast (2) contrast enhancement for CT angiography
+- Scan range: target vessel
+- Contrast medium: IV route, rate: as fast as IV route allowed
 
 COMPARISON:
 Applicable previous CT of chest: no

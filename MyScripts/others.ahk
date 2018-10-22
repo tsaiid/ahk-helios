@@ -17,6 +17,7 @@
 ::ntbd::nature to be determined.
 ::stbd::significance to be determined.
 ::ctbd::cause to be determined.
+::otbd::origin to be determined.
 ::het::heterogeneous `
 ::hom::homogenous `
 ::p::presence of `

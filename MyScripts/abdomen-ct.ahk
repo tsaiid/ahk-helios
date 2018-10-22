@@ -195,6 +195,8 @@ Previous abdominal CT: none.
 
 FINDINGS:
 A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
+A dilated appendix, diameter about 0.9 cm, with mild hyperemic change. Although no mesoappendiceal fat stranding is noted, early change of acute appendicitis is still suspected. Suggest clinical correlation.
+
 Small amount of ascites in the recto-vesical pouch.
 Small amount of ascites in the cul-de-sac.
 No obvious ascites is noted.
@@ -413,6 +415,7 @@ FINDINGS:
 Liver:
 cirrhotic change: nil, portosystemic collaterals (-)
 vessel invasion: Nil
+The major portal and hepatic veins are patent.
 
 Extrahepatic spread: No.
 Regional lymphadenopathy: No
@@ -535,6 +538,7 @@ Pancreas:
 - The peripancreatic fat is relatively normal.
 - No peripancreatic fluid accumulation.
 - The pancreatic duct is dilated.
+- The pancreatic duct is normal.
 
 * Modified CTSI score:
 - Pancreatic inflammation
@@ -559,9 +563,6 @@ Biliary tree:
 - Relatively high-attenuation gallbladder content, suggestive of GB sludge.
 - No GB wall thickening.
 
-Regional lymphadenopathy: No
-Non-regional lymphadenopathy: No
-
 Adrenals: Unremarkable
 Liver: Unremarkable
 Spleen: Unremarkable
@@ -569,8 +570,10 @@ Kidneys and ureters: Unremarkable
 Urinary bladder: Unremarkable
 GI tract: Unremarkable
 
+No retroperitoneal or mesenteric lymphadenopathy.
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+
 Lower lungs: Unremarkable
-Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
   SleepThenTab()
@@ -885,14 +888,15 @@ Colon tumor
 - Maximal thickness:
 
 T-stage of the tumor
-[T1 (tumor invades the submucosa]]
-[T2 (tumor invades the muscularis propria]]
-[T3 (tumor invades the perirectal fat]]
-[T4a: Tumor penetrates to the surface of the visceral peritoneum]
-[T4b: Tumor directly invades or is adherent to other organs or structures ]
+- Tumor invades the submucosa [T1]
+- Tumor invades the muscularis propria [T2]
+- Tumor invades the perirectal fat [T3]
+- Tumor penetrates to the surface of the visceral peritoneum [T4a]
+- Tumor directly invades or is adherent to other organs or structures [T4b]
 
 Lymph nodes:
 - One enlarged lymph node at the pericolic region (Se/Im: 3/24).
+- No pericolic lymphadenopathy [N0].
 - No retroperitoneal or mesenteric root lymphadenopathy.
 
 Lymph nodes: [No enlarged nodes / number and size of the lymph nodes in the perirectal space as well as along the major pelvic vessels]
@@ -1298,6 +1302,37 @@ Subsegmental atelectasis over bilateral lower lungs.
 (
 1. Diffuse edematous change of the GI tract. DDx: Portal hypertensive gastropathy / enteropathy / colopathy, acute gastroenterocolitis, pseudomembranous colitis (may not involve stomach and small intestine). Suggest clinical correlation.
 2. Cirrhosis, splenomegaly, ascites. Suspicious portal hypertension.
+)
+  Paste(MyForm)
+Return
+
+; Small bowel obstruction
+::actsbo::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Dilated small bowel loops with small bowel feces sign, suggestive of bowel obstruction, with a transitional zone at the distal ileum (Se/Im: 4/72, 6/28), and collapse of its distal portion and the colon. Probably due to ileus. No mass like lesion is noted.
+
+Small ascites in the pelvic cavity.
+No evidence of bowel ischemia.
+No intraperitoneal free air.
+
+The liver, gallbladder, spleen, pancreas, adrenals, and kidneys are unremarkable.
+No retroperitoneal or mesenteric lymphadenopathy.
+The lungs covered in the scanning range are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Small bowel obstruction, at distal ileum, probably due to adhesion. No evident bowel perforation or ischemia.
 )
   Paste(MyForm)
 Return

@@ -452,21 +452,17 @@ posteroinferior limbus vertebra of L3 and L4
 
 Presence of congenital short pedicle with decreased bony AP diameter of the L-spine/ lower L-spine noted.
 
-Schmorl's node ( vertical intravertebral disc herniation ) over the T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1.
+Schmorl's node (vertical intravertebral disc herniation) over the T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1.
 
-Presence of small lipomatous filum terminales, however, no evidence of causing tethered cord noted.
-Presence of small linear shape lipoma over the filum terminales, and no evidence of causing tethered cord noted.
+Presence of small lipomatous filum terminale, however, no evidence of causing tethered cord noted.
+Presence of small linear shape lipoma over the filum terminale, and no evidence of causing tethered cord noted.
 
 Presence of several perineural cysts over the spinal canal of the upper sacrum level, the biggest one about 2cm.
-Presence of L6 ( lumbarization of S1) noted.
+Presence of L6 (lumbarization of S1) noted.
 Suspicious spodylolysis fracture of L5 pars interarticularis.
 Presence of dessicated disc noted over L4-5 and L5-S1 and L-spine.
 Presence of degenerative end-plate change noted over the L4-L5.
 Narrowing of bilateral L4-5 and L5-S1 neuroforamina due to the degenerative change and severe disc space narrowing.
-
-mild retrolisthesis
-mild/moderate/severe disc space narrowing
-small spondylosis
 
 Presence of disc space narrowing noted over L2-3, L3-4, and severe disc space narrowing noted L4-5 and L5-S1.
 

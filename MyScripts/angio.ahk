@@ -59,6 +59,43 @@ TAE for PPH was successfully performed.
   Paste(MyForm)
 Return
 
+::tace::
+  MyForm =
+(
+TACE for HCC
+
+Operator: I-Ta Tsai
+Anesthesia: local
+Approach: right femoral artery
+Catheters: 5Fr sheath, 4Fr RC1, 2.7Fr Progreat
+Catheters: 5Fr sheath, 4Fr RC1, 2.5Fr Cantata
+Catheters: 5Fr sheath, 5Fr RIM, 2.7Fr Progreat
+Embolizer: Doxorubicin, Lipiodol, Gelfoam powders
+
+PROCEDURE:
+The angiography of celiac trunk shows tumor stain at S6 of liver.
+The portal veins are patent in both celiac and superior mesenteric angiography.
+Superselective embolization of the S6 hepatic arterial branch was performed with mixture of 20 mg Doxorubicin and 10 ml Lipiodol, followed by Gelfoam powders.
+The follow-up RHA angiography showed no more tumor stain.
+The sheath was then removed. Hemostasis was achieved by manual compression.
+
+RECOMMENDATION:
+Sandbag compression on the puncture site for at least 4 hours, and bed rest for 8 hours.
+Close follow up the vital signs and consciousness.
+
+OTHERS:
+The liver was displaced medially, suggestive of ascites or hemoperitoneum.
+The tumor stain shows irregularity and venous pools at the inferior portion. Recent tumor rupture may be suspected.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+TACE for HCC was successfully performed.
+)
+  Paste(MyForm)
+Return
+
 ::pcn::
   MyForm =
 (

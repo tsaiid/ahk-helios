@@ -4,6 +4,7 @@
 ::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::amrfl::Marked diffuse signal drop between the in- and opposed-phase images, suggestive of hepatic steatosis.
 ::mamrfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
+::amrgbsg::T1 hyperintensity material in the gallbladder with layering, in favor of GB sludge.
 
 ;; General
 ::amrpan::
