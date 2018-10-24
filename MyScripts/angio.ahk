@@ -96,6 +96,86 @@ TACE for HCC was successfully performed.
   Paste(MyForm)
 Return
 
+::tacehcc::
+  MyForm =
+(
+# Lipiodol
+SMA, celiac, superselective hepatic angiograms and TAE are performed via puncture of right femoral artery. The whole procedure was smooth.
+The aim of this procedure is to perform arterial embolozation for treatment of HCC.
+
+1. A case of HCC s/p  .
+2. hypervascular tumor stain(s) in   lobe of liver, consistent with HCC.
+3. The portal vein was patent.
+4. TAE with Lipiodol   ml and some gelfoam pieces injection into RHA.
+5. Another  ml Lipiodol and some gelfoam pieces injection into LHA.
+6. Suggest follow up this patient as TAE protocol.
+
+# DC bead
+Celiac, superselective hepatic angiograms and TACE are performed via puncture of right femoral artery. The whole procedure was smooth.
+The aim of this procedure is to perform deTACE for HCC.
+
+1. A case of HCC s/p deTACE*2.
+2. Several large poor-defined hypervascular tumor stains at right lobe of liver.
+3. The portal vein was patent.
+4. extrahepatic tumor feedings from the LGA and RT phrenic artery (from right superior renal and adrenal arteries) were noticed. The LGA was embolized with glue.
+5. The RT phrenic artery angiography was performed to exclude apparent pulmonary shunting, and thent deTACE with DC bead (300-500 um) 2cc+ epirubicin 75 mg was slowly injected, followed by gelfoam pieces until flow stasis.
+6. deTACE with DC bead (100-300um) 2cc + epirubicin 75 mg was slowly injected into each segmental branches of the RHA.
+7. No tumor stain at final angiography.
+8. Suggest follow up this patient as TAE protocol.
+
+# Embozene
+SMA, celiac, superselective hepatic angiograms and TAE are performed via puncture of right femoral artery. The whole procedure was smooth.
+The aim of this procedure is to perform arterial embolozation for treatment of HCC.
+
+1. A case of HCC s/p HAIC.
+2. The both tumors are hypovascular and poor demonstration on angiography.
+3. The portal vein was patent.
+4. TAE with Embozene (75um) 1.5 vial injection into segmental RHA at S7 lesion.
+5. Another Embozene (75 um) 0.5 vial and lipiodol 3 ml injection into segmental RHA at S5 lesion.
+6. Suggest follow up this patient as TAE protocol.
+
+# Hepasphere
+SMA, celiac, superselective hepatic angiograms and TAE are performed via puncture of left femoral artery. The whole procedure was smooth.
+The aim of this procedure is to perform arterial embolozation for treatment of HCC.
+
+1. A case of HCC s/p TAE.
+2. Hypervascular tumor stain at S3 of liver.
+3. The portal vein was patent.
+4. TAE with Hepasphere (30-60um) 1 vial + epirubicin 50mg injection into segmental LHA at S3 lesion.
+5. No tumor stain at selective angiogram of RHA.
+6. Suggest follow up this patient as TAE protocol.
+
+# Huang
+Transarterial embolization for the was performed under the request of the clinician.
+The benefits and potential risk of the procedure, and the alternative managements were all well explained.
+Written informed consent was obtained.
+
+Indication: HCC, recurrent
+
+1. Approach: RT inguinal
+2. Tumor profile
+ Number: one
+ Location: RT superior
+ Size: 6-cm
+ Vascularities: hypervascular, faint stains, hypovascular,
+
+ Supplying artery:  superior segmental RHA.
+
+ Venous shunt: Nil
+3. Embolizer: Lipiodol (6 cc), Gelfoam particles
+4. Microcatheter used: Yes
+5. Vasculatures: Portal vein: Patent, corkscrew appearances of the hepatic arteries
+6. Vascular variant: Replaced Right Hepatic Artery from the SMA.
+
+
+The vital signs were monitored during the whole procedure.
+The patient was sent back to the ward under stable condition.
+Close follow up of vital signs is necessary.
+Operator: Dr. Huang,
+)
+  Paste(MyForm)
+Return
+
 ::pcn::
   MyForm =
 (
