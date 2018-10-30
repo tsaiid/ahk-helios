@@ -58,6 +58,11 @@
 ::lkuok::The left kidney and ureter are unremarkable.
 ::rkuok::The right kidney and ureter are unremarkable.
 ::appok::the appendix is normal.
+::ntabdi::No evident traumatic intraabdominal injury.
+::ntthoi::No evident traumatic intrathoracic injury.
+::naabdf::No evident acute intraabdominal finding.
+::nathof::No evident acute intrathoracic finding.
+::nacraf::No evident acute intracranial finding.
 
 ;; forms
 ::act::

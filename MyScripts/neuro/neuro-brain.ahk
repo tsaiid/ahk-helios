@@ -536,7 +536,7 @@ No evidence of high signal intensity lesion in the brain stem on DWI.
 
 Several tiny high signal intensity lesions in right occipital lobe, bilateral centrum semiovale and bilateral high frontal-parietal lobes on T2WI, FLAIR and DWI images. Acute embolic infarctions are suspected.
 
-Presence of small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter, with high signal intensity on T2WI, FLAIR, and DWI, and lower apparent diffusion coefficient (ADC).
+Presence of small acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter, with high signal intensity on T2WI, FLAIR, and DWI, and lower apparent diffusion coefficient (ADC).
 
 Presence of tiny old ischemic infarction involving bilateral basal ganglion region.
 
@@ -544,7 +544,7 @@ Presence of several tiny hyperintensities in the periventricular white matter re
 
 No definite abnormal signal intensity or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 No definite abnormal signal intensity change in the brain parenchyma.
-No definite abnormal tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal tumor mass lesion in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
@@ -610,7 +610,7 @@ No evidence of acute ischemic infarction in this study.
 Old lacunar infarct. Old ischemic infarct.
 Previous brain insult; old lacunar infarcts.
 
-Small recent acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter.
+Small acute ischemic infarction, about 1.4cm in diameter, involving left periventricular white matter.
 )
   Paste(MyForm)
 Return

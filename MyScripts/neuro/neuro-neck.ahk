@@ -71,20 +71,12 @@ Nasopharynx: normal / symmetrical thickening, adenoidal hyperplasia favored
 Oropharynx: normal / mild enlargement of bilateral palatine tonsils
 Hypopharynx: normal
 Larynx: normal
-Oral cavity: normal/limited interpretation due to dental artifacts
+Oral cavity: normal (limited interpretation due to dental artifacts)
 Thoracic inlet: normal
 Parotid gland: normal
 Submandibular gland: normal
 Thyroid gland: normal
 Lymph nodes: No evidence of bulky lymph nodes (> 1 cm) over bilateral carotid space and posterior triangle of submandibular and neck regions noted.
-
-a. No evidence of enhanced mass lesion in the submandibular and neck region.
-
-b. No particular findings of nasopharynx, parotid gland, and submandibular gland.
-
-c. No particular findings of nasopharynx, parotid gland, submandibular gland, and thyroid gland.
-
-d. The axilla region cannot be well evaluated due to small FOV of the head and neck CT.
 
 PS. The evaluation is limited especially for solid organs, neck lymph nodes and vascular structure due to absence of contrast enhancement.
 )

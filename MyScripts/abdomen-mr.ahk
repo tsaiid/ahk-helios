@@ -50,7 +50,7 @@ FINDINGS:
 Return
 
 ;; MRI liver, MRCP
-::amrhcc::
+::amrliv::
   MyForm =
 (
 MRI of the Liver with Gd enhancement, and MRCP.
@@ -89,7 +89,7 @@ Lower lungs: Unremarkable
 Return
 
 ;; MRI liver, Primovist
-::amrhccp::
+::amrlivp::
   MyForm =
 (
 MRI of the Liver with Primovist enhancement, and MRCP.
@@ -117,7 +117,7 @@ Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
 
-Kidneys and ureters: external compression on the anterior surface of the right kidney with mild displacement by the S4 hepatic tumors. No hydronephrosis.
+Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 

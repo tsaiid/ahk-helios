@@ -105,7 +105,7 @@
 ::cln::calcified lymph node
 ::met::metastasis
 ::mets::metastases
-::metc::metastatic
+::metc::metastatic `
 ::ckd::chronic kidney disease
 ::bph::benign prostatic hyperplasia
 ::sma::superior mesenteric artery
@@ -273,3 +273,4 @@
 ::neo::no evidence of `
 ::nseo::no strong evidence of `
 ::c::contrast medium
+::asc::atherosclerosis

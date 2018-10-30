@@ -166,15 +166,13 @@ FINDINGS:
   Paste(MyForm)
 Return
 
-::cto1wnl::
+::cto1ok::
   MyForm =
 (
 Noncontrast CT scan and post contrast CT scan of the orbit performed with axial and coronal section, 2-2mm slice thickness showed:
-
 Previous CT of orbit: no
 
 FINDINGS:
-
 Symmetrical bil. rectus muscle without enlargement of rectus muscle noted, no CT evidence of thyroid related ophthalmopathy.
 
 Symmetrical bil. retrobulbar fat was noted.
@@ -185,23 +183,9 @@ No obvious soft tissue density over bilateral frontal sinus, sphenoid sinus, eth
 
 Presence of mild exophthalmos of left eye.
 
-Presence of soft tissue thickening over nasophranyx, with bone erosion of the anterior portion of clivus, nasopharynx lesion should be R/O, suggest ENT check up.
+Presence of soft tissue thickening over nasopharynx, with bone erosion of the anterior portion of clivus, nasopharynx lesion should be R/O, suggest ENT check up.
 
 Presence of dental artifact and superimpose of the oral cavity, and the oral cavity cannot be well evaluated. Film interpretation is limited.
-
-IMPRESSION:
-Symmetrical bil. rectus muscle without enlargement of rectus muscle noted, no CT evidence of thyroid related ophthalmopathy.
-
-No CT evidence of space occupying lesion over orbital, retro-ocular, sella, suprasellar regions.
-
-Presence of mild exophthalmos of left eye.
-
-Presence of soft tissue thickening over nasophranyx, with bone erosion of the anterior portion of clivus, nasopharynx lesion should be R/O, suggest ENT check up.
-
-Others as above descriptions.
-
-SUGGESTION:
-Follow up or further evaluation.
 )
   Paste(MyForm)
 Return
