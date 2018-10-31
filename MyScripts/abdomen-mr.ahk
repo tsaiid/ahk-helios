@@ -222,7 +222,7 @@ Prostate:
 - Volume: 45.7 ml (length x width x height x 0.52)
 - Focal T1 hyperintensities at left lobe, probably post-biopsy change.
 - Enlarged transition zone with heterogeneous nodular signal intensity and an intact low signal pseudocapsule in the periphery, suggestive of benign prostatic hyperplasia.
-- Circumscribed hypointense orheterogeneous encapsulated nodule(s) (BPH)
+- Circumscribed hypointense or heterogeneous encapsulated nodule(s) (BPH)
 - s/p TURP appearance.
 
 Lesion 1:

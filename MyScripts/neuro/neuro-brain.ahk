@@ -959,13 +959,14 @@ No evidence of hippocampal atrophy or abnormal signal intensity.
 
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity change or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
 Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 The major dural venous sinuses are patent.
 
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
 Presence of hyperintensity on T2WI over left maxillary sinuses, in favor of sinusitis.
 
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
