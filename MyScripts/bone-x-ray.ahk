@@ -36,21 +36,21 @@
 ::scs::subchondral sclerosis
 ::spef::suprapatellar effusion
 ::jef::joint effusion
-::patok::No lateral tilting or subluxation of bilateral patellae. {Enter}No PF joint space narrowing.
+::bpatok::No lateral tilting or subluxation of bilateral patellae. {Enter}No PF joint space narrowing.
 ::lpatok::No lateral tilting or subluxation of left patella. No PF joint space narrowing.
 ::rpatok::No lateral tilting or subluxation of right patella. No PF joint space narrowing.
-::pats::Lateral subluxation of bilateral patellae, with severe PF joint space narrowing at lateral facet.
+::bpats::Lateral subluxation of bilateral patellae, with severe PF joint space narrowing at lateral facet.
 ::lpats::Lateral subluxation of left patella, with PF joint space narrowing and subchondral sclerosis at lateral facet.
-::mpats::Mild lateral subluxation of bilateral patellae, with mild PF joint space narrowing at lateral facet.
+::mbpats::Mild lateral subluxation of bilateral patellae, with mild PF joint space narrowing at lateral facet.
 ::mlpats::Mild lateral subluxation of left patella, with mild PF joint space narrowing at lateral facet.
 ::mrpats::Mild lateral subluxation of right patella, with mild PF joint space narrowing at lateral facet.
-::mpatt::Mild lateral tilting of bilateral patellae, with mild PF joint space narrowing at lateral facet.
+::mbpatt::Mild lateral tilting of bilateral patellae, with mild PF joint space narrowing at lateral facet.
 ::lpatt::Lateral tilting of left patella, with severe PF joint space narrowing and subchondral sclerosis at lateral facet. Chondromalacia patella is considered.
 ::mlpatt::Mild lateral tilting of left patella, with mild PF joint space narrowing at lateral facet.
 ::rpatt::Lateral tilting of right patella, with severe PF joint space narrowing and subchondral sclerosis at lateral facet. Chondromalacia patella is considered.
 ::mrpatt::Mild lateral tilting of right patella, with mild PF joint space narrowing at lateral facet.
-::patts::Lateral tilting and subluxation of bilateral patellae, with severe PF joint space narrowing, subchondral sclerosis and marginal osteophyte formation at lateral facet.
-::mpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
+::bpatts::Lateral tilting and subluxation of bilateral patellae, with severe PF joint space narrowing, subchondral sclerosis and marginal osteophyte formation at lateral facet.
+::mbpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
 ::mlpatts::Mild lateral tilting and subluxation of left patella, with PF joint space narrowing at lateral facet.
 ::mrpatts::Mild lateral tilting and subluxation of right patella, with PF joint space narrowing at lateral facet.
 ::acrd::Lateral downsloping of the acromion, narrowing the acromiohumeral distance, which may be associated with impingement of the supraspinatus tendon.
@@ -200,6 +200,7 @@ Return
 ::c6l::C6 and levels below are blocked with a limited evaluation.
 ::c7l::C7 and levels below are blocked with a limited evaluation.
 ::iaiv::intra-articular involvement
+::bkcppd::Linear calcifications along the joint space of the medial and lateral compartments of bilateral knees, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::rkcppd::Linear calcifications along the joint space of the medial and lateral compartments of right knee, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::lkcppd::Linear calcifications along the joint space of the medial and lateral compartments of left knee, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::nbok::No evidence of nasal bone fracture.

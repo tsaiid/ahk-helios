@@ -21,11 +21,25 @@ No abnormal patch opacity in the lung fields.
 No cardiomegaly.
 
 )
+  MyForm =
+(
+The heart size is normal.
+No specific finding in the bilateral lung fields.
+Bilateral CP angles are clear and sharp.
+The thoracic cage and bones are generally intact.
+
+)
+
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
 No active lung lesion.
+
+)
+  MyForm =
+(
+Both lungs are unremarkable.
 
 )
   Paste(MyForm)

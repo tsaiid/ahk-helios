@@ -9,6 +9,7 @@ Operator: I-Ta Tsai
 Anesthesia: local
 Approach: right femoral artery
 Catheters: 5Fr sheath, 4Fr RC1, 2.7Fr Progreat
+Catheters: 4Fr sheath, 4Fr RC1
 Catheters: 5Fr sheath, 4Fr RC1, 2.5Fr Cantata
 Catheters: 5Fr sheath, 5Fr RIM, 2.7Fr Progreat
 Catheters: 4Fr sheath, 4Fr J-Curve
@@ -17,20 +18,30 @@ Embolizer: .018 3/2 Tornado microcoil, Gelfoam powders
 Embolizer: Glue (NBCA/lipiodol = 1:4)
 
 PROCEDURE:
+-- Pelvic fracture, no active bleeding
+The angiography of left common iliac and internal iliac arteries showed no definite active bleeding.
+For prophylaxis, small amount of Gelfoam powders was injected to the left internal iliac artery.
+The follow-up left common iliac angiography showed reduced blood flow rate and partially embolization of the internal iliac branches.
+The angiocatheter and sheath were removed, and hemostasis of puncture site was achieved by manual compression.
+
+-- PPH
 The angiography of left internal iliac artery showed active bleeding from the left uterine artery.
 TAE of the left uterine artery with Gelfoam powders was performed successfully.
 The follow-up left internal iliac and right internal iliac angiography showed no more active bleeding.
 The angiocatheter and sheath were removed, and hemostasis of puncture site was achieved by manual compression.
 
+-- Renal artery bleeding
 The angiography of right renal artery showed active bleeding from the inferior adrenal artery.
 TAE with a microcoil followed by Gelfoam powders was performed successfully.
 The sheath and catheter were removed, and hemostasis of the puncture sire was achieved by manual compression.
 
+-- GDA bleeding
 The angiography of celiac trunk, followed by gastroduodenal artery, showed active bleeding from the superior pancreaticoduodenal artery.
 Embolization was performed with Glue (NBCA/lipiodol = 1:4).
 The follow-up GDA and SMA angiography showed no more active bleeding.
 The sheath will be kept for 24 hours for use if other bleeding episode occurs.
 
+-- HCC rupture
 The angiography of celiac trunk, followed by proper hepatic artery, showed a hypervascular mass at left lobe of liver, supplied mainly by the left hepatic artery, and active bleeding from the tumor vessels.
 Embolization was performed with Gelfoam powders via the LHA, and then the PHA.
 The follow-up CHA and SMA angiography showed no more active bleeding.

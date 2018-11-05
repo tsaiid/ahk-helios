@@ -195,6 +195,7 @@
 ::sba::senile brain atrophy
 ::sba2::Senile brain atrophy; leukoaraiosis.
 ::sba3::Senile brain atrophy; leukoaraiosis; old lacunar infarcts.
+::mba::mild brain atrophy
 ::bg::basal ganglion
 ::vb::vertebral body
 ::vbs::vertebral bodies
