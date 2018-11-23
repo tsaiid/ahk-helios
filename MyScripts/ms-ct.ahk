@@ -133,6 +133,30 @@ C/W DVT.
   Paste(MyForm)
 Return
 
+;; CT Extremity - Lower Limbs, Knee OA
+::ectloa::
+  MyForm =
+(
+CT Lower Extremity:
+Non-contrast study.
+Scanning from pelvis to foot, axial, coronal, sagittal views
+
+FINDINGS:
+- Bilateral knees show joint space narrowing, marginal osteophyte formation, subchondral sclerosis, especially at medial compartment of knee joint, consistent with osteoarthrosis.
+- Left moderate and right small suprapatellar effusion.
+- Mild bilateral genu varum is noted.
+- No obvious dislocation or fracture.
+- The visible intraabdominal organs are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+OA change of bilateral knees.
+)
+  Paste(MyForm)
+Return
+
 ;; CTA - PAOD
 ::ectapaod::
   MyForm =

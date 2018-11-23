@@ -4,7 +4,7 @@
 (
 TECHNIQUE:
 Multi-slice CT scanner;
-Non-contrast axial contiguous scanning of face in bone algorithm with coronal and sagittalimages
+Non-contrast axial contiguous scanning of face in bone algorithm with coronal and sagittal images
 Non-contrast axial contiguous scanning of face in bone algorithm with coronal, sagittal and 3D reconstruction images
 
 COMPARISON:

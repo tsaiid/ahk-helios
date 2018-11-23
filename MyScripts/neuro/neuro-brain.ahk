@@ -565,7 +565,7 @@ MRA shows multiple foci of stenoses over intracranial portion of the bilateral i
 
 MRA shows presence of stenosis noted over the bilateral carotid siphon and supraclinoid internal carotid arteries, and high grade stenosis over main trunk of right side middle cerebral artery, and with paucity of the branches of the right side middle cerebral artery noted.
 
-MRA shows presence of high grade stenosis or occlussion over the right/left carotid siphon and distal M1 of right/left MCA, with paucity of the branches of the right/left MCA noted.
+MRA shows presence of high grade stenosis or occlusion over the right/left carotid siphon and distal M1 of right/left MCA, with paucity of the branches of the right/left MCA noted.
 
 MRA shows--
 Presence of normal variation of fenestration of the proximal basilar artery.

@@ -195,7 +195,11 @@
 ::sba::senile brain atrophy
 ::sba2::Senile brain atrophy; leukoaraiosis.
 ::sba3::Senile brain atrophy; leukoaraiosis; old lacunar infarcts.
+::sba4::Senile brain atrophy; leukoaraiosis; old lacunar infarcts; atherosclerosis.
 ::mba::mild brain atrophy
+::mba2::Mild brain atrophy; leukoaraiosis.
+::mba3::Mild brain atrophy; leukoaraiosis; old lacunar infarcts.
+::mba4::Mild brain atrophy; leukoaraiosis; old lacunar infarcts; atherosclerosis.
 ::bg::basal ganglion
 ::vb::vertebral body
 ::vbs::vertebral bodies

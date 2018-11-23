@@ -17,6 +17,64 @@ Applicable previous CT of face and neck: none
 Applicable previous MRI of face and neck: none
 
 FINDINGS:
+1. Primary tumor status:
+[Tx] a. Unknown
+
+
+2. Cervical nodes:
+No bulky lymph nodes over bilateral submandibular and submental, carotid, posterior cervical spaces, and supraclavicular fossae noted.
+No evidence of bulky lymph nodes (> 1cm) over bilateral carotid space and posterior cervical space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral carotid space and posterior cervical space noted.
+No evidence of bulky lymph nodes in shortest axis (> 1 cm) over bilateral supraclavicular fossae noted.
+No evidence of bulky lymph nodes in shortest axis (> 1.5 cm) over bilateral submandibular and submental space noted.
+
+* Imaging criteria:
+  > Carotid space, posterior cervical space, and supraclavicular fossae: shortest axis > 1 cm.
+  > Submandibular and submental space: shortest axis > 1.5 cm.
+
+* right/left/bilateral level I, II, III, IV, V, VI, VII
+
+* right/left/bilateral
+submandibular and submental space (level I)
+carotid space (level II, III, IV)
+posterior cervical space (level V)
+anterior cervical space (level VI)
+superior mediastinal space (level VII)
+
+3. Others:
+
+Orbits: normal
+Paranasal sinuses: normal
+Skull base: normal
+Nasopharynx: normal / symmetrical thickening, adenoidal hyperplasia favored
+Oropharynx: normal / mild enlargement of bilateral palatine tonsils
+Hypopharynx: normal
+Larynx: normal
+Oral cavity: normal (limited interpretation due to dental artifacts)
+Thoracic inlet: normal
+Parotid gland: normal
+Submandibular gland: normal
+Thyroid gland: normal
+Lymph nodes: No evidence of bulky lymph nodes (> 1 cm) over bilateral carotid space and posterior triangle of submandibular and neck regions noted.
+
+PS. The evaluation is limited especially for solid organs, neck lymph nodes and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+Return
+
+;; CTNECNC
+::ctnecnc::
+  MyForm =
+(
+TECHNIQUE:
+Multi-slice CT scanner with
+Non-contrast scanning in axial plane from skull base to thoracic inlet with 3-mm-thick contiguous slices and coronal reformatted images.
+
+COMPARISON:
+Applicable previous CT of face and neck: none
+Applicable previous MRI of face and neck: none
+
+FINDINGS:
 
 Due to no contrast-enhanced CT performed, the detail could not be evaluated. Film interpretation is limited.
 
@@ -51,16 +109,6 @@ carotid space (level II, III, IV)
 posterior cervical space (level V)
 anterior cervical space (level VI)
 superior mediastinal space (level VII)
-
-   ========================
-     # level I   : right (-);  left(-)
-     # level II  : right (-);  left(-)
-     # level III : right (-);  left(-)
-     # level IV : right (-);  left(-)
-     # level V  : right (-);  left(-)
-     # level VI : right (-);  left(-)
-     # level VII: right (-);  left(-)
-  ========================
 
 3. Others:
 
@@ -250,12 +298,15 @@ Presence of several/multiple lymph nodes noted over --------------- carotid spac
 
 Presence of several/multiple lymph nodes noted over ---------------, the biggest size about --------  cm, the differential diagnoses including lymphoma, metastasis, or inflammation, recommend biopsy or close follow up.
 
+* Imaging criteria:
+  > Carotid space, posterior cervical space, and supraclavicular fossae: shortest axis > 1 cm.
+  > Submandibular and submental space: shortest axis > 1.5 cm.
+
 3. Others:
+The nasopharynx, oropharynx, hypopharynx, and larynx are unremarkable.
+No particular finding in the parotid glands, submandibular glands, and thyroid glands.
+
 No evidence of enhanced mass lesion in the submandibular and neck region.
-
-No particular findings of nasopharynx, parotid gland, and submandibular gland.
-
-No particular findings of nasopharynx, parotid gland, submandibular gland, and thyroid gland.
 
 Presence of high signal intensity on T1WI over the C-spine, compatible with post radiation change.
 

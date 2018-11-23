@@ -62,6 +62,23 @@ Insufficient inspiration related findings.
   Paste(MyForm)
 Return
 
+::ii2::
+  MyForm =
+(
+Slightly enlarged cardiac shadow.
+Exaggerated lung markings at bilateral lowers, may be due to insufficient inspiration and/or supine. Suggest clinical correlation.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Insufficient inspiration and/or supine related findings.
+
+)
+  Paste(MyForm)
+Return
+
 ::2::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change. {Enter}No cardiomegaly.{Tab}No active lung lesion.
 ::3::No abnormal patch opacity in lung fields.{Enter}No cardiomegaly.{Enter}The bowel gas pattern is normal.{Tab}Normal.
 ::4::Increased linear opacity and peribronchial thickening over bilateral lung fields, r/o bronchiolitis.{Enter}No cardiomegaly.{Tab}Suspicious bronchiolitis.

@@ -127,7 +127,7 @@ Return
 ::cctncld::
   MyForm =
 (
-Lower dose, high resolution non-contrast CT scan for screening pulmonary nodule.
+Lower dose, high resolution (2-mm slice thickness) non-contrast CT scan for screening pulmonary nodule.
 Scanner: Multi-detector CT scanner.
 Scan range: thoracic inlet to diaphragm.
 Reconstruction: axial and coronal reconstruction.
@@ -136,22 +136,26 @@ COMPARISON:
 Applicable previous CT of chest: no
 
 FINDINGS:
-- Lung: no remarkable nodular lesions (>0.4 cm).
+1. Lung parenchyma:
+- No remarkable nodular lesion.
+
+2. Other lung and extrapulmonary findings:
+- Airway: normal.
 - Mediastinum: no lymph node enlargement > 1 cm.
 - Heart:
   > Size: normal.
   > Coronary artery calcification: no / minimal.
 - Great vessels: normal diameter.
-- Pleura: unremarkable
-- Chest wall and spine: unremarkable
-- Upper abdomen: unremarkable
+- Pleura: unremarkable.
+- Chest wall and spine: unremarkable.
+- Upper abdomen: unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
-no remarkable nodular lesions in bilateral lungs.
-no or minimal coronary artery calcification.
+No remarkable nodular lesions in bilateral lungs.
+No or minimal coronary artery calcification.
 )
   Paste(MyForm)
 Return
@@ -414,6 +418,88 @@ Great vessels: within normal limits.
 Heart: within normal limits.
 Mediastinum and hila: no LNs > 1 cm.
 Chest Wall and low neck: within normal limits.
+)
+  Paste(MyForm)
+Return
+
+::cctcs::
+  MyForm =
+(
+Cardiac dual-source CT was performed without intravenous contrast administration and under ECG-gating.
+
+Findings:
+- Total Calcium Score (Equivalent Agatston Score) is 0
+   LM calcium score is 0
+   LAD calcium score is 0
+   LCX calcium score is 0
+   RCA calcium score is 0
+
+Additional findings:
+- The cardiac chambers are normal
+- The cardiac valves are not calcified
+- The visualized thoracic aorta is normal
+- The visual lungs are clear
+- The visible bone is normal
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Total Calcium Score (Equivalent Agatston Score) is 0.
+)
+  Paste(MyForm)
+Return
+
+::ccta::
+  MyForm =
+(
+Dual-Source CT of heart was performed with rapid i.v. contrast administration
+Findings of CT coronary angiography:
+
+1. RCA - proximal: No plaque
+2. RCA - middle: No plaque
+3. RCA - distal: No plaque
+4. PDA: No plaque
+5. LM (Left main): No plaque
+6. LAD - proximal: No plaque
+7. LAD - middle: No plaque
+8. LAD - distal: No plaque
+9. D1: No plaque
+10. D2: No plaque
+11. LCX - proximal: No plaque
+12. OM1: No plaque
+13. LCX - distal: No plaque
+14. OM2: No plaque
+15. LCX-PDA branch: Not shown
+16. RCA-PLB: No plaque
+17. RIM: Not shown
+18. LCX-PLB: Not shown
+
+* Dominance of coronary arteries: right
+* The pericardium is normal.
+* Normal ramification and calibers of the pulmonary arteries.
+* No evidence of pulmonary thrombosis.
+
+----
+Note:
+RCA: right coronary artery;  LAD: left anterior descending artery;  LCX: left circumflex artery;  PDA: posterior descending artery;  D1: first diagonal artery;  D2: second diagonal artery;  OM1: first obtuse marginal artery;  OM2: second obtuse marginal artery;  PLB: postero-lateral branch;  RIM: ramus intermedius;  AM: acute marginal branch
+
+Recommended Quantitative Stenosis Grading:
+( Adapted from SCCT Guidelines for the Interpretation and Reporting of Coronary Computed Tomographic Angiography, 2009 )
+- Grade 0  Normal: Absence of plaque and no luminal stenosis
+- Grade 1  Minimal: Plaque with < 25`% stenosis
+- Grade 2  Mild: 25`% - 49`% stenosis
+- Grade 3  Moderate: 50`% - 69`% stenosis
+- Grade 4  Severe: 70`% - 99`% stenosis
+- Grade 5  Occluded
+
+Remark: Some heart motion might mimic pseudo-stenotic lesions in Volume Rendering images, suggest curve MPR and source data correlation.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No evidence of coronary stenosis or plaque by Coronary CT Angiography.
 )
   Paste(MyForm)
 Return

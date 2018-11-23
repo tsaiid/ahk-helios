@@ -83,7 +83,8 @@
 ::dwiok::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 ::dvsok::The major dural venous sinuses are patent.
 ::mrnocva::No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
-::nocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
+::ctnocva::No definite low density or loss of gray-white matter differentiation in the brain parenchyma.
+::nocva::No evidence of acute ischemia infarction in the brain and brainstem noted.
 ::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 ::noich0::No definite acute ICH, SAH, EDH, or SDH.
 ::lka::leukoaraiosis
@@ -127,6 +128,7 @@ No bulky lymph nodes over bilateral submandibular and submental, carotid, poster
 )
   Paste(MyForm)
 Return
+::neclapok0::No bulky neck lymphadenopathy.
 
 ::ctps::
   MyForm =

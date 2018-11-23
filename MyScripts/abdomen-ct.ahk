@@ -6,6 +6,8 @@
 ::l-ok1::No pulmonary nodule.
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
 ::btok::No biliary tree dilatation.
+::btok2::No CBD or IHD dilatation.
+::pdok::No pancreatic duct dilatation.
 ::actfl::Fatty liver without focal lesion.
 ::mactfl::Mild fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
@@ -200,7 +202,11 @@ Previous abdominal CT: none.
 
 FINDINGS:
 A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
+
 A dilated appendix, diameter about 0.9 cm, with mild hyperemic change. Although no mesoappendiceal fat stranding is noted, early change of acute appendicitis is still suspected. Suggest clinical correlation.
+
+The appendix has a borderline diameter of 7 mm and shows hyperemic change. Early stage of acute appendicitis may be suspected. Suggest clinical correlation.
+
 
 Small amount of ascites in the recto-vesical pouch.
 Small amount of ascites in the cul-de-sac.

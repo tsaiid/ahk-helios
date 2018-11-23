@@ -1,5 +1,11 @@
 ﻿; CT-guide Forms
-::ctg-lb0::CT-guide lung biopsy is indicated and has been on schedule.
+::ctg-lb0::
+  MyForm =
+(
+CT-guide lung biopsy is indicated and has been on schedule. If specimen for tissue culture is needed, please prepare a glass tube and send to CT room with the patient. Otherwise, only specimen immersed in formalin will be harvested.
+)
+  Paste(MyForm)
+Return
 
 ;; Lung Biopsy
 ::ctg-lb::
