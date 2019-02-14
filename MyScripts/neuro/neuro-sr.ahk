@@ -54,7 +54,8 @@ Return
 (
 TECHNIQUE:
 Multi-slice CT scanner;
-Non-contrast axial contiguous scanning of face in bone algorithm with coronal and 3D reconstruction images
+Non-contrast axial contiguous scanning of face in bone algorithm with coronal and sagittal images
+Non-contrast axial contiguous scanning of face in bone algorithm with coronal, sagittal, and 3D reconstruction images
 
 COMPARISON:
 Applicable previous CT of face: none
@@ -401,6 +402,54 @@ FINDINGS:
 *Neck soft tissue and muscles: normal
 
 *Others: none
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No significant finding in face and neck region
+)
+  Paste(MyForm)
+Return
+
+::srctnecnc::
+  MyForm =
+(
+TECHNIQUE:
+Multi-slice CT scanner with
+Non-contrast scanning in axial plane from skull base to thoracic inlet with 5-mm-thick contiguous slices and coronal reformatted images.
+
+COMPARISON:
+Applicable previous CT of face and neck: none
+Applicable previous MRI of face and neck: none
+
+FINDINGS:
+- Post-surgical change: none
+
+- Skull base: normal
+- Orbits: normal
+- Nasal cavity: normal
+- Paranasal sinuses: normal
+
+- Nasopharynx: normal / symmetrical thickening, adenoidal hyperplasia favored
+- Oropharynx: normal
+- Hypopharynx: normal
+- Larynx: normal
+- Oral cavity: normal (limited interpretation due to dental artifacts)
+- Thoracic inlet, visualized lung and mediastinum: normal
+
+- Parotid gland: normal
+- Submandibular gland: normal
+- Thyroid gland: normal / several small nodules
+
+- Lymph nodes: normal
+- Vascular structures: normal
+
+- Neck soft tissue and muscles: normal
+
+- Others: none
+
+* The evaluation is limited due to absence of contrast enhancement, especially for solid organs and vascular structure.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -1159,15 +1208,14 @@ No significant finding in bilateral orbital regions
   Paste(MyForm)
 Return
 
-;; srMRsella
-::srmrsella::
+;; Structure report - MRI sella
+::srmrse::
   MyForm =
 (
 TECHNIQUE:
 1.5 Tesla scanner
-Sagittal T1WI (localizer)
-Coronal T1WI and T2WI
-Sagittal T1WI and T2WI
+Axial T2WI for whole brain
+Coronal and Sagittal T1WI
 Post contrast dynamic T1WI and conventional T1WI with Fat sat
 
 COMPARISON:
@@ -1175,29 +1223,29 @@ Applicable previous MRI of sella: none
 
 FINDINGS:
 
-*Post-surgical change: none / transsphenoidal resection of pituitary adenoma
+* Post-surgical change: none / transsphenoidal resection of pituitary adenoma
 
-*Mass:
+* Mass:
    Size: 1.5 x 1 x 1 cm
    Location: sella and suprasella, right cavernous sinus
    Enhancement: homogeneous
    Compression: optic chiasm
    DDx: Pituitary macroadenoma favored
 
-*Pituitary gland:
+* Pituitary gland:
    Morphology: normal / compressed by the mass / incorporated with the mass
    Height: 6 mm (normal for the patient's age)
    Posterior lobe T1WI hyperintensity: normal
    Intraglandular lesion: none / cyst / microadenoma presented as delayed enhanced nodule
 
-*Sella turcica: normal
-*Cavernous sinus: normal
-*Sphenoid sinus: normal
+* Sella turcica: normal
+* Cavernous sinus: normal
+* Sphenoid sinus: normal
 
-*Pituitary stalk: normal
-*Hypothalamus: normal
+* Pituitary stalk: normal
+* Hypothalamus: normal
 
-*Others: none
+* Others: none
 
 IMPRESSION:
 Pituitary macroadenoma

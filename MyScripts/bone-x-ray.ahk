@@ -7,6 +7,7 @@
 ::ulath::Atherosclerotic change and calcification of the upper limb vessels.
 ::llath::Atherosclerotic change and calcification of the lower limb vessels.
 ::djdl::DJD change of L-spine.
+::djdl1::DJD change of L-spine with spur formation.
 ::mdjdl::Mild DJD change of L-spine.
 ::mdjdl1::Mild DJD change of L-spine with spur formation.
 ::mdjdl2::Mild DJD change of L-spine with spur formation.{Enter}No disc space narrowing, spondylolisthesis, or fracture.
@@ -25,12 +26,12 @@
 ::mspll::Mild spondylosis of L-spine.
 ::msplt::Mild spondylosis of T-spine.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
-::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, consistent with osteoarthrosis.
-::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
-::oak1::Mild joint space narrowing, subchondral sclerosis, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
-::oak2::Joint space narrowing, subchondral sclerosis, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
-::oak2a::Joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, consistent with osteoarthrosis.
-::oak3::Severe joint space narrowing, subchondral sclerosis, marginal osteophyte formation, at knee joint, consistent with osteoarthrosis.
+::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, suggestive of mild osteoarthrosis.
+::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, suggestive of mild osteoarthrosis.
+::oak1::Mild joint space narrowing, subchondral sclerosis, marginal osteophyte formation, especially at medial compartment of knee joint, suggestive of mild osteoarthrosis.
+::oak2::Joint space narrowing, subchondral sclerosis, marginal osteophyte formation, especially at medial compartment of knee joint, suggestive of osteoarthrosis.
+::oak2a::Joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, suggestive of with osteoarthrosis.
+::oak3::Severe joint space narrowing, subchondral sclerosis, marginal osteophyte formation, at knee joint, suggestive of osteoarthrosis.
 ::oah::Superior joint space narrowing, subchondral sclerosis, subchondral cyst formation, osteophyte formation, in favor of osteoarthrosis of _ hip.
 ::scc::subchondral cyst
 ::scs::subchondral sclerosis

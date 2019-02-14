@@ -203,6 +203,7 @@ Presence of soft tissue density over left middle ear, aditus, left mastoid antru
 
 Poor pneumatization of the bilateral mastoid air sinuses.
 
+The bilateral ossicle chains, cochlear and semicircular canals show no obvious abnormalities.
 No evidence of soft tissue bony destruction in the jugular foramen.
 No evidence of soft tissue mass over the cochlear promontory.
 

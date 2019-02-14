@@ -1,5 +1,17 @@
 ﻿; Neuro Spine Forms
 ::aarst1::Atlantoaxial rotary subluxation is noted. The atlas is rotated on the odontoid with no anterior displacement, suggestive of Fielding and Hawkins type 1.
+::mrspm::Presence of mild high signal intensity within the cervical cord at the C5 and C6 spine level on T2WI noted, probably due to the spinal stenosis and/or prior cord injury edema and/or prior cord insult with cord gliosis or small cystic change.
+::mrspsmn::Schmorl's node (vertical intravertebral disc herniation) over the `
+::mrspdjdl::
+  MyForm =
+(
+Degenerative disc disease:
+1. Desiccation: L1 through L5
+2. Disc space narrowing: L2 through L5
+3. Spondylosis
+)
+  Paste(MyForm)
+Return
 
 ;; CTL
 ::ctls2::
@@ -346,7 +358,7 @@ No evidence of abnormal signal intensity mass lesion over the spinal canal of th
 
 Postcontrast study shows no evidence of abnormal enhanced lesion over the spinal canal of the lower T-spine and L-spine region noted.
 
-No evidence of focal herniation of nucleus pulposis (HIVD) in the L-spine region noted.
+No evidence of focal herniation of nucleus pulposus (HIVD) in the L-spine region noted.
 
 No evidence of signal intensity lesion over the spinal cord of the lower T-spine region noted.
 
@@ -398,33 +410,8 @@ PREVIOUS MRI L-spine: no
 
 FINDINGS:
 
-Presence of scoliosis of the L-spine, convex to left/right side.
-Rotatory scoliosis of L-spine, convex to left/right side.
-Presence of transitional lumbosacral junction type IIa noted.
-Presence of transitional lumbosacral segment.
-Presence of transitional lumbosacral junction and with lumbarization of S1 vertebra noted.
-Presence of transitional lumbosacral junction and with sacralization of L5 vertebra noted.
-
 
 No definite spinal stenosis.
-
-Presence of diffuse bulging disk, causing mild indentation of anterior dural sac, however, no obvious significant spinal stenosis.
-
-Presence of diffuse bulging/protrusion/herniation disk, disc space narrowing, degenerative endplate change, ligament flavum hypertrophy and facet joint degenerative change, causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
-
-L4-5 and L5-S1: Diffuse bulging disc with posterior protrusion disc, hypertrophy of ligamentum flavum and degenerative change of facet joints noted, resulting in spinal stenosis of L4-5/severe, and L5-S1/moderate.
-
-and prominence of epidural fat (epidural lipomatosis)
-
-Presence of diffuse bulging disc, and associated with the posterior-central/right/left/posterior-lateral/lateral herniated nucleus pulposus (HIVD), cranial/caudal migration of this HIVD, with compression /attachment of the adjacent nerve root/dural sac, ligament flavum hypertrophy and facet joint degenerative change  causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
-
-Presence of posterior-central/right/left/posterior-lateral/lateral herniated nucleus pulposus (HIVD), cranial/caudal migration of this HIVD, with compression /attachment of the adjacent nerve root/dural sac, ligament flavum hypertrophy and facet joint degenerative change  causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
-
-L3-L4, L4-L5, L5-S1: Mild diffuse bulging disc, and associated with the right side lateral herniation of disc (HIVD in right side L5-S1 neuroforamen), and comprerssion of right side L5 nerve root, and associated with mild ligament flavum hypertrophy, mild facet joint DJD change and causing mild to moderate central spinal stenosis.
-
-L4-5, L5-S1: Presence of grade II spondylolytic spondylolisthesis in combination of diffuse bulging disc, disc space narrowing and facet joint degenerative osteophytes causing mild/moderate/severe degree central spinal stenosis and bilateral neuroforaminal stenosis.
-
-L4-5, L5-S1: Presence of Grade 1 degenerative type spondylolisthesis in combination of diffuse bulging/protrusion/herniation disc, disc space narrowing, combined with ligament flavum hypertrophy and facet joint degenerative changes causing mild/moderate/severe degree central spinal stenosis and mild/moderate/severe narrowing of bilateral lateral recesses and mild/moderate/severe degree degenerative bilateral/right/left neuroforaminal stenosis.
 
 Degenerative disc disease:
 1. Desiccation: L1 through L5
@@ -432,10 +419,8 @@ Degenerative disc disease:
 
 No evidence of abnormal signal intensity mass lesion in the spinal canal of L-spine noted.
 
-*Vertebral body
-  Morphology: mild to moderate to severe collapse of L1 to L5 vertebral bodies.
-In favor of recent/old compression fractures
-Recent/old compression fractures suspected
+Normal alignment of lower T- and L-spine regions.
+Normal alignment and vertebral morphology over lower T- and L-spine regions.
 
 Presence of cystic lesion, maximum diameter about 1.1 cm in size, manifested with hypointensity on T1WI and hyperintensity on T2WI, near right/left L4-5 facet joint and medial to the facet joint and ligamentum flavum, DDx: synovial cyst or ligamentum flavum cyst.
 
@@ -450,8 +435,6 @@ Presence of small posterior annulus fibrosus tear between L2-L3, L3-L4, L4-L5 an
 Limbus vertebra (old anterior disc herniation through ring?  apophysis )      level :
 posteroinferior limbus vertebra of L3 and L4
 
-Presence of congenital short pedicle with decreased bony AP diameter of the L-spine/ lower L-spine noted.
-
 Schmorl's node (vertical intravertebral disc herniation) over the T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1.
 
 Presence of small lipomatous filum terminale, however, no evidence of causing tethered cord noted.
@@ -463,8 +446,6 @@ Suspicious spodylolysis fracture of L5 pars interarticularis.
 Presence of dessicated disc noted over L4-5 and L5-S1 and L-spine.
 Presence of degenerative end-plate change noted over the L4-L5.
 Narrowing of bilateral L4-5 and L5-S1 neuroforamina due to the degenerative change and severe disc space narrowing.
-
-Presence of disc space narrowing noted over L2-3, L3-4, and severe disc space narrowing noted L4-5 and L5-S1.
 
 Presence of small hemangiomas over L1 and L4 spine vertebral bodies.
 Presence of benign hemangioma noted over the L2 spine vertebral body, size about 2.1 x 2 x 2cm.

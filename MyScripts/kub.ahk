@@ -4,7 +4,7 @@
 ::/sk::Standing abdomen radiograph:{Enter 2}
 ::/kd::Decubitus view of the abdomen:{Enter 2}
 
-::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are unremarkable.{Tab}No remarkable findings.
+::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are unremarkable.{Tab}No remarkable finding.
 ::kk::The bowel gas pattern is unremarkable.{Enter}No obvious bony lesion.{Tab}The bowel gas pattern is unremarkable.
 ::k2::The bilateral kidney shadows and psoas muscle contours are normal.
 ::k3::The psoas muscle contours are normal.
@@ -21,11 +21,11 @@
 ::rfcvp::On central venous catheter via right femoral vein.
 ::lfcvp::On central venous catheter via left femoral vein.
 ::bfcvp::On central venous catheters via bilateral femoral veins.
-::ki::Obvious small bowel gas, may be due to ileus.
+::ki::Obvious small bowel gas, may be due to paralytic ileus.
 ::ki2::Focal dilated bowel loops, probably ileus or partial bowel obstruction.
 ::kiafl::Mild dilated bowel loops with several air-fluid levels, probably partial bowel obstruction or ileus.
 ::kbo::Obvious dilated bowel loops, suspicious bowel obstruction.
-::kmi::Mild distended small bowel gas, may be due to mild ileus.
+::kmi::Mild distended small bowel gas, may be due to mild paralytic ileus.
 ::rdj::s/p right side double-J ureteral stent.
 ::ldj::s/p left side double-J ureteral stent.
 ::bdj::s/p bilateral double-J ureteral stents.
@@ -40,6 +40,7 @@
 ::spa0::s/p appendectomy.
 ::sphaic::Coils at the upper abdomen, may be due to previous hepatic arterial infusion chemotherapy.
 ::aacal::Calcification of abdominal aortic wall.
+::aacal1::Calcification of abdominal aortic and branches' wall.
 ::ka::Increased opacity of the abdomen with centralization of the bowel gas, probably due to ascites.
 ::kc::Contrast medium retention in the urinary tract, may be due to recent imaging study.
 ::kns::No definite stone-like radiopacity along the urinary tract.

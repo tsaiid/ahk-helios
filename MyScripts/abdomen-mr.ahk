@@ -5,6 +5,7 @@
 ::amrfl::Marked diffuse signal drop between the in- and opposed-phase images, suggestive of hepatic steatosis.
 ::mamrfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
 ::amrgbsg::T1 hyperintensity material in the gallbladder with layering, in favor of GB sludge.
+::dwil::* Due to susceptibility artifact from the rectal fecal material, the evaluation in DWI/ADC may be limited.
 
 ;; General
 ::amrpan::
@@ -44,7 +45,14 @@ SCANNING PROTOCOL:
 COMPARISON: no
 
 FINDINGS:
+Pancreas: Unremarkable
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable
 
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
 )
   Paste(MyForm)
 Return
@@ -68,10 +76,11 @@ COMPARISON: no
 FINDINGS:
 * A case of HCC, s/p OP, s/p RFA.
 Liver:
-  > S/p right hepatectomy. Hypertrophic change of the lateral segment.
-  > Cirrhotic change: nil, portosystemic collaterals (-)
-  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
-  > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+- S/p right hepatectomy. Hypertrophic change of the lateral segment.
+- Cirrhotic change: nil, portosystemic collaterals (-)
+- A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+- Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+- The major hepatic and portal veins are patent.
 
 Adrenals: Unremarkable
 Spleen: Unremarkable
@@ -156,6 +165,35 @@ Biliary tree: Unremarkable
 Pancreas: Unremarkable
 Lower lungs: Unremarkable
 
+)
+  Paste(MyForm)
+Return
+
+;; MRI Adrenal
+::amrad::
+  MyForm =
+(
+MRI of the Adrenal glands
+
+SCANNING PROTOCOL:
+- Axi T2, T2+FS, T1 IP/OOP, post-contrast T1+FS thin slice
+- Cor VIBE T1+FS: pre- and post-contrast artery, venous, and delayed phases
+- Axi T2, heavy T2, DWI (b=1000), ADC maps: liver+kidney
+- Cor TrueFISP, DWI (b=400): whole abdomen
+- MRA
+
+COMPARISON: no
+
+FINDINGS:
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable.
+
+Liver: Unremarkable
+Spleen: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+
+No evident upper abdominal retroperitoneal lymphadenopathy identified.
 )
   Paste(MyForm)
 Return
@@ -283,6 +321,10 @@ PI-RADS v2 Assessment Categories:
   Paste(MyForm)
 Return
 
+::prsz::
+  ProstateSizeCalForm()
+Return
+
 ::amrcx::
   MyForm =
 (
@@ -354,6 +396,27 @@ SCANNING PROTOCOL:
   * DWI (b=1000), ADC: axial
   * T1+FS: axial, sagittal
   * T1+C+FS: axial, coronal, sagittal
+
+COMPARISON: no
+
+FINDINGS:
+
+)
+  Paste(MyForm)
+Return
+
+::amrub::
+  MyForm =
+(
+MRI of the Urinary bladder.
+
+SCANNING PROTOCOL:
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * T2: axial, coronal  * DWI (b=400): coronal
+  * MRU
+- Urinary bladder:
+  * TSE T2: axial, coronal, sagittal  * DWI (b=1000), ADC: axial  * T1+FS: axial, sagittal
 
 COMPARISON: no
 
@@ -520,6 +583,7 @@ Others:
 - Multiple small cystic lesions within the cervical stroma, in favor of Nabothian cysts.
 - Small amount of ascites in the Cul-de-sac.
 
+- Adrenals: Unremarkable
 - Liver: Unremarkable
 - Biliary tree: Unremarkable
 - Spleen: Unremarkable
@@ -616,8 +680,40 @@ GYN organ: Unremarkable
 
 No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 The abdominal aorta and its major branches are unremarkable.
+)
+  Paste(MyForm)
+Return
 
-Lower lungs: Unremarkable
+; PCU GYN Tumor Screening
+::amrpcugyn::
+  MyForm =
+(
+MRI of the abdomen and pelvis with 3T Skyra.
+
+SCANNING PROTOCOL:
+- Abdomen and pelvis:
+  * HASTE T2: coronal; * DWI (b=400): coronal
+- Pelvis
+  * Higher resolution T2 TSE, T1 Precontrast, postcontrast +FS: axial, sagittal
+  * DWI/ADC: axial
+
+COMPARISON: no
+
+FINDINGS:
+GYN organ: Unremarkable
+
+Liver: Unremarkable
+Biliary tree: Unremarkable
+Pancreas: Unremarkable
+Spleen: Unremarkable
+
+GI tract: Unremarkable
+
+Adrenals: Unremarkable
+Kidneys and ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 )
   Paste(MyForm)
 Return

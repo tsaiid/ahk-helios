@@ -28,7 +28,7 @@
 ::i::increased `
 ::d::decreased `
 ::e::enhancement
-::ec::enhanced `
+::ec::enhancing `
 ::rec::recurrence
 ::w::with `
 ::wo::without `
@@ -83,7 +83,6 @@
 ::bd::bone density
 ::ndlg::Nearly dislodgement is considered.
 ::eva::evaluation
-::eso0::esophagus
 ::fb::foreign body
 ::hd::high density
 ::ld::low density
@@ -94,6 +93,7 @@
 ::sps0::mild indentation on anterior dural sac without obvious spinal stenosis
 ::nfs::neuroforaminal stenosis
 ::snfs::spinal and neuroforaminal stenosis
+::lrn::lateral recess narrowing
 ::smn::Schmorl's node
 ::at-::attenuation
 ::d-::density
@@ -127,6 +127,7 @@ Return
 ::fufe::Suggest follow-up or further evaluation.
 ::cpes::Suggest correlate with panendoscopy.
 ::csono::Suggest correlate with sonography.
+::ccsono::Suggest clinical and sonographic correlation.
 ::ctrus::Suggest correlate with transrectal ultrasonography.
 ::cdsa::Suggest correlate with DSA.
 ::clab::Suggest correlate with Lab data.
@@ -135,6 +136,7 @@ Return
 ::cercp::Suggest correlate with ERCP.
 ::cmrcp::Suggest correlate with MRCP.
 ::sgyn::Suggest GYN check-up.
+::cgynsono::Suggest GYN check-up and sonographic correlation.
 ::scmp::Suggest compare with previous images if available.
 ::slr3::Suggest repeat or alternative diagnostic imaging 3-6 months later.
 
@@ -201,7 +203,7 @@ Return
 ::fc::fluid collection
 ::fs::fat stranding
 ::hop::hollow organ perforation
-::nrf::No remarkable findings.
+::nrf::No remarkable finding.
 ::nsf::non-specific finding
 ::ol::obstruction level
 ::tz::transitional zone

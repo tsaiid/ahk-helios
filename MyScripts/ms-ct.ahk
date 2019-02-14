@@ -225,6 +225,7 @@ Return
   MyForm =
 (
 CT Shoulder:
+Non-contrast study.
 Pre and post contrast-enhanced study.
 Scanning from neck to upper chest, centering at shoulder, axial, coronal, sagittal views
 Scanning from neck to upper chest, centering at shoulder, axial, coronal, sagittal, and 3D VRT views

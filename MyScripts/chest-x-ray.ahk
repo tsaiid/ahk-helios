@@ -12,7 +12,24 @@
 ::cm1::enlarged cardiac shadow.
 ::np::No abnormal patch opacity in lung fields.
 ::nn::No nodular opacities (> 1cm) noted over bilateral lung fields.
-::0::No previous film for comparison.
+::cpok::Bilateral CP angles are clear and sharp.
+
+::0::
+  MyForm =
+(
+No abnormal patch opacity in the lung fields.
+No cardiomegaly.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No active lung lesion.
+
+)
+  Paste(MyForm)
+Return
 
 ::1::
   MyForm =
@@ -84,6 +101,7 @@ Return
 ::4::Increased linear opacity and peribronchial thickening over bilateral lung fields, r/o bronchiolitis.{Enter}No cardiomegaly.{Tab}Suspicious bronchiolitis.
 ::clnic::The condition of lung shows no obvious change as compared with previous study.
 ::clat::Suggest correlation with lateral view.
+::ett0::On endotracheal tube.
 ::ett::On endotracheal tube with tip at proper location.
 ::ett-c::On endotracheal tube. The tip is near the carina. Suggest adjusting the depth.
 ::ett-b::On endotracheal tube. The tip is in right main bronchus. Suggest adjusting the depth.
@@ -147,13 +165,14 @@ Return
 ::mpe::Mildly increased vascular markings and ill-defined vascular contours indicating mild pulmonary edema.
 ::pe0::pulmonary edema
 ::mpe0::mild pulmonary edema
-::clc::Increased linear opacity over bilateral lower lungs, in favor of chronic inflammatory change.
+::clc::Increased interstitial markings over bilateral lower lung fields, in favor of chronic inflammatory change.
 ::lla::Linear atelectasis of left lower lung.
 ::rla::Linear atelectasis of right lower lung.
 ::bla::Linear atelectasis of bilateral lower lungs.
 ::plef::pleural effusion
 ::inef::interlobar effusion
 ::pcef::pericardial effusion
+::xpcef::Enlarged cardiac shadow with water bottle configuration. Pericardial effusion may be suspected.
 ::iabp::On IABP, with tip in the thoracic aorta.
 ::sl0::Scoliosis of L-spine.
 ::sll::Scoliosis of L-spine with convexity to the left.
@@ -176,6 +195,7 @@ Return
 ::lo::linear opacity
 ::flo::fibrolinear opacities
 ::fno::fibronodular opacities
+::fnl::fibronodular lesions
 ::rno::reticulonodular opacities
 ::bafno::Fibronodular opacities over bilateral apical lung fields, in favor of chronic inflammatory change.
 ::rafno::Fibronodular opacities over right apical lung fields, in favor of chronic inflammatory change.

@@ -35,6 +35,8 @@ Return
 
 ::hsgnfs::opacification to the fimbrial level, however, no free spillage is noted.
 ::hsggb::small movable filling defects in the uterine cavity, in favor of gas bubbles.
+::hsga::mild irregularity of the uterine contour with small projections of contrast material, adenomyosis may be suspected.
+::hsgok::Bilateral fallopian tubes are patent.
 
 ::t-tube::
   MyForm =

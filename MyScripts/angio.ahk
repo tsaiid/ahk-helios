@@ -16,6 +16,7 @@ Catheters: 4Fr sheath, 4Fr J-Curve
 Embolizer: Gelfoam powders
 Embolizer: .018 3/2 Tornado microcoil, Gelfoam powders
 Embolizer: Glue (NBCA/lipiodol = 1:4)
+Embolizer: .035 6/3, 4/3 Tornado coil
 
 PROCEDURE:
 -- Pelvic fracture, no active bleeding
@@ -41,6 +42,11 @@ Embolization was performed with Glue (NBCA/lipiodol = 1:4).
 The follow-up GDA and SMA angiography showed no more active bleeding.
 The sheath will be kept for 24 hours for use if other bleeding episode occurs.
 
+The angiography of celiac trunk, followed by gastroduodenal artery, showed active bleeding from the supraduodenal artery.
+Embolization of the GDA was performed with coils, from distal to proximal, across the supraduodenal artery.
+The follow-up GDA angiography showed no more active bleeding.
+The sheath will be kept for 24 hours for use if other bleeding episode occurs.
+
 -- HCC rupture
 The angiography of celiac trunk, followed by proper hepatic artery, showed a hypervascular mass at left lobe of liver, supplied mainly by the left hepatic artery, and active bleeding from the tumor vessels.
 Embolization was performed with Gelfoam powders via the LHA, and then the PHA.
@@ -55,6 +61,9 @@ Close f/u patient's vital signs.
 Sandbag compression for at least 4 hours, and bed rest for 8 hours.
 IA infusion of Vasopressin (4U per hour for 5 hours; if further bleeding, repeat q6h in maximal 24 hours)
 
+The right femoral sheath can be removed if no more bleeding after 24 hours.
+Then, sandbag compression for at least 4 hours, and bed rest for 8 hours.
+
 PLAN:
 Remove the right femoral sheath if no more bleeding after 24 hours.
 Then, sandbag compression for at least 4 hours, and bed rest for 8 hours.
@@ -64,6 +73,7 @@ Then, sandbag compression for at least 4 hours, and bed rest for 8 hours.
   MyForm =
 (
 TAE was successfully performed.
+TAE for GI bleeding was successfully performed.
 TAE for HCC rupture was successfully performed.
 TAE for PPH was successfully performed.
 )
@@ -209,6 +219,30 @@ The whole procedure was smooth, the patient tolerated well, and no immediate com
   MyForm =
 (
 PCN was successfully performed.
+)
+  Paste(MyForm)
+Return
+
+::picc1::
+  MyForm =
+(
+Antegrade venography of right/left arm:
+- Puncture: basilic/brachial/cephalic vein
+- Patent of right basilic/brachial/cephalic vein, subclavian vein, brachiocephalic vein and superior vena cava.
+- No significant stenosis, vasospasm or abnormal collaterals noted in this study.
+
+The PICC (peripherally inserted central venous catheter) is inserted from right/left arm:
+- Puncture: basilic/brachial/cephalic vein
+- Tourniquet: applied
+- After sterilizing the puncture site and local anesthesia, a 4-Fr. single lumen close-end catheter is is introduced using Seldinger technique and advanced with its tip at the superior vena cava.
+- The whole course is smooth and the patient stood the whole procedure well.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. The PICC is inserted from right/left arm.
+2. The internal catheter is 36 cm in length, and the external catheter is 7 cm in length.
 )
   Paste(MyForm)
 Return

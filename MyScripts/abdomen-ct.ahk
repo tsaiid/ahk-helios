@@ -8,8 +8,6 @@
 ::btok::No biliary tree dilatation.
 ::btok2::No CBD or IHD dilatation.
 ::pdok::No pancreatic duct dilatation.
-::actfl::Fatty liver without focal lesion.
-::mactfl::Mild fatty liver without focal lesion.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
 ::actgbss::Several gallbladder stones without obvious GB distention or wall thickening.
@@ -25,6 +23,7 @@
 ::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal, in favor of adenoma.
 ::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
+::mactckd::Mild atrophic change of bilateral kidneys, in favor of mild chronic kidney disease.
 ::actckd1::Atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
 ::mactckd1::Mild atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
 ::actrkaml::A __-cm fat-containing tumor at the right kidney, in favor of angiomyolipoma.
@@ -37,10 +36,13 @@
 ::aphe::arterial phase hyperenhancement
 ::actlok::No definite liver tumor. No abnormal enhanced parenchymal lesion.
 ::actthad::Areas of liver parenchymal enhancement visible only during the hepatic artery phase, suggestive of transient hepatic attenuation differences (THAD).
-::mactfl::Diffusely mild decreased attenuation of the liver, suggestive of fatty liver.
+::actfl::Diffusely decreased attenuation of the liver, suggestive of fatty liver.
+::mactfl::Diffusely mild decreased attenuation of the liver, suggestive of mild fatty liver.
 ::actc::Irregular surface of the liver with nodularities, indicating cirrhosis.
 ::mactc::Mild irregular surface of the liver with nodularities, suspicious mild cirrhosis.
 ::actcc::Wall thickening of the urinary bladder with trabeculation without perivesical fat stranding, suggestive of chronic cystitis.
+::mactcc::mild wall thickening of the urinary bladder without perivesical fat stranding, suggestive of mild chronic cystitis.
+::actccdd::Wall thickening of the urinary bladder without perivesical fat stranding. DDx: chronic cystitis, insufficient UB distention related change.
 ::nifa::No evidence of intraperitoneal free air.
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
@@ -65,6 +67,7 @@
 ::naabdf::No evident acute intraabdominal finding.
 ::nathof::No evident acute intrathoracic finding.
 ::nacraf::No evident acute intracranial finding.
+::actapn::Edematous left renal parenchyma, with multifocal hypo-enhanced areas and perirenal fat stranding, suggestive of acute pyelonephritis.
 
 ;; forms
 ::act::
@@ -79,6 +82,30 @@ Previous abdominal CT: none.
 
 FINDINGS:
 
+)
+  Paste(MyForm)
+Return
+
+::actpel::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced pelvic CT scans.
+Scanning range: Lower abdomen to pelvis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous CT: none.
+
+FINDINGS:
+GI tract: Unremarkable
+
+Urinary bladder: Unremarkable
+Prostate: Unremarkable
+GYN organ: Unremarkable
+
+No evident retroperitoneal lymphadenopathy identified.
+No evidence of intraperitoneal free air.
+No obvious ascites.
 )
   Paste(MyForm)
 Return
@@ -302,7 +329,7 @@ FINDINGS:
 
 - The appendix is normal.
 
-- The visible liver, spleen, pancreas, kidneys are unremarkable.
+- The liver, spleen, pancreas, kidneys are unremarkable.
 - No retroperitoneal or mesenteric lymphadenopathy.
 - The lungs covered in the scanning range are unremarkable.
 )
@@ -398,7 +425,7 @@ Previous abdominal CT: none.
 
 FINDINGS:
 Adrenals: Unremarkable
-Kidneys and ureters: Unremarkable.
+Kidneys and ureters: Unremarkable
 
 Liver: Unremarkable
 Spleen: Unremarkable
@@ -437,7 +464,7 @@ Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
 
-Kidneys and ureters: Unremarkable.
+Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
@@ -487,7 +514,7 @@ Adrenals: Unremarkable
 Spleen: splenomegaly
 Biliary tree: gallbladder stone; No biliary tree dilatation.
 Pancreas: Unremarkable
-Kidneys and ureters: Unremarkable.
+Kidneys and ureters: Unremarkable
 
 Massive ascites.
 The bowels show diffuse wall edema, probably portal hypertensive enteropathy.
@@ -521,7 +548,7 @@ Biliary tree: Unremarkable
 Spleen: Unremarkable
 
 Adrenals: Unremarkable
-Kidneys and ureters: Unremarkable.
+Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
@@ -545,11 +572,14 @@ Pancreas:
 - Intrinsic pancreatic edematous change without necrosis.
 - Several acute necrotic collections.
 - Several peripancreatic fluid collections, and inflammatory changes in peripancreatic fat.
+- Several non-encapsulated peripancreatic fluid collections.
+- Inflammatory changes in the peripancreatic fat.
 - Small filling defects in the portal vein, suspicious thrombophlebitis.
 - The peripancreatic fat is relatively normal.
 - No peripancreatic fluid accumulation.
 - The pancreatic duct is dilated.
 - The pancreatic duct is normal.
+> These findings are suggestive of acute pancreatitis.
 
 * Modified CTSI score:
 - Pancreatic inflammation
@@ -687,6 +717,50 @@ Pancreas: Unremarkable
 
 Lower lungs: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
+)
+  Paste(MyForm)
+Return
+
+::actgyntoa::
+  MyForm =
+(
+TECHNIQUE:
+Non-contrast and contrast-enhanced abdominal CT scans.
+Scanning range: Liver to symphysis, 5-mm contiguous scan.
+Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
+
+Previous abdominal CT: none.
+
+FINDINGS:
+Uterus: Unremarkable
+Ovaries:
+- Dilated, tortuous, thick-walled, fluid-filled tubular structure at the right adnexal region, with adjacent fat stranding in the pelvic cavity. Tubo-ovarian abscess is suspected. Suggest GYN check-up.
+- The left ovary is unremarkable.
+
+Kidneys: Unremarkable
+Ureters: Unremarkable
+Urinary bladder: Unremarkable
+
+Liver: several small hepatic cysts.
+Biliary tree: Unremarkable
+Spleen: Unremarkable
+Pancreas: Unremarkable
+GI tract:
+- Mild dilated small bowels, especially distal ileum, in favor of paralytic ileus.
+- High-attenuation materials in the colon, probably medication or food.
+
+No pelvic, retroperitoneal or mesenteric lymphadenopathy.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+Lower lungs: Unremarkable
+Skeleton: No osteolytic nor osteoblastic lesion
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Right tubo-ovarian abscess is suspected. Suggest GYN check-up.
 )
   Paste(MyForm)
 Return
@@ -1072,27 +1146,6 @@ No obvious ascites.
   MyForm =
 (
 Gastric cancer, prepyloric antrum, with regional lymphadenopathy, causing gastric outlet obstruction.
-)
-  Paste(MyForm)
-Return
-
-::actgyn::
-  MyForm =
-(
-TECHNIQUE:
-Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Liver to symphysis, 5-mm contiguous scan.
-Oral contrast medium: Yes.
-IV contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
-
-Previous abdominal CT: none.
-
-FINDINGS:
-
-IMPRESSION:
-
-SUGGESTION:
-
 )
   Paste(MyForm)
 Return

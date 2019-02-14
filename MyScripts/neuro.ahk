@@ -94,8 +94,13 @@
 ::aii::acute ischemic infarctss
 ::gpcal::Calcifications are noted at the bilateral globus pallidi, probably aging related.
 ::mgpcal::Mild calcifications are noted at the bilateral globus pallidi, probably aging related.
+::gpdncal::Calcifications are noted at the bilateral globus pallidi and dentate nuclei, probably aging related.
+::mgpdncal::Mild calcifications are noted at the bilateral globus pallidi and dentate nuclei, probably aging related.
 ::mpt::mucoperiosteal thickening
 ::npok::Symmetrical soft tissue thickening of the nasopharynx, in favor of adenoidal hyperplasia.
+::c1::Cavum septum pellucidum.
+::c2::Cavum septum pellucidum et cavum vergae.
+::c3::Cavum veli interpositi.
 
 ::li1::
   MyForm =
@@ -116,7 +121,7 @@ The nasopharynx, oropharynx, hypopharynx, and larynx are unremarkable.
 No bulky lymph nodes over bilateral submandibular and submental, carotid, posterior cervical spaces, and supraclavicular fossae noted.
 No particular findings of parotid gland, submandibular gland, and thyroid gland.
 The paranasal sinuses and mastoid air cells are clear.
-The visible brain shows no remarkable findings.
+The visible brain and lungs show no remarkable finding.
 )
   Paste(MyForm)
 Return
@@ -266,6 +271,7 @@ MRI of internal auditory canal with:
 - T2WI axial, coronal, sagittal
 MRI of whole brain with:
 - T2WI axial
+- 3D T1+C axial, coronal, sagittal
 
 COMPARISON: no
 

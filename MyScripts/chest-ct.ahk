@@ -11,6 +11,12 @@
 ::mcad0::Mild calcification of the coronary arteries.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 ::cctnat::No abnormal air trapping in both inspiratory and expiratory phases.
+::cadr0::CAD-RADS 0: Documented absence of CAD.
+::cadr1::CAD-RADS 1: Minimal non-obstructive CAD. Consider preventive therapy and risk factor modification.
+::cadr2::CAD-RADS 2: Mild non-obstructive CAD. Consider preventive therapy and risk factor modification, particularly for patients with non-obstructive plaque in multiple segments.
+::cadr3::CAD-RADS 3: Moderate stenosis. Consider functional assessment.
+::cadr4::CAD-RADS 4: Severe stenosis. Consider invasive coronary angiography or functional assessment.
+::cadr5::CAD-RADS 5: Total coronary occlusion. Consider ICA and/or viability assessment.
 ::cctlapok::
   MyForm =
 (
@@ -142,9 +148,8 @@ FINDINGS:
 2. Other lung and extrapulmonary findings:
 - Airway: normal.
 - Mediastinum: no lymph node enlargement > 1 cm.
-- Heart:
-  > Size: normal.
-  > Coronary artery calcification: no / minimal.
+- Heart: normal size. No obvious coronary artery calcification.
+- Heart: normal size. Mild coronary artery calcification.
 - Great vessels: normal diameter.
 - Pleura: unremarkable.
 - Chest wall and spine: unremarkable.
@@ -155,7 +160,6 @@ FINDINGS:
   MyForm =
 (
 No remarkable nodular lesions in bilateral lungs.
-No or minimal coronary artery calcification.
 )
   Paste(MyForm)
 Return
@@ -179,6 +183,11 @@ FINDINGS:
   > Bilateral subpleural reticulation, interlobular septal thickening, basal honeycombing, suggestive of UIP pattern.
   > Mild bronchiectasis over bilateral lower lungs.
   > No definite extensive ground glass abnormality, micronodules, discrete cysts, diffuse mosaic attenuation, nor consolidation.
+
+  > Bilateral reticulation, interlobular septal thickening, basal predominance, suggestive of possible UIP pattern.
+  > Mild bronchiectasis over bilateral lower lobes.
+  > A few small nodules in the bilateral lungs.
+  > No definite extensive ground glass abnormality, discrete cysts, diffuse mosaic attenuation, air trapping, nor consolidation.
 - Pleura: no visible nodularity or pleural thickening.
 - Great vessels: within normal limits.
 - Heart: within normal limits.
@@ -193,6 +202,41 @@ FINDINGS:
   MyForm =
 (
 UIP pattern.
+)
+  Paste(MyForm)
+Return
+
+::cctncsdnsip::
+  MyForm =
+(
+CT scan of the thorax was performed with a multi-slice CT scanner.
+
+TECHNIQUE:
+- (1) HRCT (inspiration and expiration) (2) Noncontrast survey
+- (1) Noncontrast survey (inspiration and expiration)
+- (1) Noncontrast survey
+- Scan range: lower neck to adrenal gland
+
+COMPARISON:
+Applicable previous CT of chest: no
+
+FINDINGS:
+- Lung and large airways:
+  > Multifocal peribronchovascular ground glass opacities with bronchiectasis over bilateral lungs. Subpleural sparing is noted. No honeycombing. Non-specific interstitial pneumonia is suspected.
+- Pleura: no visible nodularity or pleural thickening.
+- Great vessels: within normal limits.
+- Heart: within normal limits.
+- Mediastinum and hila: no LNs > 1 cm.
+- Chest Wall and low neck: within normal limits.
+- Abdomen: within normal limits in visualized range.
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+NSIP is suspected.
 )
   Paste(MyForm)
 Return
@@ -213,21 +257,19 @@ Applicable previous CT of chest: no
 
 FINDINGS:
 1. AORTA:
-  > No evidence of aortic aneurysm or dissection.
+- No evidence of aortic aneurysm or dissection.
 
 2. PULMONARY ARTERY:
-  > No definite filling defect
+- No definite filling defect
 
-3. OTHER VESSELS: Not unusual for age
+3. OTHER THORACIC ORGANS:
+- No pulmonary nodule.
+- No mediastinal lymphadenopathy.
 
-4. OTHER THORACIC ORGANS:
-  > No pulmonary nodule.
-  > No mediastinal lymphadenopathy.
+4. ABDOMINAL ORGANS SCANNED: Unremarkable
 
-5. ABDOMINAL ORGANS SCANNED: Unremarkable
-
-6. OTHERS:
-  > No osteolytic or osteoblastic bone lesion in the scanning range.
+5. OTHERS:
+- No osteolytic or osteoblastic bone lesion in the scanning range.
 )
   Paste(MyForm)
 Return
