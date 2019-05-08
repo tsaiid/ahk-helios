@@ -9,7 +9,7 @@ StartEditAfterReady(timeOut = 10) {
     Loop, %maxLoopCount% {
       reportStatusStr := oAcc.accName(0)
 
-      If (InStr(reportStatusStr, "[等待報告]")) {
+      If (InStr(reportStatusStr, "[等待報告]") || InStr(reportStatusStr, "[初步報告]")) {
         Loop, %maxLoopCount% {
           If (GetCurrAccnoFromGeUv(False)) {
             ;MsgBox, 1

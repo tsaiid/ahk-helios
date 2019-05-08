@@ -211,8 +211,11 @@ Return
   MyForm =
 (
 MRI of whole brain with:
-- T2WI axial
-- T1WI+C axial, coronal, sagittal
+- Sagittal T1WI
+- Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+- Diffusion-weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) map
+- Post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
+- Intracranial MRA with 3D TOF and focus on the circle of Willis
 MRI of CP angle with:
 - High-resolution T2 SPACE axial, coronal
 - T1WI coronal
@@ -231,15 +234,11 @@ Presence of small area high signal intensity on T2WI noted over the left side ma
 
 No definite abnormal signal intensity mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 
-The bilateral lateral ventricles showed symmetrical without dilatation.
+The bilateral lateral ventricles show symmetrical without dilatation.
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis region.
 
 Post contrast study showed no abnormal enhanced lesion in the brain and no abnormal leptomeningeal enhancement noted.
-
-IMPRESSION:
-No evidence of abnormal signal intensity tumor mass lesion over the bil. C-P angle cistern region noted.
-
-No evidence of abnormal enhanced tumor mass lesion over the brain stem, skull base, bil. CP angle cistern and bil. pre-pontine cistern region noted.
-SUGGESTION:
 )
   Paste(MyForm)
 Return

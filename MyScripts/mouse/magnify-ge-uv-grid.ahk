@@ -1,8 +1,10 @@
 ﻿; Magnify GE UV grid
 
+#IfWinActive ahk_exe Miv2Lib.exe
 ^!m::
   MagnifyGeUvGrid()
 Return
+#IfWinActive
 
 MagnifyGeUvGrid(grid = 4) {
   If (WinActive("ahk_exe Miv2Lib.exe")) {

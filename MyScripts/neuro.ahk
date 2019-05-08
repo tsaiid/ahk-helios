@@ -15,6 +15,7 @@
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae2::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae3::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered. Several tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
+::sae4::Presence of bilateral periventricular, deep and subcortical hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::ubo::Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
 ::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
@@ -25,10 +26,11 @@
 ::ctmast::Presence of soft tissue density over ---- mastoid air sinus, R/O mastoiditis or fluid collection in the mastoid.
 ::ctcmast::Underdeveloped pneumatization and sclerotic change of right/left/bilateral mastoid air cells, suspicious chronic mastoiditis.
 ::atrv::Diffuse atrophy of bilateral cerebral hemispheres, with compensatory dilatation of bilateral lateral ventricles, deepening and widening of cortical sulci.
-::atrvs::Mild enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+::atrvs::Enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of brain atrophy.
+::matrvs::Mild enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::atrssa::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::atrvsa::Mild enlargement of the intraventricular system with widening of the subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
-::atrs::Mild diffuse atrophy of bilateral cerebral hemispheres, with deepening and widening of fissures and cortical sulci.
+::matrs::Mild diffuse atrophy of bilateral cerebral hemispheres, with deepening and widening of fissures and cortical sulci.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
@@ -56,12 +58,16 @@
 ::ctmcm::Prominent retrocerebellar cerebrospinal fluid space with normal vermis, 4th ventricle, and cerebellar hemispheres, in favor of mega cisterna magna.
 ::epc::endplate change
 ::ctnph::Enlarged lateral and third ventricles, with relatively normal 4th ventricle. Ventricular enlargement out of proportion to cortical sulcal enlargement, and presence of bilateral periventricular low density. Normal pressure hydrocephalus may be suspected. DDx: normal aging brain.
-::f-p::frontoparietal `
-::f-t-p::frontotemporoparietal `
-::f-t::frontotemporal `
-::p-o::parietooccipital `
-::t-p::temporoparietal `
-::t-o::temporooccipital `
+::rposts::Soft tissue swelling over right periorbital region.
+::mrposts::Mild soft tissue swelling over right periorbital region.
+::lposts::Soft tissue swelling over left periorbital region.
+::mlposts::Mild soft tissue swelling over left periorbital region.
+::f-p::fronto-parietal `
+::f-t-p::fronto-temporo-parietal `
+::f-t::fronto-temporal `
+::p-o::parieto-occipital `
+::t-p::temporo-parietal `
+::t-o::temporo-occipital `
 ::f-::frontal `
 ::p-::parietal `
 ::t-::temporal `
@@ -99,13 +105,27 @@
 ::mpt::mucoperiosteal thickening
 ::npok::Symmetrical soft tissue thickening of the nasopharynx, in favor of adenoidal hyperplasia.
 ::c1::Cavum septum pellucidum.
-::c2::Cavum septum pellucidum et cavum vergae.
+::c2::Cavum septum pellucidum and cavum vergae.
 ::c3::Cavum veli interpositi.
+::mrbccvm::A 1.3-cm nodular lesion at right frontal subcortical region, with a popcorn appearance, a rim of signal loss, and blooming effect on T2*WI. The postcontrast images show mild central enhancement. A cavernoma (cavernous venous malformation) is suspected.
+::latv::lateral ventricle
+::3v::third ventricle
+::4v::fourth ventricle
+::casc::cerebral atherosclerosis
+::mcasc::mild cerebral atherosclerosis
 
 ::li1::
   MyForm =
 (
 A small low density over left basal ganglion region, in favor of old lacunar infarct.
+A small low density over right basal ganglion region, in favor of old lacunar infarct.
+)
+  Paste(MyForm)
+Return
+
+::lis::
+  MyForm =
+(
 Several small low densities over bilateral basal ganglion regions, in favor of old lacunar infarcts.
 Several tiny low densities over left basal ganglion region, in favor of old lacunar infarcts.
 Several tiny low densities over right basal ganglion region, in favor of old lacunar infarcts.
@@ -164,24 +184,14 @@ Return
 ::bctaok::
   MyForm =
 (
-CTA shows:
-- no evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis regions.
-- long segment hypoplasia of left vertebral artery with right dominance, probably normal variant.
-- no evidence of right vertebral artery dissection.
-- no evidence of beaded appearance in the circle of Willis that suggestive of reversible cerebral vasoconstriction syndrome.
-- no obvious stenosis of the extracranial carotid arteries.
-
-Pre and post-contrast CTA scan of brain and neck :
+Pre and post-contrast CTA scan of brain and neck:
 
 Brain CT:
 - No definite area of obvious abnormal density in the brain noted.
 - No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
-- The bilateral lateral ventricles showed symmetrical without dilatation.
-- No obvious fracture of the skull base and the skull.
-
-- Suspect lacunar infarction at right pons.
-- A dilated Virchow-Robin space at right basal ganglion.
-- No large established infarction or ICH is noted.
+- The bilateral lateral ventricles show symmetrical without dilatation.
+- No definite bony lesion in the skull.
+- The visible paranasal sinuses and mastoids are unremarkable.
 
 Brain CTA:
 - Bilateral CCA, carotid bulbs and distal ICAs are patent.
@@ -191,7 +201,7 @@ Brain CTA:
 - The major dural venous sinuses are patent.
 
 Multiphase CTA:
-- No collateral or perfusion defect is noted.
+- No abnormal collateral or perfusion defect is noted.
 )
   Paste(MyForm)
 Return
@@ -310,7 +320,7 @@ Previous MRI of brain: none
 Findings:
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-No definite abnormal signal intensity or tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
+No definite abnormal signal intensity or tumor mass lesion in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 
@@ -385,6 +395,36 @@ C6-C7: diffuse bulging disc, spondylosis, disc space narrowing, endplate change,
 C7-T1: diffuse bulging disc, causing mild spinal stenosis.
 
 No abnormal signal intensity change within the cervical spinal cord.
+)
+  Paste(MyForm)
+Return
+
+;; Neuro CTA - PCU
+::nctapcu::
+  MyForm =
+(
+CTA of the neck and brain was performed before and after IV contrast agent administration
+Scanning range: aortic arch to circle of Willis.
+Axial, 3D MPR, MIP (and VRT) images:
+
+COMPARISON: nil
+
+FINDINGS:
+- Major intracranial arteries including anterior, middle and posterior cerebral arteries, bilateral ICAs, and basilar arteries are patent.
+- The right vertebral artery is dominant, while the left V4 VA is hypoplastic.
+- Bilateral common carotid, carotid bulbs, external and internal carotid arteries are patent.
+- Major venous sinuses are patent.
+- No definite aneurysm or AVM is noted.
+- The visible brain parenchyma is unremarkable.
+- The neck structure is normal. No abnormal mass lesion is identified.
+- The visible lungs are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+1. Dominant right vertebral artery, with left V4 VA hypoplasia.
+2. The major neck and intracranial arteries are patent, without vascular anomaly.
 )
   Paste(MyForm)
 Return

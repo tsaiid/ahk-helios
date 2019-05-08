@@ -56,8 +56,6 @@ Parotid gland: normal
 Submandibular gland: normal
 Thyroid gland: normal
 Lymph nodes: No evidence of bulky lymph nodes (> 1 cm) over bilateral carotid space and posterior triangle of submandibular and neck regions noted.
-
-PS. The evaluation is limited especially for solid organs, neck lymph nodes and vascular structure due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return
@@ -314,6 +312,48 @@ Presence of high signal intensity on T1WI over the C-spine, compatible with post
 The paranasal sinuses and mastoid air cells are unremarkable.
 
 The visible brain is unremarkable.
+)
+  Paste(MyForm)
+Return
+
+::mrnpc::
+  MyForm =
+(
+Nasopharyngeal Carcinoma Staging Form
+
+1. MR protocol
+SEQUENCES:
+- Axial T1WI and T2WI with fat suppression;
+- Axial, coronal and sagittal post Gd-enhanced T1WI with fat suppression
+SCAN RANGE: from the skull base to the low neck
+CONTRAST MEDIUM: IV route, 0.1 mmol/kg, rate: 2.0 mL/sec
+
+2. Tumor location / Size
+Location:
+Size:
+--- Measurable:
+--- Non-measurable
+
+3. Tumor invasion
+--- No or Equivocal
+--- Yes, if yes:
+oropharynx, nasal cavity, nasopharynx, parapharyngeal space, skull base bone invasion, para-nasal sinus, intracranial, cranial nerves, infratemporal fossa, masticator space, hypopharynx, orbit
+
+4. Neck Lymph Node
+--- No or Equivocal
+--- Yes, if yes:
+Involved lymph nodes: size & location (right or left, level I-VII, and others)
+Extension to supraclavicular fossa
+Extracapsular spread (at least one node): Yes / No / Difficult to determine
+Maximal size of the largest positive node: ____ mm (long axis)
+* Other regions include facial nodes, parapharyngeal, parotid, suboccipital/retroauricular regions, etc.
+
+5. Distant metastasis (In this study)
+---No or Equivocal
+---Yes, location: _________
+
+6. Other findings:
+
 )
   Paste(MyForm)
 Return

@@ -10,6 +10,7 @@
 ::pda::patent ductus arteriosus `
 ::mi::myocardial infarction `
 ::cad::coronary artery disease
+::CADe::computer-aided detection
 :c:RUL::right upper lobe
 :c:RML::right middle lobe
 :c:RLL::right lower lobe
@@ -154,6 +155,8 @@
 ::bti::biliary tract infection
 ::hc::hepatic cyst
 ::hcs::hepatic cysts
+::oc::ovarian cyst
+::ocs::ovarian cysts
 ::ppu::perforated peptic ulcer
 ::toa::tubo-ovarian abscess
 ::a-c::ascending colon
@@ -167,6 +170,7 @@
 ::smg::splenomegaly
 ::pid::pelvic inflammatory disease
 ::bt::biliary tree
+::haic::hepatic arterial infusion chemotherapy
 
 ;; Brain
 ::ich::intracranial hemorrhage
@@ -199,7 +203,7 @@
 ::mba::mild brain atrophy
 ::mba2::Mild brain atrophy; leukoaraiosis.
 ::mba3::Mild brain atrophy; leukoaraiosis; old lacunar infarcts.
-::mba4::Mild brain atrophy; leukoaraiosis; old lacunar infarcts; atherosclerosis.
+::mba4::Mild brain atrophy; leukoaraiosis; old lacunar infarcts; cerebral atherosclerosis.
 ::bg::basal ganglion
 ::vb::vertebral body
 ::vbs::vertebral bodies
@@ -263,6 +267,7 @@
 ::sec::secondary `
 ::ned::no evidence of disease.
 ::ner::no evidence of local recurrence.
+::ner0::no local recurrence.
 ::hx::history `
 ::sq::subcutaneous `
 ::afl::air-fluid level

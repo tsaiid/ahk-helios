@@ -1,8 +1,8 @@
 ﻿; Sono
 ;; Hotstrings
 ;; Sono, Upper Abdomen
-::sfl::Coarsening and hyperechoic liver parenchyma echo pattern without focal lesion noted, in favor of fatty liver change.
-::smfl::Slightly increased hyperechoic liver parenchyma without focal lesion noted, in favor of mild fatty liver change.
+;::sfl::Coarsening and hyperechoic liver parenchyma echo pattern without focal lesion noted, in favor of fatty liver change.
+;::smfl::Slightly increased hyperechoic liver parenchyma without focal lesion noted, in favor of mild fatty liver change.
 ::slc::Irregular surface of the liver and coarsening change of the parenchyma, indicating liver cirrhosis.
 ::sngb::The gallbladder is not seen, may be due to previous cholecystectomy.
 ::sckd::Cortical thinning, increased echogenicity, and small sizes of both kidneys, in favor of chronic kidney disease.

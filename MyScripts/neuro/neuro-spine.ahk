@@ -448,7 +448,7 @@ Presence of degenerative end-plate change noted over the L4-L5.
 Narrowing of bilateral L4-5 and L5-S1 neuroforamina due to the degenerative change and severe disc space narrowing.
 
 Presence of small hemangiomas over L1 and L4 spine vertebral bodies.
-Presence of benign hemangioma noted over the L2 spine vertebral body, size about 2.1 x 2 x 2cm.
+Presence of benign hemangioma noted over the L2 vertebral body, size about 2.1 cm.
 
 Bilateral renal cysts.
 

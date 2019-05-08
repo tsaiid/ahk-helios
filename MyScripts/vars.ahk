@@ -2,10 +2,14 @@
 prevExamDate := ""
 currExamDate := ""
 currAccNo := ""
+prevPatID := ""
 hParentWnd := 0
 LLDFormRtLD := 0
 LLDFormLtLD := 0
 FsgRadioGroup := 0
+ProstateSizeCalFormWidth := 0
+ProstateSizeCalFormLength := 0
+ProstateSizeCalFormHeight := 0
 
 ;; Helios Related
 FINDING_INPUT_PATH              := "4.9.31.1"
@@ -26,6 +30,15 @@ ABNORMAL_VALUE_PATH := {  0:  __ABNORMAL_VALUE_EMPTY
                          ,C:  __ABNORMAL_VALUE_C
                          ,D:  __ABNORMAL_VALUE_D
                          ,R:  __ABNORMAL_VALUE_R      }
+__MISMATCH_VALUE_EMPTY            := "4.9.12.2"
+__MISMATCH_VALUE_A                := "4.9.12.3"
+__MISMATCH_VALUE_B                := "4.9.12.4"
+__MISMATCH_VALUE_C                := "4.9.12.5"
+MISMATCH_VALUE_PATH := {  0:  __MISMATCH_VALUE_EMPTY
+                         ,A:  __MISMATCH_VALUE_A
+                         ,B:  __MISMATCH_VALUE_B
+                         ,C:  __MISMATCH_VALUE_C      }
+
 PREV_REPORT_TAB_PATH            := "4.7.2.1"
 LIS_TAB_PATH                    := "4.7.2.2"
 EXAM_TAB_PATH                   := "4.7.2.3"

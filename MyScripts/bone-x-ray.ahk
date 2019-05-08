@@ -22,9 +22,11 @@
 ::spll::Spondylosis of L-spine.
 ::splc::Spondylosis of C-spine.
 ::splt::Spondylosis of T-spine.
+::spltl::Spondylosis of T- and L-spine.
 ::msplc::Mild spondylosis of C-spine.
 ::mspll::Mild spondylosis of L-spine.
 ::msplt::Mild spondylosis of T-spine.
+::mspltl::Mild spondylosis of T- and L-spine.
 ::oak0::Mild joint space narrowing at medial compartment of knee joint.
 ::oak1a::Mild joint space narrowing, especially at medial compartment of knee joint, suggestive of mild osteoarthrosis.
 ::oak1b::Mild joint space narrowing, marginal osteophyte formation, especially at medial compartment of knee joint, suggestive of mild osteoarthrosis.
@@ -37,6 +39,7 @@
 ::scs::subchondral sclerosis
 ::spef::suprapatellar effusion
 ::jef::joint effusion
+::patok::No lateral tilting or subluxation of patella. {Enter}No PF joint space narrowing.
 ::bpatok::No lateral tilting or subluxation of bilateral patellae. {Enter}No PF joint space narrowing.
 ::lpatok::No lateral tilting or subluxation of left patella. No PF joint space narrowing.
 ::rpatok::No lateral tilting or subluxation of right patella. No PF joint space narrowing.
@@ -51,6 +54,8 @@
 ::rpatt::Lateral tilting of right patella, with severe PF joint space narrowing and subchondral sclerosis at lateral facet. Chondromalacia patella is considered.
 ::mrpatt::Mild lateral tilting of right patella, with mild PF joint space narrowing at lateral facet.
 ::bpatts::Lateral tilting and subluxation of bilateral patellae, with severe PF joint space narrowing, subchondral sclerosis and marginal osteophyte formation at lateral facet.
+::lpatts::Lateral tilting and subluxation of left patella, with PF joint space narrowing at lateral facet.
+::rpatts::Lateral tilting and subluxation of right patella, with PF joint space narrowing at lateral facet.
 ::mbpatts::Mild lateral tilting and subluxation of bilateral patellae, with PF joint space narrowing at lateral facet.
 ::mlpatts::Mild lateral tilting and subluxation of left patella, with PF joint space narrowing at lateral facet.
 ::mrpatts::Mild lateral tilting and subluxation of right patella, with PF joint space narrowing at lateral facet.
@@ -143,6 +148,7 @@
 ::sij::sacroiliac joint
 ::acj::acromioclavicular joint
 ::sts::soft tissue swelling
+::ste::soft tissue edema
 ::rasts::Soft tissue swelling around right ankle.
 ::lasts::Soft tissue swelling around left ankle.
 ::mrasts::Mild soft tissue swelling around right ankle.
@@ -206,9 +212,10 @@ Return
 ::lkcppd::Linear calcifications along the joint space of the medial and lateral compartments of left knee, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::nbok::No evidence of nasal bone fracture.
 ::spv::s/p vertebroplasty at `
+::spv0::s/p vertebroplasty
 ::pif::pars interarticularis fracture
-::rif::Intertrochanteric fracture of right femur.
-::lif::Intertrochanteric fracture of left femur.
+::ritf::Intertrochanteric fracture of right femur.
+::litf::Intertrochanteric fracture of left femur.
 ::rhoa::OA change of right hip.
 ::lhoa::OA change of left hip.
 ::bhoa::OA change of bilateral hips.
@@ -226,8 +233,8 @@ Return
 ::rwoa::OA change of right wrist.
 ::lwoa::OA change of left wrist.
 ::bwoa::OA change of bilateral wrists.
-::rsct::A tiny linear calcification over superolateral aspect of right shoulder, in favor of calcific tendinitis.
-::lsct::A tiny linear calcification over superolateral aspect of left shoulder, in favor of calcific tendinitis.
+::rsct::A linear calcification over the superolateral aspect of right shoulder, in favor of calcific tendinopathy.
+::lsct::A linear calcification over the superolateral aspect of left shoulder, in favor of calcific tendinopathy.
 ::lasts::Soft tissue swelling over left ankle region.
 ::rasts::Soft tissue swelling over right ankle region.
 ::lammf::Medial malleolar fracture of left ankle.
@@ -238,6 +245,9 @@ Return
 ::rabmf::Bimalleolar fracture of right ankle.
 ::rsas::s/p anchor screw fixation at right shoulder.
 ::lsas::s/p anchor screw fixation at left shoulder.
+::rk::Right knee:`n
+::lk::Left knee:`n
+::bk::Bilateral knees:`n
 
 ; Multiline
 ::flat::

@@ -37,6 +37,12 @@ Recommend close f/u patient's vital signs, bed rest and compression for at least
 F/U CXR 6 hours later.
 )
   Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+CT guide biopsy for __ tumor was successfully performed.
+)
+  Paste(MyForm)
 Return
 
 

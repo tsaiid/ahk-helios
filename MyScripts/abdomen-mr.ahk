@@ -116,10 +116,12 @@ COMPARISON: no
 FINDINGS:
 * A case of HCC, s/p OP, s/p RFA.
 Liver:
-  > S/p right hepatectomy. Hypertrophic change of the lateral segment.
-  > Cirrhotic change: nil, portosystemic collaterals (-)
-  > A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
-  > Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+- S/p right hepatectomy. Hypertrophic change of the lateral segment.
+- Cirrhotic change: nil, portosystemic collaterals (-)
+- A 8-mm nodule at the S2 (Se/Im: 11,12,13/26) shows slightly enhancement in the arterial but prominent washout in portal venous, equilibrium, and hepatobiliary phases. Recurrence HCC is suspected.
+- Two mass lesions, about 4.8 and 4.2 cm, at the S4, show T1 slightly hypointensity, T2 slightly hyperintensity, restricted diffusion. The dynamic study shows mild peripheral enhancement in the arterial phase, and no Primovist uptake in the hepatobiliary phase. Metastasis is first considered. DDx: atypical HCC, CCC.
+- The major hepatic and portal veins are patent.
+
 
 Adrenals: Unremarkable
 Spleen: Unremarkable
@@ -236,6 +238,63 @@ Lower lungs: Unremarkable
   Paste(MyForm)
 Return
 
+::amrprcs::
+  MyForm =
+(
+Prostate Cancer Staging Form
+
+1. MR protocol
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * HASTE T2: axial, coronal
+  * DWI: coronal
+  * T1+C: axial
+- Prostate:
+  * TSE T2, DWI, ADC: axial
+  * T1+FS: axial, sagittal
+  * T1+C+FS: axial, coronal, sagittal
+
+2. Tumor location / Size
+---Visible tumor
+Not assessable
+No or Equivocal
+Yes:
+Location: Right lobe or left lobe / Size _______cm (largest diameter of the biggest tumor)
+
+3. Tumor invasion
+---No or Equivocal
+---Yes:
+Prostate (
+One-half of one lobe or less
+More than one-half of one lobe but not both lobes
+Involves both lobes)
+Extracapsular extension (neurovascular bundle invasion: Rt___, Lt ____)
+Seminal vesicle invasion (Rt ___, Lt ___)
+Pelvic side wall
+Pelvic organs invasion (If yes,
+Bladder
+Rectum
+Others __________)
+
+4. Regional nodal metastasis
+---No or Equivocal
+---Yes:
+Obturator- Rt/Lt
+Internal iliac- Rt/Lt
+External iliac- Rt/Lt
+Sacral
+Others:
+
+5. Distant metastasis (In this study)
+---No or Equivocal
+---Yes (location; regional or non-regional)
+
+6. Others
+
+)
+  Paste(MyForm)
+Return
+
 ::amrpr::
   MyForm =
 (
@@ -302,13 +361,18 @@ Lymphadenopathy:
 - No regional lymphadenopathy.
 
 Distant metastasis:
-- No evidence of distant metastasis in the liver, spleen, pancreas, adrenals, and kidneys.
 - No retroperitoneal or mesenteric lymphadenopathy.
+- No evidence of bone metastasis.
+- No evidence of distant metastasis in the liver, spleen, pancreas, adrenals, and kidneys.
 
 Seminal vesicles: unremarkable
 Seminal vesicles: bilateral cystic dilatation, probably related with benign prostatic hypertrophy.
 
 Others: unremarkable
+
+----
+Footnotes:
+T2WI = T2-weighted imaging; DWI = diffusion-weighted imaging; ADC = apparent diffusion coefficient; DCE = dynamic contrast enhanced.
 
 ----
 PI-RADS v2 Assessment Categories:
@@ -323,6 +387,69 @@ Return
 
 ::prsz::
   ProstateSizeCalForm()
+Return
+
+::amrcxca::
+  MyForm =
+(
+Cervical Cancer Staging Form
+
+1. MR protocol
+- Distended rectum with jelly
+- Abdomen and pelvis:
+  * T2: axial, coronal  * DWI (b=400): coronal  * T1+C: axial
+- Uterus:
+  * TSE T2: axial, coronal, sagittal  * DWI (b=1000), ADC: axial
+  * T1+FS: axial, sagittal  * T1+C+FS: axial, coronal, sagittal
+
+2. Tumor Size:
+---Measurable: ______cm (in maximal diameter)
+---Non-measurable
+
+3. Tumor invasion
+---Not assessable
+---No or Equivocal
+---Yes
+Cervix
+Uterine body
+Parametrial invasion (Rt ___, Lt ___)
+Vaginal invasion (upper 2/3 ___, lower1/3 ___)
+Pelvic side wall or floor
+Hydronephrosis or Hydroureter (Rt ___, Lt ___)
+Pelvic organs invasion (If yes, □ Bladder □ Rectum □ Sigmoid colon □ Others
+_________)
+
+4. Regional nodal metastasis
+---No or Equivocal
+---Yes
+Right or left
+Parametrial, obturator, internal iliac, external iliac, common iliac, sacral.
+
+5. Distant metastasis (In this study)
+---No or Equivocal
+---Yes
+
+6. Others:
+- A 6.1-cm pedunculated uterine myoma at anterior wall.
+- A 3.2-cm left ovarian cyst.
+- Multiple small cystic lesions within the cervical stroma, in favor of Nabothian cysts.
+- Small amount of ascites in the Cul-de-sac.
+
+- Liver: Unremarkable
+- Biliary tree: Unremarkable
+- Spleen: Unremarkable
+- Pancreas: Unremarkable
+- GI tract: Unremarkable
+- Kidneys and ureters: Unremarkable
+- Urinary bladder: Unremarkable
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Cervical cancer,
+)
+  Paste(MyForm)
 Return
 
 ::amrcx::
@@ -345,13 +472,14 @@ SCANNING PROTOCOL:
 COMPARISON: no
 
 FINDINGS:
-Endometrial tumor:
-- Signal intensity: isointense on T1WI, slightly hyperintense on T2WI, with diffusion restriction; relative less enhancement.
+Cervical tumor:
+- A large lobulated infiltrative enhancing tumor at the uterine cervix, size about 6.5 x 4.9 x 6.4 cm, with right pelvic wall invasion, c/w cervical cancer. [T3b]
+- Signal intensity: isointense on T1WI, slightly hyperintense on T2WI to myometrium, with diffusion restriction.
 - Extent: whole uterine cavity, extending to the cervix.
 - Invasion: disruption of low T2 signal cervical stroma
 
 Lymph node:
-- No regional lymph node metastasis.
+- No regional lymph node metastasis. [N0]
 
 Distant metastasis:
 - No liver, adrenal metastasis.
@@ -375,7 +503,7 @@ Others:
   SleepThenTab()
   MyForm =
 (
-Endometrial cancer, FIGO Stage II.
+Cervical cancer,
 )
   Paste(MyForm)
 Return

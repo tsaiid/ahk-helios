@@ -7,6 +7,13 @@ ClickReportList() {
   reportListObj.accDoDefaultAction(0)
 }
 
+ClickExamList() {
+  global EXAM_TAB_PATH
+  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  opdListObj := Acc_Get("Object", EXAM_TAB_PATH, 0, "ahk_id " hHeliosWnd)
+  opdListObj.accDoDefaultAction(0)
+}
+
 ClickOpdList() {
   global OPD_TAB_PATH
   hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")

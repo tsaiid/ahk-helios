@@ -106,7 +106,9 @@ PRESERVE_CLIPBOARD := 0
 #Include MyScripts\hotkey\start-edit-after-ready.ahk
 #Include MyScripts\hotkey\selecting-tabs.ahk
 #Include MyScripts\hotkey\get-curr-accno-from-ge-uv.ahk
+#Include MyScripts\hotkey\get-curr-patid-from-ge-uv.ahk
 #Include MyScripts\hotkey\selecting-abnormal-value.ahk
+#Include MyScripts\hotkey\selecting-mismatch-value.ahk
 #Include MyScripts\hotkey\copy-prev-similar-report.ahk
 
 ; Mouse Macro
@@ -135,17 +137,27 @@ Return
 Return
 
 ; Unorder Seleted Text
-^+u::
-  ReorderSeletedText(false, false, "-")
+^+*::
+  ReorderSeletedText(false, true, "*")
 Return
 
-; Unorder Seleted Text
-^!u::
+^+-::
   ReorderSeletedText(false, true, "-")
 Return
 
-; Second Unorder Seleted Text
-^!+u::
+^+>::
+  ReorderSeletedText(false, true, ">")
+Return
+
+^!*::
+  ReorderSeletedText(false, true, "  *")
+Return
+
+^!-::
+  ReorderSeletedText(false, true, "  -")
+Return
+
+^!>::
   ReorderSeletedText(false, true, "  >")
 Return
 #IfWinActive  ; ahk_group Helios
@@ -164,6 +176,10 @@ Return
   SelectAbnormalValue("B")
 Return
 
+!9::
+  SelectMismatchValue("B")
+Return
+
 $^0::
   CopyPrevSimilarReport()
 Return
@@ -171,7 +187,7 @@ Return
 $^+0::
   accno := GetCurrAccnoFromGeUv()
   if (accno) {
-    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
+    r := WinHttpRequest("https://femh.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
     parsedResult := JSON.Load(InOutData)
     If (parsedResult.report.accno) {
       MsgBox % parsedResult.report.findings "`r`n----`r`n" parsedResult.report.impression

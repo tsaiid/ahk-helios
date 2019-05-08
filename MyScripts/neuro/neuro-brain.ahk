@@ -28,6 +28,8 @@ Presence of skull base artifact with superimpose of bil. frontal base, bil. temp
 
 No definite abnormal enhancing mass lesion in the brain noted.
 
+No definite area of obvious abnormal density in the brain noted.
+
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
@@ -63,6 +65,8 @@ Applicable previous CT of brain: no
 FINDINGS:
 No definite abnormal enhancing mass lesion in the brain noted.
 
+No definite area of obvious abnormal density in the brain noted.
+
 No definite acute intracranial parenchymal hemorrhage or acute epidural or acute subdural hematoma in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
@@ -71,6 +75,7 @@ The bilateral lateral ventricles are symmetrical in shape with acceptable age-de
 The major dural venous sinuses are patent.
 
 No obvious fracture of the skull base and the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
@@ -156,6 +161,7 @@ No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, 
 The bilateral lateral ventricles show no dilatation, and no midline shift is noted.
 The bilateral lateral ventricles show symmetrical without dilatation.
 The bilateral lateral ventricles are symmetrical in shape with acceptable age-dependent ventricular dilatation.
+No midline shift is noted.
 
 No definite bony lesion in the skull.
 No obvious fracture of the skull base and the skull.
@@ -171,6 +177,33 @@ The mastoids are unremarkable.
 (
 No definite acute ICH, SAH, EDH, or SDH.
 No evident acute intracranial finding.
+No remarkable intracranial findings on noncontrast CT.
+)
+  Paste(MyForm)
+Return
+
+;; CTN2ok - Totally normal
+::ctn2ok0::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+No definite area of obvious abnormal density in the brain noted.
+No definite abnormal mass lesion in the brain noted.
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+The bilateral lateral ventricles show no dilatation, and no midline shift is noted.
+No definite bony lesion in the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
 No remarkable intracranial findings on noncontrast CT.
 )
   Paste(MyForm)
@@ -361,6 +394,7 @@ COMPARISON:
 Applicable previous CT of brain: no
 
 FINDINGS:
+Presence of high-attenuation subdural hematoma along the right cerebellar tentorium.
 Crescent-shaped high-attenuation acute subdural hematoma over left cerebral convexity.
 Presence of fusiform high-attenuation lesion extending over the right anterior falx cerebri, suggestive of an acute parafalcine subdural hematoma.
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural hematoma in the brain noted.
@@ -417,6 +451,7 @@ Hypoxic-ischemic encephalopathy is suspected.
   Paste(MyForm)
 Return
 
+; Benign enlargement of the subarachnoid spaces in infancy.
 ::ctn2bess::
   MyForm =
 (
@@ -497,6 +532,43 @@ FINDINGS:
   MyForm =
 (
 No evidence of aneurysm, arterial-venous malformation (AVM), or other vascular lesion.
+)
+  Paste(MyForm)
+Return
+
+;; 1CTA - SAH, aneurysm rupture
+::1ctasahr::
+  MyForm =
+(
+CT angiography of brain and neck was performed with a multi-slice CT scanner:
+TECHNIQUE: multi thin-slice spiral scanning of arterial and venous phases
+SCAN RANGE: axial plane from the skull base to the vertex.
+CONTRAST MEDIUM: IV bolus injection, 80 ml, rate: 3 ml/sec
+IMAGE POST-PROCESSING: done in workstation with multiPlanar reconstruction, maximal intensity projection and volume rendering technique
+
+Previous CT: no
+
+FINDINGS:
+Acute subarachnoid hemorrhage in the prepontine, premedullary, bilateral ambient, bilateral pontocerebellar cisterns, cisterna magna, extending into the fourth ventricle, third ventricle, and subarachnoid space of C-spine.
+
+CTA shows a saccular aneurysm at the left posterior inferior cerebellar artery (Se/Im: 10/78, 11/88, 12/48), pointing inferiorly, size about 3.5 mm, and neck about 2.5 mm, has probably ruptured.
+No significant vascular stenosis in the major intracranial arteries.
+The major dural venous sinuses are patent.
+
+Mild ventricular dilatation. Mild obstructive hydrocephalus cannot be excluded.
+No midline shift is noted.
+
+No definite area of obvious abnormal density in the brain parenchyma noted.
+No definite abnormal mass lesion in the brain noted.
+No definite bony lesion in the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+PICA aneurysm ruptured with acute SAH.
+Mild obstructive hydrocephalus cannot be excluded.
 )
   Paste(MyForm)
 Return
@@ -727,6 +799,35 @@ Small recent acute ischemic infarction, about 1.4cm in diameter, involving left 
 
 SUGGESTION:
 Suggest clinical correlation and follow up.
+)
+  Paste(MyForm)
+Return
+
+;; MRI TGA
+::mritga::
+  MyForm =
+(
+The MR of the brain performed with Sagittal T1WI
+Axial T1WI, T2WI, GET2*WI, FLAIR (Fluid Attenuated Inversion Recovery)
+Thin-slice diffusion-weighted Imaging (DWI) (b=1000, 2000, 3000) and Apparent Diffusion Coefficient (ADC) map
+Intracranial MRA with 3D TOF and focus on the circle of Willis showed:
+
+Previous MRI of brain: none
+
+FINDINGS:
+No evidence of high signal intensity on DWI and lower apparent diffusion coefficient in the bilateral hippocampal regions.
+
+No definite abnormal signal intensity or tumor mass lesion in the brain noted.
+No definite abnormal signal intensity change in the brain parenchyma.
+No definite abnormal tumor mass lesion in the brain noted.
+
+The bilateral lateral ventricles show no dilatation.
+The bilateral lateral ventricles show symmetrical without dilatation.
+
+The visible paranasal sinuses, mastoids and skull base are unremarkable.
+
+MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis region.
+No evidence of aneurysm or arterial-venous malformation (AVM) noted near the circle of Willis region.
 )
   Paste(MyForm)
 Return
@@ -1043,7 +1144,7 @@ Low density and loss of gray and white matter differentiation at right middle ce
 - M6: "posterior MCA territory immediately superior to M3"
 Suggestive of acute ischemic stroke.
 
-Alberta stroke programme early CT score (ASPECTS):
+Alberta stroke program early CT score (ASPECTS):
 caudate
 putamen
 internal capsule

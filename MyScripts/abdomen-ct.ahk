@@ -7,6 +7,7 @@
 ::b-ok::No osteolytic or osteoblastic lesion in the scanning range.
 ::btok::No biliary tree dilatation.
 ::btok2::No CBD or IHD dilatation.
+::gbok::No distended gallbladder or GB wall thickening.
 ::pdok::No pancreatic duct dilatation.
 ::acthcs::Several hepatic cysts, size up to  cm.{Left 4}
 ::actgbs::A tiny gallbladder stone without obvious GB distention or wall thickening.
@@ -16,7 +17,7 @@
 ::actok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal.
 ::actncok::The liver, spleen, pancreas, adrenals, kidneys, and bowels are normal. Due to non-contrast study, the evaluation of solid organs is limited.
 ::bpleat::Bilateral pleural effusion with atelectasis of lower lungs.
-::actaps::A small wedge-shaped subcapsular enhancement at S_ of liver, in favor of AP shunting.
+::actaps::A small wedge-shaped subcapsular arterial enhancement at S_ of liver with isodense in the portal venous phase, in favor of AP shunting.
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
 ::acthcc::A -cm nodule over S of liver, shows arterial phase hyperenhancement, washout and enhancing capsule in portal venous phase, suggestive of hepatocellular carcinoma.
@@ -89,7 +90,6 @@ Return
 ::actpel::
   MyForm =
 (
-TECHNIQUE:
 Non-contrast and contrast-enhanced pelvic CT scans.
 Scanning range: Lower abdomen to pelvis, 5-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
@@ -106,6 +106,30 @@ GYN organ: Unremarkable
 No evident retroperitoneal lymphadenopathy identified.
 No evidence of intraperitoneal free air.
 No obvious ascites.
+)
+  Paste(MyForm)
+Return
+
+::actpelnc::
+  MyForm =
+(
+Non-contrast pelvic CT scan.
+Scanning range: Lower abdomen to pelvis, 5-mm contiguous scan.
+
+Previous CT: none.
+
+FINDINGS:
+GI tract: Unremarkable
+
+Urinary bladder: Unremarkable
+Prostate: Unremarkable
+GYN organ: Unremarkable
+
+No evident retroperitoneal lymphadenopathy identified.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return
@@ -229,6 +253,7 @@ Previous abdominal CT: none.
 
 FINDINGS:
 A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
+A swollen appendix, diameter about 1.1 cm, with mesoappendiceal fat stranding, c/w acute appendicitis.
 
 A dilated appendix, diameter about 0.9 cm, with mild hyperemic change. Although no mesoappendiceal fat stranding is noted, early change of acute appendicitis is still suspected. Suggest clinical correlation.
 
@@ -240,7 +265,7 @@ Small amount of ascites in the cul-de-sac.
 No obvious ascites is noted.
 No evidence of intraperitoneal free air.
 
-The liver, spleen, pancreas, adrenals, and kidneys are normal.
+The liver, spleen, pancreas, adrenals, kidneys and urinary bladder are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are unremarkable.
 )
@@ -264,6 +289,8 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
+The appendix is swollen, with severe mesoappendiceal fatty stranding. Some adjacent fluid collections are noted. Acute appendicitis is considered, and rupture may be suspected.
+
 The appendix is swollen, with severe mesoappendiceal fatty stranding. Its mucosa is discontinuous and some adjacent fluid collections are noted. These findings are suggestive of acute appendicitis with rupture.
 
 The appendix is swollen, diameter about 1.2 cm, containing an appendicolith near the orifice, with severe mesoappendiceal fatty stranding.
@@ -639,6 +666,7 @@ FINDINGS:
 Kidneys and Ureters:
 Kidneys: Unremarkable
 Ureters: Unremarkable
+Urinary bladder: Unremarkable
 Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
 
 Regional lymphadenopathy: No
@@ -940,6 +968,7 @@ Previous abdominal CT: none.
 FINDINGS:
 Kidneys and ureters: Unremarkable
 Urinary bladder: Unremarkable (* insufficient distention may limit the evaluation)
+Urinary bladder: Unremarkable
 
 No evident pelvic, retroperitoneal, or mesenteric lymphadenopathy identified.
 
@@ -1382,7 +1411,12 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
-Dilated small bowel loops with small bowel feces sign, suggestive of bowel obstruction, with a transitional zone at the distal ileum (Se/Im: 4/72, 6/28), and collapse of its distal portion and the colon. Probably due to ileus. No mass like lesion is noted.
+Dilated small bowel loops with air-fluid levels. No definite transitional zone is identified. Paralytic ileus is suspected.
+No bowel wall thickening.
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
+Dilated small bowel loops with small bowel feces sign, suggestive of bowel obstruction, with a transitional zone at the distal ileum (Se/Im: 4/72, 6/28), and collapse of its distal portion and the colon. Probably due to adhesion. No mass like lesion is noted.
 
 Small ascites in the pelvic cavity.
 No evidence of bowel ischemia.
@@ -1396,6 +1430,7 @@ The lungs covered in the scanning range are unremarkable.
   SleepThenTab()
   MyForm =
 (
+Paralytic ileus is suspected.
 Small bowel obstruction, at distal ileum, probably due to adhesion. No evident bowel perforation or ischemia.
 )
   Paste(MyForm)

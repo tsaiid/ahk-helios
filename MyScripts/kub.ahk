@@ -39,6 +39,7 @@
 ::spa::Surgical clips at RLQ of abdomen, in favor of post appendectomy.
 ::spa0::s/p appendectomy.
 ::sphaic::Coils at the upper abdomen, may be due to previous hepatic arterial infusion chemotherapy.
+::maacal::Mild calcification of abdominal aortic wall.
 ::aacal::Calcification of abdominal aortic wall.
 ::aacal1::Calcification of abdominal aortic and branches' wall.
 ::ka::Increased opacity of the abdomen with centralization of the bowel gas, probably due to ascites.

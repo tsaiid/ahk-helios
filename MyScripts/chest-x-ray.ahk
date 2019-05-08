@@ -62,6 +62,26 @@ Both lungs are unremarkable.
   Paste(MyForm)
 Return
 
+::11::
+  MyForm =
+(
+The heart size is normal.
+No specific finding in the bilateral lung fields.
+Bilateral CP angles are clear and sharp.
+
+)
+
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Both lungs are unremarkable.
+
+)
+  Paste(MyForm)
+  SleepThenTab()
+Return
+
 ::ii1::
   MyForm =
 (
@@ -150,6 +170,8 @@ Return
 ::lport::On Port-A catheter via left subclavian vein.
 ::lport1::On Port-A catheter via left subclavian vein.{ENTER}No pneumothorax is noted.
 ::liport::On Port-A catheter via left internal jugular vein.
+::lipport::s/p IP Port-A implantation at LUQ of abdomen.
+::ripport::s/p IP Port-A implantation at RUQ of abdomen.
 ::rsperm::On Permcath via right subclavian vein.
 ::lsperm::On Permcath catheter via left subclavian vein.
 ::riperm::On Permcath catheter via right internal jugular vein.
@@ -194,12 +216,18 @@ Return
 ::no::nodular opacity
 ::lo::linear opacity
 ::flo::fibrolinear opacities
+::baflo::Fibrolinear opacities over bilateral apical lung fields, in favor of chronic inflammatory change.
+::raflo::Fibrolinear opacities over right apical lung fields, in favor of chronic inflammatory change.
+::laflo::Fibrolinear opacities over left apical lung fields, in favor of chronic inflammatory change.
 ::fno::fibronodular opacities
 ::fnl::fibronodular lesions
 ::rno::reticulonodular opacities
 ::bafno::Fibronodular opacities over bilateral apical lung fields, in favor of chronic inflammatory change.
 ::rafno::Fibronodular opacities over right apical lung fields, in favor of chronic inflammatory change.
 ::lafno::Fibronodular opacities over left apical lung fields, in favor of chronic inflammatory change.
+::bufno::Fibronodular opacities over bilateral upper lung fields, in favor of chronic inflammatory change.
+::rufno::Fibronodular opacities over right upper lung fields, in favor of chronic inflammatory change.
+::lufno::Fibronodular opacities over left upper lung fields, in favor of chronic inflammatory change.
 ::ip::inflammatory process
 ::cic::chronic inflammatory change
 ::abg::air-bronchogram
@@ -259,6 +287,9 @@ Return
 ::late::linear atelectasis
 ::sate::subsegmental atelectasis
 ::bsate::subsegmental atelectasis of bilateral lower lungs.
+::mrsoa::Mild OA change of right shoulder.
+::mlsoa::Mild OA change of left shoulder.
+::mbsoa::Mild OA change of bilateral shoulders.
 ::rsoa::OA change of right shoulder.
 ::lsoa::OA change of left shoulder.
 ::bsoa::OA change of bilateral shoulders.
@@ -282,14 +313,16 @@ Return
 ::splpm::s/p left partial mastectomy.
 ::sprm::s/p right mastectomy.
 ::sprpm::s/p right partial mastectomy.
-::spcs::s/p coronary stent.
+::spcs::s/p coronary stenting.
 ::bns::Symmetrical small nodular opacities over bilateral lower lung fields, in favor of nipple shadows.
 ::lns::A small nodular opacity over left lower lung field, in favor of nipple shadow.
 ::rns::A small nodular opacity over right lower lung field, in favor of nipple shadow.
 ::seg::segment `
 ::bapt::Bilateral apical pleural thickening, in favor of chronic inflammatory change.
+::mbapt::Mild bilateral apical pleural thickening, in favor of chronic inflammatory change.
 ::rapt::Right apical pleural thickening, in favor of chronic inflammatory change.
 ::lapt::Left apical pleural thickening, in favor of chronic inflammatory change.
+::chok::The thoracic cage and bones are generally intact.
 
 ; Neck
 ::croup::Presence of steeple sign and hypopharyngeal distention, c/w croup.

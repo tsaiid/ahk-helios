@@ -4,11 +4,19 @@
 ::ist::interlobular septal thickening
 ::6mcct::Follow up chest CT scan 6 months later.
 ::tacal::Atherosclerotic change and calcification of aortic wall.
+::tacalt::Atherosclerotic change and calcification of aortic wall with aortic tortuosity.
 ::mtacal::Mild atherosclerotic change and calcification of aortic wall.
+::mtacalt::Mild atherosclerotic change and calcification of aortic wall with aortic tortuosity.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
-::cad0::Calcification of the coronary arteries.
+::cad0::calcification of the coronary arteries.
 ::mcad0::Mild calcification of the coronary arteries.
+::amvcal::Aortic and mitral valves calcification.
+::avcal::Aortic valve calcification.
+::mvcal::Mitral valve calcification.
+::mamvcal::Mild aortic and mitral valves calcification.
+::mavcal::Mild aortic valve calcification.
+::mmvcal::Mild mitral valve calcification.
 ::cctnc::*PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 ::cctnat::No abnormal air trapping in both inspiratory and expiratory phases.
 ::cadr0::CAD-RADS 0: Documented absence of CAD.
@@ -92,7 +100,7 @@ FINDINGS:
 - Great vessels: within normal limits.
 - Heart: within normal limits.
 - Mediastinum and hila: no LNs > 1 cm.
-- Chest Wall and low neck: within normal limits.
+- Chest wall and low neck: within normal limits.
 - Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
@@ -143,6 +151,62 @@ Applicable previous CT of chest: no
 
 FINDINGS:
 1. Lung parenchyma:
+- Mark L1:
+- Mark L2:
+- Mark L3:
+- Mark L4:
+- Mark L5:
+
+2. Other lung and extrapulmonary findings:
+- Airway: normal.
+- Mediastinum: no lymph node enlargement > 1 cm.
+- Heart: normal size. No obvious coronary artery calcification.
+- Heart: normal size. Mild coronary artery calcification.
+- Great vessels: normal diameter.
+- Pleura: unremarkable.
+- Chest wall and spine: unremarkable.
+- Upper abdomen: unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No remarkable nodular lesions in bilateral lungs.
+
+----
+Measurement of pulmonary solid nodule is based on RECIST 1.1, the largest diameter in an axial plane. RECIST: Response Evaluation Criteria in Solid Tumors
+
+If a solid nodule < 6 mm, follow-up at 12 months may be considered.
+If a solid nodule 6-8 mm, a single follow-up at 6-12 months is advised, with a third CT scan at 18-24 months to be considered.
+If a solid nodules > 8 mm, follow-up at 3 months or PET/CT or tissue sampling.
+If multiple nodules > 6 mm, follow-up at 3-6 months and then 18-24 months.
+
+If ground glass nodules greater than 6 mm, follow-up at 6-12 months and then every 2 years until the 5-year mark.
+
+If subsolid nodules greater than 6 mm, should have CT follow-up at 3-6 months and then every year for 5 years.
+
+If any change in size, morphology and density suspicious for malignancy, please reevaluate the lesion at the chest or chest surgical outpatient clinic.
+
+Remarks: A majority of the nodules less than 6 mm may not be cancer (risk <1`% in heavy smokers and <0.15`% in non-smokers). However, to exclude any possibility of malignancy, we recommend that (1) a complete evaluation by the chest specialist and/or (2) a follow-up study based on personal risk factors.
+
+Fleischner Society 2017 Guidelines for Management of Incidentally Detected Pulmonary Nodules in Adults.
+)
+  Paste(MyForm)
+Return
+
+::cctncldok::
+  MyForm =
+(
+Lower dose, high resolution (2-mm slice thickness) non-contrast CT scan for screening pulmonary nodule.
+Scanner: Multi-detector CT scanner.
+Scan range: thoracic inlet to diaphragm.
+Reconstruction: axial and coronal reconstruction.
+
+COMPARISON:
+Applicable previous CT of chest: no
+
+FINDINGS:
+1. Lung parenchyma:
 - No remarkable nodular lesion.
 
 2. Other lung and extrapulmonary findings:
@@ -160,6 +224,48 @@ FINDINGS:
   MyForm =
 (
 No remarkable nodular lesions in bilateral lungs.
+
+----
+Measurement of pulmonary solid nodule is based on RECIST 1.1, the largest diameter in an axial plane. RECIST: Response Evaluation Criteria in Solid Tumors
+
+If a solid nodule < 6 mm, follow-up at 12 months may be considered.
+If a solid nodule 6-8 mm, a single follow-up at 6-12 months is advised, with a third CT scan at 18-24 months to be considered.
+If a solid nodules > 8 mm, follow-up at 3 months or PET/CT or tissue sampling.
+If multiple nodules > 6 mm, follow-up at 3-6 months and then 18-24 months.
+
+If ground glass nodules greater than 6 mm, follow-up at 6-12 months and then every 2 years until the 5-year mark.
+
+If subsolid nodules greater than 6 mm, should have CT follow-up at 3-6 months and then every year for 5 years.
+
+If any change in size, morphology and density suspicious for malignancy, please reevaluate the lesion at the chest or chest surgical outpatient clinic.
+
+Remarks: A majority of the nodules less than 6 mm may not be cancer (risk <1`% in heavy smokers and <0.15`% in non-smokers). However, to exclude any possibility of malignancy, we recommend that (1) a complete evaluation by the chest specialist and/or (2) a follow-up study based on personal risk factors.
+
+Fleischner Society 2017 Guidelines for Management of Incidentally Detected Pulmonary Nodules in Adults.
+)
+  Paste(MyForm)
+Return
+
+::cctfsg::
+  MyForm =
+(
+----
+Measurement of pulmonary solid nodule is based on RECIST 1.1, the largest diameter in an axial plane. RECIST: Response Evaluation Criteria in Solid Tumors
+
+If a solid nodule < 6 mm, follow-up at 12 months may be considered.
+If a solid nodule 6-8 mm, a single follow-up at 6-12 months is advised, with a third CT scan at 18-24 months to be considered.
+If a solid nodules > 8 mm, follow-up at 3 months or PET/CT or tissue sampling.
+If multiple nodules > 6 mm, follow-up at 3-6 months and then 18-24 months.
+
+If ground glass nodules greater than 6 mm, follow-up at 6-12 months and then every 2 years until the 5-year mark.
+
+If subsolid nodules greater than 6 mm, should have CT follow-up at 3-6 months and then every year for 5 years.
+
+If any change in size, morphology and density suspicious for malignancy, please reevaluate the lesion at the chest or chest surgical outpatient clinic.
+
+Remarks: A majority of the nodules less than 6 mm may not be cancer (risk <1`% in heavy smokers and <0.15`% in non-smokers). However, to exclude any possibility of malignancy, we recommend that (1) a complete evaluation by the chest specialist and/or (2) a follow-up study based on personal risk factors.
+
+Fleischner Society 2017 Guidelines for Management of Incidentally Detected Pulmonary Nodules in Adults.
 )
   Paste(MyForm)
 Return
@@ -265,6 +371,75 @@ FINDINGS:
 3. OTHER THORACIC ORGANS:
 - No pulmonary nodule.
 - No mediastinal lymphadenopathy.
+- The heart is unremarkable.
+
+4. ABDOMINAL ORGANS SCANNED: Unremarkable
+
+5. OTHERS:
+- No osteolytic or osteoblastic bone lesion in the scanning range.
+)
+  Paste(MyForm)
+Return
+
+;; CTA - aorta
+::cctctaa::
+  MyForm =
+(
+CT scan of the thorax and abdomen was performed with a multi-slice CT scanner.
+
+TECHNIQUE:
+- (1) non-contrast (2) contrast enhancement for CT angiography
+- Scan range: target vessel, aorta
+- Contrast medium: IV route, rate: as fast as IV route allowed
+
+COMPARISON:
+Applicable previous CT of chest: no
+
+FINDINGS:
+1. AORTA:
+- No evidence of aortic aneurysm or dissection.
+
+2. PULMONARY ARTERY:
+- No definite filling defect
+
+3. OTHER THORACIC ORGANS:
+- No pulmonary nodule.
+- No mediastinal lymphadenopathy.
+- The heart is unremarkable.
+
+4. ABDOMINAL ORGANS SCANNED: Unremarkable
+
+5. OTHERS:
+- No osteolytic or osteoblastic bone lesion in the scanning range.
+)
+  Paste(MyForm)
+Return
+
+;; CTA - pulmonary artery
+::cctctap::
+  MyForm =
+(
+CT scan of the thorax was performed with a multi-slice CT scanner.
+
+TECHNIQUE:
+- (1) non-contrast (2) contrast enhancement for CT angiography
+- Scan range: target vessel, pulmonary artery
+- Contrast medium: IV route, rate: as fast as IV route allowed
+
+COMPARISON:
+Applicable previous CT of chest: no
+
+FINDINGS:
+1. PULMONARY ARTERY:
+- No evidence of aortic aneurysm or dissection.
+
+2. AORTA:
+- No definite filling defect
+
+3. OTHER THORACIC ORGANS:
+- No pulmonary nodule.
+- No mediastinal lymphadenopathy.
+- The heart is unremarkable.
 
 4. ABDOMINAL ORGANS SCANNED: Unremarkable
 
@@ -383,7 +558,7 @@ B. Other Findings
   SleepThenTab()
   MyForm =
 (
-Lung cancer of , cTNM (AJCC 2016, 8th ed.) if proved
+Lung cancer of , cTNM (AJCC 2016, 8th ed.)
 )
   Paste(MyForm)
 Return

@@ -5,9 +5,193 @@
 
 #IfWinActive ahk_group Helios
 
-^7::
-	CoordMode, Mouse, Screen
-  ;MsgBox % A_CoordModeMouse
+::esoca::
+(
+Esophageal cancer
+1. CT protocol
+TECHNIQUE: (1) NCCT (2) CECT were performed
+SCAN RANGE: lower neck to adrenal gland
+
+2. Tumor location / Size
+--- Cervical segment (hypopharynx to sternal notch)
+--- Upper third of thoracic segment (sternal notch to azygos vein)
+--- Middle third of thoracic segment (azygos vein to inferior pulmonary vein)
+--- Lower third of thoracic segment (inferior pulmonary vein to esophagogastric
+junction)
+--- Measurable: Length________ cm , Max thickness ________ cm
+--- Non-measurable
+
+3. Tumor invasion
+--- No or Equivocal
+--- Yes, if yes:
+T3: Adventitia(+)
+T4a: pleura(+), pericardium(+), diaphragm(+), peritoneum(+),
+T4b: aortic wall(+), carina(+), left atrial wall (+), vertebral body(+),
+posterior wall of trachea(+), posterior wall of main bronchus(+),
+
+4. Regional nodal metastasis
+--- No or Equivocal
+--- Yes, if yes
+
+5. Distant metastasis (In this study)
+--- No or Equivocal
+--- Yes, location: _________
+
+6. OTHER FINDINGS
+
+)
+Return
+
+::crca::
+(
+Colorectal cancer
+1. CT protocol
+With contrast, range: whole abdomen, slice thickness <= 5mm
+
+1. MR protocol
+Sagittal and Axial FSE T2WI
+Axial FSE T1WI with FS, pre- and post- contrast
+Axial T1WI with contrast, abdominal survey
+(Coronal FSE T2WI)
+(Axial T2WI, lower abdominal survey)
+
+2. Tumor location / Size
+---Location:
+Ex: Cecum, ascending, hepatic flexure, transverse, splenic flexure, descending, sigmoid and rectum.
+---Size:
+Measurable: __________cm (largest diameter), length
+Serosal side：
+Non-measurable
+
+3. Tumor invasion
+---Not assessable
+---No or Equivocal
+---Yes, if yes:
+Please pay attention to the followings: colonic or rectal wall, invasion of non-peritonealized pericolonic or perirectal tissues, and invasion of visceral peritoneum or adjacent organs.
+
+4. Regional nodal metastasis
+---No or Equivocal
+---Yes, if yes, number of suspicious lymph node__________ , and location__________ (specified as below):
+Pericolic/perirectal, ileocolic, right colic, middle colic, left colic, superior rectal,
+superior mesenteric artery, inferior mesenteric artery…etc.
+
+5. Distant metastasis (In this study)
+---No or Equivocal
+---Yes, location: _________
+
+)
+Return
+
+::cxca::
+(
+Cervical cancer
+1. CT protocol or MR protocol
+
+2. Tumor Size:
+---Measurable: ______cm (in maximal diameter)
+---Non-measurable
+
+3. Tumor invasion
+---Not assessable
+---No or Equivocal
+---Yes, if yes：
+Cervix
+Uterine body
+Parametrial invasion (Rt ___, Lt ___)
+Vaginal invasion (upper 2/3 ___, lower1/3 ___)
+Pelvic side wall or floor
+Hydronephrosis or Hydroureter (Rt ___, Lt ___)
+Pelvic organs invasion (If yes, □ Bladder □ Rectum □ Sigmoid colon □ Others
+_________)
+
+4. Regional nodal metastasis
+---No or Equivocal
+---Yes, if yes：
+Right or left
+Parametrial, obturator, internal iliac, external iliac, common iliac, sacral…etc.
+
+5. Distant metastasis (In this study)
+---No or Equivocal
+---Yes, if yes: location
+)
+Return
+
+::lungca::
+(
+Lung cancer
+1. CT protocol
+CT scan of the thorax was performed with a MDCT scanner.
+TECHNIQUE: (1) NCCT (2) CECT were performed
+SCAN RANGE: lower neck to adrenal gland
+
+2. Tumor location / Size
+--- Location:
+--- Size:
+
+3. Tumor invasion
+* Not more proximal than main bronchus (T1)
+* Involves main bronchus (T2)
+* Invades visceral pleura (T2)
+* Focal atelectasis or obstructive pneumonitis to hilum (T2)
+* Involves part or anterior longitudinal ligament of the lung (T2)
+* Invades parietal pleura, chest wall (including superior sulcus tumors), phrenic nerve, parietal pericardium (T3)
+* Separate tumor nodule(s) in same lobe (T3)
+* Invades mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina (T4)
+* Separate tumor nodule(s) in a different ipsilateral lobe (T4)
+
+4. Regional nodal metastasis
+* No regional lymph node metastasis (N0)
+* If yes, location:
+
+5. Distant metastasis (In this study)
+* No evidence in the scanned range (M0)
+* If yes, location:
+
+6. Other Findings
+
+)
+Return
+
+::prca::
+(
+Prostate cancer
+MR protocol
+1. Tumor location / Size
+----Visible tumor
+Not assessable
+No or Equivocal
+Yes, if yes：
+Location: Right lobe or left lobe / Size _______cm
+(largest diameter of the biggest tumor)
+
+2. Tumor invasion
+---No or Equivocal
+---Yes, if yes：
+Prostate (
+One-half of one lobe or less
+More than one-half of one lobe but not both lobes
+Involves both lobes)
+Extracapsular extension (neurovascular bundle invasion： Rt___, Lt ____)
+Seminal vesicle invasion (Rt ___, Lt ___)
+Pelvic side wall
+Pelvic organs invasion (If yes,
+Bladder
+Rectum
+Others __________)
+
+3. Regional nodal metastasis
+---No or Equivocal
+---Yes, if yes：
+Obturator- Rt/Lt
+Internal iliac- Rt/Lt
+External iliac- Rt/Lt
+Sacral, others…
+
+4. Distant metastasis (In this study)
+---No or Equivocal
+---Yes, if yes (location; regional or non-regional)
+
+)
 Return
 
 InsertAutoReport(debugInfo=True) {
@@ -56,6 +240,13 @@ InsertAutoReport(debugInfo=True) {
   }
 }
 
+^7::
+  ;Clipboard := GetCurrPatIDFromGeUv()
+  Clipboard := GetCurrAccnoFromGeUv()
+  MsgBox % Clipboard
+  ;CopyPrevSimilarReport(True)
+Return
+
 $^8::
   ShowPrevReportWindow()
 Return
@@ -71,30 +262,40 @@ ShowPrevReportWindow() {
 
   accno := GetCurrAccnoFromGeUv()
   if (accno) {
-    r := WinHttpRequest("https://femhrad.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
-    parsedResult := JSON.Load(InOutData)
-    examdateStr := parsedResult.report.examdate
-    findingStr := parsedResult.report.findings
-    impStr := parsedResult.report.impression
-    ;MsgBox % InOutData
+    ;InOutData := ""
+    r := WinHttpRequest("https://femh.tsai.it/ris/recent-similar-report/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 2`nNO_AUTO_REDIRECT")
+    try {
+      parsedResult := JSON.Load(InOutData)
+      examdateStr := parsedResult.report.examdate
+      findingStr := parsedResult.report.findings
+      impStr := parsedResult.report.impression
+    } catch e {
+      MsgBox % InOutData
+    }
 
-    r := WinHttpRequest("https://dicom.icu/cxr/prob/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 1`nNO_AUTO_REDIRECT")
-    parsedResult := JSON.Load(InOutData)
+    r := WinHttpRequest("https://femh.tsai.it/cxr/prob/" + accno, InOutData := "", InOutHeaders := "", "Timeout: 2`nNO_AUTO_REDIRECT")
+    try {
+      parsedResult := JSON.Load(InOutData)
+    } catch e {
+      MsgBox % InOutData
+    }
     if (parsedResult.success) {
       prob := parsedResult.probabilities
       normalStr := "Normal: " + prob.normal
-      cardiomegalyStr := "Cardiomegaly: " + prob.cardiomegaly
-      ettStr := "ETT: " + prob.ett
-      portStr := "Port-A: " + prob.port
+      t_normalStr := "Normal: " + prob.t_normal
+      t_cardiomegalyStr := "Cardiomegaly: " + prob.t_cardiomegaly
+      t_ettStr := "ETT: " + prob.t_ett
+      t_portStr := "Port-A: " + prob.t_port
     }
   } else {
     findingStr =
     impStr =
 
     normalStr =
-    cardiomegalyStr =
-    ettStr =
-    portStr =
+    t_normalStr =
+    t_cardiomegalyStr =
+    t_ettStr =
+    t_portStr =
   }
 
   Gui, PrevReportGui: Font, s12 cFFFFFF, Verdana
@@ -103,13 +304,13 @@ ShowPrevReportWindow() {
     Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP%, ----`r`n%findingStr%
     Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP%, ----`r`n%impStr%
     Gui, PrevReportGui: Font, s9, Verdana
-    Gui, PrevReportGui: Add, Button, gCopyPrevSimilarReport, Copy Report
-    Gui, PrevReportGui: Add, Button, gHeliosBtnClearAllText x+10, Clear All Test
+    Gui, PrevReportGui: Add, Button, gbtnCopyPrevSimilarReport, Copy Report
+    Gui, PrevReportGui: Add, Button, gHeliosBtnClearAllText x+10, Clear All Text
   }
 
   Gui, PrevReportGui: Font, s9 cFFFFFF, Verdana
   If (normalStr || cardiomegalyStr || ettStr || portStr) {
-    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP% xm, %normalStr%`r`n%cardiomegalyStr%`r`n%ettStr%`r`n%portStr%
+    Gui, PrevReportGui: Add, text, +Wrap w%_GUI_TEXTWRAP% xm, %normalStr%`r`n%t_normalStr%`r`n%t_cardiomegalyStr%`r`n%t_ettStr%`r`n%t_portStr%
     Gui, PrevReportGui: Add, Button, gInsertAutoReport, Auto Report
   }
 
@@ -132,36 +333,12 @@ ShowPrevReportWindow() {
   WinActivate, ahk_exe Helios.exe
 }
 
-PrevReportGuiGuiEscape:
-  Gui, Destroy
+btnCopyPrevSimilarReport:
+  CopyPrevSimilarReport()
 Return
 
-; Remap Kana Key
-SC070::
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  if (hHeliosWnd) {
-    ; check if exam is cxr
-    infoText := Acc_Get("Name", "4.5.1.1", 0, "ahk_id " hHeliosWnd)
-    RegExMatch(infoText, "^\[.+\]\s+(\w+)/([^\s]+)\s+\[(.+?)\]\s*\[.+?\]\s+(\[[0-9A-Z]+?\])?\s*\[(.+?)/.+?\]\s+\[([\d-]+).+?\]", examInfo)
-    examName := examInfo5
-    if (examName not in Chest PA,Chest AP) {
-      MsgBox, Not a CXR.
-      Return
-    }
-
-;    WinActivate, ahk_exe Helios.exe
-    Send ^t
-    findingObj := Acc_Get("Object", "4.9.30.1", 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", "4.9.33", 0, "ahk_id " hHeliosWnd)
-    findingObj.accValue(0) := "No abnormal patch opacity in the lung fields.`r`nNo cardiomegaly."
-    impObj.accValue(0) := "No active lung lesion."
-    Send !c
-    Sleep 1000
-    Send !x
-    StartEditAfterReady()
-  } Else {
-    MsgBox, a
-  }
+PrevReportGuiGuiEscape:
+  Gui, Destroy
 Return
 
 ^+c::
@@ -262,8 +439,15 @@ HeliosBtnNormalCXR:
     ;MsgBox % newStr
     ; Save content to Clipboard
     ;Clipboard := findingObj.accValue(0) . "`r`n`r`n" . impObj.accValue(0)
-    findingObj.accValue(0) := "No abnormal patch opacity in the lung fields.`r`nNo cardiomegaly."
-    impObj.accValue(0) := "No active lung lesion."
+    normalFindingStr =
+( Join`r`n
+The heart size is normal.
+No specific finding in the bilateral lung fields.
+Bilateral CP angles are clear and sharp.
+The thoracic cage and bones are generally intact.
+)
+    findingObj.accValue(0) := normalFindingStr
+    impObj.accValue(0) := "Both lungs are unremarkable."
     Send !c
     Sleep 1000
     Send !x
@@ -340,7 +524,7 @@ if (hHeliosWnd) {
   Gui, HeliosBtnGui:+AlwaysOnTop -MaximizeBox -MinimizeBox
   Gui, HeliosBtnGui: Font, s8, Verdana
   Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnCopyReport, Copy Report
-  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnClearAllText, Clear All Test
+  Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnClearAllText, Clear All Text
   Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnSaveAndNext, Save && Next
   Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnNormalCXR, Normal CXR
   Gui, HeliosBtnGui: Add, Button, x+10 gHeliosBtnPcuNormalCXR, PCU CXR

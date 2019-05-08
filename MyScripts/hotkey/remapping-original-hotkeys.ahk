@@ -103,8 +103,10 @@ Return
 ^+1::
 ;  global prevExamDate
   ;MsgBox, a
-  If (prevExamDate) {
+  currPatID := GetCurrPatIDFromGeUv()
+  If (prevExamDate && prevPatID = currPatID) {
     Send %prevExamDate%
+    ;MsgBox, %prevPatID% . " " . %currPatID%
   } Else {
     Send ^+1
   }
@@ -118,10 +120,14 @@ Return
 Return
 
 ^2::
-  ClickOpdList()
+  ClickExamList()
 Return
 
 ^3::
+  ClickOpdList()
+Return
+
+^4::
   ClickPathoList()
 Return
 
@@ -187,6 +193,7 @@ Return
 */
 #IfWinActive  ; ahk_exe Helios.exe
 
+;; for JIS keyboard
 ;; Edit report
 ;AppsKey::
 SC029::
@@ -203,7 +210,9 @@ SC029::
   }
 Return
 
-;; for JIS keyboard
+; Remap Kana Key
+SC070::F3
+
 SC07B::LButton
 SC079::RButton
 

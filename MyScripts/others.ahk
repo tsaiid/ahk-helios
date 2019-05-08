@@ -6,6 +6,7 @@
 ::acw::as compared with `
 ::acwpi::as compared with the previous images, `
 ::cpf::compression fracture
+::vcpf::vertebral compression fracture
 ::cmf::comminuted fracture `
 ::bfr::burst fracture `
 ::cal::calcification
@@ -54,6 +55,8 @@
 ::n::nodule
 ::nr::nodular `
 ::lr::linear `
+::sn::solid nodule
+::psn::part-solid nodule
 ::cn::calcified nodule
 ::cg::calcified granuloma
 ::rol::radiopaque lesion
@@ -78,6 +81,7 @@
 ::ap::arterial phase
 ::pvp::portal venous phase
 ::dp::delayed phase
+::pvdp::portal venous and phases
 ::ep::equilibrium phase
 ::hbp::hepatobiliary phase
 ::bd::bone density
@@ -91,11 +95,12 @@
 ::ech::edematous change
 ::sps::spinal stenosis
 ::sps0::mild indentation on anterior dural sac without obvious spinal stenosis
+::csps::central spinal stenosis
 ::nfs::neuroforaminal stenosis
 ::snfs::spinal and neuroforaminal stenosis
 ::lrn::lateral recess narrowing
 ::smn::Schmorl's node
-::at-::attenuation
+::att::attenuation
 ::d-::density
 
 ::pl::possibly `
@@ -139,6 +144,7 @@ Return
 ::cgynsono::Suggest GYN check-up and sonographic correlation.
 ::scmp::Suggest compare with previous images if available.
 ::slr3::Suggest repeat or alternative diagnostic imaging 3-6 months later.
+::sop::Suggest correlate with OP history.
 
 ;; Limitations
 ::olnd::However, the obstruction level cannot be demonstrated in this study.
@@ -162,7 +168,8 @@ Return
 ::noe::no evident `
 ::hyperi::hyperintensity
 ::hypoi::hypointensity
-::isoi::intermediate signal intensity
+::isoi::isointensity
+::isig::intermediate signal intensity
 ::T1h::T1 hyperintensity
 ::T1l::T1 hypointensity
 ::T2h::T2 hyperintensity
@@ -172,7 +179,7 @@ Return
 ::isod::isodense `
 ::hia::high-attenuation `
 ::loa::low-attenuation `
-::hypere::hyperechoic `
+::hypere::hyperenhancement
 ::hypoe::hypoechoic `
 :c:fd::filling defect
 ::pg::progression
@@ -192,7 +199,7 @@ Return
 ::adj::adjacent `
 ::std::soft tissue density
 ::ddx::differential diagnoses
-::nd::newly developed
+::nd::newly developed `
 ::ws::wedge-shaped `
 ::wr::wedge resection
 ::ift::infiltration
@@ -220,6 +227,7 @@ Return
 ::duf::degenerative uterine fibroid
 ::eso::esophagus
 ::gd::The greatest dimension is about  cm.{Left 4}
+::pvs::(Previously,  mm.){Left 5}
 ::abn::abnormal `
 ::sb::small bowel
 ::elg::enlargement
@@ -227,6 +235,7 @@ Return
 ::pci::postcontrast images
 ::bdl::borderline `
 ::bsmg::borderline splenomegaly
+::ls::luminal stenosis
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 
