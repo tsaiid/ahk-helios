@@ -5,12 +5,14 @@
 ::6mcct::Follow up chest CT scan 6 months later.
 ::tacal::Atherosclerotic change and calcification of aortic wall.
 ::tacalt::Atherosclerotic change and calcification of aortic wall with aortic tortuosity.
+::macal::Mild calcification of aortic wall.
 ::mtacal::Mild atherosclerotic change and calcification of aortic wall.
 ::mtacalt::Mild atherosclerotic change and calcification of aortic wall with aortic tortuosity.
 ::accal::Atherosclerotic change of the aorta and coronary arteries.
 ::cctcad::Calcification of the coronary arteries, suspicious of coronary artery disease.
 ::cad0::calcification of the coronary arteries.
 ::mcad0::Mild calcification of the coronary arteries.
+::cad1::calcification of the coronary arteries, suspicious coronary artery disease.
 ::amvcal::Aortic and mitral valves calcification.
 ::avcal::Aortic valve calcification.
 ::mvcal::Mitral valve calcification.
@@ -100,7 +102,8 @@ FINDINGS:
 - Great vessels: within normal limits.
 - Heart: within normal limits.
 - Mediastinum and hila: no LNs > 1 cm.
-- Chest wall and low neck: within normal limits.
+- Lower neck: unremarkable.
+- Chest wall and spine: within normal limits.
 - Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
@@ -431,10 +434,10 @@ Applicable previous CT of chest: no
 
 FINDINGS:
 1. PULMONARY ARTERY:
-- No evidence of aortic aneurysm or dissection.
+- No definite filling defect
 
 2. AORTA:
-- No definite filling defect
+- No evidence of aortic aneurysm or dissection.
 
 3. OTHER THORACIC ORGANS:
 - No pulmonary nodule.

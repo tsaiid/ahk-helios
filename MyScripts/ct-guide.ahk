@@ -40,7 +40,7 @@ F/U CXR 6 hours later.
   SleepThenTab()
   MyForm =
 (
-CT guide biopsy for __ tumor was successfully performed.
+CT guide biopsy for __ lung tumor was successfully performed.
 )
   Paste(MyForm)
 Return

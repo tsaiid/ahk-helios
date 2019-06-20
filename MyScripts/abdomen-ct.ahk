@@ -252,7 +252,7 @@ Contrast medium: Yes, 70 ml, 1-2 ml/sec, with 100 seconds scanning delay.
 Previous abdominal CT: none.
 
 FINDINGS:
-A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding, c/w acute appendicitis.
+A swollen appendix, diameter about 1.1 cm, containing some appendicoliths, with mesoappendiceal fat stranding and regional peritoneal thickening, c/w acute appendicitis.
 A swollen appendix, diameter about 1.1 cm, with mesoappendiceal fat stranding, c/w acute appendicitis.
 
 A dilated appendix, diameter about 0.9 cm, with mild hyperemic change. Although no mesoappendiceal fat stranding is noted, early change of acute appendicitis is still suspected. Suggest clinical correlation.
@@ -265,7 +265,7 @@ Small amount of ascites in the cul-de-sac.
 No obvious ascites is noted.
 No evidence of intraperitoneal free air.
 
-The liver, spleen, pancreas, adrenals, kidneys and urinary bladder are normal.
+The liver, gallbladder, spleen, pancreas, adrenals, kidneys and urinary bladder are normal.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are unremarkable.
 )
@@ -274,6 +274,7 @@ The lungs covered in the scanning range are unremarkable.
   MyForm =
 (
 C/W acute appendicitis.
+Acute appendicitis.
 )
   Paste(MyForm)
 Return
@@ -356,7 +357,7 @@ FINDINGS:
 
 - The appendix is normal.
 
-- The liver, spleen, pancreas, kidneys are unremarkable.
+- The liver, gallbladder, spleen, pancreas, kidneys are unremarkable.
 - No retroperitoneal or mesenteric lymphadenopathy.
 - The lungs covered in the scanning range are unremarkable.
 )
@@ -940,6 +941,9 @@ FINDINGS:
 - Kidneys and ureters: unremarkable
 - Urinary Bladder: unremarkable
 
+No evidence of intraperitoneal free air.
+No obvious ascites.
+
 - Lymph node enlargement > 1 cm: No mediastinal, retroperitoneal, or mesenteric lymphadenopathy.
 
 - Bony structure: unremarkable
@@ -951,6 +955,7 @@ FINDINGS:
   MyForm =
 (
 No remarkable acute intrathoracic or intraabdominal findings.
+No evident traumatic intrathoracic or intraabdominal injury.
 )
   Paste(MyForm)
 Return
@@ -1255,6 +1260,7 @@ No obvious ascites.
   MyForm =
 (
 No remarkable acute intrathoracic or intraabdominal findings.
+No evident traumatic intrathoracic or intraabdominal injury.
 )
   Paste(MyForm)
 Return
@@ -1422,7 +1428,7 @@ Small ascites in the pelvic cavity.
 No evidence of bowel ischemia.
 No intraperitoneal free air.
 
-The liver, gallbladder, spleen, pancreas, adrenals, and kidneys are unremarkable.
+The liver, gallbladder, spleen, pancreas, adrenals, kidneys, and urinary bladder are unremarkable.
 No retroperitoneal or mesenteric lymphadenopathy.
 The lungs covered in the scanning range are unremarkable.
 )

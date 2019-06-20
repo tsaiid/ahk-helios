@@ -6,6 +6,8 @@
 ::mamrfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
 ::amrgbsg::T1 hyperintensity material in the gallbladder with layering, in favor of GB sludge.
 ::dwil::* Due to susceptibility artifact from the rectal fecal material, the evaluation in DWI/ADC may be limited.
+::amrbph::Enlarged transition zone with heterogeneous nodular signal intensity and an intact low signal pseudocapsule in the periphery, suggestive of benign prostatic hyperplasia.
+::amrsptrus::Focal T1 hyperintensities at bilateral lobes, probably post-biopsy changes.
 
 ;; General
 ::amrpan::
@@ -236,6 +238,47 @@ Pancreas: Unremarkable
 Lower lungs: Unremarkable
 )
   Paste(MyForm)
+Return
+
+::mmrpc::  ; template for prostatic cancer
+
+Send,  MRI of the abdomen & pelvis for prostatic cancer evaluation.  It was performed before and after Gd-DTPA enhancement.{Enter}
+Send, MR protocols: T1WI, T2WI, DWI (b=1000 axial; b=400  coronal ) pulse sequences in axial, coronal, and sagittal views.  T1WI-FS pulse sequence  with iv. contrast administration.{Enter}
+Send, Prostate:{Enter}
+Send, 1. Size:{Enter}
+Send,    Zonal demarction: clear (  ).{Enter}
+Send,     Capsule: intact (  ).   {Enter}
+Send, 2.  Lesions: {Enter}
+Send,     L:             :-cen/junctional(  ) or peripheral (  ).  Sign of diffusional restriction (   )*. Enhancement (  ) {Enter}
+Send,     R:             :-cen/junctional(  ) or peripheral (  ).  Sign of diffusional restriction (   ). Enhancement (  ) {Enter}
+Send, {Enter}
+Send, Seminal vesicles:intact (  ){Enter}
+Send, {Enter}
+Send, Urinary bladder: unremarkable (  ){Enter}
+Send, {Enter}
+Send, Rectum: intact (  ){Enter}
+Send, {Enter}
+Send, Lymphadenopathy: pelvic (  ) or para-aortic ( ).{Enter}
+Send, - site: Obturator (  R/L), Internal iliac (  R/L), External iliac (  R/L), Sacral (  R/L), para-aortic (yes/no). {Enter}
+Send, {Enter}
+Send, 6. Other sites of metastasis ( ). (Regional/non-regional. Location: ){Enter}
+Send, {Enter}
+Send, 7. Focal bony lesion ( ).** {Enter}
+Send, {Enter}
+Send, {Enter}
+Send, * DWI/ADC pulse sequence (b=1000){Enter}
+Send,** DWI/ADC pulse sequence (b=400)
+
+Send, {Tab}Prostatic cancer. (Pi-Rad)***.
+Send, {Enter}
+Send, {Enter}
+Send, ***Pi-RAD score{Enter}
+Send, PI-RADS 1: very low (clinically significant cancer is highly unlikely to be present){Enter}
+Send, PI-RADS 2: low (clinically significant cancer is unlikely to be present){Enter}
+Send, PI-RADS 3: intermediate (the presence of clinically significant cancer is equivocal){Enter}
+Send, PI-RADS 4: high (clinically significant cancer is likely to be present){Enter}
+Send, PI-RADS 5: very high (clinically significant cancer is highly likely to be present){Enter}
+
 Return
 
 ::amrprcs::

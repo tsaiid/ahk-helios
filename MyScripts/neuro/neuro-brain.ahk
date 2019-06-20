@@ -278,28 +278,31 @@ Return
   MyForm =
 (
 Noncontrast CT of the brain was performed with a multi-slice CT scanner:
-SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness; coronal reconstruction.
 
 COMPARISON:
 Applicable previous CT of brain: no
 
 FINDINGS:
+Presence of mild bilateral periventricular low density noted. Mild subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 Presence of bilateral periventricular low density noted. Subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 No definite abnormal mass lesion in the brain noted.
 
 Mild dilatation of ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
+Enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of brain atrophy.
 
 Mild atherosclerotic change with calcification of intracranial portion of vertebrobasilar arteries and bilateral internal carotid arteries.
 
-No obvious fracture of the skull base and the skull.
+No definite bony lesion in the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
-Senile brain atrophy; leukoaraiosis.
+Mild brain atrophy; leukoaraiosis.
 )
   Paste(MyForm)
 Return

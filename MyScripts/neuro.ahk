@@ -15,7 +15,7 @@
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae2::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae3::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered. Several tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
-::sae4::Presence of bilateral periventricular, deep and subcortical hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+::sae4::Presence of several bilateral periventricular, deep and subcortical hyperintensities on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::ubo::Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
 ::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
@@ -94,6 +94,7 @@
 ::noich::No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
 ::noich0::No definite acute ICH, SAH, EDH, or SDH.
 ::lka::leukoaraiosis
+::mlka::mild leukoaraiosis
 ::oli::old lacunar infarcts
 ::oii::old ischemic infarcts
 ::ali::acute lacunar infarcts
@@ -238,6 +239,7 @@ FINDINGS:
 - Tiny calcifications in the bilateral palatine tonsils.
 - The bony structure is unremarkable.
 - The mastoid air cells are well-aerated.
+- Symmetric nasopharynx without mass lesion.
 )
   Paste(MyForm)
   SleepThenTab()

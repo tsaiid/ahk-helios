@@ -82,6 +82,26 @@ Both lungs are unremarkable.
   SleepThenTab()
 Return
 
+::selm1::
+  MyForm =
+(
+Slightly exaggerated lung markings.
+Bilateral CP angles are clear and sharp.
+The heart size is normal.
+The thoracic cage and bones are generally intact.
+
+)
+
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+As the above descriptions.
+
+)
+  Paste(MyForm)
+Return
+
 ::ii1::
   MyForm =
 (

@@ -53,6 +53,7 @@
 ::ivc::inferior vena cava
 ::svc::superior vena cava
 ::pa::pulmonary artery
+::ijv::internal jugular vein
 
 ;; Bone
 ::msk::musculoskeletal
@@ -171,6 +172,7 @@
 ::pid::pelvic inflammatory disease
 ::bt::biliary tree
 ::haic::hepatic arterial infusion chemotherapy
+::cds::cul-de-sac
 
 ;; Brain
 ::ich::intracranial hemorrhage
