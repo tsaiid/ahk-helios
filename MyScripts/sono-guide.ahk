@@ -46,9 +46,15 @@ Return
 Under sonography guidance, ascites was noted in RLQ of abdomen.
 The skin was prepared and the area was draped.
 Under local anesthesia, a 6 Fr pigtail catheter, using Seldinger technique, was placed into the peritoneal cavity.
-Light yellow, serous fluid was aspirated.
-Then, the drain was fixed with Mefix.
+Light yellow, serous fluid was aspirated and collected for Lab examination.
+Then, the drain was fixed with 3-0 Nylon.
 The whole procedure was smooth, the patient tolerated well, and no immediate complication was noted.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+Percutaneous drainage for ascites was performed.
 )
   Paste(MyForm)
 Return
@@ -135,6 +141,8 @@ The whole procedure was smooth, the patient tolerated well, and no immediate com
 )
   Paste(MyForm)
 Return
+
+:*:0sg-ld::Percutaneous drainage for liver abscess has been arranged.
 
 :*:sg-ld::
   MyForm =

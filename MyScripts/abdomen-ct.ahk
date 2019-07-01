@@ -44,6 +44,7 @@
 ::actcc::Wall thickening of the urinary bladder with trabeculation without perivesical fat stranding, suggestive of chronic cystitis.
 ::mactcc::mild wall thickening of the urinary bladder without perivesical fat stranding, suggestive of mild chronic cystitis.
 ::actccdd::Wall thickening of the urinary bladder without perivesical fat stranding. DDx: chronic cystitis, insufficient UB distention related change.
+::mactccdd::Mild wall thickening of the urinary bladder. DDx: chronic cystitis, insufficient UB distention related change.
 ::nifa::No evidence of intraperitoneal free air.
 ::actuf::A calcified nodule in the uterus, in favor of degenerated uterine fibroid.
 ::actufs::Several calcified nodules in the uterus, in favor of degenerated uterine fibroids.
@@ -446,7 +447,7 @@ Return
 (
 TECHNIQUE:
 Non-contrast and contrast-enhanced abdominal CT scans.
-Scanning range: Diaphragm to kidney, 5-mm contiguous scan.
+Scanning range: Diaphragm to kidney, 3-mm contiguous scan.
 Contrast medium: Yes, 70 ml, 1-2 ml/sec, with early arterial and delayed phases.
 
 Previous abdominal CT: none.

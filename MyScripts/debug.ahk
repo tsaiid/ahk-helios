@@ -383,10 +383,10 @@ HeliosBtnCopyReport:
   hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
   if (hHeliosWnd) {
     ;ControlSend, ,!q, ahk_id hHeliosWnd
-    prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
-    prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
-    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    prevFindingText := Acc_Get("Value", PREV_FINDING_TEXT_PATH, 0, "ahk_id " hHeliosWnd)
+    prevImpText := Acc_Get("Value", PREV_IMPRESSION_TEXT_PATH, 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
     ;MsgBox % impText.accValue(0)
     ;MsgBox % newStr
     findingObj.accValue(0) := findingObj.accValue(0) . prevFindingText
@@ -403,8 +403,8 @@ HeliosBtnClearAllText:
     ;ControlSend, ,!q, ahk_id hHeliosWnd
     ;prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
     ;prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
-    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
     ;MsgBox % impText.accValue(0)
     ;MsgBox % newStr
     ; Save content to Clipboard
@@ -434,8 +434,8 @@ HeliosBtnNormalCXR:
     Send ^+t
     ;prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
     ;prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
-    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
     ;MsgBox % impText.accValue(0)
     ;MsgBox % newStr
     ; Save content to Clipboard
@@ -472,8 +472,8 @@ HeliosBtnPcuNormalCXR:
 
     WinActivate, ahk_exe Helios.exe
     Send ^+t
-    findingObj := Acc_Get("Object", "4.9.31.1", 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", "4.9.34", 0, "ahk_id " hHeliosWnd)
+    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
+    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
     fd_str =
 (
 No abnormal contour or soft tissue shadow in the mediastinum.

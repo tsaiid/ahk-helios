@@ -102,6 +102,7 @@
 ::smn::Schmorl's node
 ::att::attenuation
 ::d-::density
+::pcm::parenchyma
 
 ::pl::possibly `
 ::pb::probably `
@@ -157,6 +158,7 @@ Return
 (
 * The evaluation is limited due to absence of contrast enhancement, especially for solid organs and vascular structure.
 * The detection of tiny or occult metastasis is limited due to absence of contrast enhancement.
+* The detection of tiny or occult residual/recurrent tumor and the evaluation of vascular structure are limited due to absence of contrast enhancement.
 )
   Paste(MyForm)
 Return

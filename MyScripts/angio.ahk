@@ -25,6 +25,12 @@ For prophylaxis, small amount of Gelfoam powders was injected to the left intern
 The follow-up left common iliac angiography showed reduced blood flow rate and partially embolization of the internal iliac branches.
 The angiocatheter and sheath were removed, and hemostasis of puncture site was achieved by manual compression.
 
+-- Liver laceration
+The angiography of celiac trunk, followed by proper hepatic artery showed no evident contrast medium extravasation.
+Embolization was performed with Gelfoam powders via the RHA, and then the LHA.
+The follow-up celiac trunk angiography showed decreased hepatic flow. The cystic artery and gastroduodenal artery were preserved.
+The angiocatheter and sheath were removed, and hemostasis of puncture site was achieved by manual compression.
+
 -- PPH
 The angiography of left internal iliac artery showed active bleeding from the left uterine artery.
 TAE of the left uterine artery with Gelfoam powders was performed successfully.
@@ -76,6 +82,7 @@ TAE was successfully performed.
 TAE for GI bleeding was successfully performed.
 TAE for HCC rupture was successfully performed.
 TAE for PPH was successfully performed.
+TAE for liver laceration was successfully performed.
 )
   Paste(MyForm)
 Return

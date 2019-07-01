@@ -166,6 +166,7 @@ Return
 ::bple::Bilateral costophrenic angles blunting, suspect pleural effusion or changes.
 ::bple0::Bilateral costophrenic angles blunting, suspect pleural effusion.
 ::bple1::Bilateral costophrenic angles blunting and diffuse ground glass opacity in both lungs, suspect pleural effusion.
+::bple2::Diffuse ground glass opacity in both lungs with supine position, suspect pleural effusion.
 ::spster::Post median sternotomy with wire fixation.
 ::spster1::Post median sternotomy with wire fixation. Several drains in the thorax.
 ::spc::Surgical clips at RUQ of abdomen, in favor of post cholecystectomy.
@@ -202,6 +203,10 @@ Return
 ::rsppm::s/p PPM implantation at right upper chest with lead tip RV.
 ::lppm::s/p PPM implantation at left upper chest with lead tips at RA and RV.
 ::lsppm::s/p PPM implantation at left upper chest with lead tip RV.
+::rppm0::s/p PPM implantation at right upper chest.
+::rsppm0::s/p PPM implantation at right upper chest.
+::lppm0::s/p PPM implantation at left upper chest.
+::lsppm0::s/p PPM implantation at left upper chest.
 ::ile::Insufficient inspiration crowds lung markings.
 ::pe::Increased vascular markings and ill-defined vascular contours indicating pulmonary edema.
 ::mpe::Mildly increased vascular markings and ill-defined vascular contours indicating mild pulmonary edema.
@@ -236,6 +241,9 @@ Return
 ::no::nodular opacity
 ::lo::linear opacity
 ::flo::fibrolinear opacities
+::buflo::Fibrolinear opacities over bilateral upper lung fields, in favor of chronic inflammatory change.
+::ruflo::Fibrolinear opacities over right upper lung fields, in favor of chronic inflammatory change.
+::luflo::Fibrolinear opacities over left upper lung fields, in favor of chronic inflammatory change.
 ::baflo::Fibrolinear opacities over bilateral apical lung fields, in favor of chronic inflammatory change.
 ::raflo::Fibrolinear opacities over right apical lung fields, in favor of chronic inflammatory change.
 ::laflo::Fibrolinear opacities over left apical lung fields, in favor of chronic inflammatory change.

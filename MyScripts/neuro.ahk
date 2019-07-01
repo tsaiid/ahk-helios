@@ -114,6 +114,7 @@
 ::4v::fourth ventricle
 ::casc::cerebral atherosclerosis
 ::mcasc::mild cerebral atherosclerosis
+::necmraok::The bilateral extracranial carotid and vertebral arteries are unremarkable.
 
 ::li1::
   MyForm =
