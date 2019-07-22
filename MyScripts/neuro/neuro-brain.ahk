@@ -221,11 +221,8 @@ Applicable previous CT of brain: no
 FINDINGS:
 No definite area of obvious abnormal density in the brain noted.
 No definite abnormal mass lesion in the brain noted.
-
 No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
-
 The bilateral lateral ventricles show symmetrical without dilatation.
-
 No obvious fracture of the skull base and the skull.
 The visible paranasal sinuses and mastoids are unremarkable.
 )
@@ -663,7 +660,7 @@ No definite abnormal tumor mass lesion in the brain noted.
 The bilateral lateral ventricles show no dilatation.
 The bilateral lateral ventricles show symmetrical without dilatation.
 
-Post contrast study showed no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+Post contrast study shows no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
 The major dural venous sinuses are patent.
 
 The visible paranasal sinuses, mastoids and skull base are unremarkable.
@@ -1094,6 +1091,7 @@ The MR of the brain performed
 - Coronal T1WI
 - Sagittal T1WI, T2WI
 - Thin slice coronal T2WI focusing on temporal lobe.
+- Axial, coronal, and sagittal T1 weighted image
 - And post Gadolinium (0.1 mmol/kg) enhancement with axial, coronal, and sagittal T1 weighted image
 - Intracranial MRA with 3D TOF and focus on the circle of Willis:
 
@@ -1115,7 +1113,9 @@ Post contrast study showed no abnormal enhancing lesion in the brain and no abno
 The major dural venous sinuses are patent.
 
 The visible paranasal sinuses, mastoids and skull base are unremarkable.
-Presence of hyperintensity on T2WI over left maxillary sinuses, in favor of sinusitis.
+
+Mild mucoperiosteal thickening and hyperintensity on T2WI over the paranasal sinuses, in favor of mild sinusitis.
+The mastoids and skull base are unremarkable.
 
 MRA shows no significant vascular stenosis in the major intracranial arteries or aneurysm near the circle of Willis regions.
 )

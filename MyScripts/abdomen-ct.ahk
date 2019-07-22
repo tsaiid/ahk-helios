@@ -163,7 +163,7 @@ No evident retroperitoneal lymphadenopathy identified.
 No evidence of intraperitoneal free air.
 No obvious ascites.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return
@@ -191,7 +191,7 @@ No evident retroperitoneal or mesenteric lymphadenopathy identified.
 No evidence of intraperitoneal free air.
 No obvious ascites.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
@@ -259,6 +259,8 @@ A swollen appendix, diameter about 1.1 cm, with mesoappendiceal fat stranding, c
 A dilated appendix, diameter about 0.9 cm, with mild hyperemic change. Although no mesoappendiceal fat stranding is noted, early change of acute appendicitis is still suspected. Suggest clinical correlation.
 
 The appendix has a borderline diameter of 7 mm and shows hyperemic change. Early stage of acute appendicitis may be suspected. Suggest clinical correlation.
+
+A fecalith is noted at the middle portion of the appendix, with dilatation of the appendiceal tip, diameter about 1.1 cm, and mild mesoappendiceal fat stranding, c/w acute appendicitis.
 
 
 Small amount of ascites in the recto-vesical pouch.
@@ -463,7 +465,7 @@ Pancreas: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return
@@ -497,7 +499,7 @@ Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return
@@ -549,7 +551,7 @@ Massive ascites.
 The bowels show diffuse wall edema, probably portal hypertensive enteropathy.
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 ====
 1. Infiltrative HCC, left lobe and partial right lobe, with portal vein tumor thrombosis.
@@ -581,7 +583,7 @@ Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return
@@ -643,7 +645,7 @@ GI tract: Unremarkable
 No retroperitoneal or mesenteric lymphadenopathy.
 No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
   SleepThenTab()
@@ -683,7 +685,7 @@ Pancreas: Unremarkable
 No retroperitoneal or mesenteric lymphadenopathy.
 No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
@@ -713,7 +715,7 @@ Biliary tree: Unremarkable
 Spleen: Unremarkable
 Pancreas: Unremarkable
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
@@ -745,7 +747,7 @@ Biliary tree: Unremarkable
 Spleen: Unremarkable
 Pancreas: Unremarkable
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
@@ -783,7 +785,7 @@ No pelvic, retroperitoneal or mesenteric lymphadenopathy.
 No evidence of intraperitoneal free air.
 No obvious ascites.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 Skeleton: No osteolytic nor osteoblastic lesion
 )
   Paste(MyForm)
@@ -909,7 +911,7 @@ Biliary tree: Unremarkable
 Pancreas: Unremarkable
 GI tract: Unremarkable
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
 )
@@ -985,7 +987,7 @@ Biliary tree: Unremarkable
 Pancreas: Unremarkable
 GI tract: Unremarkable
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return

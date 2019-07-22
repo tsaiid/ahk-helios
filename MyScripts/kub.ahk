@@ -6,8 +6,10 @@
 
 ::k::The bowel gas pattern, bilateral kidney shadows and psoas muscle contours are unremarkable.{Tab}No remarkable finding.
 ::kk::The bowel gas pattern is unremarkable.{Enter}No obvious bony lesion.{Tab}The bowel gas pattern is unremarkable.
-::k2::The bilateral kidney shadows and psoas muscle contours are normal.
-::k3::The psoas muscle contours are normal.
+::k2::The bilateral kidney shadows and psoas muscle contours are unremarkable.
+::k2n::The bilateral kidney shadows and psoas muscle contours are not well depicted.
+::k3::The psoas muscle contours are unremarkable.
+::k3n::The psoas muscle contours are not well depicted.
 ::kb::the bowel gas pattern is unremarkable.
 ::kb1::the bowel gas pattern is normal.
 ::kob::The other bowel gas pattern is unremarkable.
@@ -70,16 +72,16 @@
 ::ks1::
   MyForm =
 (
-Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is normal.
+Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is unremarkable.
 )
   Paste(MyForm)
 Return
 ::ks2::
   MyForm =
 (
-Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is normal.
+Mottled gas pattern along colon course is noted, implying fecal residues retention. Otherwise, the bowel gas pattern is unremarkable.
 
-Bilateral kidney shadows and psoas muscle contours are normal.
+Bilateral kidney shadows and psoas muscle contours are unremarkable.
 )
   Paste(MyForm)
 Return

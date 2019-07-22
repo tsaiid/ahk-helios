@@ -18,7 +18,7 @@ Embolizer: .018 3/2 Tornado microcoil, Gelfoam powders
 Embolizer: Glue (NBCA/lipiodol = 1:4)
 Embolizer: .035 6/3, 4/3 Tornado coil
 
-PROCEDURE:
+PROCEDURE AND FINDINGS:
 -- Pelvic fracture, no active bleeding
 The angiography of left common iliac and internal iliac arteries showed no definite active bleeding.
 For prophylaxis, small amount of Gelfoam powders was injected to the left internal iliac artery.

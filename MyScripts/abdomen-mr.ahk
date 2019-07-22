@@ -93,7 +93,7 @@ Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 )
   Paste(MyForm)
@@ -134,7 +134,7 @@ Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
 
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 )
   Paste(MyForm)
@@ -167,7 +167,7 @@ Spleen: Unremarkable
 Liver: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 
 )
   Paste(MyForm)
@@ -235,7 +235,7 @@ Spleen: Unremarkable
 Liver: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
-Lower lungs: Unremarkable
+Lower thorax: Unremarkable
 )
   Paste(MyForm)
 Return

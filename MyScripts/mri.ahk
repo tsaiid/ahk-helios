@@ -1,3 +1,3 @@
 ﻿; MRI related HotStrings
 
-::sig::signal intensity
+::sin::signal intensity

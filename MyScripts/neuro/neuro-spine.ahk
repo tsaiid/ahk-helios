@@ -517,7 +517,7 @@ PREVIOUS MRI of whole spine: no
 
 FINDINGS:
 
-No abnormal signal intensity change within the spinal cord, or mass lesion in the spinal canal.
+No abnormal signal intensity change within the spinal cord, or mass lesion within the dural sac.
 
 )
   Paste(MyForm)

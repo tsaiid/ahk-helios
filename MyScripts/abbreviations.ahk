@@ -234,6 +234,10 @@
 
 ;; Spine
 ::aars::atlantoaxial rotary subluxation
+::efz::extraforaminal zone
+::fz::foraminal zone
+::saz::subarticular zone
+::ccz::central canal zone
 
 ;; Others
 ::dvt::deep vein thrombosis

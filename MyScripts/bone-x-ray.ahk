@@ -211,6 +211,7 @@ Return
 ::rkcppd::Linear calcifications along the joint space of the medial and lateral compartments of right knee, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::lkcppd::Linear calcifications along the joint space of the medial and lateral compartments of left knee, in favor of chondrocalcinosis, probably due to CPPD deposition.
 ::nbok::No evidence of nasal bone fracture.
+::spvcpf::Old vertebral compression fracture, s/p vertebroplasty.
 ::spv::s/p vertebroplasty at `
 ::spv0::s/p vertebroplasty
 ::pif::pars interarticularis fracture

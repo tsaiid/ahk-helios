@@ -164,9 +164,13 @@ Return
 ::rple::Right costophrenic angle blunting, suspect pleural effusion or changes.
 ::rple1::Right costophrenic angle blunting and diffuse ground glass opacity in right lung, suspect pleural effusion.
 ::bple::Bilateral costophrenic angles blunting, suspect pleural effusion or changes.
+::mbple::Mild bilateral costophrenic angles blunting, suspect mild pleural effusion or changes.
 ::bple0::Bilateral costophrenic angles blunting, suspect pleural effusion.
+::mbple0::Mild bilateral costophrenic angles blunting, suspect mild pleural effusion.
 ::bple1::Bilateral costophrenic angles blunting and diffuse ground glass opacity in both lungs, suspect pleural effusion.
+::mbple1::Mild bilateral costophrenic angles blunting and diffuse ground glass opacity in both lungs, suspect mild pleural effusion.
 ::bple2::Diffuse ground glass opacity in both lungs with supine position, suspect pleural effusion.
+::mbple2::Mild diffuse ground glass opacity in both lungs with supine position, suspect mild pleural effusion.
 ::spster::Post median sternotomy with wire fixation.
 ::spster1::Post median sternotomy with wire fixation. Several drains in the thorax.
 ::spc::Surgical clips at RUQ of abdomen, in favor of post cholecystectomy.
@@ -296,8 +300,8 @@ Return
 ::ldia::Elevation of left hemidiaphragm. Phrenic nerve palsy, diaphragmatic eventration, or intraabdominal process is considered.
 ::ldia0::Elevation of left hemidiaphragm.
 ::copd::Hyperinflation with flattening of bilateral hemidiaphragms, suggestive the possibility of COPD.
-::tta::Tortuosity of thoracic descending aorta.
-::mtta::Mild tortuosity of thoracic descending aorta.
+::tta::Tortuous thoracic descending aorta.
+::mtta::Mild tortuous thoracic descending aorta.
 ::bronchio::Increased linear opacity and peribronchial thickening over bilateral lung fields, r/o bronchiolitis.
 ::ilo::increased linear opacity `
 ::ao::acinar opacity `

@@ -81,7 +81,7 @@
 ::ap::arterial phase
 ::pvp::portal venous phase
 ::dp::delayed phase
-::pvdp::portal venous and phases
+::pvdp::portal venous and delayed phases
 ::ep::equilibrium phase
 ::hbp::hepatobiliary phase
 ::bd::bone density
@@ -165,6 +165,7 @@ Return
 
 ::sgo::suggestive of `
 ::obv::obvious `
+::sig::significant `
 ::nob::no obvious `
 ::nod::no definite `
 ::noe::no evident `

@@ -115,6 +115,7 @@
 ::casc::cerebral atherosclerosis
 ::mcasc::mild cerebral atherosclerosis
 ::necmraok::The bilateral extracranial carotid and vertebral arteries are unremarkable.
+::cbnic::The intracranial condition shows no obvious change as compared with previous study.
 
 ::li1::
   MyForm =
@@ -407,27 +408,35 @@ Return
   MyForm =
 (
 CTA of the neck and brain was performed before and after IV contrast agent administration
-Scanning range: aortic arch to circle of Willis.
+Scanning range: aortic arch to cranial vault.
 Axial, 3D MPR, MIP (and VRT) images:
 
 COMPARISON: nil
 
 FINDINGS:
-- Major intracranial arteries including anterior, middle and posterior cerebral arteries, bilateral ICAs, and basilar arteries are patent.
-- The right vertebral artery is dominant, while the left V4 VA is hypoplastic.
-- Bilateral common carotid, carotid bulbs, external and internal carotid arteries are patent.
-- Major venous sinuses are patent.
-- No definite aneurysm or AVM is noted.
-- The visible brain parenchyma is unremarkable.
-- The neck structure is normal. No abnormal mass lesion is identified.
+- No abnormal density or space-occupying lesion in the brain parenchyma.
+- No abnormal enhancing lesion in the brain.
+- The major dural venous sinuses are patent.
+- Cavum septum pellucidum and cavum vergae.
+- No abnormal dilatation of the ventricular system and no midline shift.
+
+- Major intracranial arteries, including anterior, middle and posterior cerebral arteries, bilateral internal carotid arteries, basilar arteries, and bilateral vertebral arteries, are patent. No evident luminal stenosis is noted.
+- Bilateral common carotid, carotid bulbs, external and internal carotid arteries are patent. No evident luminal stenosis is noted.
+- No definite aneurysm, arteriovenous malformation, or other vascular abnormality.
+
+- Nasal septum deviation to the right.
+- Hypertrophy of the nasal turbinates, especially the left ones.
+- The nasopharynx, oropharynx, hypopharynx, and larynx are unremarkable.
+- No particular findings of parotid glands, submandibular glands, and thyroid gland.
+- No bulky lymph nodes or mass lesion over the neck.
+- Normal pneumatization of the paranasal sinuses and mastoid air cells.
 - The visible lungs are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()
   MyForm =
 (
-1. Dominant right vertebral artery, with left V4 VA hypoplasia.
-2. The major neck and intracranial arteries are patent, without vascular anomaly.
+The major neck and intracranial arteries are patent, without vascular anomaly nor luminal stenosis.
 )
   Paste(MyForm)
 Return
