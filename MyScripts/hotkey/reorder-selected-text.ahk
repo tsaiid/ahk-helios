@@ -1,7 +1,7 @@
 ﻿; HotKey
 ;; Reordering the selected text
 
-ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = ""){
+ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = "", discardSeIm = True){
   Clipboard := ""
   Send ^c
   Sleep, 300
@@ -37,7 +37,15 @@ ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = ""){
           orderChar := (StrLen(itemChar) > 0 ? itemChar : ++currLineNo . ".")
           finalText .= orderChar . " "
         }
-        finalText .= RegExReplace(A_LoopField, "^(\s*)((\d+\.)|([-\+\*>])|(\(?\d+\)))?(\s*)(\w?)(.*)", "$u7$8")
+
+        tmpText := A_LoopField
+        ; remove (Se/Im: ...) string
+        If (StrLen(itemChar) = 0 && discardSeIm) {
+          tmpText := RegExReplace(tmpText, "^(.*?)(\s*\(Ser?\/Img?:[\s,\/\d]+\)\s*)(.*)$", "$1$3")
+        }
+
+        ; remove unintended itemChar and uppercase the first char
+        finalText .= RegExReplace(tmpText, "^(\s*)((\d+\.)|([-\+\*>])|(\(?\d+\)))?(\s*)(\w?)(.*)", "$u7$8")
 
         If (A_Index < endLine || hadTrimmedRight) {
           finalText .= "`r`n"
