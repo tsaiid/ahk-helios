@@ -41,7 +41,7 @@ ReorderSeletedText(deOrder = False, keepEmptyLine = False, itemChar = "", discar
         tmpText := A_LoopField
         ; remove (Se/Im: ...) string
         If (StrLen(itemChar) = 0 && discardSeIm) {
-          tmpText := RegExReplace(tmpText, "^(.*?)(\s*\(Ser?\/Img?:[\s,\/\d]+\)\s*)(.*)$", "$1$3")
+          tmpText := RegExReplace(tmpText, "^(.*?)(\s*\(Ser?\/Img?:[\s,\/\d]+\))(.*)$", "$1$3")
         }
 
         ; remove unintended itemChar and uppercase the first char
