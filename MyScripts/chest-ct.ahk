@@ -27,6 +27,7 @@
 ::cadr3::CAD-RADS 3: Moderate stenosis. Consider functional assessment.
 ::cadr4::CAD-RADS 4: Severe stenosis. Consider invasive coronary angiography or functional assessment.
 ::cadr5::CAD-RADS 5: Total coronary occlusion. Consider ICA and/or viability assessment.
+::ncldcic::a tiny irregular subpleural lesion with adjacent pleural thickening at the right upper thorax, in favor of chronic inflammatory change.
 ::cctlapok::
   MyForm =
 (
@@ -71,7 +72,7 @@ FINDINGS:
 - Lung: negative
 - Airway: not unusual for age
 - Mediastinum: not unusual
-- Lymph node enlargement > 1 cm: none for age
+- Lymph node enlargement > 1 cm: none
 - Pleura: not unusual for age
 - Pericardium and heart: not unusual for age
 - Aorta and pulmonary artery: not unusual for age
@@ -103,7 +104,8 @@ FINDINGS:
 - Heart: within normal limits.
 - Mediastinum and hila: no LNs > 1 cm.
 - Lower neck: unremarkable.
-- Chest wall and spine: within normal limits.
+- Chest wall: unremarkable.
+- Thoracic spine: unremarkable.
 - Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.
@@ -167,7 +169,8 @@ FINDINGS:
 - Heart: normal size. Mild coronary artery calcification.
 - Great vessels: normal diameter.
 - Pleura: unremarkable.
-- Chest wall and spine: unremarkable.
+- Chest wall: unremarkable.
+- Thoracic spine: unremarkable.
 - Upper abdomen: unremarkable.
 )
   Paste(MyForm)
@@ -219,7 +222,8 @@ FINDINGS:
 - Heart: normal size. Mild coronary artery calcification.
 - Great vessels: normal diameter.
 - Pleura: unremarkable.
-- Chest wall and spine: unremarkable.
+- Chest wall: unremarkable.
+- Thoracic spine: unremarkable.
 - Upper abdomen: unremarkable.
 )
   Paste(MyForm)
@@ -301,7 +305,9 @@ FINDINGS:
 - Great vessels: within normal limits.
 - Heart: within normal limits.
 - Mediastinum and hila: no LNs > 1 cm.
-- Chest Wall and low neck: several small nodules with calcifications in the thyroid. Suggest correlate with sonography.
+- Chest wall: unremarkable.
+- Thoracic spine: unremarkable.
+- Low neck: several small nodules with calcifications in the thyroid. Suggest correlate with sonography.
 - Abdomen: within normal limits in visualized range.
 
 *PS. The evaluation is limited especially for solid organs and vascular structure due to absence of contrast enhancement.

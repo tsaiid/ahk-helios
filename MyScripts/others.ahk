@@ -244,6 +244,7 @@ Return
 
 ; common hotstrings
 ::rcs::renal cysts
+::rrs::renal stones
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
 ::srcs::Some small renal cysts in both kidneys.

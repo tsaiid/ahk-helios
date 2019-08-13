@@ -724,9 +724,8 @@ MRI of the Uterus.
 SCANNING PROTOCOL:
 - Distended rectum with jelly
 - Abdomen and pelvis:
-  * HASTE T2: axial, coronal
+  * HASTE T2: coronal
   * DWI (b=400): coronal
-  * T1+C: axial
 - Uterus:
   * TSE T2: axial, coronal
   * DWI (b=1000), ADC: axial

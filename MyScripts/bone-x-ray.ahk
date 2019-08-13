@@ -249,6 +249,21 @@ Return
 ::rk::Right knee:`n
 ::lk::Left knee:`n
 ::bk::Bilateral knees:`n
+::skok::
+  MyForm =
+(
+No obvious dislocation or fracture.
+The paranasal sinuses are clear.
+The mastoid air cells are well-aerated.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No obvious dislocation or fracture.
+)
+  Paste(MyForm)
+Return
 
 ; Multiline
 ::flat::

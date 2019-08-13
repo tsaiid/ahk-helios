@@ -21,8 +21,8 @@
 ::acthh::A -cm nodule over S of liver, shows discontinuous, nodular, peripheral enhancement in arterial phase, and progressive peripheral enhancement with centripetal fill in in portal venous phase. Hepatic hemangioma is considered.
 ::actrn::A -cm nodule over S of liver, shows enhancement in arterial phase, and isodense in portal venous phase, in favor of regenerative nodule.
 ::acthcc::A -cm nodule over S of liver, shows arterial phase hyperenhancement, washout and enhancing capsule in portal venous phase, suggestive of hepatocellular carcinoma.
-::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal, in favor of adenoma.
-::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal, in favor of adenoma.
+::actraa::A __-cm fat-containing enhanced nodular lesion at the right adrenal gland, in favor of adenoma.
+::actlaa::A __-cm fat-containing enhanced nodular lesion at the left adrenal gland, in favor of adenoma.
 ::actckd::Atrophic change of bilateral kidneys, in favor of chronic kidney disease.
 ::mactckd::Mild atrophic change of bilateral kidneys, in favor of mild chronic kidney disease.
 ::actckd1::Atrophic change of bilateral kidneys with some renal cysts, in favor of chronic kidney disease.
@@ -56,7 +56,6 @@
 ::actaccll::Mild gallbladder wall thickening without GB distention or pericholecystic fat stranding. Acute cholecystitis is less likely.
 ::actclc::Mild subpleural reticulation and interlobular septal thickening over bilateral lower lungs, in favor of chronic inflammatory change.
 ::hvpvok::The major hepatic and portal veins are patent.
-::livok::No abnormal enhanced lesion or washout pattern noted.
 ::sacds::Small amount of ascites in the Cul-de-sac.
 ::macds::Minimal amount of ascites in the Cul-de-sac.
 ::wtsme::wall thickening and submucosal edema
@@ -64,12 +63,22 @@
 ::lkuok::The left kidney and ureter are unremarkable.
 ::rkuok::The right kidney and ureter are unremarkable.
 ::appok::the appendix is normal.
+::appok2::No evidence of acute appendicitis or other acute intraabdominal findings.
 ::ntabdi::No evident traumatic intraabdominal injury.
 ::ntthoi::No evident traumatic intrathoracic injury.
 ::naabdf::No evident acute intraabdominal finding.
 ::nathof::No evident acute intrathoracic finding.
 ::nacraf::No evident acute intracranial finding.
 ::actapn::Edematous left renal parenchyma, with multifocal hypo-enhanced areas and perirenal fat stranding, suggestive of acute pyelonephritis.
+::livok::
+  MyForm =
+(
+- No abnormal enhanced lesion or washout pattern noted.
+- No definite abnormal enhanced hepatic lesion with washout pattern noted.
+- No definite abnormal enhanced hepatic lesion with/without washout pattern noted.
+)
+  Paste(MyForm)
+Return
 
 ;; forms
 ::act::
@@ -942,7 +951,7 @@ FINDINGS:
 - GI Tracts: unremarkable
 - Adrenals: unremarkable
 - Kidneys and ureters: unremarkable
-- Urinary Bladder: unremarkable
+- Urinary bladder: unremarkable
 
 No evidence of intraperitoneal free air.
 No obvious ascites.
@@ -1249,7 +1258,7 @@ FINDINGS:
 - GI Tracts: unremarkable
 - Adrenals: unremarkable
 - Kidneys and ureters: unremarkable
-- Urinary Bladder: unremarkable
+- Urinary bladder: unremarkable
 
 No evidence of intraperitoneal free air.
 No obvious ascites.

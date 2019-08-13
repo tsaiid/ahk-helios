@@ -31,6 +31,7 @@
 ::atrssa::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::atrvsa::Mild enlargement of the intraventricular system with widening of the subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
 ::matrs::Mild diffuse atrophy of bilateral cerebral hemispheres, with deepening and widening of fissures and cortical sulci.
+::matrs2::Mild brain atrophy with enlarged subarachnoid spaces of bilateral cerebral convexities.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
 ::ctpbi2::Presence of brain tissue loss change involving right temporal, right parietal, and left frontal regions, with compensatory dilatation of left lateral ventricle, in favor of previous brain insult, such as old ischemic infarction.
@@ -300,6 +301,9 @@ FINDINGS:
 - No definite abnormal signal intensity tumor mass lesion in the brain noted including supratentorial cerebral hemisphere and infratentorial cerebellum and brain stem region.
 - No definite abnormal signal intensity change in the brain parenchyma.
 - The bilateral lateral ventricles showed symmetrical without dilatation.
+
+- Post contrast study shows no abnormal enhancing lesion in the brain and no abnormal leptomeningeal enhancement noted.
+- The major dural venous sinuses are patent.
 )
   Paste(MyForm)
   SleepThenTab()
