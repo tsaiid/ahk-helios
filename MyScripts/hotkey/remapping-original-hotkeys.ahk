@@ -86,6 +86,7 @@ Return
 
 ; Backup Report Before Confilm
 !c::
+  SelectMismatchValue()
   BackupHeliosReportToFile()
   Send !c
 Return
