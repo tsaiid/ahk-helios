@@ -302,44 +302,10 @@ execute_shuttlepro_speed(speed,layer)
 		timer_active_hwnd := WinExist("A")
 		;a .= "timer_active_hwnd: " . timer_active_hwnd
 
-    If (WinActive("ahk_exe Miv2Lib.exe")) {
+    If (WinActive("ahk_exe Miv2Lib.exe") || WinActive("ahk_exe syngo.Common.Container.exe")) {
       a .= "GEUV: "
       ; send the first key, because SetTimer will wait for the first period
-      If (corrected_speed_saved < speed && speed > 0) {
-        Send, {Down}
-      } Else If (corrected_speed_saved > speed && speed < 0) {
-        Send, {Up}
-      }
-      If (speed = -1) {
-        SetTimer, UpScroll, 750
-      } Else If (speed = -2) {
-        SetTimer, UpScroll, 500
-      } Else If (speed = -3) {
-        SetTimer, UpScroll, 333
-      } Else If (speed = -4) {
-        SetTimer, UpScroll, 200
-      } Else If (speed = -5) {
-        SetTimer, UpScroll, 100
-      } Else If (speed = -6) {
-        SetTimer, UpScroll, 50
-      } Else If (speed = -7) {
-        SetTimer, UpScroll, 20
-      } Else If (speed = 1) {
-        SetTimer, DownScroll, 750
-      } Else If (speed = 2) {
-        SetTimer, DownScroll, 500
-      } Else If (speed = 3) {
-        SetTimer, DownScroll, 333
-      } Else If (speed = 4) {
-        SetTimer, DownScroll, 200
-      } Else If (speed = 5) {
-        SetTimer, DownScroll, 100
-      } Else If (speed = 6) {
-        SetTimer, DownScroll, 50
-      } Else If (speed = 7) {
-        SetTimer, DownScroll, 20
-      }
-
+			set_scroll_speed(corrected_speed_saved, speed, 800, 500, 333, 200, 100, 50, 20)
     }
 
     a .= "corrected_speed_saved: " . corrected_speed_saved . ", speed: " . speed
@@ -393,6 +359,38 @@ return
 DownKey:
 Send, {Down}
 return
+
+set_scroll_speed(corrected_speed_saved, speed, s1, s2, s3, s4, s5, s6, s7)
+{
+	If (corrected_speed_saved < speed && speed > 0) {
+		;Send, {Down}
+		Click, WheelDown
+	} Else If (corrected_speed_saved > speed && speed < 0) {
+		;Send, {Up}
+		Click, WheelUp
+	}
+	If (speed < 0) {
+		scroll_direction := "UpScroll"
+	} Else {
+		scroll_direction := "DownScroll"
+	}
+	abs_speed := Abs(speed)
+	If (abs_speed = 1) {
+		SetTimer, %scroll_direction%, %s1%
+	} Else If (abs_speed = 2) {
+		SetTimer, %scroll_direction%, %s2%
+	} Else If (abs_speed = 3) {
+		SetTimer, %scroll_direction%, %s3%
+	} Else If (abs_speed = 4) {
+		SetTimer, %scroll_direction%, %s4%
+	} Else If (abs_speed = 5) {
+		SetTimer, %scroll_direction%, %s5%
+	} Else If (abs_speed = 6) {
+		SetTimer, %scroll_direction%, %s6%
+	} Else If (abs_speed = 7) {
+		SetTimer, %scroll_direction%, %s7%
+	}
+}
 
 UpScroll:
 curr_hwnd := WinExist("A")
