@@ -225,6 +225,35 @@ No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, 
 The bilateral lateral ventricles show symmetrical without dilatation.
 No obvious fracture of the skull base and the skull.
 The visible paranasal sinuses and mastoids are unremarkable.
+
+Mild mucoperiosteal thickening and soft tissue density in the paranasal sinuses, in favor of mild sinusitis.
+The mastoids are unremarkable.
+)
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No definite acute ICH, SAH, EDH, or SDH.
+)
+  Paste(MyForm)
+Return
+
+::ctn2oktr0::
+  MyForm =
+(
+Noncontrast CT of the brain was performed with a multi-slice CT scanner:
+SCAN RANGE: oblique axial plane from the skull base to the vertex with 5-mm continuous scan slice thickness
+
+COMPARISON:
+Applicable previous CT of brain: no
+
+FINDINGS:
+No definite area of obvious abnormal density in the brain noted.
+No definite abnormal mass lesion in the brain noted.
+No definite acute intracranial parenchymal hemorrhage, subarachnoid hemorrhage, epidural or subdural hematoma in the brain noted.
+The bilateral lateral ventricles show symmetrical without dilatation.
+No obvious fracture of the skull base and the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
 )
   Paste(MyForm)
   SleepThenTab()

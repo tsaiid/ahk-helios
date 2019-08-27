@@ -718,7 +718,7 @@ Return
 
 ::amremca::
   MyForm =
-( Join`r
+(
 MRI of the Uterus.
 
 SCANNING PROTOCOL:
@@ -729,8 +729,8 @@ SCANNING PROTOCOL:
 - Uterus:
   * TSE T2: axial, coronal
   * DWI (b=1000), ADC: axial
-  * T1+FS: axial, sagittal
-  * T1+C+FS: axial, coronal, sagittal
+  * T1+FS: coronal, sagittal
+  * T1+C+FS: coronal, sagittal
 
 COMPARISON: no
 
@@ -739,12 +739,13 @@ Endometrial tumor:
 - Signal intensity: isointense on T1WI, slightly hyperintense on T2WI, with diffusion restriction; relative less enhancement.
 - Extent: whole uterine cavity, extending to the cervix.
 - Invasion: disruption of low T2 signal cervical stroma
+- Invasion: intact low signal intensity junctional zone and preserved low T2 signal cervical stroma
 
 Lymph node:
 - No regional lymph node metastasis.
 
 Distant metastasis:
-- No liver, adrenal metastasis.
+- No liver, adrenal, or bone metastasis.
 - No non-regional lymph node metastasis.
 
 Others:

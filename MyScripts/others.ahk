@@ -239,12 +239,14 @@ Return
 ::bdl::borderline `
 ::bsmg::borderline splenomegaly
 ::ls::luminal stenosis
+::ada::as detailed above
+::ntn::not true nodule
 
 ::fn::FOOTNOTE:{Enter}[{^}1]: `
 
 ; common hotstrings
 ::rcs::renal cysts
-::rrs::renal stones
+::rss::renal stones
 ::lrc::A -cm renal cyst at the left kidney.
 ::rrc::A -cm renal cyst at the right kidney.
 ::srcs::Some small renal cysts in both kidneys.

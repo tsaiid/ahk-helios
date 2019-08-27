@@ -234,3 +234,16 @@ FINDINGS:
 )
   Paste(MyForm)
 Return
+
+;; CT Knee
+::ectk::
+  MyForm =
+(
+CT Knee:
+Non-contrast study.
+Pre and post contrast-enhanced study.
+
+FINDINGS:
+)
+  Paste(MyForm)
+Return

@@ -30,7 +30,7 @@
 ::matrvs::Mild enlargement of the ventricular system and sulcal widening of bilateral cerebral hemispheres noted, in favor of mild brain atrophy.
 ::atrssa::Sulcal widening of bilateral cerebral hemispheres and enlargement of the subarachnoid space noted, in favor of mild brain atrophy.
 ::atrvsa::Mild enlargement of the intraventricular system with widening of the subarachnoid space of bilateral cerebral hemispheres, in favor of aging process and mild brain atrophy.
-::matrs::Mild diffuse atrophy of bilateral cerebral hemispheres, with deepening and widening of fissures and cortical sulci.
+::matrs::Mild atrophy of bilateral cerebral cortices, with deepening and widening of fissures and cortical sulci.
 ::matrs2::Mild brain atrophy with enlarged subarachnoid spaces of bilateral cerebral convexities.
 ::ctabi::A small ill-defined low density over left frontal subcortical white matter, could be old or recent ischemic infarction. Suggest clinical correlation.
 ::ctpbi::Presence of tiny/small low density involved ___ basal ganglion, ___ thalamus, and ___ periventricular white matter, previous brain ischemic insult, such as old tiny ischemic infarction considered.
@@ -292,7 +292,7 @@ COMPARISON: no
 
 FINDINGS:
 - Normal appearance of bilateral cochlea, vestibules, semicircular canals, and IACs.
-- Normal appearance of bilateral cochlear nerves.
+- Normal appearance of bilateral vestibulocochlear nerves.
 - Normal appearance of bilateral vestibular aqueducts.
 
 - Normal appearance of bilateral mastoid air cells.

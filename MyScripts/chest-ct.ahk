@@ -156,11 +156,15 @@ Applicable previous CT of chest: no
 
 FINDINGS:
 1. Lung parenchyma:
+* Computer assisted detection shows the following pulmonary lesions:
 - Mark L1:
 - Mark L2:
 - Mark L3:
 - Mark L4:
 - Mark L5:
+
+* Other pulmonary lesions:
+- No remarkable nodular lesions in bilateral lungs.
 
 2. Other lung and extrapulmonary findings:
 - Airway: normal.

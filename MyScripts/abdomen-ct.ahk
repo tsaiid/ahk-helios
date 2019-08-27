@@ -287,6 +287,7 @@ The lungs covered in the scanning range are unremarkable.
 (
 C/W acute appendicitis.
 Acute appendicitis.
+Acute appendicitis is suspected.
 )
   Paste(MyForm)
 Return

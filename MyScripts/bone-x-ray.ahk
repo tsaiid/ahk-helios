@@ -18,6 +18,7 @@
 ::mdjdtl::Mild DJD change of T- and L-spine.
 ::mdjdtl1::Mild DJD change of T- and L-spine with spur formation.
 ::spdl::spondylolisthesis
+::mspl::mild spondylosis
 ::spl::spondylosis
 ::spll::Spondylosis of L-spine.
 ::splc::Spondylosis of C-spine.

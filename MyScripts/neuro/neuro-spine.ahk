@@ -187,8 +187,8 @@ Neuroforaminal stenosis, mild: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-
 Neuroforaminal stenosis, moderate to severe: right\left\bilateral C2-C3, C3-4, C4-5, C5-6, C6-7, C7-T1
 
 No evidence of abnormal signal intensity lesion within the spinal cord of the C-spine.
-No evidence of abnormal signal intensity tumor mass lesion within the dural sac of the C-spine.
-No evidence of abnormal signal intensity tumor mass lesion over the spinal canal of the C-spine.
+No evidence of abnormal tumor mass lesion within the dural sac of the C-spine.
+No evidence of abnormal tumor mass lesion over the spinal canal of the C-spine.
 
 Suspicious high signal intensity within the cervical cord at the C4 and C5 level on T2WI noted, DDx: contusion edema, prior cord insult with cord gliosis, and/or artifact.
 Presence of mild high signal intensity within the cervical cord at the C5 and C6 spine level on T2WI noted, probably due to the spinal stenosis and/or prior cord injury edema and/or prior cord insult with cord gliosis or small cystic change.
@@ -418,6 +418,7 @@ Degenerative disc disease:
 1. Desiccation: L1 through L5
 2. Disc space narrowing: L2 through L5
 
+No evidence of abnormal signal intensity mass lesion within the dural sac of L-spine noted.
 No evidence of abnormal signal intensity mass lesion in the spinal canal of L-spine noted.
 
 Normal alignment of lower T- and L-spine regions.
