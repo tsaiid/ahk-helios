@@ -66,6 +66,7 @@
 ::l::lesion
 ::nl::nodular lesion
 ::cl::cystic lesion
+::cdl::consolidative lesion
 ::mod::moderate `
 ::sv::severe `
 ::stm::small to moderate `
@@ -153,6 +154,7 @@ Return
 ::motion::* Obvious motion artifacts may limit the interpretation.
 ::mart::* Obvious metallic artifact may limit the evaluation.
 ::ubl::(* Limited evaluation due to collapsed UB.)
+::gil::(* limited evaluation due to peristalsis, susceptibility artifact from gas, etc.)
 ::ncl::
   MyForm =
 (
@@ -193,6 +195,7 @@ Return
 ::ic::inflammatory change
 ::infl::inflammation
 ::cd::consolidation
+::cdv::consolidative
 ::nc::noncontrast-enhanced study
 ::ce::contrast-enhanced study
 ::sc::surgical clips
@@ -201,6 +204,7 @@ Return
 ::mlt::more on left side
 ::adj::adjacent `
 ::std::soft tissue density
+::stdl::soft tissue density lesion
 ::ddx::differential diagnoses
 ::nd::newly developed `
 ::ws::wedge-shaped `

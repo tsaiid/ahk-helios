@@ -840,7 +840,7 @@ Biliary tree: Unremarkable
 Pancreas: Unremarkable
 Spleen: Unremarkable
 
-GI tract: Unremarkable
+GI tract: Unremarkable (* limited evaluation due to peristalsis, susceptibility artifact from gas, etc.)
 
 Adrenals: Unremarkable
 Kidneys and ureters: Unremarkable
