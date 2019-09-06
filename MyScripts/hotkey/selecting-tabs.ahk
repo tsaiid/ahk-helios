@@ -1,30 +1,22 @@
 ﻿; HotKey
-#IfWinActive ahk_exe Helios.exe
+;#IfWinActive ahk_exe Helios.exe
 ClickReportList() {
-  global PREV_REPORT_TAB_PATH
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  reportListObj := Acc_Get("Object", PREV_REPORT_TAB_PATH, 0, "ahk_id " hHeliosWnd)
+  global reportListObj
   reportListObj.accDoDefaultAction(0)
 }
 
 ClickExamList() {
-  global EXAM_TAB_PATH
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  opdListObj := Acc_Get("Object", EXAM_TAB_PATH, 0, "ahk_id " hHeliosWnd)
-  opdListObj.accDoDefaultAction(0)
+  global examListObj
+  examListObj.accDoDefaultAction(0)
 }
 
 ClickOpdList() {
-  global OPD_TAB_PATH
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  opdListObj := Acc_Get("Object", OPD_TAB_PATH, 0, "ahk_id " hHeliosWnd)
+  global opdListObj
   opdListObj.accDoDefaultAction(0)
 }
 
 ClickPathoList() {
-  global OP_ADM_PATHO_TAB_PATH
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
-  pathoListObj := Acc_Get("Object", OP_ADM_PATHO_TAB_PATH, 0, "ahk_id " hHeliosWnd)
+  global pathoListObj
   pathoListObj.accDoDefaultAction(0)
 }
 #IfWinActive
@@ -51,4 +43,4 @@ ClickPreviousReports() {
   ; 切換至歷史報告頁
   tabPrevReport.click()
 }
-#IfWinActive
+;#IfWinActive

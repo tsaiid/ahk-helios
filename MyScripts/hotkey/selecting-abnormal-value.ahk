@@ -4,9 +4,8 @@
 
 SelectAbnormalValue(abnKey="B") {
   global ABNORMAL_VALUE_PATH
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  global hHeliosWnd, abnormalValueObjs
   if (hHeliosWnd) {
-    abnormalValueObj := Acc_Get("Object", ABNORMAL_VALUE_PATH[abnKey], 0, "ahk_id " hHeliosWnd)
-    abnormalValueObj.accSelect(0x3, 0)
+    abnormalValueObjs[abnKey].accSelect(0x3, 0)
   }
 }

@@ -3,7 +3,23 @@ prevExamDate := ""
 currExamDate := ""
 currAccNo := ""
 prevPatID := ""
+
 hParentWnd := 0
+hHeliosWnd := 0
+findingObj := 0
+impObj := 0
+abnormalValueObjs := {}
+mismatchValueObjs := {}
+reportListObj := 0
+examListObj := 0
+opdListObj := 0
+pathoListObj := 0
+reportStatusObj := 0
+findingScrollBarUpObj := 0
+findingScrollBarDownObj := 0
+impScrollBarUpObj := 0
+impScrollBarDownObj := 0
+
 LLDFormRtLD := 0
 LLDFormLtLD := 0
 FsgRadioGroup := 0
@@ -12,6 +28,7 @@ ProstateSizeCalFormLength := 0
 ProstateSizeCalFormHeight := 0
 
 ;; Helios Related
+REPORT_STATUS_PATH              := "4.9.1.1"
 FINDING_INPUT_PATH              := "4.9.32.1"
 IMPRESSION_INPUT_PATH           := "4.9.35"
 FINDING_SCROLLBAR_DOWN_PATH     := "4.9.32.2.3"

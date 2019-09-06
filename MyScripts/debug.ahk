@@ -241,10 +241,7 @@ InsertAutoReport(debugInfo=True) {
 }
 
 ^7::
-  ;Clipboard := GetCurrPatIDFromGeUv()
-  Clipboard := GetCurrAccnoFromGeUv()
-  MsgBox % Clipboard
-  ;CopyPrevSimilarReport(True)
+  SelectMismatchValue()
 Return
 
 $^8::
@@ -417,9 +414,10 @@ HeliosBtnClearAllText:
 Return
 
 HeliosBtnNormalCXR:
-  ;hHeliosWnd := WinExist("ahk_class HwndWrapper[Helios.exe")
-  hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+  global hHeliosWnd, findingObj, impObj
+  ;startTime = %A_Min%%A_Sec%%A_MSec%
   if (hHeliosWnd) {
+    /*
     ; check if exam is cxr
     infoText := Acc_Get("Name", "4.5.1.1", 0, "ahk_id " hHeliosWnd)
     RegExMatch(infoText, "^\[.+\]\s+(\w+)/([^\s]+)\s+\[(.+?)\]\s*\[.+?\]\s+(\[[0-9A-Z]+?\])?\s*\[(.+?)/.+?\]\s+\[([\d-]+).+?\]", examInfo)
@@ -428,18 +426,10 @@ HeliosBtnNormalCXR:
       MsgBox, Not a CXR.
       Return
     }
+    */
 
-    ;ControlSend, , ^t, ahk_id hHeliosWnd
     WinActivate, ahk_exe Helios.exe
     Send ^+t
-    ;prevFindingText := Acc_Get("Value", "4.7.2.1.6", 0, "ahk_id " hHeliosWnd)
-    ;prevImpText := Acc_Get("Value", "4.7.2.1.9", 0, "ahk_id " hHeliosWnd)
-    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
-    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hHeliosWnd)
-    ;MsgBox % impText.accValue(0)
-    ;MsgBox % newStr
-    ; Save content to Clipboard
-    ;Clipboard := findingObj.accValue(0) . "`r`n`r`n" . impObj.accValue(0)
     normalFindingStr =
 ( Join`r`n
 The heart size is normal.
@@ -449,6 +439,10 @@ The thoracic cage and bones are generally intact.
 )
     findingObj.accValue(0) := normalFindingStr
     impObj.accValue(0) := "Both lungs are unremarkable."
+    SelectMismatchValue()
+    ;endTime = %A_Min%%A_Sec%%A_MSec%
+    ;elapsedTime := endTime - startTime
+    ;MsgBox % elapsedTime
     Send !c
     Sleep 1000
     Send !x
@@ -517,9 +511,8 @@ HeliosBtnGuiGuiEscape:
   Gui, Destroy
 Return
 
-;; to get bone density report by ajax.
 $^!z::
-hHeliosWnd := WinExist("Helios ahk_exe Helios.exe")
+global hHeliosWnd, findingObj, impObj
 if (hHeliosWnd) {
   Gui, HeliosBtnGui: New
   Gui, HeliosBtnGui:+AlwaysOnTop -MaximizeBox -MinimizeBox
@@ -548,6 +541,7 @@ if (hHeliosWnd) {
 }
 
 /*
+;; to get bone density report by ajax.
   wb := WBGet()
 
   myL =

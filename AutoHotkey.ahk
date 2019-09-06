@@ -32,6 +32,11 @@ PRESERVE_CLIPBOARD := 0
 ; Global Variables
 #Include MyScripts\vars.ahk
 
+; Cache Helios Acc Objs
+;; Bug: shoule be before??
+CacheHeliosAccObjs()
+SetTimer, __CacheHeliosAccObjs, 300000 ; 5 * 60* 1000
+
 ; Key/Mouse Counter
 ;; Bug: shoule be before RegEx HotStrings
 ;#Include MyScripts\lib\keystroke-counter.ahk
