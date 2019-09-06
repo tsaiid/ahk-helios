@@ -305,7 +305,7 @@ execute_shuttlepro_speed(speed,layer)
     If (WinActive("ahk_exe Miv2Lib.exe") || WinActive("ahk_exe syngo.Common.Container.exe")) {
       a .= "GEUV: "
       ; send the first key, because SetTimer will wait for the first period
-			set_scroll_speed(corrected_speed_saved, speed, 800, 500, 333, 200, 100, 50, 20)
+			set_scroll_speed(corrected_speed_saved, speed, 800, 600, 333, 200, 100, 50, 20)
     }
 
     a .= "corrected_speed_saved: " . corrected_speed_saved . ", speed: " . speed
