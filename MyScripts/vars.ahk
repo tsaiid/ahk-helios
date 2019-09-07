@@ -15,6 +15,7 @@ examListObj := 0
 opdListObj := 0
 pathoListObj := 0
 reportStatusObj := 0
+prevReportStatusObj := 0
 findingScrollBarUpObj := 0
 findingScrollBarDownObj := 0
 impScrollBarUpObj := 0
@@ -65,6 +66,7 @@ OPD_TAB_PATH                    := "4.7.2.6"
 PNOTE_TAB_PATH                  := "4.7.2.7"
 OP_ADM_PATHO_TAB_PATH           := "4.7.2.8"
 
+PREV_REPORT_STATUS_PATH         := "4.7.2.1.4"
 PREV_FINDING_TEXT_PATH          := "4.7.2.1.6"
 PREV_IMPRESSION_TEXT_PATH       := "4.7.2.1.9"
 

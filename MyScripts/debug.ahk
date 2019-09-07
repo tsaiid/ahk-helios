@@ -348,21 +348,14 @@ Return
 #IfWinActive
 
 CopyPrevReport(){
-  global PREV_FINDING_TEXT_PATH, PREV_IMPRESSION_TEXT_PATH, FINDING_INPUT_PATH, IMPRESSION_INPUT_PATH
-  WinGet, hWnd, ID, Helios
+  global hHeliosWnd, findingObj, impObj, prevFindingObj, prevImpObj, prevReportStatusObj
 
-  If (hWnd) {
-    prevFindingText := Acc_Get("Value", PREV_FINDING_TEXT_PATH, 0, "ahk_id " hWnd)
-    prevImpText := Acc_Get("Value", PREV_IMPRESSION_TEXT_PATH, 0, "ahk_id " hWnd)
-    findingObj := Acc_Get("Object", FINDING_INPUT_PATH, 0, "ahk_id " hWnd)
-    impObj := Acc_Get("Object", IMPRESSION_INPUT_PATH, 0, "ahk_id " hWnd)
-
-    reportStatusText := Acc_Get("Name", "4.7.2.1.4", 0, "ahk_id " hWnd)
-    ;MsgBox % reportStatusText
-    If (reportStatusText) {
+  If (hHeliosWnd) {
+    prevReportStatusStr := prevReportStatusObj.accName(0)
+    If (reportStatusStr) {
       ;MsgBox % prevFindingText
-      findingObj.accValue(0) := findingObj.accValue(0) . prevFindingText
-      impObj.accValue(0) := impObj.accValue(0) . prevImpText
+      findingObj.accValue(0) := findingObj.accValue(0) . prevFindingObj.accValue(0)
+      impObj.accValue(0) := impObj.accValue(0) . prevImpObj.accValue(0)
 
       Return True
     } Else {
