@@ -352,8 +352,8 @@ CopyPrevReport(){
 
   If (hHeliosWnd) {
     prevReportStatusStr := prevReportStatusObj.accName(0)
-    If (reportStatusStr) {
-      ;MsgBox % prevFindingText
+    If (prevReportStatusStr) {
+      ;MsgBox % prevReportStatusStr
       findingObj.accValue(0) := findingObj.accValue(0) . prevFindingObj.accValue(0)
       impObj.accValue(0) := impObj.accValue(0) . prevImpObj.accValue(0)
 
