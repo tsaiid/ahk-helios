@@ -1,6 +1,7 @@
 ; Abdomen MR Forms
 
 ;; Hotstrings
+::amrfnh::A -cm mass lesion at the S of liver, with arterial enhancement, mild persistent enhancement into delayed phase, fading toward background liver intensity on the delayed hepatobiliary phase, suggest focal nodular hyperplasia.
 ::amrhh::A -cm nodule over S of liver, shows hyperintensity on T2WI, and the dynamic study shows discontinuous, nodular, peripheral enhancement, with progressive peripheral enhancement with centripetal fill in. Hepatic hemangioma is considered.
 ::amrfl::Marked diffuse signal drop between the in- and opposed-phase images, suggestive of hepatic steatosis.
 ::mamrfl::Mild diffuse signal drop between the in- and opposed-phase images, suggestive of mild hepatic steatosis.
@@ -8,6 +9,7 @@
 ::dwil::* Due to susceptibility artifact from the rectal fecal material, the evaluation in DWI/ADC may be limited.
 ::amrbph::Enlarged transition zone with heterogeneous nodular signal intensity and an intact low signal pseudocapsule in the periphery, suggestive of benign prostatic hyperplasia.
 ::amrsptrus::Focal T1 hyperintensities at bilateral lobes, probably post-biopsy changes.
+::amrbok::No DWI (b=400) hyperintense bone lesion detected.
 
 ;; General
 ::amrpan::
@@ -346,13 +348,13 @@ MRI of the prostate with 3T Skyra.
 SCANNING PROTOCOL:
 - Distended rectum with jelly
 - Abdomen and pelvis:
-  * HASTE T2: axial, coronal
-  * DWI: coronal
-  * T1+C: axial
+  * HASTE T2: coronal
+  * DWI (b=400): coronal
 - Prostate:
-  * TSE T2, DWI, ADC: axial
+  * TSE T2: axial, coronal, sagittal
+  * DWI, ADC: axial
   * T1+FS: axial, sagittal
-  * T1+C+FS: axial, coronal, sagittal
+  * T1+C+FS: axial, sagittal
 
 COMPARISON: no
 

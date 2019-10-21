@@ -1,5 +1,5 @@
 ﻿; Neuro Spine Forms
-::aft::posterior annulus fibrosus tear
+::paft::posterior annulus fibrosus tear
 ::aarst1::Atlantoaxial rotary subluxation is noted. The atlas is rotated on the odontoid with no anterior displacement, suggestive of Fielding and Hawkins type 1.
 ::mrspm::Presence of mild high signal intensity within the cervical cord at the C5 and C6 spine level on T2WI noted, probably due to the spinal stenosis and/or prior cord injury edema and/or prior cord insult with cord gliosis or small cystic change.
 ::mrspsmn::Schmorl's node (vertical intravertebral disc herniation) over the `

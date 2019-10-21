@@ -347,6 +347,7 @@ FINDINGS:
 - Mild mass effect compressing the right lateral ventricle.
 - The bilateral lateral ventricles show symmetrical without dilatation.
 - No obvious midline shift.
+- The suprasellar cistern is preserved.
 
 - No definite bony lesion in the skull.
 - The visible paranasal sinuses, mastoids and skull base are unremarkable.

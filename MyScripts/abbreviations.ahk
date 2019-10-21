@@ -131,6 +131,7 @@
 ::rcc::renal cell carcinoma
 ::rp::retrograde pyelography
 ::pv::portal vein
+::pvt::portal vein thrombosis
 ::abd::abdomen
 ::iabd::intraabdominal `
 ::intraabd::intraabdominal `
@@ -274,6 +275,7 @@
 ::ned::no evidence of disease.
 ::ner::no evidence of local recurrence.
 ::ner0::no local recurrence.
+::ner2::no evidence of local recurrence or lymphadenopathy.
 ::hx::history `
 ::sq::subcutaneous `
 ::afl::air-fluid level

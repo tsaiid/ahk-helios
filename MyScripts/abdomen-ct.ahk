@@ -416,8 +416,8 @@ FINDINGS:
   SleepThenTab()
   MyForm =
 (
-Ascending colon acute diverticulitis, with perforation.
-Sigmoid colon acute diverticulitis, with perforation and abscess formation.
+Acute diverticulitis of ascending colon, with perforation.
+Acute diverticulitis of sigmoid colon, with perforation and abscess formation.
 )
   Paste(MyForm)
 Return
@@ -496,15 +496,10 @@ cirrhotic change: nil, portosystemic collaterals (-)
 vessel invasion: Nil
 The major portal and hepatic veins are patent.
 
-Extrahepatic spread: No.
-Regional lymphadenopathy: No
-Non-regional lymphadenopathy: No
-
 Adrenals: Unremarkable
 Spleen: Unremarkable
 Biliary tree: Unremarkable
 Pancreas: Unremarkable
-
 Kidneys and ureters: Unremarkable
 
 No evident upper abdominal retroperitoneal lymphadenopathy identified.
@@ -864,7 +859,7 @@ Previous abdominal CT: none.
 FINDINGS:
 
 No definite bleeder or contrast extravasation identified in this study.
-No other apparent focal lesion noted at liver, spleen, pancreas and kidneys
+No other apparent focal lesion noted at liver, spleen, pancreas and kidneys.
 The lower abdomen showed no significant unusual.
 No evident bowel dilatation or wall thickening noted.
 No intraabdominal lymphadenopathy noted.

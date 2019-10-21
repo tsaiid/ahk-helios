@@ -185,6 +185,7 @@ Return
 ::hia::high-attenuation `
 ::loa::low-attenuation `
 ::hypere::hyperenhancement
+::ae::arterial enhancement
 ::hypoe::hypoechoic `
 :c:fd::filling defect
 ::pg::progression
@@ -205,11 +206,13 @@ Return
 ::adj::adjacent `
 ::std::soft tissue density
 ::stdl::soft tissue density lesion
+::sol::space-occupying lesion
 ::ddx::differential diagnoses
 ::nd::newly developed `
 ::ws::wedge-shaped `
 ::wr::wedge resection
 ::ift::infiltration
+::ifm::inflammation
 ::me::mediastinal `
 ::men::mediastinum
 ::fa::free air

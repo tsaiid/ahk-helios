@@ -82,6 +82,26 @@ Both lungs are unremarkable.
   SleepThenTab()
 Return
 
+::111::
+  MyForm =
+(
+No abnormal patch opacity in lung fields.
+No cardiomegaly.
+Bilateral CP angles are clear and sharp.
+The thoracic cage and bones are generally intact.
+
+)
+
+  Paste(MyForm)
+  SleepThenTab()
+  MyForm =
+(
+No active lung lesion.
+)
+  Paste(MyForm)
+  SleepThenTab()
+Return
+
 ::selm1::
   MyForm =
 (

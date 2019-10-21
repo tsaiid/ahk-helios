@@ -126,6 +126,7 @@
 ::lhba0::s/p left hip bipolar hemiarthroplasty.{Enter}A drain at left hip region.
 ::lhbal::s/p left hip bipolar hemiarthroplasty. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::bhba::s/p bilateral hip bipolar hemiarthroplasties.
+::bhbal::s/p bilateral hip bipolar hemiarthroplasties. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::rtka::s/p right total knee arthroplasty.
 ::rtka0::s/p right total knee arthroplasty.{Enter}A drain at right knee region.
 ::rtka1::s/p right total knee arthroplasty, without loosening.

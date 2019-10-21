@@ -247,3 +247,18 @@ FINDINGS:
 )
   Paste(MyForm)
 Return
+
+;; CT Ankle
+::ecta::
+  MyForm =
+(
+CT Ankle:
+Non-contrast study.
+Pre- and post-contrast study.
+Scanning from leg to foot, axial, coronal, sagittal, and 3D VRT views
+Scanning from leg to foot, axial, coronal, sagittal views
+
+FINDINGS:
+)
+  Paste(MyForm)
+Return
