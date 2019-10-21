@@ -5,6 +5,13 @@ SleepThenTab(sleepTime = 300) {
   Send {Tab}
 }
 
+AppendFindingsImpression(fdStr, impStr) {
+  global findingObj, impObj
+
+  findingObj.accValue(0) := findingObj.accValue(0) . fdStr
+  impObj.accValue(0) := impObj.accValue(0) . impStr
+}
+
 ;; Cache Helios Objs
 CacheHeliosAccObjs() {
   /*
