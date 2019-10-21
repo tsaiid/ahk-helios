@@ -86,13 +86,11 @@ Return
 
 ; Backup Report Before Confilm
 !c::
-  SelectMismatchValue()
   Send !c
 Return
 
 ; Confirm, Next, and Start Edit
 ^s::
-  SelectMismatchValue()
   Send !c
   Sleep 1000
   Send !x
@@ -160,19 +158,33 @@ Esc:: ;; use ESC to close some windows
 Return
 
 ^Up::
+  Send {PgUp}
+/*
   global findingObj, impObj
   global findingScrollBarUpObj, impScrollBarUpObj
   If (impObj.accFocus = "0") {
     sbUpObj := impScrollBarUpObj
+    inputObj := impObj
   } Else If (findingObj.accFocus = "0") {
     sbUpObj := findingScrollBarUpObj
+    inputObj := findingObj
   } Else {
-    Send ^Up
+    sbUpObj := 0
+    ;Send ^Up
   }
-  sbUpObj.accDoDefaultAction(0)
+  loc := Acc_Location(sbUpObj)
+  If (sbUpObj && loc.h > 0) {
+    sbUpObj.accDoDefaultAction(0)
+  } Else {
+    Send ^{Up}
+  }
+    inputObj.accSelect(0x04, 0)
+*/
 Return
 
 ^Down::
+  Send {PgDn}
+/*
   global findingObj, impObj
   global findingScrollBarDownObj, impScrollBarDownObj
   If (impObj.accFocus = "0") {
@@ -183,6 +195,7 @@ Return
     Send ^Down
   }
   sbDownObj.accDoDefaultAction(0)
+*/
 Return
 #IfWinActive  ; ahk_exe Helios.exe
 
