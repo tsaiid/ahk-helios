@@ -245,13 +245,17 @@ execute_shuttlepro(key,layer)
 		; Do what needs to be done here
 		; at the moment, just add to the global string
 
+		If (key = 12) {
+			Reload
+		}
+
     If (WinActive("ahk_exe Miv2Lib.exe")) {
       If (key = 1) {
         ;Send, 4
       } Else If (key = 2) {
         Send, 3
       } Else If (key = 3) {
-        Send, 4
+        Send, 4s
       } Else If (key = 4) {
         Send, 2
       } Else If (key = 5) {
@@ -271,15 +275,14 @@ execute_shuttlepro(key,layer)
         Send, 4
         ;Send, {Numpad0}
       } Else If (key = 12) {
-        Send, r
-        ;Send, {Numpad0}
+				;Reload
       } Else If (key = 13) {
         Send, 2
         ;Send, {Numpad0}
       } Else If (key = 14) {
-        Send, {Right}
-      } Else If (key = 15) {
         Send, {Left}
+      } Else If (key = 15) {
+        Send, {Right}
       }
     }
 
