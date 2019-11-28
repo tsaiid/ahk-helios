@@ -251,7 +251,7 @@ execute_shuttlepro(key,layer)
 
     If (WinActive("ahk_exe Miv2Lib.exe")) {
       If (key = 1) {
-        ;Send, 4
+        Send, w
       } Else If (key = 2) {
         Send, 3
       } Else If (key = 3) {
@@ -259,9 +259,9 @@ execute_shuttlepro(key,layer)
       } Else If (key = 4) {
         Send, 2
       } Else If (key = 5) {
-        Send, {Numpad0}
+        Send, q
       } Else If (key = 6) {
-        ;Send, {Numpad0}
+        Send, x
       } Else If (key = 7) {
         ;Send, {Numpad0}
       } Else If (key = 8) {
@@ -269,16 +269,13 @@ execute_shuttlepro(key,layer)
       } Else If (key = 9) {
         Send, r
       } Else If (key = 10) {
-        Send, s
-        ;Send, {Numpad0}
+        ;Send, s
       } Else If (key = 11) {
-        Send, 4
-        ;Send, {Numpad0}
+        ;Send, 4
       } Else If (key = 12) {
 				;Reload
       } Else If (key = 13) {
-        Send, 2
-        ;Send, {Numpad0}
+        Send, {Numpad0}
       } Else If (key = 14) {
         Send, {Left}
       } Else If (key = 15) {
