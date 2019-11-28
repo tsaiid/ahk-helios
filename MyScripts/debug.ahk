@@ -240,8 +240,22 @@ InsertAutoReport(debugInfo=True) {
   }
 }
 
+caretViaAcc() { ; based on 'caret - get information via Acc' sample subroutine by jeeswg (cf. https://www.autohotkey.com/boards/viewtopic.php?f=5&t=39615)
+	static OBJID_CARET := -8
+	static _h := DllCall("LoadLibrary", "Str", "oleacc", "Ptr")
+	local vCtlClassNN, hCtl
+	ControlGetFocus, vCtlClassNN, A
+	ControlGet, hCtl, Hwnd,, % vCtlClassNN, A
+  return Acc_Location(Acc_ObjectFromWindow(hCtl, OBJID_CARET)).x
+}
+
 ^7::
-  SelectMismatchValue()
+  ;a := caretViaAcc()
+  ;MsgBox % A_CaretX
+
+  accno := GetCurrAccnoFromGeUv()
+  Clipboard := accno
+  MsgBox % accno
 Return
 
 $^8::
@@ -432,7 +446,6 @@ The thoracic cage and bones are generally intact.
 )
     findingObj.accValue(0) := normalFindingStr
     impObj.accValue(0) := "Both lungs are unremarkable."
-    SelectMismatchValue()
     ;endTime = %A_Min%%A_Sec%%A_MSec%
     ;elapsedTime := endTime - startTime
     ;MsgBox % elapsedTime
