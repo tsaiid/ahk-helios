@@ -281,6 +281,14 @@ Low density and loss of gray and white matter differentiation at right middle ce
 - M6: "posterior MCA territory immediately superior to M3"
 Suggestive of acute ischemic stroke.
 
+The right cerebrum shows edematous change, and mild midline shift to left is noted.
+The suprasellar cistern is relatively preserved.
+No obvious dilatation of the ventricular system.
+Mild atherosclerotic change with calcification of intracranial portion of bilateral internal carotid arteries.
+
+No obvious fracture of the skull base and the skull.
+The visible paranasal sinuses and mastoids are unremarkable.
+
 Alberta stroke programme early CT score (ASPECTS):
 caudate
 putamen

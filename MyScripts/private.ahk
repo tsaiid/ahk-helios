@@ -4,6 +4,6 @@
 ;; Login
 #IfWinActive ahk_group FemhLogin
 ^!l::
-  SendEvent 95485{Tab}femh8000{Enter}
+  SendEvent 95485{Tab}8000femh{Enter}
 Return
 #IfWinActive

@@ -211,7 +211,7 @@
 ::vb::vertebral body
 ::vbs::vertebral bodies
 ::mcm::mega cisterna magna
-::hie::hypoxic-ischaemic encephalopathy
+::hie::hypoxic-ischemic encephalopathy
 ::iicp::increased intracranial pressure
 ::icra::intracranial `
 ::wad::Wallerian degeneration

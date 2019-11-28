@@ -15,7 +15,7 @@
 ::sae2::Presence of mild/moderate/severe confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::msae2::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::sae3::Presence of mild confluent symmetric periventricular hyperintensity on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered. Several tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
-::sae4::Presence of bilateral confluent periventricular, and several small deep and subcortical hyperintensities on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
+::sae4::Presence of bilateral confluent periventricular, and several small deep and subcortical white matter and pons hyperintensities on T2WI and FLAIR noted, the subcortical arteriosclerotic encephalopathy (leukoaraiosis) considered.
 ::ubo::Several nonspecific tiny hyperintensities in the bilateral subcortical and deep white matter regions on T2WI and FLAIR (unidentified bright objects).
 ::ubo1::Presence of several tiny hyperintensities in the periventricular white matter regions on T2WI and FLAIR, which may be gliosis, demyelination or tiny old ischemia or tiny previous brain insult.
 ::ubo2::Leukoaraiosis (some tiny/small hyperintensities on T2WI and FLAIR image in the periventricular and subcortical white matter regions) are mostly due to aging process and/or small vessel ischemic disease.
@@ -74,6 +74,7 @@
 ::t-::temporal `
 ::o-::occipital `
 ::rd::restricted diffusion
+::dds::disc desiccation
 ::dbd::diffuse bulging disc
 ::dpd::diffuse protrusion disc
 ::dhd::diffuse herniation disc
@@ -117,6 +118,7 @@
 ::mcasc::mild cerebral atherosclerosis
 ::necmraok::The bilateral extracranial carotid and vertebral arteries are unremarkable.
 ::cbnic::The intracranial condition shows no obvious change as compared with previous study.
+::mriess::The sella is slightly enlarged, the pituitary gland is flattened against the sellar floor, and there is downward traction of chiasm. Empty sella syndrome may be suspected.
 
 ::li1::
   MyForm =
@@ -328,7 +330,7 @@ Previous MRI of brain: none
 Findings:
 No evidence of high signal intensity on DWI and lower apparent diffusion coefficient suggesting acute ischemia infarction in the brain and brainstem noted.
 
-No definite abnormal signal intensity or tumor mass lesion in the brain noted.
+No definite abnormal signal intensity change or tumor mass lesion in the brain noted.
 
 The bilateral lateral ventricles showed symmetrical without dilatation.
 

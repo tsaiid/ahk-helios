@@ -114,8 +114,11 @@
 
 ;; Prosthesis
 ::rdhs::s/p right dynamic hip screw fixation.
+::rdhsl::s/p right dynamic hip screw fixation. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::ldhs::s/p left dynamic hip screw fixation.
+::ldhsl::s/p left dynamic hip screw fixation. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::bdhs::s/p bilateral dynamic hip screw fixation.
+::bdhsl::s/p bilateral dynamic hip screw fixation. The evaluation of pelvic cavity may be limited due to its beam hardening artifacts.
 ::rthr::s/p right total hip replacement.
 ::lthr::s/p left total hip replacement.
 ::bthr::s/p bilateral total hip replacements.
